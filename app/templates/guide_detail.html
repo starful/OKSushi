@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="{{ lang }}">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="shortcut icon" href="/static/images/favicon.ico" type="image/x-icon">
+
+    <!-- Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.ga_id }}"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', '{{ site.ga_id }}');
+    </script>
+
+    <title>{{ title }} - {{ site.site_name }} Guide</title>
+    <meta name="description" content="{{ post.summary }}">
+    <link rel="canonical" href="{{ site.site_url }}/guide/{{ guide_id }}" />
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="{{ title }}">
+    <meta property="og:description" content="{{ post.summary }}">
+    <meta property="og:image" content="{{ image_url }}">
+    <meta property="og:url" content="{{ site.site_url }}/guide/{{ guide_id }}">
+
+    <!-- Article Schema -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Article",
+      "headline": "{{ title }}",
+      "image": "{{ image_url }}",
+      "datePublished": "{{ post.date }}",
+      "description": "{{ post.summary }}",
+      "publisher": {
+        "@type": "Organization",
+        "name": "{{ site.site_name }}",
+        "logo": {"@type": "ImageObject", "url": "{{ site.site_url }}/static/images/logo.png"}
+      }
+    }
+    </script>
+
+    <link rel="stylesheet" href="/static/css/style.css">
+</head>
+<body>
+    {% include 'header.html' %}
+
+    <article class="detail-container">
+        <div class="detail-header">
+            <h1 class="detail-title">{{ title }}</h1>
+            <p style="color:#888;">📅 {{ post.date }}</p>
+        </div>
+
+        <img src="{{ image_url }}" alt="{{ title }}" class="detail-img">
+
+        <div class="detail-content">
+            {{ content | safe }}
+        </div>
+
+        <!-- 가이드 읽고 맵으로 유도 -->
+        <div style="text-align: center; margin-top: 50px; padding: 30px; background: var(--bg-color); border-radius: 15px;">
+            <h3>Ready to explore? Find {{ site.site_name }} near you!</h3>
+            <a href="/" class="back-btn">🗺️ Explore the Map</a>
+        </div>
+    </article>
+
+    {% include 'footer.html' %}
+</body>
+</html>

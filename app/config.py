@@ -1,0 +1,50 @@
+# app/config.py
+
+SITE_CONFIG = {
+    "project_name":  "oksushi",
+    "site_name":     "OKSushi",
+    "site_url":      "https://oksushi.net",
+    "tagline":       "Discover the Finest Sushi in Japan",
+    "data_key":      "sushis",
+
+    "ga_id":         "G-43EXEQCKYT",  # 새 GA4 ID
+    "maps_api_key":  "AIzaSyD8wYazKeD2fX4ZJhSHbzuCw9AE7cBjS7I",
+    "maps_id":       "2938bb3f7f034d786b85aac4",
+
+    "emoji":         "🍣",
+    "accent_color":  "#c0392b",       # 마구로(참치) 레드
+    "bg_dot_color":  "#f2e6d9",       # 히노키 도마 베이지
+
+    "filter_buttons": [
+        {"label": "All",           "theme": "all",      "count_id": "count-all"},
+        {"label": "🍱 Omakase",    "theme": "omakase",  "count_id": "count-omakase"},
+        {"label": "🍣 Edomae",     "theme": "edomae",   "count_id": "count-edomae"},
+        {"label": "🔄 Kaiten",     "theme": "kaiten",   "count_id": "count-kaiten"},
+        {"label": "🍚 Seafood Don","theme": "seafood",  "count_id": "count-seafood"},
+    ],
+
+    "category_mapping": {
+        "오마카세":     "Omakase",
+        "에도마에":     "Edomae",
+        "회전초밥":     "Kaiten",
+        "해산물덮밥":   "Seafood",
+        "현지인맛집":   "Local Gem",
+        "미슐랭":       "Michelin Star",
+    },
+
+    "js_category_map": {
+        "omakase": "오마카세",
+        "edomae":  "에도마에",
+        "kaiten":  "회전초밥",
+        "seafood": "해산물덮밥",
+    },
+
+    "schema_type": "Restaurant",
+    "guide_images": [
+        "https://images.unsplash.com/photo-1579871494447-9811cf80d66c?q=80&w=800&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1553621042-f6e147245754?q=80&w=800&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1591814441348-73546747d96a?q=80&w=800&auto=format&fit=crop",
+    ],
+    "footer_tagline": "The ultimate guide to the best sushi experiences in Japan.",
+    "footer_year": "2025",
+}
