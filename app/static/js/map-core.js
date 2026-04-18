@@ -1,165 +1,92 @@
-import { getThemeColor, findMainTheme } from './utils.js';
-
-let map;
-let allMarkers = [];
-let infoWindow;
-
-// ─── Google Maps 로드 대기 ─────────────────────────
-async function waitForGoogleMaps() {
-    if (window.google && window.google.maps) return;
-    return new Promise(resolve => {
-        const t = setInterval(() => {
-            if (window.google && window.google.maps) {
-                clearInterval(t);
-                resolve();
-            }
-        }, 100);
-    });
-}
-
-// ─── 지도 초기화 ───────────────────────────────────
-export async function initGoogleMap(mapId, center = { lat: 36.2, lng: 138.2 }, zoom = 6) {
-    await waitForGoogleMaps();
+/**
+ * 구글 맵 초기화
+ */
+export async function initGoogleMap() {
     const { Map } = await google.maps.importLibrary("maps");
-    map = new Map(document.getElementById("map"), {
-        zoom,
-        center,
-        mapId,
-        mapTypeControl:    false,
-        fullscreenControl: false,
+    
+    // 일본 중심 위치
+    const map = new Map(document.getElementById("map"), {
+        center: { lat: 36.5, lng: 138.0 },
+        zoom: 6,
+        mapId: "YOUR_MAP_ID", // 실제 구글 클라우드 맵 ID가 있다면 입력
+        mapTypeControl: false,
         streetViewControl: false,
-        gestureHandling:   'greedy',
+        fullscreenControl: false
     });
-    infoWindow = new google.maps.InfoWindow();
-    _addLocationButton();
+
     return map;
 }
 
-// ─── 마커 렌더링 (사진 원형 마커) ─────────────────
-export async function renderPhotoMarkers(items) {
-    const { AdvancedMarkerElement } = await google.maps.importLibrary("marker");
+/**
+ * 마커 렌더링
+ */
+let markers = [];
+export async function renderMarkers(map, items) {
+    const { AdvancedMarkerElement, PinElement } = await google.maps.importLibrary("marker");
 
-    allMarkers.forEach(m => m.map = null);
-    allMarkers = [];
+    // 기존 마커 제거
+    markers.forEach(m => m.map = null);
+    markers = [];
 
-    const bounds = new google.maps.LatLngBounds();
+    const infoWindow = new google.maps.InfoWindow();
 
     items.forEach(item => {
-        if (!item.lat || !item.lng) return;
-
-        const el = document.createElement('div');
-        el.className = 'item-marker';
-        el.innerHTML = `<img src="${item.thumbnail}" alt="${item.title}" loading="lazy">`;
+        // 스시 테마에 맞는 빨간색 핀 생성
+        const pin = new PinElement({
+            background: "#c0392b",
+            borderColor: "#ffffff",
+            glyphColor: "#ffffff",
+            scale: 0.8
+        });
 
         const marker = new AdvancedMarkerElement({
             map,
-            position: { lat: parseFloat(item.lat), lng: parseFloat(item.lng) },
-            title: item.title,
-            content: el,
+            position: { lat: item.lat, lng: item.lng },
+            content: pin.element,
+            title: item.title
         });
 
-        marker.addListener('click', () => _showInfoWindow(marker, item));
-        allMarkers.push(marker);
-        bounds.extend(marker.position);
-    });
-
-    _fitBounds(items.length, bounds);
-}
-
-// ─── 마커 렌더링 (색상 도트 마커) ─────────────────
-export async function renderDotMarkers(items) {
-    const { AdvancedMarkerElement } = await google.maps.importLibrary("marker");
-
-    allMarkers.forEach(m => m.map = null);
-    allMarkers = [];
-
-    const bounds = new google.maps.LatLngBounds();
-
-    items.forEach(item => {
-        const theme = findMainTheme(item.categories);
-        const color = getThemeColor(theme);
-
-        const el = document.createElement('div');
-        el.className = 'marker-dot';
-        el.style.backgroundColor = color;
-
-        const marker = new AdvancedMarkerElement({
-            map,
-            position: { lat: parseFloat(item.lat), lng: parseFloat(item.lng) },
-            title: item.title,
-            content: el,
+        marker.addListener("click", () => {
+            infoWindow.setContent(`
+                <div class="info-box-content" style="padding:10px;">
+                    <div class="info-box-title" style="font-weight:bold;margin-bottom:5px;">${item.title}</div>
+                    <div class="info-box-address" style="font-size:12px;color:#666;margin-bottom:10px;">${item.address}</div>
+                    <a href="${item.link}" class="info-box-link" style="display:inline-block;background:#c0392b;color:white;padding:5px 10px;border-radius:15px;text-decoration:none;font-size:12px;">View Details</a>
+                </div>
+            `);
+            infoWindow.open(map, marker);
         });
 
-        marker.itemData = item;
-        marker.addListener('click', () => _showInfoWindow(marker, item));
-        allMarkers.push(marker);
-        bounds.extend(marker.position);
+        markers.push(marker);
     });
 
-    _fitBounds(items.length, bounds);
-}
-
-// ─── 마커 필터링 ───────────────────────────────────
-export function filterMarkers(theme) {
-    let hasVisible = false;
-    allMarkers.forEach(marker => {
-        const item = marker.itemData || {};
-        const themes = (item.categories || []).map(c => c.toLowerCase());
-        const visible = theme === 'all' || themes.includes(theme);
-        marker.map = visible ? map : null;
-        if (visible) hasVisible = true;
-    });
-    if (hasVisible) _updateBounds();
-}
-
-// ─── 모든 마커 닫기 ───────────────────────────────
-export function closeInfoWindow() {
-    if (infoWindow) infoWindow.close();
-}
-
-// ─── 내부 헬퍼 ────────────────────────────────────
-function _showInfoWindow(marker, item) {
-    const content = `
-        <div class="info-box-content">
-            <div class="info-box-title">${item.title}</div>
-            <div class="info-box-address">📍 ${item.address || ''}</div>
-            <a href="${item.link}" class="info-box-link">View Details →</a>
-        </div>`;
-    infoWindow.setContent(content);
-    infoWindow.open({ anchor: marker, map });
-}
-
-function _fitBounds(count, bounds) {
-    if (!count || !map) return;
-    if (count === 1) {
-        map.setCenter(allMarkers[0].position);
-        map.setZoom(14);
-    } else {
-        map.fitBounds(bounds, { padding: 80 });
+    // 마커 범위에 따라 지도 자동 조정
+    if (items.length > 0 && map) {
+        const bounds = new google.maps.LatLngBounds();
+        items.forEach(i => bounds.extend({ lat: i.lat, lng: i.lng }));
+        
+        if (items.length === 1) {
+            map.setCenter(bounds.getCenter());
+            map.setZoom(15);
+        } else {
+            map.fitBounds(bounds);
+        }
     }
 }
 
-function _updateBounds() {
-    const bounds = new google.maps.LatLngBounds();
-    let n = 0;
-    allMarkers.forEach(m => { if (m.map) { bounds.extend(m.position); n++; } });
-    if (n > 0) {
-        map.fitBounds(bounds);
+/**
+ * ✅ 핵심: 이 함수가 export 되어 있어야 main.js에서 쓸 수 있습니다.
+ */
+export function filterItems(items, theme) {
+    if (!theme || theme === 'all') {
+        return items;
     }
-}
-
-function _addLocationButton() {
-    const btn = document.createElement('button');
-    btn.textContent = '🎯 내 위치';
-    btn.className = 'location-button';
-    btn.style.cssText = 'margin:10px; padding:8px 14px; background:#fff; border:1px solid #ccc; border-radius:20px; cursor:pointer; font-size:13px; box-shadow:0 2px 6px rgba(0,0,0,.2);';
-    map.controls[google.maps.ControlPosition.RIGHT_BOTTOM].push(btn);
-    btn.onclick = () => {
-        if (!navigator.geolocation) return;
-        navigator.geolocation.getCurrentPosition(pos => {
-            const p = { lat: pos.coords.latitude, lng: pos.coords.longitude };
-            map.setCenter(p);
-            map.setZoom(14);
-        });
-    };
+    
+    // theme: 'omakase', 'edomae' 등
+    // item.categories: ['Omakase', 'Premium'] 등
+    return items.filter(item => 
+        item.categories && item.categories.some(cat => 
+            cat.toLowerCase().replace(/\s/g, '') === theme.toLowerCase().replace(/\s/g, '')
+        )
+    );
 }
