@@ -202,8 +202,15 @@ def item_detail(item_id):
     return render_template('detail.html', post=post, content=content_html, **stats)
 
 # 정적 파일 / SEO
+# app/__init__.py 내의 서빙 로직
+
 @app.route('/static/images/<path:filename>')
 def serve_images(filename):
+    # 로고나 파비콘은 로컬(컨테이너 안)에서 직접 서빙
+    if filename in ['logo.png', 'favicon.ico', 'default.jpg']:
+        return send_from_directory(STATIC_DIR, f"images/{filename}")
+    
+    # 나머지는 무조건 GCS로 리다이렉트 (캐시 방지를 위해 랜덤 쿼리 추가 가능)
     project_name = SITE_CONFIG['project_name']
     return redirect(f"https://storage.googleapis.com/ok-project-assets/{project_name}/{filename}")
 

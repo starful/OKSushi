@@ -12,8 +12,8 @@ SITE_CONFIG = {
     "maps_id":       "2938bb3f7f034d786b85aac4",
 
     "emoji":         "🍣",
-    "accent_color":  "#c0392b",       # 마구로(참치) 레드
-    "bg_dot_color":  "#f2e6d9",       # 히노키 도마 베이지
+    "accent_color":  "#c0392b",       # 신선한 참치(Maguro)의 진한 레드
+    "bg_dot_color":  "#eaddca",       # 히노키(편백나무) 도마의 연한 베이지 색상
 
     "filter_buttons": [
         {"label": "All",           "theme": "all",      "count_id": "count-all"},
