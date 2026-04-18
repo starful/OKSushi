@@ -1,102 +1,102 @@
-"""
-OK 시리즈 공통 이미지 생성기 (Google Imagen 3) - 수정 버전
-"""
 import os
+import time
+import random
 import re
-import base64
 import frontmatter
+from google import genai
+from google.genai import types
 from dotenv import load_dotenv
 
 load_dotenv()
-API_KEY = os.environ.get("GEMINI_API_KEY")
+
+GCP_PROJECT  = os.environ.get("GCP_PROJECT", "starful-258005")
+GCP_LOCATION = os.environ.get("GCP_LOCATION", "us-central1")
 
 SCRIPT_DIR  = os.path.dirname(os.path.abspath(__file__))
 BASE_DIR    = os.path.dirname(SCRIPT_DIR)
 CONTENT_DIR = os.path.join(BASE_DIR, 'app', 'content')
 IMAGES_DIR  = os.path.join(BASE_DIR, 'app', 'static', 'images')
 
-def clean_md(text: str) -> str:
-    text = text.strip()
-    text = re.sub(r'^```[a-z]*\n', '', text)
-    text = re.sub(r'\n```$', '', text)
-    if '---' in text and not text.startswith('---'):
-        text = '---' + text.split('---', 1)[1]
-    return text
+# 촬영 스타일 (다양성 유지)
+CAMERA_ANGLES = ["overhead flat-lay shot", "dramatic 45-degree angle shot", "side profile close-up"]
+MOODS = ["bright minimalist Japanese sushi bar", "warm rustic wooden interior", "high-end modern restaurant"]
 
-def generate_image(safe_name: str, prompt: str):
-    out_path = os.path.join(IMAGES_DIR, f"{safe_name}.jpg")
-    if os.path.exists(out_path):
-        print(f"⏭️  Skip (already exists): {safe_name}.jpg")
-        return
+def get_random_style():
+    return random.choice(CAMERA_ANGLES), random.choice(MOODS)
+
+def generate_image(image_prompt, save_path, retry=False):
+    client = genai.Client(vertexai=True, project=GCP_PROJECT, location=GCP_LOCATION)
+    angle, mood = get_random_style()
+
+    # 1. 강력한 필터링 (브랜드 및 인물 이름 제거)
+    if retry:
+        # 재시도 시에는 아주 단순한 프롬프트로 변경
+        clean_prompt = "A high-end platter of diverse fresh nigiri sushi, tuna, salmon, and sea urchin, authentic Japanese food photography"
+    else:
+        # 일반 시도 시 상호명 제거
+        clean_prompt = re.sub(r'Sukiyabashi Jiro|Jiro|Sushiro|Kura Sushi|Kura|Asakusa|Shinjuku', 'Luxury sushi', str(image_prompt), flags=re.IGNORECASE)
+
+    enhanced_prompt = (
+        f"{clean_prompt}. Composition: {angle}. Atmosphere: {mood}. "
+        "Photorealistic, ultra-detailed, professional food photography, 8K, no people, no text."
+    )
 
     try:
-        from google import genai
-        from google.genai import types
-        client = genai.Client(api_key=API_KEY)
-        
-        print(f"🎨 이미지 생성 시도 중: {safe_name}...")
-        
         response = client.models.generate_images(
             model='imagen-4.0-fast-generate-001',
-            prompt=prompt,
+            prompt=enhanced_prompt,
             config=types.GenerateImagesConfig(
                 number_of_images=1,
-                aspect_ratio='16:9',
+                aspect_ratio="16:9",
                 output_mime_type='image/jpeg',
+                person_generation="dont_allow",
             )
         )
 
-        # ✅ 응답 검증 로직 강화
-        if not response or not hasattr(response, 'generated_images') or not response.generated_images:
-            print(f"❌ 이미지 생성 실패 ({safe_name}): API가 이미지를 반환하지 않았습니다. (세이프티 필터 가능성)")
-            return
-
-        # 이미지 데이터 추출
-        generated_img = response.generated_images[0]
-        if not hasattr(generated_img, 'image') or not generated_img.image:
-             print(f"❌ 이미지 데이터 없음 ({safe_name})")
-             return
-             
-        img_bytes = base64.b64decode(generated_img.image.image_bytes)
-        
-        os.makedirs(IMAGES_DIR, exist_ok=True)
-        with open(out_path, 'wb') as f:
-            f.write(img_bytes)
-        print(f"✅ 이미지 생성 완료: {safe_name}.jpg")
+        # ✅ 수정된 체크 로직: 이미지 데이터가 실제로 있는지 확인
+        if response.generated_images and response.generated_images[0].image and response.generated_images[0].image.image_bytes:
+            image_bytes = response.generated_images[0].image.image_bytes
+            with open(save_path, 'wb') as f:
+                f.write(image_bytes)
+            print(f"  ✅ 생성 완료: {os.path.basename(save_path)} ({len(image_bytes)//1024}KB)")
+            return True
+        else:
+            if not retry:
+                print(f"  ⚠️  필터 차단 의심 -> 안전 프롬프트로 재시도 중...")
+                return generate_image(image_prompt, save_path, retry=True)
+            else:
+                print(f"  ❌ 생성 실패: 응답에 이미지 데이터가 없음")
+                return False
 
     except Exception as e:
-        print(f"❌ API 호출 에러 ({safe_name}): {e}")
+        print(f"  ❌ 생성 오류: {e}")
+        return False
 
 def run():
-    if not API_KEY:
-        print("❌ GEMINI_API_KEY 없음")
-        return
+    os.makedirs(IMAGES_DIR, exist_ok=True)
+    targets = []
+    if os.path.exists(CONTENT_DIR):
+        for fname in os.listdir(CONTENT_DIR):
+            if fname.endswith('_en.md'):
+                targets.append(fname.replace('_en.md', ''))
 
-    processed = set()
-    # 파일 목록을 정렬하여 순차적으로 처리
-    file_list = sorted([f for f in os.listdir(CONTENT_DIR) if f.endswith('_en.md')])
-    
-    for filename in file_list:
-        safe_name = filename.replace('_en.md', '')
-        if safe_name in processed:
+    print(f"🍣 OKSushi 이미지 생성 시작 (Vertex AI 모드)")
+
+    for i, name in enumerate(sorted(targets), 1):
+        save_path = os.path.join(IMAGES_DIR, f"{name}.jpg")
+        
+        # 이미 성공한 파일(예: midori)은 건너뜀
+        if os.path.exists(save_path) and os.path.getsize(save_path) > 1000:
+            print(f"[{i:02d}] {name} -> ⏭️  이미 존재")
             continue
 
-        fpath = os.path.join(CONTENT_DIR, filename)
-        try:
-            with open(fpath, 'r', encoding='utf-8') as f:
-                content = f.read()
-                if not content.strip(): continue
-                post = frontmatter.loads(clean_md(content))
-            
-            prompt = str(post.get('image_prompt', ''))
-            if not prompt or len(prompt) < 10:
-                print(f"⚠️  image_prompt 부족/없음: {filename}")
-                continue
-                
-            generate_image(safe_name, prompt)
-            processed.add(safe_name)
-        except Exception as e:
-            print(f"❌ 파일 처리 실패 ({filename}): {e}")
+        print(f"[{i:02d}] {name} 생성 중...")
+        with open(os.path.join(CONTENT_DIR, f"{name}_en.md"), 'r') as f:
+            post = frontmatter.load(f)
+            prompt = post.get('image_prompt', 'Premium nigiri sushi')
+        
+        generate_image(prompt, save_path)
+        time.sleep(1.2) # 안전을 위한 지연
 
 if __name__ == "__main__":
     run()
