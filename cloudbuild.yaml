@@ -1,19 +1,20 @@
+cat <<EOF > cloudbuild.yaml
 steps:
   - name: 'gcr.io/cloud-builders/docker'
     id: 'docker-pull'
     entrypoint: 'bash'
     args:
       - '-c'
-      - 'docker pull us-central1-docker.pkg.dev/YOUR_PROJECT_ID/REPO_NAME/SERVICE_NAME:latest || exit 0'
+      - 'docker pull us-central1-docker.pkg.dev/starful-258005/oksushi-repo/oksushi:latest || exit 0'
 
   - name: 'gcr.io/cloud-builders/docker'
     id: 'docker-build'
     args:
       - 'build'
       - '-t'
-      - 'us-central1-docker.pkg.dev/YOUR_PROJECT_ID/REPO_NAME/SERVICE_NAME'
+      - 'us-central1-docker.pkg.dev/starful-258005/oksushi-repo/oksushi'
       - '--cache-from'
-      - 'us-central1-docker.pkg.dev/YOUR_PROJECT_ID/REPO_NAME/SERVICE_NAME:latest'
+      - 'us-central1-docker.pkg.dev/starful-258005/oksushi-repo/oksushi:latest'
       - '.'
     waitFor: ['docker-pull']
 
@@ -21,7 +22,7 @@ steps:
     id: 'docker-push'
     args:
       - 'push'
-      - 'us-central1-docker.pkg.dev/YOUR_PROJECT_ID/REPO_NAME/SERVICE_NAME'
+      - 'us-central1-docker.pkg.dev/starful-258005/oksushi-repo/oksushi'
     waitFor: ['docker-build']
 
   - name: 'gcr.io/google.com/cloudsdktool/cloud-sdk'
@@ -30,18 +31,15 @@ steps:
     args:
       - 'run'
       - 'deploy'
-      - 'SERVICE_NAME'
-      - '--image=us-central1-docker.pkg.dev/YOUR_PROJECT_ID/REPO_NAME/SERVICE_NAME'
+      - 'oksushi'
+      - '--image=us-central1-docker.pkg.dev/starful-258005/oksushi-repo/oksushi'
       - '--region=us-central1'
       - '--platform=managed'
       - '--port=8080'
       - '--memory=1Gi'
+      - '--allow-unauthenticated'
     waitFor: ['docker-push']
 
 images:
-  - 'us-central1-docker.pkg.dev/YOUR_PROJECT_ID/REPO_NAME/SERVICE_NAME'
-
-# ✅ 교체 목록:
-#  YOUR_PROJECT_ID → GCP 프로젝트 ID (예: starful-258005)
-#  REPO_NAME       → Artifact Registry 리포지토리명 (예: oktemplate-repo)
-#  SERVICE_NAME    → Cloud Run 서비스명 (예: oktemplate)
+  - 'us-central1-docker.pkg.dev/starful-258005/oksushi-repo/oksushi'
+EOF
