@@ -1,4 +1,3 @@
-cat <<'EOF' > cloudbuild.yaml
 steps:
   - name: 'gcr.io/cloud-builders/docker'
     id: 'docker-pull'
@@ -42,4 +41,3 @@ steps:
 
 images:
   - 'us-central1-docker.pkg.dev/starful-258005/oksushi-repo/oksushi'
-EOF
