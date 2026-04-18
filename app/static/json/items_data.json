@@ -1,7 +1,7 @@
 {
   "last_updated": "2026.04.18",
-  "total_count": 8,
-  "items": [
+  "total_count": 4,
+  "sushis": [
     {
       "id": "sushiro_shinjuku_en",
       "lang": "en",
@@ -15,26 +15,9 @@
       "thumbnail": "/static/images/sushiro_shinjuku.jpg",
       "address": "Shinjuku, Tokyo",
       "published": "2026-04-18",
-      "summary": "Discover Sushiro Shinjuku, the ultimate destination for delicious, wallet-friendly kaiten sushi right in the vibrant heart of Tokyo. Perfect for solo diners and groups alike, it offers a dynamic culinary journey where fresh flavors meet unparalleled convenience, making it a must-visit for any sushi lover exploring Shinjuku.",
+      "summary": "Discover Sushiro Shinjuku, the ultimate destination for delicious, wallet-friendly kaiten sushi right in the vibrant heart of Tokyo. Perfect for solo diners and groups alike, it offers a dynamic culin",
       "agoda": "",
       "link": "/item/sushiro_shinjuku_en"
-    },
-    {
-      "id": "kura_sushi_asakusa_ko",
-      "lang": "ko",
-      "title": "도쿄 아사쿠사 쿠라스시: 온 가족이 즐기는 신선하고 유쾌한 회전초밥 미식 여행",
-      "lat": 35.7121,
-      "lng": 139.7915,
-      "categories": [
-        "회전초밥",
-        "현지인맛집"
-      ],
-      "thumbnail": "/static/images/kura_sushi_asakusa.jpg",
-      "address": "Asakusa, Tokyo",
-      "published": "2026-04-18",
-      "summary": "도쿄 아사쿠사의 활기 넘치는 분위기 속에서 가족 모두가 즐길 수 있는 특별한 미식 경험을 찾고 계신가요? 쿠라스시 아사쿠사는 신선하고 맛있는 초밥을 합리적인 가격에 회전 레일 위에서 만날 수 있는 최적의 장소입니다. 전통과 현대가 공존하는 아사쿠사에서 온 가족이 함께 미식의 즐거움을 만끽해 보세요.",
-      "agoda": "",
-      "link": "/item/kura_sushi_asakusa_ko"
     },
     {
       "id": "sushi_no_midori_shibuya_en",
@@ -49,7 +32,7 @@
       "thumbnail": "/static/images/sushi_no_midori_shibuya.jpg",
       "address": "Shibuya, Tokyo",
       "published": "2026-04-18",
-      "summary": "Dive into the vibrant culinary scene of Shibuya, Tokyo, and discover Sushi No Midori, a revered local gem where premium Edomae sushi meets an astonishingly affordable price point, offering exquisite fresh seafood and masterful craftsmanship without breaking the bank, making it a must-visit.",
+      "summary": "Dive into the vibrant culinary scene of Shibuya, Tokyo, and discover Sushi No Midori, a revered local gem where premium Edomae sushi meets an astonishingly affordable price point, offering exquisite f",
       "agoda": "",
       "link": "/item/sushi_no_midori_shibuya_en"
     },
@@ -67,26 +50,9 @@
       "thumbnail": "/static/images/sukiyabashi_jiro.jpg",
       "address": "Ginza, Tokyo",
       "published": "2026-04-18",
-      "summary": "Embark on an unparalleled culinary pilgrimage to Sukiyabashi Jiro, the legendary sushi haven nestled in Tokyo's upscale Ginza district, where Chef Jiro Ono transforms pristine ingredients into an exquisite Edomae Omakase masterpiece. This intimate, Michelin-starred counter offers not just a meal, but a profound, almost spiritual encounter with the art of sushi, meticulously perfected over decades.",
+      "summary": "Embark on an unparalleled culinary pilgrimage to Sukiyabashi Jiro, the legendary sushi haven nestled in Tokyo's upscale Ginza district, where Chef Jiro Ono transforms pristine ingredients into an exqu",
       "agoda": "",
       "link": "/item/sukiyabashi_jiro_en"
-    },
-    {
-      "id": "sushi_no_midori_shibuya_ko",
-      "lang": "ko",
-      "title": "도쿄 시부야 필수 코스: 현지인이 사랑하는 스시노미도리 시부야, 가성비 끝판왕 초밥 가이드",
-      "lat": 35.6585,
-      "lng": 139.7013,
-      "categories": [
-        "현지인맛집",
-        "에도마에"
-      ],
-      "thumbnail": "/static/images/sushi_no_midori_shibuya.jpg",
-      "address": "Shibuya, Tokyo",
-      "published": "2026-04-18",
-      "summary": "도쿄 시부야에서 진정한 미식 경험을 찾으신다면 스시노미도리 시부야는 놓칠 수 없는 곳입니다. 신선한 프리미엄 초밥을 합리적인 가격에 맛볼 수 있어 현지인과 여행객 모두에게 사랑받는 이 곳에서 최고의 가성비 초밥을 경험해보세요.",
-      "agoda": "",
-      "link": "/item/sushi_no_midori_shibuya_ko"
     },
     {
       "id": "kura_sushi_asakusa_en",
@@ -101,44 +67,9 @@
       "thumbnail": "/static/images/kura_sushi_asakusa.jpg",
       "address": "Asakusa, Tokyo",
       "published": "2026-04-18",
-      "summary": "Dive into a vibrant culinary adventure at Kura Sushi Asakusa, where traditional Japanese flavors meet modern kaiten convenience. Perfect for families and sushi lovers, this Asakusa spot offers an unforgettable, interactive dining experience in the heart of Tokyo.",
+      "summary": "Dive into a vibrant culinary adventure at Kura Sushi Asakusa, where traditional Japanese flavors meet modern kaiten convenience. Perfect for families and sushi lovers, this Asakusa spot offers an unfo",
       "agoda": "",
       "link": "/item/kura_sushi_asakusa_en"
-    },
-    {
-      "id": "sushiro_shinjuku_ko",
-      "lang": "ko",
-      "title": "신주쿠 스시로: 도쿄 신주쿠에서 경험하는 가성비 최고의 회전초밥 맛집 완벽 가이드",
-      "lat": 35.6908,
-      "lng": 139.7042,
-      "categories": [
-        "회전초밥",
-        "현지인맛집"
-      ],
-      "thumbnail": "/static/images/sushiro_shinjuku.jpg",
-      "address": "Shinjuku, Tokyo",
-      "published": "2026-04-18",
-      "summary": "도쿄 신주쿠의 활기찬 거리에서 합리적인 가격과 신선한 맛으로 빛나는 스시로 신주쿠는 혼밥 여행객에게도 완벽한 회전초밥의 성지입니다. 북적이는 도시 속에서 부담 없이 즐길 수 있는 최고의 초밥 경험을 선사합니다.",
-      "agoda": "",
-      "link": "/item/sushiro_shinjuku_ko"
-    },
-    {
-      "id": "sukiyabashi_jiro_ko",
-      "lang": "ko",
-      "title": "도쿄 긴자 스키야바시 지로: 미슐랭 3스타 에도마에 오마카세 스시의 정점",
-      "lat": 35.6723,
-      "lng": 139.7645,
-      "categories": [
-        "오마카세",
-        "에도마에",
-        "미슐랭"
-      ],
-      "thumbnail": "/static/images/sukiyabashi_jiro.jpg",
-      "address": "Ginza, Tokyo",
-      "published": "2026-04-18",
-      "summary": "도쿄 긴자의 골목 깊숙이 자리한 스키야바시 지로는 세계적인 명성을 자랑하는 미슐랭 3스타 스시 레스토랑입니다. 스시 장인의 혼이 담긴 에도마에 오마카세 스시를 통해 미식의 경지를 경험하고 싶다면, 이곳은 당신의 버킷리스트 최상단에 올라야 할 곳입니다.",
-      "agoda": "",
-      "link": "/item/sukiyabashi_jiro_ko"
     }
   ]
 }
