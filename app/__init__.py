@@ -45,56 +45,57 @@ def load_items():
         except Exception as e:
             print(f"❌ 데이터 로드 오류: {e}")
 
+# app/__init__.py (가이드 로드 부분 수정)
+
 def load_guides():
     global CACHED_GUIDES
     if not os.path.exists(GUIDE_DIR):
+        print("⚠️ 가이드 디렉토리가 없습니다.")
         return
 
     all_raw = []
+    # 모든 마크다운 파일을 읽습니다.
     for fpath in glob.glob(os.path.join(GUIDE_DIR, '*.md')):
         try:
             with open(fpath, 'r', encoding='utf-8') as f:
-                raw = f.read().strip()
-            raw = _clean_md(raw)
-            post    = frontmatter.loads(raw)
-            lang    = 'ko' if '_ko.md' in fpath else 'en'
-            base_id = os.path.basename(fpath).rsplit('_', 1)[0]
-            full_id = os.path.basename(fpath).replace('.md', '')
+                raw = _clean_md(f.read())
+            post = frontmatter.loads(raw)
+            
+            # 파일명에서 언어와 ID 분리 (예: sushi-etiquette_ko.md)
+            filename = os.path.basename(fpath)
+            lang = 'ko' if filename.endswith('_ko.md') else 'en'
+            base_id = filename.replace('_ko.md', '').replace('_en.md', '').replace('.md', '')
+            
             all_raw.append({
-                'base_id': base_id, 'lang': lang, 'full_id': full_id,
-                'title':   str(post.get('title', 'Guide')),
+                'base_id': base_id, 
+                'lang': lang, 
+                'full_id': filename.replace('.md', ''),
+                'title': str(post.get('title', 'Guide')),
                 'summary': str(post.get('summary', '')),
-                'date':    str(post.get('date', '2026-01-01'))
+                'date': str(post.get('date', '2025-01-01'))
             })
-        except:
-            continue
+        except Exception as e:
+            print(f"❌ 가이드 로드 실패 ({fpath}): {e}")
 
-    # 날짜순 정렬 후 이미지 인덱스 배정 (연속 중복 방지)
-    ref_en = sorted([g for g in all_raw if g['lang'] == 'en'], key=lambda x: x['date'], reverse=True)
-    last_idx = -1
-    id_to_img = {}
-    for g in ref_en:
-        idx = int(hashlib.md5(g['base_id'].encode()).hexdigest(), 16) % len(GUIDE_IMAGES)
-        if idx == last_idx:
-            idx = (idx + 1) % len(GUIDE_IMAGES)
-        id_to_img[g['base_id']] = GUIDE_IMAGES[idx]
-        last_idx = idx
-
+    # 이미지 배정 및 언어별 분류
     new_guides = {'en': [], 'ko': []}
     for g in all_raw:
+        # base_id를 기반으로 고정된 이미지 인덱스 생성
+        img_idx = sum(ord(c) for c in g['base_id']) % len(GUIDE_IMAGES)
         new_guides[g['lang']].append({
-            'id':        g['full_id'],
-            'title':     g['title'],
-            'summary':   g['summary'],
-            'thumbnail': id_to_img.get(g['base_id'], GUIDE_IMAGES[0]),
+            'id': g['full_id'],
+            'title': g['title'],
+            'summary': g['summary'],
+            'thumbnail': GUIDE_IMAGES[img_idx],
             'published': g['date']
         })
-    for lang in ['en', 'ko']:
-        new_guides[lang].sort(key=lambda x: x['published'], reverse=True)
+
+    # 날짜순 정렬
+    for l in ['en', 'ko']:
+        new_guides[l].sort(key=lambda x: x['published'], reverse=True)
 
     CACHED_GUIDES = new_guides
-    total = sum(len(v) for v in new_guides.values())
-    print(f"✅ 가이드 로드 완료: {total}개")
+    print(f"✅ 가이드 로드 완료: EN({len(new_guides['en'])}), KO({len(new_guides['ko'])})")
 
 # app/__init__.py 내의 _clean_md 함수를 아래와 같이 교체
 
