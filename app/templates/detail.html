@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link rel="shortcut icon" href="/static/images/favicon.ico" type="image/x-icon">
-    <link rel="icon" href="/static/images/favicon.ico" type="image/x-icon">
 
     <!-- Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.ga_id }}"></script>
@@ -19,45 +18,30 @@
     <!-- SEO -->
     <title>{{ post.title }} - {{ site.site_name }}</title>
     <meta name="description" content="{{ post.summary }}">
-    <meta name="keywords" content="{{ site.site_name }}, {{ post.categories|join(', ') }}, {{ post.address }}, Japan">
-
     <link rel="canonical" href="{{ site.site_url }}/item/{{ post.id }}" />
-    {% if post.lang == 'en' %}
-    <link rel="alternate" hreflang="ko" href="{{ site.site_url }}/item/{{ post.id | replace('_en', '_ko') }}" />
-    {% else %}
-    <link rel="alternate" hreflang="en" href="{{ site.site_url }}/item/{{ post.id | replace('_ko', '_en') }}" />
-    {% endif %}
-    <link rel="alternate" hreflang="x-default" href="{{ site.site_url }}/item/{{ post.id }}" />
 
     <!-- Open Graph -->
     <meta property="og:type" content="article">
     <meta property="og:title" content="{{ post.title }}">
     <meta property="og:description" content="{{ post.summary }}">
     <meta property="og:image" content="{{ post.thumbnail }}">
-    <meta property="og:url" content="{{ site.site_url }}/item/{{ post.id }}">
 
-    <!-- JSON-LD 구조화 데이터 -->
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "{{ site.schema_type }}",
-      "name": "{{ post.title }}",
-      "image": "{{ post.thumbnail }}",
-      "address": {
-        "@type": "PostalAddress",
-        "addressLocality": "{{ post.address }}",
-        "addressCountry": "JP"
-      },
-      "geo": {
-        "@type": "GeoCoordinates",
-        "latitude": {{ post.lat if post.lat else 0 }},
-        "longitude": {{ post.lng if post.lng else 0 }}
-      },
-      "description": "{{ post.summary }}"
-    }
-    </script>
-
+    <!-- ✅ CSS 연결 확인 -->
     <link rel="stylesheet" href="/static/css/style.css">
+    
+    <style>
+        /* 상세 페이지 전용 추가 스타일 */
+        .detail-container { max-width: 800px; margin: 40px auto; padding: 40px; background: #fff; border-radius: 25px; box-shadow: 0 10px 40px rgba(0,0,0,0.05); border: 1px solid var(--border-light); }
+        .detail-header { text-align: center; margin-bottom: 40px; }
+        .detail-title { font-size: 2.2rem; font-weight: 900; margin-bottom: 15px; color: #222; }
+        .detail-meta { font-size: 0.95rem; color: #888; font-weight: 700; }
+        .detail-img { width: 100%; border-radius: 20px; margin-bottom: 40px; object-fit: cover; box-shadow: 0 15px 35px rgba(0,0,0,0.1); }
+        .detail-content { line-height: 1.9; color: #333; font-size: 1.05rem; }
+        .detail-content h2 { font-size: 1.6rem; color: var(--accent-color); border-bottom: 2px solid var(--accent-color); padding-bottom: 10px; margin-top: 40px; }
+        .detail-content p { margin-bottom: 20px; }
+        .back-btn-container { text-align: center; margin-top: 60px; }
+        .back-btn { display: inline-block; padding: 14px 40px; background: var(--primary-color); color: #fff !important; border-radius: 50px; font-weight: 800; }
+    </style>
 </head>
 <body>
     {% include 'header.html' %}
@@ -66,29 +50,27 @@
         <div class="detail-header">
             <h1 class="detail-title">{{ post.title }}</h1>
             <div class="detail-meta">
-                📍 {{ post.address }} | 🏷️ {{ post.categories|join(', ') }} | 📅 {{ post.date }}
+                📍 {{ post.address }} | 📅 {{ post.date }}
             </div>
         </div>
 
-        <img src="{{ post.thumbnail }}" alt="{{ post.title }} in {{ post.address }}" class="detail-img">
+        <img src="{{ post.thumbnail }}" alt="{{ post.title }}" class="detail-img">
 
         <div class="detail-content">
             {{ content | safe }}
         </div>
 
-        <!-- 예약 링크 (agoda 등, frontmatter에 있을 때만 표시) -->
         {% if post.agoda %}
-        <div class="booking-box">
-            <h3>🏨 Stay Nearby</h3>
-            <p>Find the best hotels near {{ post.address }} for your trip.</p>
-            <a href="{{ post.agoda }}" target="_blank" rel="nofollow" class="booking-btn">
-                Check Hotel Deals on Agoda →
-            </a>
+        <div style="text-align: center; margin-top: 50px; padding: 30px; background: #fff5f5; border-radius: 20px; border: 2px dashed var(--accent-color);">
+            <h3 style="margin-top:0;">🏨 {% if post.lang == 'ko' %}근처 숙소 예약하기{% else %}Stay Nearby{% endif %}</h3>
+            <a href="{{ post.agoda }}" target="_blank" class="back-btn" style="background: var(--accent-color);">Agoda에서 확인하기 →</a>
         </div>
         {% endif %}
 
-        <div style="text-align: center; margin-top: 50px;">
-            <a href="/" class="back-btn">🗺️ Back to Map</a>
+        <div class="back-btn-container">
+            <a href="/?lang={{ post.lang }}" class="back-btn">
+                {% if post.lang == 'ko' %}← 지도로 돌아가기{% else %}← Back to Map{% endif %}
+            </a>
         </div>
     </article>
 

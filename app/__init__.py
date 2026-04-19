@@ -96,13 +96,30 @@ def load_guides():
     total = sum(len(v) for v in new_guides.values())
     print(f"✅ 가이드 로드 완료: {total}개")
 
+# app/__init__.py 내의 _clean_md 함수를 아래와 같이 교체
+
 def _clean_md(text):
-    """AI 출력 잔재 제거"""
+    """AI 출력물의 포맷 오류를 강제로 교정합니다."""
+    text = text.strip()
+    # 1. 코드 블록 제거
     text = re.sub(r'^```[a-z]*\n', '', text)
     text = re.sub(r'\n```$', '', text)
-    text = re.sub(r'^(##\s*)?yaml\n', '', text, flags=re.IGNORECASE)
-    if '---' in text and not text.startswith('---'):
-        text = '---' + text.split('---', 1)[1]
+    
+    # 2. Frontmatter 분리 (첫 번째 --- 앞의 쓰레기 텍스트 제거)
+    if '---' in text:
+        parts = text.split('---')
+        if len(parts) >= 3:
+            # 설정값(Frontmatter) + 내용물
+            meta = parts[1]
+            content = '---'.join(parts[2:])
+            # 💡 핵심: 마크다운 문법 교정 (줄바꿈 보강)
+            # 헤더(##) 앞에 빈 줄이 없으면 추가
+            content = re.sub(r'([^\n])\n##', r'\1\n\n##', content)
+            # 불렛포인트(*) 앞에 빈 줄이 없으면 추가
+            content = re.sub(r'([^\n])\n\* ', r'\1\n\n* ', content)
+            
+            text = f"---\n{meta}\n---\n{content}"
+
     return text.strip()
 
 def _get_footer_stats(lang):
@@ -134,23 +151,27 @@ def index():
     return render_template('index.html', lang=lang, guides=CACHED_GUIDES,
                            top_guides=top_guides, **stats)
 
+# app/__init__.py 내의 api_items 함수 부분
+
 @app.route('/api/items')
 def api_items():
+    # 1. 클라이언트가 요청한 언어 확인 (기본값 en)
     lang = request.args.get('lang', 'en')
-    items = CACHED_DATA.get(SITE_CONFIG['data_key'], [])
-    filtered = [i for i in items if i.get('lang') == lang]
+    
+    # 2. 전체 데이터 로드
+    all_items = CACHED_DATA.get(SITE_CONFIG['data_key'], [])
+    
+    # 3. 해당 언어의 아이템만 필터링
+    filtered = [i for i in all_items if i.get('lang') == lang]
+    
+    # 만약 해당 언어 데이터가 하나도 없다면 영어라도 보여주기 (Fallback)
     if not filtered:
-        filtered = [i for i in items if i.get('lang') == 'en']
+        filtered = [i for i in all_items if i.get('lang') == 'en']
 
-    spoofed = []
-    for item in filtered:
-        s = copy.deepcopy(item)
-        s['lang'] = 'en'  # JS spoofing
-        new_cats = [CATEGORY_MAPPING.get(c.strip(), c.strip()) for c in s.get('categories', [])]
-        s['categories'] = list(set(new_cats))
-        spoofed.append(s)
-
-    return jsonify({SITE_CONFIG['data_key']: spoofed, "last_updated": CACHED_DATA.get('last_updated')})
+    return jsonify({
+        SITE_CONFIG['data_key']: filtered, 
+        "last_updated": CACHED_DATA.get('last_updated')
+    })
 
 @app.route('/guide')
 def guide_list():

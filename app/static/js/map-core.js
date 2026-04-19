@@ -43,8 +43,9 @@ export async function renderMarkers(map, items) {
         const pin = new PinElement({
             background: "#c0392b",
             borderColor: "#ffffff",
+            glyph: "🍣", // 핀 안에 초밥 이모지 추가
             glyphColor: "#ffffff",
-            scale: 0.9
+            scale: 1.0 // 크기를 살짝 키우면 더 잘 보입니다
         });
 
         const marker = new AdvancedMarkerElement({

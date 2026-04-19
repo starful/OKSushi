@@ -1,134 +1,304 @@
 /* =========================================
-   🍣 OKSushi Premium Theme
+   [OKSushi] Premium Zen & Pill Theme
    ========================================= */
+
+/* 1. CSS Variables - 스시 테마 전용 색상 */
 :root {
-    --primary-color: #2c3e50;      /* 깊은 차콜 (김, 어두운 그릇) */
+    --primary-color: #2c3e50;      /* 짙은 차콜 (김, 고급 그릇) */
     --accent-color: #c0392b;       /* 참치(마구로) 레드 */
     --accent-hover: #a93226;
-    --bg-color: #fdfcf0;           /* 따뜻한 아이보리 (쌀밥, 편백나무) */
+    --bg-color: #fdfcf0;           /* 히노키 나무 베이지 (따뜻한 인상) */
+    --bg-dot-color: #eaddca;       /* 정갈한 격자 패턴 도트 */
     --card-bg: #ffffff;
-    --text-gray: #555;
-    --bg-dot-color: #eaddca;       /* 나무 무늬 도트 */
-    --footer-bg: #f9f7f2;
+    --text-gray: #666;
+    --text-light: #999;
+    --border-light: #f0eee5;
+    --guide-btn-bg: #8e847d;       /* 가이드 버튼 전용 브라운 */
+    --shadow-sm: 0 2px 8px rgba(0,0,0,0.05);
+    --shadow-md: 0 10px 30px rgba(0,0,0,0.08);
+    --shadow-lg: 0 20px 50px rgba(192, 57, 43, 0.12);
 }
 
+/* 2. Global Reset & Base Styles */
+* { box-sizing: border-box; }
+
 body {
-    font-family: 'Noto Sans KR', -apple-system, BlinkMacSystemFont, sans-serif;
-    line-height: 1.6; margin: 0; color: var(--primary-color);
+    font-family: 'Noto Sans KR', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    line-height: 1.7; 
+    margin: 0; 
+    color: var(--primary-color);
     background-color: var(--bg-color);
-    /* 정갈한 격자 패턴 */
+    /* 스시 바 특유의 정갈한 도트 배경 */
     background-image: radial-gradient(var(--bg-dot-color) 1px, transparent 1px);
-    background-size: 25px 25px;
+    background-size: 28px 28px;
+    word-break: keep-all; 
+    overflow-x: hidden;
 }
 
 .container { max-width: 1200px; margin: 0 auto; padding: 0 20px; }
-a { text-decoration: none; color: inherit; transition: 0.2s; }
+a { text-decoration: none; color: inherit; transition: all 0.3s ease; }
+img { max-width: 100%; height: auto; display: block; }
 
-/* =========================================
-   Header & Filter (스시바 스타일)
-   ========================================= */
+/* 3. Header & Navigation (Slim Bar + Over-sized Logo) */
 header {
-    background: rgba(255, 255, 255, 0.95); backdrop-filter: blur(8px);
-    padding: 15px 0 10px 0;
-    position: sticky; top: 0; z-index: 1000;
-    border-bottom: 4px solid var(--accent-color); /* 두꺼운 포인트 라인 */
-    box-shadow: 0 4px 20px rgba(0,0,0,0.05);
+    background: rgba(255, 255, 255, 0.98);
+    backdrop-filter: blur(12px);
+    padding: 0; 
+    position: sticky; 
+    top: 0; 
+    z-index: 1000;
+    border-bottom: 4px solid var(--accent-color);
+    box-shadow: 0 4px 20px rgba(0,0,0,0.06);
 }
 
 .header-top {
-    display: flex; justify-content: center; align-items: center;
-    position: relative; max-width: 1100px; margin: 0 auto; height: 80px;
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    position: relative; 
+    max-width: 1100px; 
+    margin: 0 auto;
+    height: 85px; /* 헤더 바 두께는 슬림하게 */
 }
 
-.header-left { position: absolute; left: 10px; z-index: 10; }
-.logo-img { height: 65px; width: auto; transition: transform 0.3s; }
-.logo-img:hover { transform: scale(1.05); }
+/* 좌측 가이드 링크 */
+.header-left { position: absolute; left: 15px; z-index: 10; }
+.header-left a {
+    font-weight: 800; 
+    color: var(--accent-color); 
+    font-size: 1rem;
+    display: flex; 
+    align-items: center; 
+    gap: 6px;
+}
+.header-left a:hover { opacity: 0.7; transform: translateX(-3px); }
 
-.lang-selector { position: absolute; right: 10px; display: flex; gap: 6px; }
+/* 중앙 로고 - 헤더 높이(85px)보다 큰 105px로 설정하여 존재감 극대화 */
+.logo-img {
+    height: 105px; 
+    width: auto; 
+    display: block; 
+    object-fit: contain;
+    margin-top: 5px; /* 시각적 수직 중앙 보정 */
+    transition: transform 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    filter: drop-shadow(0 4px 6px rgba(0,0,0,0.05));
+}
+.logo-img:hover { transform: scale(1.08) rotate(-1deg); }
+
+/* 우측 언어 선택기 (Pill 모양 버튼) */
+.lang-selector { position: absolute; right: 15px; display: flex; gap: 8px; z-index: 10; }
 .lang-btn {
-    padding: 6px 14px; font-size: 0.8rem; font-weight: 700;
-    border: 1px solid #ddd; background: #fff; color: #888;
-    border-radius: 4px; cursor: pointer;
+    padding: 8px 18px; 
+    font-size: 0.85rem; 
+    font-weight: 800;
+    border: 1.5px solid #eee; 
+    background: #fff; 
+    color: #888;
+    border-radius: 30px; 
+    cursor: pointer;
+    transition: all 0.2s;
 }
-.lang-btn.active { background: var(--primary-color); color: #fff; border-color: var(--primary-color); }
+.lang-btn.active { background: #333; color: #fff; border-color: #333; box-shadow: var(--shadow-sm); }
+.lang-btn:hover:not(.active) { background: #f9f9f9; border-color: #ddd; }
 
-/* 카테고리 필터 (정갈한 직사각형 스타일) */
+/* 4. Category Filter Buttons (OKRamen 스타일 알약 버튼) */
 .theme-filter-buttons {
-    display: flex; justify-content: center; flex-wrap: wrap;
-    gap: 8px; padding: 15px 0;
+    display: flex; 
+    justify-content: center; 
+    flex-wrap: wrap; 
+    gap: 12px; 
+    padding: 25px 0;
 }
 
 .theme-button {
-    padding: 10px 20px; font-size: 0.9rem; font-weight: 700;
-    border: 1px solid #eaddca; background-color: #fff; color: #555;
-    border-radius: 4px; cursor: pointer; transition: all 0.2s;
-    display: flex; align-items: center; gap: 8px;
+    padding: 12px 26px; 
+    font-size: 0.95rem; 
+    font-weight: 800;
+    border: 1.5px solid #eee; 
+    background-color: #fff; 
+    color: #444;
+    border-radius: 50px; 
+    cursor: pointer; 
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    display: flex; 
+    align-items: center; 
+    gap: 10px;
+    box-shadow: var(--shadow-sm);
 }
-.theme-button:hover { background-color: #fdfcf0; border-color: var(--accent-color); }
+
+.theme-button:hover { border-color: var(--accent-color); transform: translateY(-2px); }
+
 .theme-button.active {
-    background-color: var(--accent-color); color: white; border-color: var(--accent-color);
-    box-shadow: 0 4px 12px rgba(192, 57, 43, 0.2);
+    background-color: var(--accent-color); 
+    color: white; 
+    border-color: var(--accent-color);
+    box-shadow: 0 8px 25px rgba(192, 57, 43, 0.25);
 }
 
 .count-badge {
-    background-color: #f5f5f5; color: #999; font-size: 0.75rem;
-    padding: 2px 8px; border-radius: 3px; font-weight: 800;
+    background-color: #f0f0f0; 
+    color: #999; 
+    font-size: 0.75rem;
+    padding: 2px 10px; 
+    border-radius: 20px; 
+    font-weight: 900;
 }
-.theme-button.active .count-badge { background: rgba(255,255,255,0.2); color: #fff; }
+.theme-button.active .count-badge { background: rgba(255,255,255,0.25); color: #fff; }
 
-/* =========================================
-   Map & Cards (고급스러운 레이아웃)
-   ========================================= */
-.map-section { width: 100%; height: 55vh; min-height: 400px; border-bottom: 1px solid #eee; }
+/* 5. Guide Highlight Section (중앙 강조 가이드 박스) */
+.guide-highlight-section {
+    background: #fff; 
+    border: 2px solid var(--accent-color);
+    padding: 50px 30px; 
+    border-radius: 30px; 
+    margin: 40px 0 70px;
+    box-shadow: 0 25px 60px rgba(192, 57, 43, 0.08);
+}
+
+.guide-section-title {
+    font-size: 2.2rem; 
+    font-weight: 900; 
+    color: #222;
+    text-align: center; 
+    margin-bottom: 45px;
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    gap: 15px;
+}
+
+.view-all-container { text-align: center; margin-top: 45px; }
+.btn-view-all {
+    display: inline-block; 
+    padding: 16px 50px;
+    background-color: var(--guide-btn-bg); 
+    color: white !important;
+    border-radius: 50px; 
+    font-weight: 800; 
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    transition: all 0.3s;
+}
+.btn-view-all:hover { transform: translateY(-3px); background-color: #6d645d; box-shadow: 0 10px 25px rgba(0,0,0,0.2); }
+
+/* 6. Grid & Card UI (아이템 리스트) */
+.map-section { width: 100%; height: 55vh; min-height: 450px; border-bottom: 1px solid #eee; }
 #map { width: 100%; height: 100%; }
 
-.content-wrapper { max-width: 1100px; margin: -50px auto 0; padding: 0 20px 80px; position: relative; z-index: 10; }
-
-.intro-box {
-    background: #fff; padding: 30px; border-radius: 8px;
-    box-shadow: 0 15px 40px rgba(0,0,0,0.08);
-    margin-bottom: 50px; text-align: center; border: 1px solid #f0eee5;
+.content-wrapper {
+    max-width: 1100px; 
+    margin: -50px auto 0;
+    padding: 0 20px 100px; 
+    position: relative; 
+    z-index: 10;
 }
 
-.list-title { font-size: 1.8rem; font-weight: 900; margin-bottom: 30px; text-align: center; }
+.intro-box {
+    background: #fff; 
+    padding: 40px; 
+    border-radius: 25px;
+    box-shadow: var(--shadow-md);
+    margin-bottom: 50px; 
+    text-align: center; 
+    border: 1px solid var(--border-light);
+}
+
+.list-title { font-size: 2rem; font-weight: 900; margin: 60px 0 40px; text-align: center; }
 
 .onsen-grid {
-    display: grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); gap: 30px;
+    display: grid; 
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); 
+    gap: 35px;
 }
 
 .onsen-card {
-    background: var(--card-bg); border-radius: 8px; overflow: hidden;
-    display: flex; flex-direction: column;
-    box-shadow: 0 5px 15px rgba(0,0,0,0.04);
-    transition: all 0.3s; border: 1px solid #f0eee5;
+    background: var(--card-bg); 
+    border-radius: 25px; 
+    overflow: hidden;
+    display: flex; 
+    flex-direction: column; 
+    border: 1px solid var(--border-light);
+    transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
-.onsen-card:hover { transform: translateY(-8px); box-shadow: 0 20px 40px rgba(0,0,0,0.1); }
-
-.card-thumb { width: 100%; height: 220px; object-fit: cover; }
-.card-content { padding: 20px; flex: 1; display: flex; flex-direction: column; }
-.card-title { font-size: 1.2rem; font-weight: 800; margin: 0 0 10px; color: var(--primary-color); }
-.card-summary { font-size: 0.9rem; color: var(--text-gray); line-height: 1.6; margin-bottom: 15px; }
-.card-meta { font-size: 0.8rem; color: #999; margin-top: auto; border-top: 1px solid #f9f9f9; padding-top: 10px; }
-
-/* =========================================
-   Footer (정갈한 마무리)
-   ========================================= */
-footer {
-    background: var(--footer-bg); padding: 60px 20px; text-align: center;
-    border-top: 1px solid #eaddca;
+.onsen-card:hover {
+    transform: translateY(-12px);
+    box-shadow: 0 30px 60px rgba(0,0,0,0.12);
 }
+
+.card-thumb { width: 100%; height: 240px; object-fit: cover; transition: transform 0.5s; }
+.onsen-card:hover .card-thumb { transform: scale(1.05); }
+
+.card-content { padding: 25px; flex: 1; display: flex; flex-direction: column; }
+.card-title { font-size: 1.35rem; font-weight: 800; margin: 0 0 12px; color: #222; line-height: 1.4; }
+.card-summary { font-size: 0.98rem; color: var(--text-gray); line-height: 1.7; flex: 1; margin-bottom: 20px; }
+.card-meta { font-size: 0.85rem; color: #bbb; display: flex; align-items: center; gap: 8px; font-weight: 700; }
+
+/* 7. Detail Page & Markdown Content (가독성 핵심) */
+.detail-container {
+    max-width: 850px; 
+    margin: 50px auto; 
+    padding: 60px;
+    background: #fff; 
+    border-radius: 30px;
+    box-shadow: 0 20px 60px rgba(0,0,0,0.06); 
+    border: 1px solid var(--border-light);
+}
+
+.detail-content { line-height: 1.95; color: #333; font-size: 1.12rem; }
+
+/* 문단 간격 강제 확보 */
+.detail-content p { margin-bottom: 30px; }
+
+.detail-content h2 {
+    font-size: 1.75rem; font-weight: 900; margin: 60px 0 25px;
+    padding-bottom: 12px; border-bottom: 2px solid var(--accent-color);
+    color: #111;
+}
+
+.detail-content h3 {
+    font-size: 1.45rem; margin: 45px 0 20px;
+    color: var(--accent-color); font-weight: 800;
+}
+
+/* AI의 과도한 강조 텍스트 제어 */
+.detail-content strong, .detail-content b {
+    font-weight: 850; color: #000;
+}
+
+.detail-content ul, .detail-content ol { margin-bottom: 35px; padding-left: 25px; }
+.detail-content li { margin-bottom: 15px; }
+
+/* 상세 페이지 테이블 */
+.detail-content table {
+    width: 100%; border-collapse: collapse; margin: 35px 0;
+    font-size: 1rem; border-radius: 12px; overflow: hidden;
+    border: 1px solid #eee;
+}
+.detail-content th, .detail-content td { border: 1px solid #eee; padding: 18px; text-align: left; }
+.detail-content th { background: #fdfcf0; font-weight: 800; color: var(--accent-color); }
+
+/* 8. Footer (정갈한 배지 스타일) */
+footer { padding: 90px 0; background: #fff; border-top: 1px solid #eee; text-align: center; }
+.footer-status { display: flex; justify-content: center; gap: 15px; margin-bottom: 40px; flex-wrap: wrap; }
 .status-badge {
-    background: #fff; border: 1px solid #eaddca; padding: 8px 20px;
-    border-radius: 4px; font-size: 0.85rem; font-weight: 700; color: #777;
+    background: #f8f8f8; padding: 12px 28px; border-radius: 50px;
+    font-size: 0.95rem; font-weight: 850; color: #666;
+    box-shadow: var(--shadow-sm);
 }
 .status-badge.highlight { background: var(--accent-color); color: #fff; border-color: var(--accent-color); }
+.copyright { margin-top: 20px; font-size: 0.85rem; color: #bbb; }
 
-/* =========================================
-   Responsive
-   ========================================= */
+/* 9. Responsive Adjustments */
+@media (max-width: 1024px) {
+    .container { padding: 0 15px; }
+    .detail-container { padding: 40px; margin: 30px auto; }
+}
+
 @media (max-width: 768px) {
-    .header-top { height: 60px; }
-    .logo-img { height: 50px; }
-    .map-section { height: 40vh; }
-    .content-wrapper { margin-top: -30px; }
+    .header-top { height: 75px; }
+    .logo-img { height: 85px; }
+    .detail-container { padding: 30px 20px; border-radius: 0; margin: 0; }
+    .guide-highlight-section { padding: 40px 20px; border-radius: 20px; }
+    .guide-section-title { font-size: 1.7rem; }
+    .onsen-grid { grid-template-columns: 1fr; }
+    .theme-button { padding: 10px 20px; font-size: 0.85rem; }
 }

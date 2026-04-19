@@ -5,8 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
     <!-- SEO & Canonical -->
-    <title>{{ site.site_name }} - {{ site.tagline }}</title>
-    <meta name="description" content="{{ site.tagline }}">
+    <title>{{ site.site_name }} - {% if lang == 'ko' %}일본 최고의 스시 가이드{% else %}{{ site.tagline }}{% endif %}</title>
+    <meta name="description" content="{% if lang == 'ko' %}전문가가 엄선한 일본 최고의 스시 맛집 지도 가이드{% else %}{{ site.tagline }}{% endif %}">
     <link rel="canonical" href="{{ site.site_url }}" />
 
     <!-- Google Analytics -->
@@ -31,34 +31,32 @@
         </section>
 
         <div class="content-wrapper">
-            <!-- 인트로 -->
+            <!-- 인트로 박스 -->
             <article class="intro-box">
-                <h2>{{ site.emoji }} {{ site.tagline }}</h2>
+                <h2>{{ site.emoji }} 
+                    {% if lang == 'ko' %}일본 최고의 스시를 찾아보세요{% else %}{{ site.tagline }}{% endif %}
+                </h2>
                 <p>
-                    <strong>{{ site.site_name }}</strong>에서 일본 최고의 정보를 찾아보세요.<br>
-                    카테고리 필터와 지도로 손쉽게 탐색할 수 있습니다.
+                    <strong>{{ site.site_name }}</strong>
+                    {% if lang == 'ko' %}
+                        에서 전문가가 엄선한 일본 전역의 스시 정보를 확인하세요.<br>
+                        카테고리 필터와 지도를 통해 완벽한 한 끼를 계획할 수 있습니다.
+                    {% else %}
+                        is your premium curation of the best sushi spots in Japan.<br>
+                        Discover hidden gems and legendary omakase with our interactive map.
+                    {% endif %}
                 </p>
             </article>
 
             <!-- 가이드 하이라이트 섹션 -->
             <section class="guide-highlight-section">
-                <h2 class="guide-section-title">📖 {{ site.site_name }} Guides</h2>
+                <h2 class="guide-section-title">
+                    📖 {% if lang == 'ko' %}스시 여행 가이드{% else %}{{ site.site_name }} Guides{% endif %}
+                </h2>
                 <div class="onsen-grid" id="guide-list">
-
-                    <!-- 영어 가이드 (최대 3개) -->
-                    {% for guide in guides.get('en', [])[:3] %}
-                    <a href="/guide/{{ guide.id }}" class="onsen-card guide-card guide-en">
-                        <img src="{{ guide.thumbnail }}" alt="{{ guide.title }}" class="card-thumb">
-                        <div class="card-content">
-                            <h3 class="card-title">{{ guide.title }}</h3>
-                            <p class="card-summary">{{ guide.summary }}</p>
-                        </div>
-                    </a>
-                    {% endfor %}
-
-                    <!-- 한국어 가이드 (최대 3개, 기본 숨김) -->
-                    {% for guide in guides.get('ko', [])[:3] %}
-                    <a href="/guide/{{ guide.id }}" class="onsen-card guide-card guide-ko" style="display: none;">
+                    {# 현재 언어에 맞는 가이드만 3개 출력 #}
+                    {% for guide in guides.get(lang, [])[:3] %}
+                    <a href="/guide/{{ guide.id }}" class="onsen-card">
                         <img src="{{ guide.thumbnail }}" alt="{{ guide.title }}" class="card-thumb">
                         <div class="card-content">
                             <h3 class="card-title">{{ guide.title }}</h3>
@@ -68,13 +66,18 @@
                     {% endfor %}
                 </div>
                 <div class="view-all-container">
-                    <a href="/guide" class="btn-view-all">View All Guides / 가이드 전체보기</a>
+                    <a href="/guide?lang={{ lang }}" class="btn-view-all">
+                        {% if lang == 'ko' %}가이드 전체보기{% else %}View All Guides{% endif %}
+                    </a>
                 </div>
             </section>
 
             <!-- 아이템 리스트 -->
             <section id="list-section">
-                <h2 class="list-title">{{ site.emoji }} Latest {{ site.site_name }}</h2>
+                <h2 class="list-title">
+                    {{ site.emoji }} 
+                    {% if lang == 'ko' %}최신 스시 맛집 리스트{% else %}Latest {{ site.site_name }}{% endif %}
+                </h2>
                 <div id="item-list" class="onsen-grid"></div>
             </section>
         </div>
@@ -84,38 +87,29 @@
         <div class="container">
             <div class="footer-status">
                 <div class="status-badge">
-                    {{ site.emoji }} <span id="total-items">0</span> Items
+                    {{ site.emoji }} <span id="total-items">0</span> 
+                    {% if lang == 'ko' %}개 맛집{% else %}Items{% endif %}
                 </div>
                 <div class="status-badge">
-                    📅 Updated: <span id="last-updated-date">{{ last_updated }}</span>
+                    📅 {% if lang == 'ko' %}업데이트:{% else %}Updated:{% endif %} 
+                    <span id="last-updated-date">{{ last_updated }}</span>
                 </div>
                 <div class="status-badge highlight">
-                    🔥 Trending Now
+                    🔥 {% if lang == 'ko' %}인기 맛집{% else %}Trending Now{% endif %}
                 </div>
             </div>
             <div class="footer-content">
-                <p><strong>{{ site.site_name }} Project</strong><br>{{ site.footer_tagline }}</p>
+                <p><strong>{{ site.site_name }} Project</strong><br>
+                    {% if lang == 'ko' %}일본 최고의 스시 경험을 선사합니다.{% else %}{{ site.footer_tagline }}{% endif %}
+                </p>
                 <div class="footer-links">
-                    <a href="/about.html">About & Contact</a> |
+                    <a href="/about.html?lang={{ lang }}">About & Contact</a> |
                     <a href="/privacy.html">Privacy Policy</a>
                 </div>
                 <p class="copyright">&copy; {{ site.footer_year }} {{ site.site_name }}. All rights reserved.</p>
             </div>
         </div>
     </footer>
-
-    <!-- 언어 전환 시 가이드 카드 토글 -->
-    <script>
-        document.addEventListener('DOMContentLoaded', () => {
-            document.querySelectorAll('.lang-btn').forEach(btn => {
-                btn.addEventListener('click', (e) => {
-                    const lang = e.target.getAttribute('data-lang');
-                    document.querySelectorAll('.guide-card').forEach(el => el.style.display = 'none');
-                    document.querySelectorAll('.guide-' + lang).forEach(el => el.style.display = 'flex');
-                });
-            });
-        });
-    </script>
 
     <!-- Google Maps Loader -->
     <script>

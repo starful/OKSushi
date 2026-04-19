@@ -3,7 +3,6 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
     <link rel="shortcut icon" href="/static/images/favicon.ico" type="image/x-icon">
 
     <!-- Google Analytics -->
@@ -16,56 +15,51 @@
     </script>
 
     <title>{{ title }} - {{ site.site_name }} Guide</title>
-    <meta name="description" content="{{ post.summary }}">
-    <link rel="canonical" href="{{ site.site_url }}/guide/{{ guide_id }}" />
-
-    <!-- Open Graph -->
-    <meta property="og:type" content="article">
-    <meta property="og:title" content="{{ title }}">
-    <meta property="og:description" content="{{ post.summary }}">
-    <meta property="og:image" content="{{ image_url }}">
-    <meta property="og:url" content="{{ site.site_url }}/guide/{{ guide_id }}">
-
-    <!-- Article Schema -->
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "Article",
-      "headline": "{{ title }}",
-      "image": "{{ image_url }}",
-      "datePublished": "{{ post.date }}",
-      "description": "{{ post.summary }}",
-      "publisher": {
-        "@type": "Organization",
-        "name": "{{ site.site_name }}",
-        "logo": {"@type": "ImageObject", "url": "{{ site.site_url }}/static/images/logo.png"}
-      }
-    }
-    </script>
-
+    
+    <!-- ✅ CSS 연결 확인 -->
     <link rel="stylesheet" href="/static/css/style.css">
+
+    <style>
+        .guide-detail-container { max-width: 850px; margin: 40px auto; padding: 0 20px 80px; }
+        .guide-card-full { background: #fff; border-radius: 30px; overflow: hidden; box-shadow: 0 20px 60px rgba(0,0,0,0.08); border: 1px solid var(--border-light); }
+        .guide-header-img { width: 100%; height: 450px; object-fit: cover; }
+        .guide-body { padding: 50px; }
+        .guide-title { font-size: 2.5rem; font-weight: 900; line-height: 1.3; margin-bottom: 20px; color: #111; }
+        .guide-date { color: #aaa; font-weight: 700; margin-bottom: 40px; display: block; }
+        .guide-content { line-height: 2; color: #333; font-size: 1.1rem; }
+        .guide-content h2 { font-size: 1.8rem; margin-top: 50px; color: var(--accent-color); font-weight: 900; }
+        .guide-content h3 { font-size: 1.4rem; margin-top: 30px; font-weight: 800; }
+        .guide-content p { margin-bottom: 25px; }
+        .guide-content ul, .guide-content ol { margin-bottom: 30px; padding-left: 20px; }
+        .guide-content li { margin-bottom: 10px; }
+        
+        .cta-box { text-align: center; margin-top: 60px; padding: 40px; background: var(--bg-color); border-radius: 25px; }
+        .cta-box h3 { font-size: 1.5rem; margin-bottom: 20px; }
+        .back-btn { display: inline-block; padding: 15px 45px; background: var(--accent-color); color: #fff !important; border-radius: 50px; font-weight: 800; }
+    </style>
 </head>
 <body>
     {% include 'header.html' %}
 
-    <article class="detail-container">
-        <div class="detail-header">
-            <h1 class="detail-title">{{ title }}</h1>
-            <p style="color:#888;">📅 {{ post.date }}</p>
-        </div>
+    <main class="guide-detail-container">
+        <div class="guide-card-full">
+            <img src="{{ image_url }}" alt="{{ title }}" class="guide-header-img">
+            
+            <div class="guide-body">
+                <span class="guide-date">📅 {{ post.date }}</span>
+                <h1 class="guide-title">{{ title }}</h1>
+                
+                <div class="guide-content">
+                    {{ content | safe }}
+                </div>
 
-        <img src="{{ image_url }}" alt="{{ title }}" class="detail-img">
-
-        <div class="detail-content">
-            {{ content | safe }}
+                <div class="cta-box">
+                    <h3>🍣 {% if lang == 'ko' %}나에게 딱 맞는 스시 맛집을 찾아보세요{% else %}Find your perfect sushi spot now!{% endif %}</h3>
+                    <a href="/?lang={{ lang }}" class="back-btn">🗺️ {% if lang == 'ko' %}지도로 돌아가기{% else %}Explore the Map{% endif %}</a>
+                </div>
+            </div>
         </div>
-
-        <!-- 가이드 읽고 맵으로 유도 -->
-        <div style="text-align: center; margin-top: 50px; padding: 30px; background: var(--bg-color); border-radius: 15px;">
-            <h3>Ready to explore? Find {{ site.site_name }} near you!</h3>
-            <a href="/" class="back-btn">🗺️ Explore the Map</a>
-        </div>
-    </article>
+    </main>
 
     {% include 'footer.html' %}
 </body>
