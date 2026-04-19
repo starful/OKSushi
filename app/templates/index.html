@@ -55,7 +55,7 @@
                 </h2>
                 <div class="onsen-grid" id="guide-list">
                     {# 현재 언어에 맞는 가이드만 3개 출력 #}
-                    {% for guide in guides.get(lang, [])[:3] %}
+                    {% for guide in guides.get(lang, [])[:2] %}
                     <a href="/guide/{{ guide.id }}" class="onsen-card">
                         <img src="{{ guide.thumbnail }}" alt="{{ guide.title }}" class="card-thumb">
                         <div class="card-content">

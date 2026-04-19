@@ -23,5 +23,5 @@ git commit -m "update contents"
 git push origin main
 
 git add .
-git commit -m "feat: implement automated SEO ramen guides with bilingual support and dynamic imagery"
+git commit -m "Update guide_images with new premium sushi assets"
 git push origin main
