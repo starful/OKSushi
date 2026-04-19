@@ -1,0 +1,23 @@
+.gcloudignore
+.git
+.gitignore
+
+# 파이썬 찌꺼기 제외
+.env
+__pycache__/
+*.pyc
+.DS_Store
+
+# 이미지는 GCS를 통해 서빙하므로 빌드 파일에서는 제외 (용량 절약)
+app/static/images/*.jpg
+app/static/images/*.jpeg
+app/static/images/*.png
+!app/static/images/logo.png
+!app/static/images/favicon.ico
+!app/static/images/default.jpg
+
+# 💡 핵심: 아래 줄을 추가하여 content 폴더를 전송 대상에 강제로 포함시킵니다.
+!app/content/
+!app/content/guides/
+# 로컬 테스트용 키 파일 등이 있다면 제외
+command.txt
