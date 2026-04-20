@@ -4,12 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-    <!-- SEO & Canonical -->
-    <title>{{ site.site_name }} - {% if lang == 'ko' %}일본 최고의 스시 가이드{% else %}{{ site.tagline }}{% endif %}</title>
-    <meta name="description" content="{% if lang == 'ko' %}전문가가 엄선한 일본 최고의 스시 맛집 지도 가이드{% else %}{{ site.tagline }}{% endif %}">
-    <link rel="canonical" href="{{ site.site_url }}" />
+    <!-- 1. 파비콘 및 루트 아이콘 설정 -->
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="48x48" href="/favicon-48x48.png">
 
-    <!-- Google Analytics -->
+    <!-- 2. 다국어 SEO 설정 -->
+    <title>{{ site.site_name }} - {% if lang == 'ko' %}일본 최고의 스시 가이드{% else %}{{ site.tagline }}{% endif %}</title>
+    <meta name="description" content="{% if lang == 'ko' %}전문가가 엄선한 일본 전역의 스시 맛집 지도 가이드입니다.{% else %}{{ site.tagline }}{% endif %}">
+    <link rel="canonical" href="{{ site.site_url }}{% if lang == 'ko' %}?lang=ko{% endif %}" />
+    
+    <link rel="alternate" hreflang="ko" href="{{ site.site_url }}?lang=ko" />
+    <link rel="alternate" hreflang="en" href="{{ site.site_url }}" />
+    <link rel="alternate" hreflang="x-default" href="{{ site.site_url }}" />
+
+    <!-- 3. Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.ga_id }}"></script>
     <script>
       window.dataLayer = window.dataLayer || [];
@@ -18,7 +29,7 @@
       gtag('config', '{{ site.ga_id }}');
     </script>
 
-    <link rel="shortcut icon" href="/static/images/favicon.ico" type="image/x-icon">
+    <!-- 4. 스타일시트 -->
     <link rel="stylesheet" href="/static/css/style.css">
 </head>
 <body>
@@ -31,7 +42,7 @@
         </section>
 
         <div class="content-wrapper">
-            <!-- 인트로 박스 -->
+            <!-- 인트로 박스 (다국어 지원) -->
             <article class="intro-box">
                 <h2>{{ site.emoji }} 
                     {% if lang == 'ko' %}일본 최고의 스시를 찾아보세요{% else %}{{ site.tagline }}{% endif %}
@@ -39,8 +50,8 @@
                 <p>
                     <strong>{{ site.site_name }}</strong>
                     {% if lang == 'ko' %}
-                        에서 전문가가 엄선한 일본 전역의 스시 정보를 확인하세요.<br>
-                        카테고리 필터와 지도를 통해 완벽한 한 끼를 계획할 수 있습니다.
+                        는 전문가가 엄선한 일본 전역의 스시 정보를 제공합니다.<br>
+                        카테고리 필터와 지도를 통해 당신의 완벽한 스시 여정을 계획하세요.
                     {% else %}
                         is your premium curation of the best sushi spots in Japan.<br>
                         Discover hidden gems and legendary omakase with our interactive map.
@@ -53,18 +64,27 @@
                 <h2 class="guide-section-title">
                     📖 {% if lang == 'ko' %}스시 여행 가이드{% else %}{{ site.site_name }} Guides{% endif %}
                 </h2>
+                
                 <div class="onsen-grid" id="guide-list">
-                    {# 현재 언어에 맞는 가이드만 3개 출력 #}
-                    {% for guide in guides.get(lang, [])[:2] %}
-                    <a href="/guide/{{ guide.id }}" class="onsen-card">
-                        <img src="{{ guide.thumbnail }}" alt="{{ guide.title }}" class="card-thumb">
+                    {# 서버에서 넘겨받은 현재 언어의 top_guides를 출력합니다 #}
+                    {% for guide in top_guides %}
+                    <a href="/guide/{{ guide.id }}?lang={{ lang }}" class="onsen-card">
+                        <img src="{{ guide.thumbnail }}" alt="{{ guide.title }}" class="card-thumb" loading="lazy">
                         <div class="card-content">
                             <h3 class="card-title">{{ guide.title }}</h3>
                             <p class="card-summary">{{ guide.summary }}</p>
+                            <div class="card-meta">
+                                📅 {{ guide.published }}
+                            </div>
                         </div>
                     </a>
+                    {% else %}
+                    <p style="grid-column: 1/-1; text-align: center; color: #999; padding: 40px 0;">
+                        {% if lang == 'ko' %}아직 등록된 가이드가 없습니다.{% else %}No guides available yet.{% endif %}
+                    </p>
                     {% endfor %}
                 </div>
+
                 <div class="view-all-container">
                     <a href="/guide?lang={{ lang }}" class="btn-view-all">
                         {% if lang == 'ko' %}가이드 전체보기{% else %}View All Guides{% endif %}
@@ -72,13 +92,18 @@
                 </div>
             </section>
 
-            <!-- 아이템 리스트 -->
+            <!-- 아이템 리스트 (main.js가 렌더링) -->
             <section id="list-section">
                 <h2 class="list-title">
                     {{ site.emoji }} 
                     {% if lang == 'ko' %}최신 스시 맛집 리스트{% else %}Latest {{ site.site_name }}{% endif %}
                 </h2>
-                <div id="item-list" class="onsen-grid"></div>
+                <div id="item-list" class="onsen-grid">
+                    <!-- JavaScript로 데이터 로드 전 로딩 표시 -->
+                    <div style="grid-column: 1/-1; text-align: center; padding: 100px 0; color: #ccc;">
+                        🍣 Loading sushi spots...
+                    </div>
+                </div>
             </section>
         </div>
     </main>
@@ -98,9 +123,14 @@
                     🔥 {% if lang == 'ko' %}인기 맛집{% else %}Trending Now{% endif %}
                 </div>
             </div>
+            
             <div class="footer-content">
                 <p><strong>{{ site.site_name }} Project</strong><br>
-                    {% if lang == 'ko' %}일본 최고의 스시 경험을 선사합니다.{% else %}{{ site.footer_tagline }}{% endif %}
+                    {% if lang == 'ko' %}
+                        일본 전역의 정갈하고 신선한 스시 경험을 큐레이션합니다.
+                    {% else %}
+                        {{ site.footer_tagline }}
+                    {% endif %}
                 </p>
                 <div class="footer-links">
                     <a href="/about.html?lang={{ lang }}">About & Contact</a> |
@@ -115,6 +145,8 @@
     <script>
     (g=>{var h,a,k,p="The Google Maps JavaScript API",c="google",l="importLibrary",q="__ib__",m=document,b=window;b=b[c]||(b[c]={});var d=b.maps||(b.maps={}),r=new Set,e=new URLSearchParams,u=()=>h||(h=new Promise(async(f,n)=>{await (a=m.createElement("script"));e.set("libraries",[...r]+"");for(k in g)e.set(k.replace(/[A-Z]/g,t=>"_"+t[0].toLowerCase()),g[k]);e.set("callback",c+".maps."+q);a.src=`https://maps.${c}apis.com/maps/api/js?`+e;d[q]=f;a.onerror=()=>h=n(Error(p+" could not load."));a.nonce=m.querySelector("script[nonce]")?.nonce||"";m.head.append(a)}));d[l]?console.warn(p+" only loads once. Ignoring:",g):d[l]=(f,...n)=>r.add(f)&&u().then(()=>d[l](f,...n))})({"key": "{{ site.maps_api_key }}", "v": "beta"});
     </script>
+    
+    <!-- 메인 로직 자바스크립트 -->
     <script type="module" src="/static/js/main.js"></script>
 </body>
 </html>
