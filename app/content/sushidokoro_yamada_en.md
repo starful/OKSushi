@@ -1,15 +1,24 @@
 ---
+address: Ginza, Tokyo
+agoda: ''
+categories:
+- Omakase
+date: '2026-04-21'
+image_prompt: 45-degree shot of the sushi counter at Sushidokoro Yamada, featuring
+  a master sushi chef meticulously preparing a piece of glistening otoro nigiri for
+  a guest, with a spotlight on the delicate details of the fish and rice, moody natural
+  light enhancing the intimate and premium atmosphere, subtle traditional Japanese
+  decor in the background.
 lang: en
-title: "Sushidokoro Yamada: Discover Ginza's Pinnacle of Premium Omakase Sushi in Tokyo"
 lat: 35.6681
 lng: 139.7618
-categories: ["Omakase", "Edomae"]
-thumbnail: "/static/images/sushidokoro_yamada.jpg"
-address: "Ginza, Tokyo"
-date: "2026-04-21"
-agoda: ""
-summary: "Sushidokoro Yamada in Ginza, Tokyo, offers an unparalleled premium omakase experience, showcasing the pinnacle of expert Japanese sushi craftsmanship in an intimate setting. Prepare for a meticulously curated culinary journey that elevates sushi to an art form, making it a must-visit for discerning gourmands."
-image_prompt: "45-degree shot of the sushi counter at Sushidokoro Yamada, featuring a master sushi chef meticulously preparing a piece of glistening otoro nigiri for a guest, with a spotlight on the delicate details of the fish and rice, moody natural light enhancing the intimate and premium atmosphere, subtle traditional Japanese decor in the background."
+summary: Sushidokoro Yamada in Ginza, Tokyo, offers an unparalleled premium omakase
+  experience, showcasing the pinnacle of expert Japanese sushi craftsmanship in an
+  intimate setting. Prepare for a meticulously curated culinary journey that elevates
+  sushi to an art form, making it a must-visit for discerning gourmands.
+thumbnail: /static/images/sushidokoro_yamada.jpg
+title: 'Sushidokoro Yamada: Discover Ginza''s Pinnacle of Premium Omakase Sushi in
+  Tokyo'
 ---
 
 ## Introduction
@@ -56,6 +65,7 @@ Visiting Sushidokoro Yamada is an investment in a world-class dining experience,
 
 **Location and Access:**
 Sushidokoro Yamada is situated in Ginza, Tokyo's renowned luxury shopping and dining district. Ginza is exceptionally well-connected by Tokyo's subway system, making it easy to reach from virtually anywhere in the city.
+
 *   **Nearest Subway Stations:**
     *   Ginza Station (Ginza Line, Marunouchi Line, Hibiya Line): This is often the most convenient, with multiple exits leading directly into the heart of Ginza.
     *   Higashi-Ginza Station (Hibiya Line, Asakusa Line): Also a very close option, especially if approaching from the eastern side of Ginza.
@@ -64,33 +74,49 @@ Walks from these stations to most establishments in Ginza are typically short, u
 
 **Operating Hours:**
 Like many high-end sushi restaurants in Tokyo, Sushidokoro Yamada typically operates with distinct lunch and dinner sittings.
+
 *   **Lunch:** Often a single seating, roughly between 12:00 PM - 2:00 PM. Lunch omakase menus might be slightly shorter or offer a different selection than dinner, sometimes at a more approachable price point.
+
 *   **Dinner:** Usually two sittings, for example, 5:30 PM - 8:00 PM and 8:30 PM - 11:00 PM. The dinner omakase is generally the most comprehensive and sought-after experience.
+
 *   **Closed Days:** Many sushi restaurants close on Sundays and some public holidays, or have irregular closing days. Always confirm operating hours and closed days when making your reservation.
 
 **Pricing:**
 Sushidokoro Yamada falls into the **premium** category, reflecting the unparalleled quality of ingredients, the chef's expertise, and the exclusive dining experience.
+
 *   **Omakase Menu:** Expect to pay a significant amount. Lunch omakase typically ranges from ¥15,000 to ¥30,000 per person. Dinner omakase can range from ¥25,000 to ¥50,000 or more per person, not including beverages.
+
 *   **Beverages:** Sake, wine, and other drinks will add to the final bill. High-end sake selections can be quite expensive.
+
 *   **Service Charge/Tax:** Be aware that a service charge (typically 10-15%) and consumption tax (10%) will be added to your bill.
 This is a splurge dining experience, so be prepared for a substantial final cost.
 
 **Reservation Tips:**
 Reservations are absolutely essential and highly competitive.
+
 *   **Book Well in Advance:** For dinner, especially on weekends or during peak travel seasons, aim to book 1-3 months ahead. Lunch can sometimes be secured a few weeks out.
+
 *   **Use a Concierge:** If staying at a reputable hotel in Tokyo, their concierge service is often the most reliable way to secure a reservation. They have established relationships and can navigate the Japanese booking systems.
+
 *   **Online Booking Platforms:** Some premium restaurants use platforms like TableCheck or OMAKASE, but direct access for international visitors can sometimes be limited.
+
 *   **Be Punctual:** Arrive on time for your reservation. Lateness is considered disrespectful and can disrupt the carefully timed flow of the omakase for all diners.
+
 *   **Dietary Restrictions:** Communicate any severe allergies well in advance. While omakase is chef's choice, they might be able to make minor adjustments if informed beforehand, though extensive changes are generally not possible for a sushi restaurant of this caliber.
 
 **Dress Code:**
 The dress code at Sushidokoro Yamada is typically **smart casual to formal**.
+
 *   **Recommended:** Collared shirts, trousers, dresses, or skirts. Avoid shorts, t-shirts, flip-flops, or overly casual attire.
+
 *   **Consideration:** Dressing respectfully shows appreciation for the establishment and the chef's artistry.
 
 **Dining Etiquette:**
+
 *   **Photography:** Ask permission before taking photos, especially of the chef or other diners. Often, discreet photos of your own food are acceptable, but loud camera clicks or flash photography should be avoided.
+
 *   **Scent:** Avoid wearing strong perfumes or colognes, as they can interfere with the delicate aromas of the sushi.
+
 *   **Gratuities:** Tipping is not customary in Japan and can even be considered impolite. The service charge already covers the service.
 
 A visit to Sushidokoro Yamada is more than a meal; it's a meticulously crafted culinary journey, and by being prepared, you can fully immerse yourself in this truly exceptional Ginza dining experience.

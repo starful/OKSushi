@@ -1,15 +1,21 @@
 ---
+address: Ginza, Tokyo
+agoda: ''
+categories:
+- 오마카세
+- 미슐랭
+date: '2026-04-19'
+image_prompt: 45-degree close-up shot of a meticulously prepared piece of nigiri sushi
+  on a polished wooden counter, with a blurred background showing the hands of a traditional
+  Japanese sushi chef, under bright natural lighting, emphasizing the Edomae technique
+  and Michelin Star quality.
 lang: ko
-title: "도쿄 긴자의 심장, 스시 카네사카: 미슐랭 에도마에 오마카세의 정수"
 lat: 35.6711
 lng: 139.7631
-categories: ["오마카세", "에도마에", "미슐랭"]
-thumbnail: "/static/images/sushi_kanesaka.jpg"
-address: "Ginza, Tokyo"
-date: "2026-04-19"
-agoda: ""
-summary: "도쿄 긴자의 번화가 속에 자리한 스시 카네사카는 단순한 식당을 넘어, 에도마에 스시의 정수를 경험할 수 있는 미슐랭 스타의 성지입니다. 셰프 카네사카의 장인정신이 깃든 오마카세 코스는 미식가들에게 잊을 수 없는 미식의 순간을 선사합니다."
-image_prompt: "45-degree close-up shot of a meticulously prepared piece of nigiri sushi on a polished wooden counter, with a blurred background showing the hands of a traditional Japanese sushi chef, under bright natural lighting, emphasizing the Edomae technique and Michelin Star quality."
+summary: 도쿄 긴자의 번화가 속에 자리한 스시 카네사카는 단순한 식당을 넘어, 에도마에 스시의 정수를 경험할 수 있는 미슐랭 스타의 성지입니다.
+  셰프 카네사카의 장인정신이 깃든 오마카세 코스는 미식가들에게 잊을 수 없는 미식의 순간을 선사합니다.
+thumbnail: /static/images/sushi_kanesaka.jpg
+title: '도쿄 긴자의 심장, 스시 카네사카: 미슐랭 에도마에 오마카세의 정수'
 ---
 
 ## Introduction
@@ -57,29 +63,39 @@ image_prompt: "45-degree close-up shot of a meticulously prepared piece of nigir
 스시 카네사카는 최상의 미식 경험을 제공하는 만큼, 방문 전에 몇 가지 중요한 사항을 숙지하는 것이 좋습니다. 철저한 준비는 더욱 완벽하고 만족스러운 식사를 보장할 것입니다.
 
 **1. 위치 및 찾아가는 길:**
+
 *   **주소:** 스시 카네사카는 도쿄 긴자 지역에 위치하고 있습니다. 정확한 주소는 긴자 8-10-3 (8-10-3 Ginza)이며, 건물 지하 1층에 자리하고 있습니다.
+
 *   **교통편:** 긴자역(銀座駅)에서 도보 약 5-7분 거리로 접근성이 매우 좋습니다. 긴자선(銀座線), 마루노우치선(丸ノ内線), 히비야선(日比谷線)을 이용할 수 있습니다. 또한, JR 신바시역(新橋駅)에서도 도보 약 5분 거리에 있어, 다양한 대중교통을 통해 편리하게 방문할 수 있습니다. 긴자는 도쿄의 중심부이므로 주변에 쇼핑, 관광 명소가 많아 식사 전후로 둘러보기 좋습니다.
 
 **2. 예약 필수 사항:**
+
 *   스시 카네사카는 좌석 수가 매우 한정적이며, 미슐랭 스타 레스토랑의 명성 때문에 예약이 매우 어렵습니다.
+
 *   **예약 시기:** 최소 1~3개월 전에는 예약하는 것을 강력히 권장합니다. 특히 주말 저녁 시간대는 더욱 빨리 마감됩니다.
+
 *   **예약 방법:**
     *   **호텔 컨시어지 서비스:** 일본어를 잘 하지 못하거나 해외에서 예약하는 경우, 투숙하는 호텔의 컨시어지 서비스를 통해 예약하는 것이 가장 편리하고 확실한 방법입니다.
     *   **온라인 예약 서비스:** Tablog, Omakase 등 일본 현지 고급 레스토랑 예약 플랫폼을 통해 예약할 수도 있으나, 인기 레스토랑은 예약 개시 즉시 마감되는 경우가 많습니다.
     *   **전화 예약:** 일본어가 능숙하다면 직접 전화로 예약할 수 있지만, 해외 전화로는 어려움이 있을 수 있습니다.
+
 *   **캔슬 정책:** 대부분의 고급 스시 레스토랑은 엄격한 캔슬 정책을 가지고 있습니다. 예약 변경이나 취소는 반드시 사전에 연락해야 하며, 늦게 취소하거나 노쇼(No-show)의 경우 상당한 캔슬 차지(No-show fee)가 발생할 수 있으니 주의해야 합니다.
 
 **3. 영업시간 및 코스:**
+
 *   **영업시간:** 일반적으로 점심과 저녁 두 타임으로 운영됩니다.
     *   점심: 12:00 PM - 2:00 PM (L.O. 1:30 PM)
     *   저녁: 5:00 PM - 10:00 PM (L.O. 9:00 PM)
     *   정확한 영업시간은 예약 시 또는 공식 웹사이트를 통해 반드시 확인해야 합니다. 휴무일은 보통 일요일 및 공휴일이지만, 변동될 수 있습니다.
+
 *   **코스 및 가격:**
     *   스시 카네사카는 오마카세 코스로만 운영됩니다. 셰프가 그날의 최고 재료로 구성하는 점심 및 저녁 오마카세 코스가 제공됩니다.
     *   가격은 최상급 재료와 미슐랭 서비스에 걸맞게 고가입니다. 점심은 저녁보다 상대적으로 저렴한 경우가 많지만, 그럼에도 1인당 수만 엔 단위의 비용을 예상해야 합니다. 저녁 코스는 1인당 30,000엔 이상 (음료 및 세금 별도)을 예상하는 것이 일반적입니다.
 
 **4. 복장 및 에티켓:**
+
 *   **복장:** '스마트 캐주얼(Smart Casual)' 이상의 복장을 권장합니다. 지나치게 편안한 복장(반바지, 슬리퍼 등)은 피하는 것이 좋습니다. 깔끔하고 단정한 복장은 레스토랑의 분위기를 존중하는 태도입니다.
+
 *   **스시 에티켓:**
     *   **향수:** 강한 향수나 바디로션은 스시의 섬세한 향을 방해할 수 있으므로 자제하는 것이 좋습니다.
     *   **식사 속도:** 셰프가 스시를 내어주는 속도에 맞춰 바로 먹는 것이 좋습니다. 스시는 최적의 온도와 상태로 제공되므로, 지체하지 않고 먹어야 가장 맛을 잘 느낄 수 있습니다.
@@ -88,6 +104,7 @@ image_prompt: "45-degree close-up shot of a meticulously prepared piece of nigir
     *   **사진 촬영:** 음식 사진 촬영은 허용되지만, 플래시 사용이나 다른 손님에게 방해가 되는 행동은 삼가야 합니다. 셰프나 주방 내부를 촬영할 때는 미리 허락을 구하는 것이 예의입니다.
 
 **5. 결제:**
+
 *   주요 신용카드(Visa, MasterCard, Amex 등) 결제가 가능합니다. 현금 결제도 물론 가능합니다.
 
 스시 카네사카에서의 식사는 단순한 외식이 아닌, 평생 잊지 못할 미식 경험이 될 것입니다. 위 사항들을 미리 확인하여 더욱 완벽한 시간을 만끽하시길 바랍니다.

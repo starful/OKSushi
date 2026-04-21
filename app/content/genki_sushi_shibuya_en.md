@@ -1,15 +1,24 @@
 ---
+address: Shibuya, Tokyo
+agoda: ''
+categories:
+- Local Gem
+- Kaiten
+date: '2026-04-19'
+image_prompt: Close-up 45-degree shot, bright natural lighting, showing a variety
+  of colorful sushi plates on a futuristic conveyor belt at Genki Sushi Shibuya, with
+  happy customers in the background enjoying their affordable meals, emphasizing the
+  vibrant, popular atmosphere.
 lang: en
-title: "Genki Sushi Shibuya: Your Essential Guide to Affordable, Popular Kaiten Sushi in Tokyo's Heart"
 lat: 35.6605
 lng: 139.6998
-categories: ["Kaiten", "Local Gem"]
-thumbnail: "/static/images/genki_sushi_shibuya.jpg"
-address: "Shibuya, Tokyo"
-date: "2026-04-19"
-agoda: ""
-summary: "Discover Genki Sushi Shibuya, a must-visit in Tokyo for an exhilarating and affordable Kaiten sushi experience where fresh, delicious plates zoom directly to your seat via a high-tech conveyor, making it a vibrant culinary adventure for locals and travelers alike."
-image_prompt: "Close-up 45-degree shot, bright natural lighting, showing a variety of colorful sushi plates on a futuristic conveyor belt at Genki Sushi Shibuya, with happy customers in the background enjoying their affordable meals, emphasizing the vibrant, popular atmosphere."
+summary: Discover Genki Sushi Shibuya, a must-visit in Tokyo for an exhilarating and
+  affordable Kaiten sushi experience where fresh, delicious plates zoom directly to
+  your seat via a high-tech conveyor, making it a vibrant culinary adventure for locals
+  and travelers alike.
+thumbnail: /static/images/genki_sushi_shibuya.jpg
+title: 'Genki Sushi Shibuya: Your Essential Guide to Affordable, Popular Kaiten Sushi
+  in Tokyo''s Heart'
 ---
 
 ## Introduction
@@ -46,10 +55,12 @@ To ensure a seamless and enjoyable visit to Genki Sushi Shibuya, here’s everyt
 
 **Location and Access:**
 Genki Sushi Shibuya is conveniently located just a short walk from the iconic Shibuya Scramble Crossing, making it easily accessible from Shibuya Station, a major transportation hub in Tokyo with numerous train and subway lines.
+
 *   **Address & Directions:** While the exact street address (e.g., Udagawacho) can be tricky to navigate in Japanese, the easiest way to find it is to first aim for the main Shibuya crossing. From Shibuya Station (any line), take the Hachiko exit. Cross the famous Shibuya Scramble Crossing, heading towards the Tsutaya building (the one with Starbucks on the second floor). With the Tsutaya building now on your left, walk straight down the main pedestrian street known as Center-gai Dori (センター街) or Shibuya Center Street. Genki Sushi will be located slightly off the main thoroughfare, often on the second or third floor of a building. Look carefully for its distinctive red and white Genki Sushi sign or their Japanese name, 活気寿司. It's usually within a comfortable 5-7 minute walk from the station exit. For the most accurate and real-time navigation, using Google Maps with "Genki Sushi Shibuya" will provide precise directions to its specific building.
 
 **Opening Hours:**
 Genki Sushi Shibuya generally operates seven days a week, with consistent hours that cater to both lunch and late-night diners, though it's always wise to check their official website or Google Maps for any sudden changes, especially around public holidays.
+
 *   **Typically:**
     *   **Monday - Friday:** 11:00 AM - 11:00 PM (Last order around 10:30 PM)
     *   **Saturday - Sunday & Public Holidays:** 10:30 AM - 11:00 PM (Last order around 10:30 PM)
@@ -57,15 +68,19 @@ These extended hours make it a flexible option for both a leisurely lunch, an ea
 
 **Pricing:**
 One of Genki Sushi's biggest draws is its incredible affordability, offering exceptional value for fresh sushi in such a prime Tokyo location.
+
 *   **Plate Prices:** Most plates range from a remarkably low ¥130 to ¥300 (approximately $0.90 - $2.00 USD, depending on current exchange rates and plate color/designation). Premium items or special sets might cost slightly more, but they are clearly marked on the tablet.
+
 *   **Average Meal Cost:** A satisfying and filling meal for one person, comprising 8-12 plates and perhaps a side dish or two, usually comes out to a very reasonable ¥1,500 - ¥2,500 (approximately $10 - $17 USD). This makes it an outstanding choice for budget-conscious travelers and anyone looking for great quality without a hefty price tag.
 
 **Best Time to Visit:**
 Given its immense popularity, especially among tourists and young locals, queues are a very common sight. Planning your visit strategically can significantly reduce your wait time.
+
 *   **To avoid long waits:**
     *   **Off-peak hours:** Aim for a late lunch (around 2:00 PM - 4:00 PM) or an early dinner (before 5:30 PM). These times typically see fewer crowds.
     *   **Late-night:** After 9:00 PM, the crowds tend to thin out, offering a more relaxed dining experience, though some popular items might sell out towards closing.
     *   **Weekdays:** Generally less crowded than weekends and public holidays.
+
 *   **Peak hours:** Expect waits of 30 minutes to over an hour during the main lunch (12:00 PM - 1:30 PM) and dinner (6:30 PM - 8:30 PM) rushes, particularly on weekends. If visiting during peak times, embrace the queue as part of the authentic Genki Sushi experience!
 
 **Tips for a Smooth Experience:**

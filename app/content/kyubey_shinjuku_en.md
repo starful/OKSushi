@@ -1,15 +1,23 @@
 ---
+address: Shinjuku, Tokyo
+agoda: ''
+categories:
+- Omakase
+date: '2026-04-19'
+image_prompt: Side view shot of a master sushi chef meticulously preparing Edomae
+  sushi at a traditional wooden counter in Kyubey Shinjuku, with elegant, moody lighting
+  highlighting the glistening fresh fish and the chef's focused expression, while
+  a few luxury sake bottles are subtly visible in the background.
 lang: en
-title: "Kyubey Shinjuku: Experience Tokyo's Premier Edomae Sushi in the Heart of Shinjuku"
 lat: 35.6891
 lng: 139.6942
-categories: ["Edomae", "Omakase"]
-thumbnail: "/static/images/kyubey_shinjuku.jpg"
-address: "Shinjuku, Tokyo"
-date: "2026-04-19"
-agoda: ""
-summary: "Step into a realm of culinary artistry at Kyubey Shinjuku, where traditional Edomae sushi reaches new heights of luxury. This esteemed restaurant offers an unparalleled dining journey, showcasing the freshest seasonal ingredients transformed into exquisite bites by master chefs in Tokyo's vibrant Shinjuku district."
-image_prompt: "Side view shot of a master sushi chef meticulously preparing Edomae sushi at a traditional wooden counter in Kyubey Shinjuku, with elegant, moody lighting highlighting the glistening fresh fish and the chef's focused expression, while a few luxury sake bottles are subtly visible in the background."
+summary: Step into a realm of culinary artistry at Kyubey Shinjuku, where traditional
+  Edomae sushi reaches new heights of luxury. This esteemed restaurant offers an unparalleled
+  dining journey, showcasing the freshest seasonal ingredients transformed into exquisite
+  bites by master chefs in Tokyo's vibrant Shinjuku district.
+thumbnail: /static/images/kyubey_shinjuku.jpg
+title: 'Kyubey Shinjuku: Experience Tokyo''s Premier Edomae Sushi in the Heart of
+  Shinjuku'
 ---
 
 ## Introduction
@@ -58,34 +66,49 @@ From Shinjuku Station, Kyubey is typically a comfortable walk, or a short taxi r
 
 **Operating Hours:**
 Kyubey Shinjuku typically operates for both lunch and dinner services, though specific hours can vary.
+
 *   **Lunch:** Often from 11:30 AM to 2:00 PM (last order). Lunch offers a slightly more relaxed atmosphere and can sometimes be a more accessible entry point to the Kyubey experience.
+
 *   **Dinner:** Generally from 5:00 PM to 9:30 PM (last order), with the restaurant closing around 10:00 PM to 10:30 PM. Dinner is a more formal and extended affair, perfect for special occasions.
 It's always advisable to check the most current opening hours directly on their official website or by calling ahead, as they may change due to public holidays, seasonal variations, or special circumstances.
 
 **Reservations: Absolutely Essential.**
 Given its reputation and limited seating, especially at the sushi counter, securing a reservation at Kyubey Shinjuku is paramount.
+
 *   **How to Book:** Reservations can typically be made directly via their official website, through a hotel concierge if you are staying at a luxury hotel, or sometimes through online booking platforms. For international visitors, booking through a concierge is often the easiest and most reliable method.
+
 *   **When to Book:** It's recommended to book several weeks, if not months, in advance, particularly for dinner or if you aim for specific dates or counter seating. For lunch, you might find more flexibility a few weeks out.
+
 *   **Cancellation Policy:** Be aware of their cancellation policy, as high-end restaurants in Tokyo often have strict rules, including charges for no-shows or late cancellations.
 
 **Dress Code:**
 Kyubey Shinjuku is a luxury dining establishment, and while not overly rigid, a smart casual or business casual dress code is expected.
+
 *   **For Men:** Collared shirts, trousers, and closed-toe shoes are appropriate. Jackets are not strictly required but are often worn. Avoid shorts, t-shirts, flip-flops, or overly casual attire.
+
 *   **For Women:** Elegant dresses, skirts, blouses with tailored trousers, or fashionable separates are suitable.
 The idea is to dress respectfully for the occasion and the refined atmosphere.
 
 **Price Range:**
 As a premier Edomae sushi restaurant offering a luxury experience, Kyubey Shinjuku is in the high-end price bracket.
+
 *   **Lunch:** Set courses (Omakase or fixed sushi sets) can range from ¥10,000 to ¥25,000+ per person.
+
 *   **Dinner:** Omakase courses typically start from ¥25,000 and can easily go upwards of ¥40,000 to ¥60,000+ per person, especially with drinks (sake, wine) and additional courses.
 These prices reflect the exceptional quality of ingredients, the masterful skill of the chefs, and the impeccable service. It’s an investment in a truly exceptional culinary experience.
 
 **Dining Tips and Etiquette:**
+
 *   **Trust the Chef:** Embrace the Omakase experience. Allow the chef to guide you through the meal.
+
 *   **How to Eat Sushi:** While chopsticks are provided, traditional nigiri is often eaten with your fingers. Dip the fish side (not the rice) into a minimal amount of soy sauce if provided, or simply enjoy it as the chef presents it, as some pieces are already seasoned. Eat nigiri in one bite if possible.
+
 *   **Wasabi:** Do not mix wasabi into your soy sauce. The chef has already perfectly balanced the wasabi for each piece.
+
 *   **Sake:** Consider pairing your meal with sake. The staff can offer excellent recommendations.
+
 *   **Photography:** Ask permission before taking photos, especially of the chefs or other diners. Often, discreet photos of your food are acceptable.
+
 *   **Punctuality:** Arrive on time for your reservation. Japanese dining culture values punctuality.
 
 By keeping these practical points in mind, you can fully relax and immerse yourself in the unparalleled luxury and tradition that Kyubey Shinjuku offers, ensuring a magnificent and memorable dining event in Tokyo.

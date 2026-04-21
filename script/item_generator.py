@@ -24,8 +24,8 @@ PROMPT_CONFIG = {
     "item_type":       "Sushi Restaurant",
     "item_type_ko":    "스시 레스토랑",
     "categories": {
-        "en": ["Omakase", "Edomae", "Kaiten", "Seafood Don", "Michelin Star", "Local Gem"],
-        "ko": ["오마카세", "에도마에", "회전초밥", "해산물덮밥", "미슐랭", "현지인맛집"],
+        "en": ["Omakase", "Kaiten", "Michelin", "Budget", "Market", "Solo", "Premium", "Local Gem"],
+        "ko": ["오마카세", "회전초밥", "미슐랭", "가성비", "수산시장", "혼밥가능", "프리미엄", "현지인맛집"],
     },
     "min_length": 6500, # 스시는 재료 설명이 중요하므로 조금 더 길게 설정
     "schema_type": "Restaurant",

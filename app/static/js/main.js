@@ -1,63 +1,71 @@
 /**
  * 🍣 OKSushi Main JavaScript
- * - 다국어 대응 카테고리 매핑 로직 포함
- * - 지도 마커 및 리스트 연동
+ * - 전략적 카테고리 개편 (외국인 선호 키워드)
+ * - 다국어 데이터 매핑 및 실시간 숫자 업데이트 로직
  */
 
 import { initGoogleMap, renderMarkers, filterItems } from './map-core.js';
 
-// 전역 상태
+// [전역 상태]
 let allItems = [];
 let currentLang = 'en';
-const DATA_KEY = 'sushis'; // config.py의 data_key와 일치
+const DATA_KEY = 'sushis';
 
 /**
- * 💡 한국어 카테고리명을 영어 ID(theme)로 매핑합니다.
- * items.csv나 마크다운에 적힌 카테고리명과 HTML 버튼의 data-theme 값을 연결합니다.
+ * 💡 카테고리 매핑 사전 (중요)
+ * 데이터상의 명칭(KO/EN)을 HTML 버튼의 data-theme 값과 연결합니다.
  */
-const CATEGORY_MAPPING = {
-    // 한국어 -> 영어 ID
+const CATEGORY_MAP = {
+    // 한국어 데이터 -> 영어 ID
     "오마카세": "omakase",
-    "에도마에": "edomae",
     "회전초밥": "kaiten",
-    "해산물덮밥": "seafood",
-    "현지인맛집": "localgem",
     "미슐랭": "michelin",
-    "가성비": "affordable",
+    "가성비": "budget",
+    "수산시장": "market",
+    "혼밥가능": "solo",
     "프리미엄": "premium",
-    // 영어 명칭 -> 영어 ID (공백 및 특수문자 대응)
-    "Seafood Don": "seafood",
+    "현지인맛집": "localgem",
+
+    // 영어 데이터 -> 영어 ID (공백 제거 및 소문자화 대응)
+    "Omakase": "omakase",
+    "Kaiten": "kaiten",
+    "Michelin": "michelin",
+    "Michelin Star": "michelin",
+    "Budget": "budget",
+    "Fish Market": "market",
+    "Solo Friendly": "solo",
+    "Solo": "solo",
     "Local Gem": "localgem",
-    "Michelin Star": "michelin"
+    "Premium": "premium"
 };
 
 /**
- * 앱 초기화
+ * 앱 초기화 시작
  */
 async function init() {
-    console.log("🚀 OKSushi App Starting...");
+    console.log("🚀 OKSushi premium engine starting...");
 
-    // 1. URL 파라미터에서 언어 추출
+    // 1. URL에서 현재 언어 감지 (?lang=ko 등)
     const urlParams = new URLSearchParams(window.location.search);
     currentLang = urlParams.get('lang') || 'en';
 
-    // 2. 데이터 가져오기
+    // 2. 해당 언어의 데이터 가져오기
     await fetchItems();
 
-    // 3. 구글 맵 초기화
+    // 3. 구글 맵 초기화 (map-core.js)
     const map = await initGoogleMap();
     
     // 4. 초기 화면 렌더링
     renderMarkers(map, allItems);
     updateListView(allItems);
-    updateFilterCounts(allItems); // 상단 숫자 업데이트
+    updateFilterCounts(allItems); // 상단 숫자 배지 업데이트
 
-    // 5. 필터 버튼 이벤트 바인딩
+    // 5. 필터 버튼 이벤트 설정
     setupFilters(map);
 }
 
 /**
- * API로부터 현재 언어에 맞는 데이터를 로드합니다.
+ * API를 통해 현재 언어에 맞는 스시 데이터를 로드합니다.
  */
 async function fetchItems() {
     try {
@@ -66,39 +74,41 @@ async function fetchItems() {
         
         allItems = data[DATA_KEY] || [];
         
-        // 푸터 통계 업데이트
-        const totalItemsEl = document.getElementById('total-items');
-        if (totalItemsEl) totalItemsEl.textContent = allItems.length;
+        // 하단 상태바 정보 업데이트
+        const totalEl = document.getElementById('total-items');
+        if (totalEl) totalEl.textContent = allItems.length;
 
-        const updatedDateEl = document.getElementById('last-updated-date');
-        if (updatedDateEl && data.last_updated) {
-            updatedDateEl.textContent = data.last_updated;
+        const dateEl = document.getElementById('last-updated-date');
+        if (dateEl && data.last_updated) {
+            dateEl.textContent = data.last_updated;
         }
     } catch (error) {
-        console.error("❌ Data load error:", error);
+        console.error("❌ Data load failed:", error);
     }
 }
 
 /**
- * 💡 필터 버튼 옆의 숫자(Badge)를 업데이트하는 핵심 로직
+ * 상단 필터 버튼 옆의 숫자(Badge)를 실시간으로 계산해 표시합니다.
  */
 function updateFilterCounts(items) {
-    // 1. 모든 배지를 0으로 초기화
-    const countBadges = document.querySelectorAll('.count-badge');
-    countBadges.forEach(badge => { badge.textContent = '0'; });
+    // 모든 배지 0으로 초기화
+    document.querySelectorAll('.count-badge').forEach(badge => {
+        badge.textContent = '0';
+    });
 
-    // 2. 'All' 버튼 숫자 설정
+    // 'All' 버튼 숫자 설정
     const allCountBadge = document.getElementById('count-all');
     if (allCountBadge) allCountBadge.textContent = items.length;
 
-    // 3. 아이템별 카테고리 카운트 계산
+    // 카테고리별 합산
     items.forEach(item => {
         if (item.categories && Array.isArray(item.categories)) {
+            // 한 아이템이 가진 여러 카테고리를 순회
             item.categories.forEach(cat => {
-                // 매핑 테이블에서 영어 키를 찾거나, 없으면 소문자화/공백제거 수행
-                const themeKey = CATEGORY_MAPPING[cat] || cat.toLowerCase().replace(/\s/g, '');
+                // 매핑 사전에서 ID를 찾고, 없으면 소문자/공백제거 변환
+                const themeKey = CATEGORY_MAP[cat] || cat.toLowerCase().replace(/\s/g, '');
                 
-                // 해당 themeKey를 ID로 가진 배지 찾기 (예: count-omakase)
+                // 해당 ID를 가진 배지 요소 탐색 (예: count-omakase)
                 const badge = document.getElementById(`count-${themeKey}`);
                 if (badge) {
                     const currentVal = parseInt(badge.textContent) || 0;
@@ -110,29 +120,35 @@ function updateFilterCounts(items) {
 }
 
 /**
- * 카테고리 필터 버튼 설정
+ * 필터 버튼 클릭 이벤트 바인딩
  */
 function setupFilters(map) {
     const filterBtns = document.querySelectorAll('.theme-button');
     
     filterBtns.forEach(btn => {
         btn.addEventListener('click', () => {
-            // UI 상태 변경
+            // 버튼 디자인 활성화 상태 변경
             filterBtns.forEach(b => b.classList.remove('active'));
             btn.classList.add('active');
 
-            const theme = btn.getAttribute('data-theme');
-            
-            // map-core.js의 필터 함수 호출
-            // (내부적으로 CATEGORY_MAPPING과 유사한 비교 로직이 있어야 함)
-            const filtered = filterItems(allItems, theme, CATEGORY_MAPPING);
+            const selectedTheme = btn.getAttribute('data-theme');
 
-            // 지도 및 리스트 갱신
+            // 💡 필터링 로직: CATEGORY_MAP을 사용하여 데이터 명칭에 상관없이 매칭
+            const filtered = allItems.filter(item => {
+                if (selectedTheme === 'all') return true;
+                
+                return item.categories.some(cat => {
+                    const itemThemeId = CATEGORY_MAP[cat] || cat.toLowerCase().replace(/\s/g, '');
+                    return itemThemeId === selectedTheme;
+                });
+            });
+
+            // 지도 마커 및 하단 리스트 갱신
             renderMarkers(map, filtered);
             updateListView(filtered);
             
-            // 모바일 사용자를 위해 리스트 영역으로 스크롤 (선택 사항)
-            if (window.innerWidth < 768 && theme !== 'all') {
+            // 모바일 사용자를 위해 결과 영역으로 부드러운 스크롤
+            if (window.innerWidth < 768 && selectedTheme !== 'all') {
                 const listSection = document.getElementById('list-section');
                 if (listSection) listSection.scrollIntoView({ behavior: 'smooth' });
             }
@@ -141,15 +157,15 @@ function setupFilters(map) {
 }
 
 /**
- * 하단 맛집 리스트 뷰 생성
+ * 하단 스시 맛집 카드 리스트 렌더링
  */
 function updateListView(items) {
     const listContainer = document.getElementById('item-list');
     if (!listContainer) return;
 
     if (items.length === 0) {
-        const msg = currentLang === 'ko' ? '해당 카테고리의 맛집이 없습니다.' : 'No spots found in this category.';
-        listContainer.innerHTML = `<div style="grid-column: 1/-1; text-align: center; padding: 100px 0; color: #aaa;">${msg}</div>`;
+        const emptyMsg = currentLang === 'ko' ? '해당 조건의 맛집을 찾을 수 없습니다.' : 'No sushi spots found.';
+        listContainer.innerHTML = `<div style="grid-column: 1/-1; text-align: center; padding: 100px 0; color: #aaa;">${emptyMsg}</div>`;
         return;
     }
 
@@ -167,5 +183,5 @@ function updateListView(items) {
     `).join('');
 }
 
-// DOM 준비 완료 시 실행
+// 초기화 실행
 document.addEventListener('DOMContentLoaded', init);

@@ -1,15 +1,23 @@
 ---
+address: Ginza, Tokyo
+agoda: ''
+categories:
+- Omakase
+date: '2026-04-19'
+image_prompt: 45-degree close-up shot of Chef Arai meticulously preparing a piece
+  of chutoro sushi, his hands focused, with expertly sliced glistening red tuna and
+  perfectly formed rice visible on the pristine hinoki counter, illuminated by soft,
+  natural lighting, conveying an atmosphere of premium omakase and tuna mastery.
 lang: en
-title: "Sushi Arai Ginza: A Journey into Tokyo's Pinnacle of Premium Omakase and Tuna Mastery"
 lat: 35.6687
 lng: 139.7612
-categories: ["Omakase", "Edomae"]
-thumbnail: "/static/images/sushi_arai.jpg"
-address: "Ginza, Tokyo"
-date: "2026-04-19"
-agoda: ""
-summary: "Immerse yourself in the unparalleled world of Sushi Arai, a legendary Ginza establishment where Chef Arai's omakase redefines premium Edomae sushi, distinguished by his masterful expertise in tuna, offering an unforgettable culinary journey for discerning palates."
-image_prompt: "45-degree close-up shot of Chef Arai meticulously preparing a piece of chutoro sushi, his hands focused, with expertly sliced glistening red tuna and perfectly formed rice visible on the pristine hinoki counter, illuminated by soft, natural lighting, conveying an atmosphere of premium omakase and tuna mastery."
+summary: Immerse yourself in the unparalleled world of Sushi Arai, a legendary Ginza
+  establishment where Chef Arai's omakase redefines premium Edomae sushi, distinguished
+  by his masterful expertise in tuna, offering an unforgettable culinary journey for
+  discerning palates.
+thumbnail: /static/images/sushi_arai.jpg
+title: 'Sushi Arai Ginza: A Journey into Tokyo''s Pinnacle of Premium Omakase and
+  Tuna Mastery'
 ---
 
 ## Introduction
@@ -27,7 +35,9 @@ What truly elevates Sushi Arai into a league of its own, cementing its global re
 The tuna at Sushi Arai is not just served; it is presented as a spectrum of perfection. Diners are typically guided through a progression of tuna cuts, each offering a distinct profile:
 
 *   **Akami (Lean Tuna):** Often the first tuna piece, Arai-san’s akami is a revelation. Unlike the often dry akami found elsewhere, his boasts a deep, resonant umami flavour, a tender texture, and a surprisingly rich mouthfeel that hints at the quality of the entire fish. It’s a testament to proper sourcing and precise aging.
+
 *   **Chutoro (Medium Fatty Tuna):** The balance between lean and fatty, chutoro at Sushi Arai is where the magic truly begins for many. Its marbled texture melts gently, releasing a harmonious blend of sweetness and a delicate fat that coats the palate without being overwhelming.
+
 *   **Otoro (Fatty Tuna):** The pièce de résistance, Arai-san's otoro is legendary. It is often sourced from the very best parts of the tuna belly, displaying intricate marbling reminiscent of fine wagyu beef. With each bite, the rich, buttery fat dissolves on the tongue, leaving a profoundly luxurious and lasting impression. The fat content is so exquisite that it never feels heavy or cloying, but rather a pure expression of marine indulgence.
 
 Chef Arai’s mastery extends beyond mere selection. His understanding of **tuna aging techniques** is crucial. He employs specific methods to allow the tuna to mature, enhancing its umami, improving its texture, and concentrating its flavour profile, a process akin to dry-aging premium beef. This meticulous attention to detail ensures that each slice of tuna, regardless of its cut, achieves its maximum potential. Furthermore, his precise knife work (hōchō-sabaki) is a marvel to behold, each slice perfectly tapered to optimize mouthfeel and flavour release.
@@ -59,11 +69,14 @@ Sushi Arai is nestled in the prestigious Ginza district of Tokyo. While an exact
 
 **Reservations: Absolutely Essential**
 This is perhaps the most critical piece of information. Securing a reservation at Sushi Arai is notoriously difficult and requires significant advance planning.
+
 *   **Booking Window:** Reservations typically open one to three months in advance, sometimes even further out for peak seasons.
+
 *   **Methods:**
     *   **Hotel Concierge:** If you are staying at a luxury hotel in Tokyo, your concierge is often the best resource for making reservations at high-demand restaurants like Sushi Arai. They have established relationships and can navigate the Japanese booking system more effectively.
     *   **Online Services:** A few premium online reservation platforms (e.g., TableCheck, Omakase.in, or similar high-end restaurant booking sites) may list Sushi Arai, but availability is extremely limited.
     *   **Japanese Speaker:** If you have a friend or contact in Japan who speaks Japanese, they might be able to call directly during booking hours.
+
 *   **Be Prepared:** Reservations often require a non-refundable deposit or a credit card guarantee. Last-minute cancellations are generally not permitted and will incur charges.
 
 **Pricing:**
@@ -74,14 +87,23 @@ The atmosphere at Sushi Arai is refined and respectful. A smart casual dress cod
 
 **Dining Etiquette:**
 Observing proper sushi etiquette enhances the experience for everyone:
+
 *   **Punctuality:** Arrive on time for your reservation.
+
 *   **Fragrances:** Refrain from wearing strong perfumes or colognes, as they can interfere with the delicate aromas of the sushi.
+
 *   **Chopsticks vs. Hands:** It's perfectly acceptable, and often encouraged, to eat nigiri sushi with your hands. For sashimi, use chopsticks.
+
 *   **Soy Sauce:** Do not douse your sushi in soy sauce. Chef Arai meticulously brushes each piece with the perfect amount of nikiri (soy sauce reduction) or other seasonings. If you desire more, dip *only* the fish side into a tiny amount of soy sauce provided. Never mix wasabi into your soy sauce.
+
 *   **Wasabi:** Wasabi is usually already applied by the chef. Only ask for more if truly necessary.
+
 *   **Ginger (Gari):** Eat gari between different types of fish to cleanse your palate.
+
 *   **Silence:** Maintain a respectful, hushed tone of voice, allowing other diners to fully immerse themselves in the experience. Avoid loud conversations or phone calls.
+
 *   **Photography:** Ask permission before taking photos. Often, photos of the food are permitted, but flash photography or photos of other diners may not be.
+
 *   **Children:** Sushi Arai is generally not suitable for young children due to its formal atmosphere and extended dining duration.
 
 **Language:**

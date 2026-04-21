@@ -16,20 +16,24 @@ SITE_CONFIG = {
     "bg_dot_color":  "#eaddca",       # 히노키(편백나무) 도마의 연한 베이지 색상
 
     "filter_buttons": [
-        {"label": "All",           "theme": "all",      "count_id": "count-all"},
-        {"label": "🍱 Omakase",    "theme": "omakase",  "count_id": "count-omakase"},
-        {"label": "🍣 Edomae",     "theme": "edomae",   "count_id": "count-edomae"},
-        {"label": "🔄 Kaiten",     "theme": "kaiten",   "count_id": "count-kaiten"},
-        {"label": "🍚 Seafood Don","theme": "seafood",  "count_id": "count-seafood"},
+        {"label": "All",           "theme": "all",        "count_id": "count-all"},
+        {"label": "🍱 Omakase",    "theme": "omakase",    "count_id": "count-omakase"},
+        {"label": "🔄 Kaiten",     "theme": "kaiten",     "count_id": "count-kaiten"},
+        {"label": "🌟 Michelin",   "theme": "michelin",   "count_id": "count-michelin"},
+        {"label": "💰 Budget",     "theme": "budget",     "count_id": "count-budget"},
+        {"label": "🐟 Fish Market","theme": "market",     "count_id": "count-market"},
+        {"label": "🙋 Solo Friendly","theme": "solo",      "count_id": "count-solo"},
     ],
 
     "category_mapping": {
-        "오마카세":     "Omakase",
-        "에도마에":     "Edomae",
-        "회전초밥":     "Kaiten",
-        "해산물덮밥":   "Seafood",
-        "현지인맛집":   "Local Gem",
-        "미슐랭":       "Michelin Star",
+        "오마카세": "Omakase",
+        "회전초밥": "Kaiten",
+        "미슐랭":   "Michelin",
+        "가성비":   "Budget",
+        "수산시장": "Market",
+        "혼밥가능": "Solo",
+        "프리미엄": "Premium",
+        "현지인맛집": "Local Gem"
     },
 
     "js_category_map": {

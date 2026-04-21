@@ -1,15 +1,21 @@
 ---
+address: Tsukiji, Tokyo
+agoda: ''
+categories:
+- 현지인맛집
+- 오마카세
+date: '2026-04-19'
+image_prompt: A 45-degree shot of the exterior of Sushi Zanmai Tsukiji at night, brightly
+  lit, showcasing its famous signboard with the owner's face, the bustling Tsukiji
+  street, and hints of fresh seafood displays through the windows, emphasizing its
+  24-hour operation.
 lang: ko
-title: "츠키지 시장의 살아있는 전설: 스시 잔마이 츠키지 본점, 24시간 미식의 성지 도쿄 여행 필수 코스"
 lat: 35.6657
 lng: 139.7705
-categories: ["에도마에", "현지인맛집"]
-thumbnail: "/static/images/sushi_zanmai_tsukiji.jpg"
-address: "Tsukiji, Tokyo"
-date: "2026-04-19"
-agoda: ""
-summary: "츠키지 시장의 상징, 스시 잔마이 츠키지 본점에서 24시간 신선한 감동을 맛보세요. 경매 직송 해산물로 만든 에도마에 스시의 정수를 경험하며, 전 세계 미식가들이 사랑하는 도쿄의 대표 명소에서 잊지 못할 추억을 만드세요."
-image_prompt: "A 45-degree shot of the exterior of Sushi Zanmai Tsukiji at night, brightly lit, showcasing its famous signboard with the owner's face, the bustling Tsukiji street, and hints of fresh seafood displays through the windows, emphasizing its 24-hour operation."
+summary: 츠키지 시장의 상징, 스시 잔마이 츠키지 본점에서 24시간 신선한 감동을 맛보세요. 경매 직송 해산물로 만든 에도마에 스시의 정수를
+  경험하며, 전 세계 미식가들이 사랑하는 도쿄의 대표 명소에서 잊지 못할 추억을 만드세요.
+thumbnail: /static/images/sushi_zanmai_tsukiji.jpg
+title: '츠키지 시장의 살아있는 전설: 스시 잔마이 츠키지 본점, 24시간 미식의 성지 도쿄 여행 필수 코스'
 ---
 
 ## Introduction
@@ -44,18 +50,26 @@ image_prompt: "A 45-degree shot of the exterior of Sushi Zanmai Tsukiji at night
 
 **1. 접근성 (Access)**
 스시 잔마이 츠키지 본점은 도쿄의 중심부에 위치하고 있어 대중교통을 이용하기 매우 편리합니다.
+
 *   **지하철 도쿄 메트로 히비야선 (Hibiya Line) '츠키지 역(築地駅)'**: 1번 또는 2번 출구로 나와 도보로 약 3-5분 소요됩니다.
+
 *   **도에이 아사쿠사선 (Toei Asakusa Line) 및 도쿄 메트로 히비야선 '히가시 긴자 역(東銀座駅)'**: 5번 또는 6번 출구로 나와 도보로 약 5-7분 소요됩니다.
 츠키지 장외시장 중심에 있어 찾아가기 쉬우며, 주변에는 다양한 상점들이 있어 식사 전후로 구경하는 재미도 쏠쏠합니다.
 
 **2. 영업시간 (Hours)**
+
 *   **24시간 연중무휴**: 스시 잔마이 츠키지 본점의 가장 큰 특징 중 하나입니다. 새벽 시장 구경 후 이른 아침 식사, 점심, 저녁 식사는 물론, 늦은 밤 야식으로도 언제든지 방문할 수 있습니다. 갑작스러운 일정 변경에도 유연하게 대처할 수 있다는 장점이 있습니다.
 
 **3. 방문 팁 (Tips for Visitors)**
+
 *   **최고의 방문 시간**: 24시간 운영되지만, 가장 붐비는 시간은 점심(12:00~14:00)과 저녁(18:00~21:00) 피크 시간대입니다. 줄을 서서 기다리는 것을 피하고 싶다면, 이른 아침(새벽 5:00~8:00)이나 늦은 오후(15:00~17:00), 또는 늦은 밤(22:00 이후) 시간대를 노려보는 것이 좋습니다. 새벽 시간에는 츠키지 시장의 상인들과 함께 활기찬 분위기 속에서 식사할 수 있는 독특한 경험을 할 수 있습니다.
+
 *   **대기 줄**: 특히 주말이나 공휴일, 피크 시간대에는 대기 줄이 길 수 있습니다. 매장 입구에 비치된 대기 명단에 이름을 올리고 기다려야 합니다. 보통 대기 시간은 20분에서 1시간 이상 걸릴 수도 있으니, 여유를 가지고 방문하는 것이 좋습니다.
+
 *   **메뉴 및 주문**: 다양한 언어로 된 메뉴판이 구비되어 있어 일본어를 몰라도 주문에 어려움이 없습니다. 각 스시 메뉴의 사진이 함께 있어 쉽게 고를 수 있습니다. 인기 메뉴로는 오도로, 주도로, 아카미 등 참치 스시와 함께 제철 스시 모듬이 있습니다. 셰프에게 직접 추천을 부탁하는 것도 좋은 방법입니다.
+
 *   **결제**: 현금 외에 주요 신용카드(Visa, Mastercard, JCB 등)도 대부분 사용 가능합니다.
+
 *   **예약**: 일반적으로 개별 손님이나 소규모 그룹의 예약은 받지 않습니다. 직접 방문하여 대기해야 합니다.
 
 **4. 주변 관광지 연계**

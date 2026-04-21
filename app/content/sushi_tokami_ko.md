@@ -1,15 +1,21 @@
 ---
+address: Ginza, Tokyo
+agoda: ''
+categories:
+- 오마카세
+- 미슐랭
+date: '2026-04-19'
+image_prompt: Close-up 45-degree shot, moody natural lighting, of a meticulously crafted
+  piece of otoro sushi with a glistening slice of ruby-red tuna, held by a chef's
+  hand, against a blurred background of a dimly lit, elegant sushi counter, emphasizing
+  the Michelin Star quality and omakase experience.
 lang: ko
-title: "긴자 스시 토카미: 미슐랭 스타 참치 오마카세의 정수, 도쿄 미식 여행의 하이라이트"
 lat: 35.6691
 lng: 139.7615
-categories: ["오마카세", "미슐랭", "에도마에"]
-thumbnail: "/static/images/sushi_tokami.jpg"
-address: "Ginza, Tokyo"
-date: "2026-04-19"
-agoda: ""
-summary: "도쿄 긴자의 심장부에 위치한 스시 토카미는 미슐랭 스타에 빛나는 참치 오마카세 전문점입니다. 최상급 참치와 에도마에 스시 장인의 섬세한 손길이 어우러져, 잊을 수 없는 미식 경험을 선사합니다."
-image_prompt: "Close-up 45-degree shot, moody natural lighting, of a meticulously crafted piece of otoro sushi with a glistening slice of ruby-red tuna, held by a chef's hand, against a blurred background of a dimly lit, elegant sushi counter, emphasizing the Michelin Star quality and omakase experience."
+summary: 도쿄 긴자의 심장부에 위치한 스시 토카미는 미슐랭 스타에 빛나는 참치 오마카세 전문점입니다. 최상급 참치와 에도마에 스시 장인의 섬세한
+  손길이 어우러져, 잊을 수 없는 미식 경험을 선사합니다.
+thumbnail: /static/images/sushi_tokami.jpg
+title: '긴자 스시 토카미: 미슐랭 스타 참치 오마카세의 정수, 도쿄 미식 여행의 하이라이트'
 ---
 
 ## Introduction
@@ -62,7 +68,9 @@ image_prompt: "Close-up 45-degree shot, moody natural lighting, of a meticulousl
 
 **위치 및 접근성:**
 스시 토카미는 도쿄의 중심부이자 쇼핑과 미식의 천국인 긴자에 위치해 있습니다.
+
 *   **주소:** 정확한 주소는 예약 시 확인하는 것이 가장 좋습니다. 긴자의 주요 역에서 도보 거리에 있습니다.
+
 *   **가장 가까운 역:**
     *   도쿄 메트로 긴자선(銀座線), 마루노우치선(丸ノ内線), 히비야선(日比谷線) '긴자역(銀座駅)'에서 도보 5-7분.
     *   JR 야마노테선(山手線) '유라쿠초역(有楽町駅)' 또는 도쿄 메트로 유라쿠초선(有楽町線) '긴자잇초메역(銀座一丁目駅)'에서도 도보로 접근 가능합니다.
@@ -70,32 +78,45 @@ image_prompt: "Close-up 45-degree shot, moody natural lighting, of a meticulousl
 
 **영업시간:**
 일반적으로 점심과 저녁 두 타임으로 운영됩니다.
+
 *   **점심:** 12:00 – 14:00 (마지막 주문 13:00)
+
 *   **저녁:** 18:00 – 22:00 (마지막 주문 20:30)
+
 *   **휴무일:** 주로 일요일과 공휴일에 휴무하는 경우가 많지만, 계절이나 레스토랑의 사정에 따라 변동될 수 있으므로, 반드시 예약 시 또는 방문 전에 공식 웹사이트나 전화로 확인하는 것이 필수입니다.
 
 **예약 필수:**
 스시 토카미는 미슐랭 스타 레스토랑이자 좌석 수가 제한적인 고급 스시야이므로, **예약은 필수**입니다.
+
 *   **예약 방법:**
     *   **전화:** 일본어 응대가 기본입니다.
     *   **온라인 예약 플랫폼:** 오마카세 예약 전문 플랫폼(예: TableCheck, OMAKASE by VOYAGE, Japaaan.com 등)을 통해 예약하는 것이 가장 편리합니다. 인기 있는 곳이므로 한 달 전, 혹은 그보다 일찍 예약하는 것을 권장합니다.
     *   **호텔 컨시어지 서비스:** 일본어를 잘 모르거나 예약을 직접 진행하기 어렵다면, 투숙하는 호텔의 컨시어지 서비스에 도움을 요청하는 것도 좋은 방법입니다.
+
 *   **예약 취소 정책:** 고급 레스토랑은 예약 취소 시 위약금이 발생할 수 있으니, 예약 시 취소 정책을 반드시 확인하세요.
 
 **가격대:**
 스시 토카미는 최상급 재료와 미슐랭 스타 셰프의 기술을 제공하는 만큼, 가격대는 높습니다.
+
 *   **점심 오마카세:** 15,000엔 ~ 25,000엔 이상
+
 *   **저녁 오마카세:** 25,000엔 ~ 40,000엔 이상 (주류, 서비스료, 세금 별도)
+
 *   계절 및 코스 구성에 따라 가격은 변동될 수 있습니다. 예산을 충분히 고려하고 방문하시기 바랍니다.
 
 **복장 규정:**
 긴자의 고급 스시 레스토랑답게, 단정한 복장을 권장합니다.
+
 *   **스마트 캐주얼(Smart Casual) 이상**을 추천합니다. 반바지, 샌들, 너무 캐주얼한 의류는 피하는 것이 좋습니다.
 
 **기타 팁:**
+
 *   **향수 자제:** 스시의 섬세한 향을 온전히 느끼기 위해 강한 향수는 자제하는 것이 좋습니다.
+
 *   **사진 촬영:** 스시를 내어줄 때 한두 컷 정도의 사진 촬영은 가능하지만, 플래시 사용이나 과도한 촬영은 다른 손님과 셰프에게 방해가 될 수 있으니 주의해야 합니다. 셰프에게 미리 양해를 구하는 것이 가장 좋습니다.
+
 *   **식사 예절:** 스시는 손으로 먹어도 괜찮으며, 간장은 셰프가 이미 최적의 맛을 위해 발라준 경우가 많으니 따로 찍지 않아도 됩니다. 궁금한 점이 있다면 셰프에게 정중하게 문의하세요.
+
 *   **음료:** 사케, 맥주, 와인 등 다양한 주류가 준비되어 있으며, 스시와의 페어링을 즐기는 것도 좋은 경험입니다.
 
 이러한 정보들을 바탕으로 스시 토카미에서의 미식 경험을 완벽하게 계획하고 즐기시길 바랍니다.

@@ -1,15 +1,19 @@
 ---
+address: Ginza, Tokyo
+agoda: ''
+categories:
+- 오마카세
+date: '2026-04-19'
+image_prompt: Close-up shot of a sushi chef's hands expertly placing a slice of premium
+  maguro on rice, with moody lighting illuminating the polished wooden counter and
+  a beautifully arranged omakase platter in the background.
 lang: ko
-title: "도쿄 긴자 스시 아라이: 참치 명인이 선사하는 오마카세의 정수"
 lat: 35.6687
 lng: 139.7612
-categories: ["오마카세", "에도마에"]
-thumbnail: "/static/images/sushi_arai.jpg"
-address: "Ginza, Tokyo"
-date: "2026-04-19"
-agoda: ""
-summary: "도쿄 긴자의 심장부에 자리한 스시 아라이는 참치 전문가의 손길로 빚어낸 오마카세 스시의 진수를 경험할 수 있는 프리미엄 스시 레스토랑입니다. 최고급 참치와 제철 해산물이 어우러진 섬세하고 깊이 있는 맛의 향연은 미식가들에게 잊을 수 없는 감동을 선사합니다."
-image_prompt: "Close-up shot of a sushi chef's hands expertly placing a slice of premium maguro on rice, with moody lighting illuminating the polished wooden counter and a beautifully arranged omakase platter in the background."
+summary: 도쿄 긴자의 심장부에 자리한 스시 아라이는 참치 전문가의 손길로 빚어낸 오마카세 스시의 진수를 경험할 수 있는 프리미엄 스시 레스토랑입니다.
+  최고급 참치와 제철 해산물이 어우러진 섬세하고 깊이 있는 맛의 향연은 미식가들에게 잊을 수 없는 감동을 선사합니다.
+thumbnail: /static/images/sushi_arai.jpg
+title: '도쿄 긴자 스시 아라이: 참치 명인이 선사하는 오마카세의 정수'
 ---
 
 ## Introduction
@@ -59,24 +63,34 @@ image_prompt: "Close-up shot of a sushi chef's hands expertly placing a slice of
 ## Practical Information
 
 ### 1. 찾아가는 길 (Access)
+
 *   **주소**: Ginza, Tokyo (정확한 주소는 예약 시 확인 가능하며, 긴자의 주요 역에서 도보 이동 가능한 거리에 위치합니다.)
+
 *   **가장 가까운 역**:
     *   도쿄 메트로 긴자선(銀座線), 마루노우치선(丸ノ内線), 히비야선(日比谷線) '긴자(銀座)역'에서 도보 5-10분 거리.
     *   JR 야마노테선(山手線) '유라쿠초(有楽町)역'에서도 도보로 접근 가능합니다.
+
 *   **오시는 길 팁**: 긴자는 복잡한 상업 지구이므로, 지도 앱을 활용하여 정확한 위치를 미리 확인하고 방문하는 것이 좋습니다.
 
 ### 2. 영업 시간 (Hours)
+
 *   '스시 아라이'는 일반적으로 점심(런치)과 저녁(디너) 세션을 운영합니다.
+
 *   **점심**: 12:00 PM ~ 2:00 PM (L.O. 1:00 PM)
+
 *   **저녁**: 5:00 PM ~ 10:00 PM (L.O. 9:00 PM)
+
 *   **정기 휴무**: 주로 일요일 및 공휴일 (방문 전 반드시 공식 웹사이트 또는 예약 플랫폼에서 정확한 영업일 및 휴무일 확인 필수)
 
 ### 3. 예약 및 가격 (Reservation & Price)
+
 *   **예약 필수**: '스시 아라이'는 전 좌석 카운터로 구성된 소규모의 레스토랑이며, 도쿄 최고의 스시야 중 하나이므로 예약은 필수입니다. 최소 1~2개월 전, 인기 시즌에는 3개월 이상 전에 예약하는 것을 권장합니다.
+
 *   **예약 방법**:
     *   **호텔 컨시어지**: 해외 방문객의 경우, 묵고 있는 호텔의 컨시어지 서비스를 통해 예약하는 것이 가장 편리하고 성공률이 높습니다.
     *   **온라인 예약 플랫폼**: 일부 프리미엄 레스토랑 예약 전문 사이트(예: Omakase, TableCheck 등)를 통해 예약이 가능할 수도 있습니다.
     *   **일본어 가능한 지인**: 일본어를 구사할 수 있는 지인을 통해 전화로 예약하는 방법도 있습니다.
+
 *   **가격**:
     *   '스시 아라이'는 프리미엄 스시 레스토랑이므로, 높은 가격대를 형성하고 있습니다.
     *   **점심 오마카세**: 20,000엔 ~ 30,000엔 대
@@ -84,10 +98,15 @@ image_prompt: "Close-up shot of a sushi chef's hands expertly placing a slice of
     *   환율 및 코스 구성에 따라 가격은 변동될 수 있습니다.
 
 ### 4. 에티켓 및 기타 팁 (Etiquette & Tips)
+
 *   **복장**: 캐주얼 정장(Smart Casual) 정도의 깔끔한 복장이 권장됩니다. 지나치게 편안한 복장이나 슬리퍼는 피하는 것이 좋습니다.
+
 *   **사진 촬영**: 일반적으로 스시 자체는 촬영이 허용되지만, 플래시 사용이나 셰프를 직접적으로 촬영하는 것은 자제하는 것이 예의입니다. 셰프에게 미리 양해를 구하는 것이 좋습니다.
+
 *   **향수**: 강한 향수는 스시의 섬세한 향미를 방해할 수 있으므로 사용하지 않는 것이 좋습니다.
+
 *   **시간 엄수**: 예약 시간에 늦지 않도록 유의해야 합니다. 일본의 고급 스시야에서는 시간 엄수를 매우 중요하게 생각합니다.
+
 *   **알레르기/불호**: 예약 시 또는 방문 시 알레르기나 특별히 먹지 못하는 식재료가 있다면 미리 알려주는 것이 좋습니다.
 
 ## Conclusion

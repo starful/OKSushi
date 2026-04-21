@@ -1,15 +1,24 @@
 ---
+address: Ginza, Tokyo
+agoda: ''
+categories:
+- Local Gem
+- Omakase
+date: '2026-04-21'
+image_prompt: 45-degree shot of a traditional Japanese sushi counter at Sushi Ishijima,
+  with a master sushi chef meticulously preparing a pristine piece of nigiri for an
+  affordable lunch set, natural light highlighting the fresh seafood and the chef's
+  skilled hands, showcasing the authentic Edomae style.
 lang: en
-title: "Sushi Ishijima Ginza: A Local Gem for Authentic Edomae Sushi & Affordable Luxury in Tokyo"
 lat: 35.6745
 lng: 139.7725
-categories: ["Edomae", "Local Gem"]
-thumbnail: "/static/images/sushi_ishijima.jpg"
-address: "Ginza, Tokyo"
-date: "2026-04-21"
-agoda: ""
-summary: "Step into Sushi Ishijima, Ginza's cherished culinary secret, where master chefs craft traditional Edomae sushi with precision and passion. Discover an authentic Tokyo experience celebrated for its exceptional quality and surprisingly affordable lunch offerings, making exquisite sushi accessible to all."
-image_prompt: "45-degree shot of a traditional Japanese sushi counter at Sushi Ishijima, with a master sushi chef meticulously preparing a pristine piece of nigiri for an affordable lunch set, natural light highlighting the fresh seafood and the chef's skilled hands, showcasing the authentic Edomae style."
+summary: Step into Sushi Ishijima, Ginza's cherished culinary secret, where master
+  chefs craft traditional Edomae sushi with precision and passion. Discover an authentic
+  Tokyo experience celebrated for its exceptional quality and surprisingly affordable
+  lunch offerings, making exquisite sushi accessible to all.
+thumbnail: /static/images/sushi_ishijima.jpg
+title: 'Sushi Ishijima Ginza: A Local Gem for Authentic Edomae Sushi & Affordable
+  Luxury in Tokyo'
 ---
 
 ## Introduction
@@ -50,6 +59,7 @@ To ensure a smooth and enjoyable visit to Sushi Ishijima, here’s some essentia
 
 **Location & Access:**
 Sushi Ishijima is located in Ginza, Tokyo. Ginza is a well-connected district, making it relatively easy to reach.
+
 *   **Nearest Subway Stations:**
     *   **Ginza Station (銀座駅):** Served by the Tokyo Metro Ginza Line (G), Marunouchi Line (M), and Hibiya Line (H). This is usually the most convenient station. Look for exits A2, A3, or A5, which will bring you close to the main Ginza shopping streets. From there, Ishijima is typically a 5-10 minute walk depending on its exact sub-location within Ginza.
     *   **Higashi-Ginza Station (東銀座駅):** Served by the Tokyo Metro Hibiya Line (H) and Toei Asakusa Line (A). Also a very good option, often closer if Ishijima is located in the eastern part of Ginza.
@@ -59,17 +69,24 @@ The exact address within Ginza will guide you to the specific building. Ginza is
 
 **Operating Hours:**
 Traditional sushi restaurants often have distinct lunch and dinner hours.
+
 *   **Lunch:** Typically from 11:30 AM or 12:00 PM to 2:00 PM or 2:30 PM. This is when the highly praised affordable lunch sets are available.
+
 *   **Dinner:** Generally from 5:30 PM or 6:00 PM to 9:30 PM or 10:00 PM. Dinner service is usually a more extensive omakase experience and commands a higher price point.
+
 *   **Closed Days:** Many traditional sushi restaurants close one day a week, often Sunday or Monday, and sometimes on public holidays. It's crucial to check their current operating hours and closed days online or by phone before planning your visit.
 
 **Reservations:**
 Given its popularity and intimate size, reservations for Sushi Ishijima are highly recommended, especially for dinner and weekend lunches.
+
 *   **For Dinner:** A reservation is often essential, sometimes needing to be made several weeks or even months in advance. Many high-end sushi restaurants require reservations to be made through a concierge service (e.g., hotel concierge) or a dedicated online booking platform for international visitors.
+
 *   **For Lunch:** While sometimes possible to walk in for lunch, especially on weekdays, it's safer to make a reservation to guarantee a spot, particularly if you have limited time or are visiting during peak tourist season. The affordable lunch sets are very popular and can fill up quickly.
+
 *   **Booking Methods:** If direct online booking is not available in English, consider asking your hotel concierge to make a reservation for you. Some Japanese dining websites allow reservations but might require Japanese language proficiency.
 
 **Payment Options:**
+
 *   Most established restaurants in Ginza, including Sushi Ishijima, will accept major credit cards (Visa, MasterCard, Amex, JCB). However, it's always wise to carry some Japanese Yen cash (`JPY`) as a backup, particularly for smaller establishments or if there are any issues with card machines.
 
 **Tips for Visitors:**

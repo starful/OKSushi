@@ -1,15 +1,23 @@
 ---
+address: Tsukiji, Tokyo
+agoda: ''
+categories:
+- Local Gem
+- Omakase
+date: '2026-04-19'
+image_prompt: 45-degree shot of a neatly arranged authentic Edomae sushi lunch set
+  at Sushi Katsura, with vibrant, fresh fish on glistening rice, small side dishes,
+  and a humble, bright natural light ambiance reflecting its affordable and local
+  charm.
 lang: en
-title: "Sushi Katsura: Tsukiji's Authentic & Affordable Edomae Gem in Tokyo"
 lat: 35.6631
 lng: 139.7712
-categories: ["Local Gem", "Edomae"]
-thumbnail: "/static/images/sushi_katsura.jpg"
-address: "Tsukiji, Tokyo"
-date: "2026-04-19"
-agoda: ""
-summary: "Discover Sushi Katsura, a cherished local gem nestled in Tokyo's historic Tsukiji market, offering an authentic Edomae sushi experience that's both exquisite and remarkably affordable. Famous for its generous lunch special, it's a must-visit for genuine Japanese culinary delight."
-image_prompt: "45-degree shot of a neatly arranged authentic Edomae sushi lunch set at Sushi Katsura, with vibrant, fresh fish on glistening rice, small side dishes, and a humble, bright natural light ambiance reflecting its affordable and local charm."
+summary: Discover Sushi Katsura, a cherished local gem nestled in Tokyo's historic
+  Tsukiji market, offering an authentic Edomae sushi experience that's both exquisite
+  and remarkably affordable. Famous for its generous lunch special, it's a must-visit
+  for genuine Japanese culinary delight.
+thumbnail: /static/images/sushi_katsura.jpg
+title: 'Sushi Katsura: Tsukiji''s Authentic & Affordable Edomae Gem in Tokyo'
 ---
 
 ## Introduction
@@ -51,19 +59,27 @@ Sushi Katsura is nestled within the Tsukiji Outer Market area in Tokyo. While th
 
 **Access:**
 Getting to Sushi Katsura is straightforward thanks to Tokyo’s excellent public transport system.
+
 *   **Tsukiji Station (Tokyo Metro Hibiya Line):** This is arguably the most convenient station, just a few minutes' walk from the outer market area. Take Exit 1 or 2.
+
 *   **Tsukijishijo Station (Toei Oedo Line):** Also very close, located right by the main entrance to the Outer Market. Take Exit A1.
+
 *   **Higashi-Ginza Station (Tokyo Metro Hibiya Line / Toei Asakusa Line):** A slightly longer but still comfortable walk (around 10-15 minutes) from the upscale Ginza district, offering a pleasant stroll through a different part of Tokyo.
 
 **Operating Hours:**
 Sushi Katsura typically operates for both lunch and dinner services.
+
 *   **Lunch:** Generally from 11:00 AM to 2:00 PM or 2:30 PM. The lunch special is the star attraction during these hours and is highly recommended.
+
 *   **Dinner:** Usually from 5:00 PM or 5:30 PM until late evening (e.g., 9:00 PM or 10:00 PM).
+
 *   **Closed Days:** Like many restaurants in Tsukiji, Sushi Katsura often observes a fixed closing day, which can sometimes align with the market's rest days (typically Sundays and some Wednesdays). It's always a good idea to check their current operating hours and any temporary closures via a quick online search or by calling ahead if possible.
 
 **Reservations:**
 Given its popularity, especially for the lunch special, Sushi Katsura can get busy.
+
 *   **Lunch:** Reservations are generally not taken for lunch, and it operates on a first-come, first-served basis. Expect a queue during peak lunch hours (12:00 PM - 1:30 PM). Arriving slightly before 11:30 AM or after 1:30 PM might help you avoid the longest waits.
+
 *   **Dinner:** While not always strictly necessary, especially on weekdays, a reservation for dinner is advisable, particularly for larger groups or on weekends, to guarantee a spot.
 
 **Payment Methods:**

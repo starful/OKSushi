@@ -1,15 +1,21 @@
 ---
+address: Ginza, Tokyo
+agoda: ''
+categories:
+- 오마카세
+- 미슐랭
+date: '2026-04-21'
+image_prompt: A 45-degree shot of a master sushi chef carefully placing a piece of
+  nigiri onto a wooden serving board, with several exquisitely arranged omakase sushi
+  pieces in the foreground, bright natural lighting highlighting the fresh ingredients
+  and elegant presentation, premium atmosphere.
 lang: ko
-title: "긴자 스시도코로 야마다: 도쿄 오마카세의 정수를 맛볼 수 있는 프리미엄 스시 레스토랑"
 lat: 35.6681
 lng: 139.7618
-categories: ["오마카세", "에도마에", "미슐랭"]
-thumbnail: "/static/images/sushidokoro_yamada.jpg"
-address: "Ginza, Tokyo"
-date: "2026-04-21"
-agoda: ""
-summary: "도쿄 긴자의 중심에서 스시도코로 야마다는 오마카세 스시의 진수를 선보입니다. 장인의 손길로 탄생한 프리미엄 에도마에 스시를 맛보며 미식의 황홀경에 빠져보세요."
-image_prompt: "A 45-degree shot of a master sushi chef carefully placing a piece of nigiri onto a wooden serving board, with several exquisitely arranged omakase sushi pieces in the foreground, bright natural lighting highlighting the fresh ingredients and elegant presentation, premium atmosphere."
+summary: 도쿄 긴자의 중심에서 스시도코로 야마다는 오마카세 스시의 진수를 선보입니다. 장인의 손길로 탄생한 프리미엄 에도마에 스시를 맛보며
+  미식의 황홀경에 빠져보세요.
+thumbnail: /static/images/sushidokoro_yamada.jpg
+title: '긴자 스시도코로 야마다: 도쿄 오마카세의 정수를 맛볼 수 있는 프리미엄 스시 레스토랑'
 ---
 
 ## Introduction
@@ -65,7 +71,9 @@ image_prompt: "A 45-degree shot of a master sushi chef carefully placing a piece
 ### 찾아가는 길
 
 스시도코로 야마다는 도쿄 긴자의 중심부에 위치해 있어 접근성이 매우 좋습니다.
+
 *   **긴자 역(銀座駅)**: 도쿄 메트로 긴자선, 마루노우치선, 히비야선이 지나가는 긴자 역에서 도보로 5-7분 거리에 위치해 있습니다. A2, A3 출구 등 긴자 중앙 거리 쪽 출구를 이용하시면 편리합니다.
+
 *   **히가시긴자 역(東銀座駅)**: 도쿄 메트로 히비야선, 아사쿠사선이 지나가는 히가시긴자 역에서도 도보 5분 이내로 접근 가능합니다.
 
 정확한 주소는 예약 시 안내받는 것이 가장 확실하며, 구글 지도나 일본 내비게이션 앱을 활용하면 쉽게 찾아갈 수 있습니다. 긴자의 번화가 속에 자리하고 있으나, 간판이 눈에 잘 띄지 않을 수 있으므로 주변 건물을 참고하여 이동하는 것이 좋습니다.
@@ -73,11 +81,14 @@ image_prompt: "A 45-degree shot of a master sushi chef carefully placing a piece
 ### 예약 및 운영 시간
 
 스시도코로 야마다는 최고급 오마카세 스시 레스토랑이며, 좌석 수가 한정적이고 인기가 매우 많기 때문에 **사전 예약은 필수**입니다.
+
 *   **예약 방법**:
     *   **전화 예약**: 일본어가 가능하다면 가장 직접적인 방법입니다.
     *   **온라인 예약 플랫폼**: 오마카세 전문 예약 사이트(예: TableCheck, Omakase.in 등)를 통해 예약이 가능할 수 있습니다.
     *   **호텔 컨시어지 서비스**: 일본어나 예약 시스템이 익숙하지 않다면, 숙박하는 호텔의 컨시어지 서비스를 통해 예약 대행을 요청하는 것이 가장 편리하고 확실한 방법입니다. 특히 외국인 관광객에게는 이 방법을 적극 추천합니다.
+
 *   **예약 시기**: 최소 1개월 전, 성수기나 주말 방문을 계획한다면 2~3개월 전에 예약하는 것이 좋습니다. 인기 있는 시간대는 빠르게 마감됩니다.
+
 *   **운영 시간**: 일반적으로 점심과 저녁 두 타임으로 운영됩니다.
     *   **점심**: 12:00 ~ 14:00 (마지막 주문 13:00)
     *   **저녁**: 18:00 ~ 22:00 (마지막 주문 20:30)
@@ -86,17 +97,25 @@ image_prompt: "A 45-degree shot of a master sushi chef carefully placing a piece
 ### 가격대 및 드레스 코드
 
 스시도코로 야마다는 프리미엄 스시 경험을 제공하는 만큼, 가격대도 그에 상응합니다.
+
 *   **가격**: 점심 오마카세는 저녁보다 다소 저렴한 편이지만, 일반적으로 인당 **20,000엔에서 40,000엔 이상**을 예상해야 합니다. 음료 및 추가 메뉴에 따라 가격은 더 높아질 수 있습니다. 이는 단순한 식사 비용이 아닌, 최고급 재료와 장인의 예술적 기술에 대한 투자로 이해하는 것이 좋습니다.
+
 *   **드레스 코드**: 스마트 캐주얼(Smart Casual) 이상을 권장합니다. 지나치게 편안한 복장(반바지, 슬리퍼 등)은 피하고, 비즈니스 캐주얼 정도의 단정하고 깔끔한 차림으로 방문하는 것이 예의입니다. 고급 식당인 만큼 최소한의 격식을 지키는 것이 좋습니다.
 
 ### 스시 식사 예절 및 팁
 
 완벽한 오마카세 경험을 위해 몇 가지 예절과 팁을 알아두면 좋습니다.
+
 *   **향수 자제**: 강한 향수나 화장품은 스시의 섬세한 향을 방해할 수 있으니 자제하는 것이 좋습니다.
+
 *   **사진 촬영**: 음식 사진은 허용되지만, 셰프에게 양해를 구하고 다른 손님에게 방해가 되지 않도록 주의합니다. 동영상 촬영은 삼가주세요.
+
 *   **간장 사용**: 셰프가 이미 최적의 간을 맞춰 스시를 제공하므로, 따로 간장을 찍지 않는 것이 일반적입니다. 필요한 경우 셰프에게 문의하세요.
+
 *   **한 입에 먹기**: 스시는 한 입에 먹는 것이 가장 맛있게 즐기는 방법입니다.
+
 *   **대화**: 셰프와의 대화는 즐거운 경험을 선사하지만, 다른 손님에게 방해가 되지 않도록 적절한 목소리 톤을 유지합니다.
+
 *   **알레르기/불호**: 예약 시 또는 방문 전, 알레르기나 먹지 못하는 재료가 있다면 미리 알려주는 것이 좋습니다.
 
 이러한 정보들을 바탕으로 스시도코로 야마다에서의 방문을 철저히 준비한다면, 평생 잊지 못할 최고의 미식 경험을 만끽할 수 있을 것입니다.

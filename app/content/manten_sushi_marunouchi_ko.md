@@ -1,15 +1,21 @@
 ---
+address: Chiyoda, Tokyo
+agoda: ''
+categories:
+- 현지인맛집
+- 오마카세
+date: '2026-04-19'
+image_prompt: 45-degree shot of a vibrant sushi counter at Manten Sushi Marunouchi,
+  showcasing a chef meticulously preparing fresh, glistening omakase sushi pieces
+  for eager customers, bathed in bright, inviting natural light, emphasizing the popular
+  and affordable dining atmosphere.
 lang: ko
-title: "도쿄 치요다의 미식 보석: 만텐 스시 마루노우치, 가성비 오마카세의 성지"
 lat: 35.6785
 lng: 139.7621
-categories: ["오마카세", "현지인맛집"]
-thumbnail: "/static/images/manten_sushi_marunouchi.jpg"
-address: "Chiyoda, Tokyo"
-date: "2026-04-19"
-agoda: ""
-summary: "도쿄 치요다에 위치한 만텐 스시 마루노우치는 신선한 재료로 만든 수준 높은 오마카세를 합리적인 가격에 즐길 수 있는 스시 애호가들의 성지입니다. 현지인과 여행객 모두에게 사랑받는 이곳에서 진정한 스시의 맛과 특별한 경험을 만끽해보세요."
-image_prompt: "45-degree shot of a vibrant sushi counter at Manten Sushi Marunouchi, showcasing a chef meticulously preparing fresh, glistening omakase sushi pieces for eager customers, bathed in bright, inviting natural light, emphasizing the popular and affordable dining atmosphere."
+summary: 도쿄 치요다에 위치한 만텐 스시 마루노우치는 신선한 재료로 만든 수준 높은 오마카세를 합리적인 가격에 즐길 수 있는 스시 애호가들의
+  성지입니다. 현지인과 여행객 모두에게 사랑받는 이곳에서 진정한 스시의 맛과 특별한 경험을 만끽해보세요.
+thumbnail: /static/images/manten_sushi_marunouchi.jpg
+title: '도쿄 치요다의 미식 보석: 만텐 스시 마루노우치, 가성비 오마카세의 성지'
 ---
 
 ## Introduction
@@ -50,23 +56,33 @@ image_prompt: "45-degree shot of a vibrant sushi counter at Manten Sushi Marunou
 
 **접근성:**
 만텐 스시 마루노우치는 도쿄 치요다구, 마루노우치(丸の内) 지역에 위치하고 있습니다. 이곳은 도쿄역(東京駅)과 매우 가까워 접근성이 뛰어납니다.
+
 *   **가장 가까운 역:** JR 도쿄역(東京駅) 마루노우치 남쪽 출구에서 도보 약 5-7분 거리.
+
 *   **다른 접근 가능한 역:** 도쿄 메트로 오테마치역(大手町駅), 니주바시마에역(二重橋前駅)에서도 도보로 이동 가능합니다.
+
 *   주변에는 대형 오피스 빌딩과 쇼핑몰이 많아 쉽게 찾을 수 있습니다. 정확한 위치는 구글 맵스를 활용하는 것이 가장 좋습니다.
 
 **운영 시간:**
 정확한 운영 시간은 변동될 수 있으므로 방문 전 공식 웹사이트나 전화로 확인하는 것이 좋습니다. 일반적으로 다음과 같습니다.
+
 *   **점심:** 11:30 - 14:00 (라스트 오더 13:30)
+
 *   **저녁:** 17:00 - 22:00 (라스트 오더 21:00)
+
 *   일요일은 휴무인 경우가 많으니 반드시 확인해야 합니다.
 
 **예약:**
 만텐 스시 마루노우치는 워낙 인기가 많아 '필수 예약'이라고 생각하는 것이 좋습니다. 특히 저녁 시간이나 주말 점심은 몇 주 전부터 예약이 마감되는 경우가 허다합니다.
+
 *   **예약 방법:** 전화 예약이 가장 일반적입니다. 일본어가 서툴다면 호텔 컨시어지 서비스나 일본 현지 지인의 도움을 받는 것을 추천합니다.
+
 *   일부 온라인 예약 플랫폼에서도 예약이 가능할 수 있으나, 매우 빠르게 마감됩니다.
+
 *   **팁:** 예약 없이 방문할 경우, 오픈 시간에 맞춰 일찍 가거나 식사 피크 시간을 피하는 것이 좋습니다. 하지만 대기 시간이 매우 길어질 수 있음을 염두에 두어야 합니다.
 
 **결제:**
+
 *   현금 및 주요 신용카드(Visa, Mastercard, Amex 등) 결제가 가능합니다. 결제 전에 확인하는 것이 좋습니다.
 
 **방문 팁:**

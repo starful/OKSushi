@@ -1,15 +1,24 @@
 ---
+address: Shibuya, Tokyo
+agoda: ''
+categories:
+- Local Gem
+- Omakase
+date: '2026-04-18'
+image_prompt: 45-degree shot of a beautifully arranged sushi platter at Sushi No Midori
+  Shibuya, showcasing glistening cuts of fresh fish on perfectly formed rice, with
+  natural, bright lighting highlighting the premium quality and vibrant colors, capturing
+  the essence of an affordable, local culinary gem.
 lang: en
-title: "Sushi No Midori Shibuya: Discover Tokyo's Premium Yet Affordable Edomae Sushi Gem in Shibuya"
 lat: 35.6585
 lng: 139.7013
-categories: ["Edomae", "Local Gem"]
-thumbnail: "/static/images/sushi_no_midori_shibuya.jpg"
-address: "Shibuya, Tokyo"
-date: "2026-04-18"
-agoda: ""
-summary: "Dive into the vibrant culinary scene of Shibuya, Tokyo, and discover Sushi No Midori, a revered local gem where premium Edomae sushi meets an astonishingly affordable price point, offering exquisite fresh seafood and masterful craftsmanship without breaking the bank, making it a must-visit."
-image_prompt: "45-degree shot of a beautifully arranged sushi platter at Sushi No Midori Shibuya, showcasing glistening cuts of fresh fish on perfectly formed rice, with natural, bright lighting highlighting the premium quality and vibrant colors, capturing the essence of an affordable, local culinary gem."
+summary: Dive into the vibrant culinary scene of Shibuya, Tokyo, and discover Sushi
+  No Midori, a revered local gem where premium Edomae sushi meets an astonishingly
+  affordable price point, offering exquisite fresh seafood and masterful craftsmanship
+  without breaking the bank, making it a must-visit.
+thumbnail: /static/images/sushi_no_midori_shibuya.jpg
+title: 'Sushi No Midori Shibuya: Discover Tokyo''s Premium Yet Affordable Edomae Sushi
+  Gem in Shibuya'
 ---
 
 ## Introduction
@@ -75,23 +84,34 @@ To ensure your visit to Sushi No Midori Shibuya is as smooth and enjoyable as po
 
 **Location & Access:**
 Sushi No Midori has several locations across Tokyo, but the most popular and easily accessible in Shibuya is often found within **Shibuya Mark City**, a shopping complex directly connected to Shibuya Station.
+
 *   **Address:** Shibuya Mark City East Mall 4F, 1-12-3 Dogenzaka, Shibuya-ku, Tokyo (Please double-check the exact address upon travel, as specific floor numbers or locations within complexes can sometimes have minor variations, though Mark City is the primary one).
+
 *   **Getting There:** From Shibuya Station, follow signs for Shibuya Mark City. It's seamlessly connected via pedestrian walkways, meaning you don't even need to go outside. Look for the "East Mall" and take an escalator or elevator to the 4th floor. The restaurant will typically be clearly signposted within the mall. Shibuya Station is a major hub served by numerous JR lines (Yamanote, Saikyo, Shonan-Shinjuku), Keio Inokashira Line, Tokyu Toyoko Line, Tokyu Den-en-toshi Line, Tokyo Metro Ginza Line, Hanzomon Line, and Fukutoshin Line. Access couldn't be easier.
 
 **Operating Hours (Typical):**
 Please note that these are typical hours and can be subject to change, especially on public holidays or due to unforeseen circumstances. It's always best to verify closer to your travel date via their official website or Google Maps.
+
 *   **Monday - Friday:** 11:00 AM - 3:00 PM (Lunch), 5:00 PM - 10:00 PM (Dinner)
+
 *   **Saturday, Sunday & Public Holidays:** 11:00 AM - 10:00 PM (often non-stop, or with a very short break)
+
 *   **Last Order:** Typically 30-60 minutes before closing.
+
 *   **Mid-day Break:** Some locations might have a short break between lunch and dinner service on weekdays, typically between 3:00 PM and 5:00 PM. Arrive before or after these times to avoid disappointment.
 
 **Pricing:**
+
 *   Sushi No Midori is famous for its "affordable premium" pricing. A satisfying meal (e.g., a sushi set or a selection of à la carte nigiri) for one person typically ranges from **¥2,500 to ¥5,000**, depending on your appetite and choices. This is exceptional value for the quality offered.
+
 *   Larger platters or more luxurious items (like premium uni or otoro) will naturally increase the cost but still represent great value compared to other high-end sushi restaurants.
 
 **Payment Methods:**
+
 *   Most major credit cards (Visa, Mastercard, JCB, Amex, etc.) are generally accepted.
+
 *   Cash (Japanese Yen) is always accepted.
+
 *   Some locations may also accept popular Japanese e-payment systems.
 
 **Tips for a Smooth Visit:**

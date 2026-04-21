@@ -1,15 +1,20 @@
 ---
+address: Shibuya, Tokyo
+agoda: ''
+categories:
+- 현지인맛집
+- 회전초밥
+date: '2026-04-19'
+image_prompt: Overhead shot of Genki Sushi Shibuya's vibrant kaiten belt, brightly
+  lit, showcasing an array of affordable and popular sushi plates moving along, with
+  customers happily interacting with the modern touch-panel order system.
 lang: ko
-title: "시부야 도쿄의 활기찬 맛! 겐키 스시 시부야: 가성비 회전초밥의 성지 순례 가이드"
 lat: 35.6605
 lng: 139.6998
-categories: ["회전초밥", "현지인맛집"]
-thumbnail: "/static/images/genki_sushi_shibuya.jpg"
-address: "Shibuya, Tokyo"
-date: "2026-04-19"
-agoda: ""
-summary: "시부야 한복판에서 최고의 가성비와 신선함을 자랑하는 겐키 스시 시부야는 현지인과 관광객 모두에게 사랑받는 회전초밥의 성지입니다. 현대적인 주문 시스템과 활기찬 분위기 속에서 다채로운 초밥을 합리적인 가격으로 즐기며 잊지 못할 미식 경험을 만끽하세요."
-image_prompt: "Overhead shot of Genki Sushi Shibuya's vibrant kaiten belt, brightly lit, showcasing an array of affordable and popular sushi plates moving along, with customers happily interacting with the modern touch-panel order system."
+summary: 시부야 한복판에서 최고의 가성비와 신선함을 자랑하는 겐키 스시 시부야는 현지인과 관광객 모두에게 사랑받는 회전초밥의 성지입니다. 현대적인
+  주문 시스템과 활기찬 분위기 속에서 다채로운 초밥을 합리적인 가격으로 즐기며 잊지 못할 미식 경험을 만끽하세요.
+thumbnail: /static/images/genki_sushi_shibuya.jpg
+title: '시부야 도쿄의 활기찬 맛! 겐키 스시 시부야: 가성비 회전초밥의 성지 순례 가이드'
 ---
 
 ## Introduction
@@ -63,7 +68,9 @@ image_prompt: "Overhead shot of Genki Sushi Shibuya's vibrant kaiten belt, brigh
 **위치 및 접근성 (Access)**
 
 *   **주소:** 도쿄 시부야구 우다가와초 24-8 (東京都渋谷区宇田川町24-8) - *참고: 프롬프트에 'Shibuya, Tokyo'로 명시되어 있으나, 실제 주소를 기반으로 상세 안내합니다.*
+
 *   **가장 가까운 역:** 시부야역 (Shibuya Station)
+
 *   **오시는 길:**
     *   **시부야역 하치코 출구(Hachiko Exit):** 시부야역 하치코 출구로 나와 유명한 시부야 교차로를 건너세요. QFRONT 빌딩 (스타벅스가 있는 건물)을 오른쪽에 두고 스크램블 교차로를 지나 곧장 직진합니다. 세이부 백화점 A동(Seibu A Building)을 지나 작은 골목으로 좌회전하면 왼편에 겐키 스시 시부야가 보입니다. 도보 약 5~7분 소요됩니다.
     *   초행길이라면 구글 맵을 활용하는 것이 가장 정확합니다. 매장이 눈에 띄게 큰 편이 아니므로 주변 건물(예: 세이부 백화점, 돈키호테 메가 시부야점)을 참고하여 찾아가는 것이 좋습니다.
@@ -71,7 +78,9 @@ image_prompt: "Overhead shot of Genki Sushi Shibuya's vibrant kaiten belt, brigh
 **영업시간 (Hours)**
 
 *   **월요일~일요일:** 오전 11:00 ~ 오후 11:00 (마지막 주문 오후 10:30)
+
 *   연중무휴인 경우가 많지만, 일본 공휴일이나 특별한 상황에 따라 영업시간이 변경될 수 있으니 방문 전 공식 웹사이트나 구글 맵을 통해 확인하는 것을 권장합니다.
+
 *   **피크 타임:** 점심시간 (오후 12:00 ~ 1:30), 저녁시간 (오후 6:00 ~ 9:00)에는 대기 시간이 길어질 수 있습니다.
 
 **방문 팁 (Tips for Visitors)**
@@ -88,6 +97,7 @@ image_prompt: "Overhead shot of Genki Sushi Shibuya's vibrant kaiten belt, brigh
 **기타 정보**
 
 *   **가족 친화적:** 어린이용 초밥 메뉴나 사이드 메뉴가 잘 갖춰져 있어 가족 단위 방문객에게도 적합합니다. 터치패널 주문 방식은 아이들에게도 흥미로운 경험을 선사합니다.
+
 *   **혼밥하기 좋음:** 1인 손님을 위한 카운터 좌석이 잘 마련되어 있어 혼자서도 부담 없이 식사를 즐길 수 있습니다.
 
 겐키 스시 시부야는 단순히 초밥을 먹는 곳을 넘어, 시부야의 활기찬 에너지를 느끼고 일본의 첨단 서비스를 경험할 수 있는 특별한 장소입니다. 이 실용적인 정보들을 바탕으로 즐겁고 만족스러운 미식 경험을 하시길 바랍니다.
@@ -166,7 +176,9 @@ image_prompt: "Overhead shot of Genki Sushi Shibuya's vibrant kaiten belt, brigh
 **위치 및 접근성 (Access)**
 
 *   **주소:** 도쿄 시부야구 우다가와초 24-8 (東京都渋谷区宇田川町24-8) - *참고: 프롬프트에 'Shibuya, Tokyo'로 명시되어 있으나, 실제 주소를 기반으로 상세 안내합니다.*
+
 *   **가장 가까운 역:** 시부야역 (Shibuya Station)
+
 *   **오시는 길:**
     *   **시부야역 하치코 출구(Hachiko Exit):** 시부야역 하치코 출구로 나와 유명한 시부야 교차로를 건너세요. QFRONT 빌딩 (스타벅스가 있는 건물)을 오른쪽에 두고 스크램블 교차로를 지나 곧장 직진합니다. 세이부 백화점 A동(Seibu A Building)을 지나 작은 골목으로 좌회전하면 왼편에 겐키 스시 시부야가 보입니다. 도보 약 5~7분 소요됩니다.
     *   초행길이라면 구글 맵을 활용하는 것이 가장 정확합니다. 매장이 눈에 띄게 큰 편이 아니므로 주변 건물(예: 세이부 백화점, 돈키호테 메가 시부야점)을 참고하여 찾아가는 것이 좋습니다.
@@ -174,7 +186,9 @@ image_prompt: "Overhead shot of Genki Sushi Shibuya's vibrant kaiten belt, brigh
 **영업시간 (Hours)**
 
 *   **월요일~일요일:** 오전 11:00 ~ 오후 11:00 (마지막 주문 오후 10:30)
+
 *   연중무휴인 경우가 많지만, 일본 공휴일이나 특별한 상황에 따라 영업시간이 변경될 수 있으니 방문 전 공식 웹사이트나 구글 맵을 통해 확인하는 것을 권장합니다.
+
 *   **피크 타임:** 점심시간 (오후 12:00 ~ 1:30), 저녁시간 (오후 6:00 ~ 9:00)에는 대기 시간이 길어질 수 있습니다.
 
 **방문 팁 (Tips for Visitors)**
@@ -191,6 +205,7 @@ image_prompt: "Overhead shot of Genki Sushi Shibuya's vibrant kaiten belt, brigh
 **기타 정보**
 
 *   **가족 친화적:** 어린이용 초밥 메뉴나 사이드 메뉴가 잘 갖춰져 있어 가족 단위 방문객에게도 적합합니다. 터치패널 주문 방식은 아이들에게도 흥미로운 경험을 선사합니다.
+
 *   **혼밥하기 좋음:** 1인 손님을 위한 카운터 좌석이 잘 마련되어 있어 혼자서도 부담 없이 식사를 즐길 수 있습니다.
 
 겐키 스시 시부야는 단순히 초밥을 먹는 곳을 넘어, 시부야의 활기찬 에너지를 느끼고 일본의 첨단 서비스를 경험할 수 있는 특별한 장소입니다. 이 실용적인 정보들을 바탕으로 즐겁고 만족스러운 미식 경험을 하시길 바랍니다.

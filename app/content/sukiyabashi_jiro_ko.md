@@ -1,15 +1,21 @@
 ---
+address: Ginza, Tokyo
+agoda: ''
+categories:
+- 오마카세
+- 미슐랭
+date: '2026-04-18'
+image_prompt: 45-degree shot of Sukiyabashi Jiro's minimalist sushi counter, moody
+  natural lighting highlighting the pristine Edomae sushi preparations, focused on
+  a master chef serving an exquisite piece of omakase sushi, with subtle hints of
+  Michelin star prestige.
 lang: ko
-title: "도쿄 긴자 스키야바시 지로: 미슐랭 3스타 에도마에 오마카세 스시의 정점"
 lat: 35.6723
 lng: 139.7645
-categories: ["오마카세", "에도마에", "미슐랭"]
-thumbnail: "/static/images/sukiyabashi_jiro.jpg"
-address: "Ginza, Tokyo"
-date: "2026-04-18"
-agoda: ""
-summary: "도쿄 긴자의 골목 깊숙이 자리한 스키야바시 지로는 세계적인 명성을 자랑하는 미슐랭 3스타 스시 레스토랑입니다. 스시 장인의 혼이 담긴 에도마에 오마카세 스시를 통해 미식의 경지를 경험하고 싶다면, 이곳은 당신의 버킷리스트 최상단에 올라야 할 곳입니다."
-image_prompt: "45-degree shot of Sukiyabashi Jiro's minimalist sushi counter, moody natural lighting highlighting the pristine Edomae sushi preparations, focused on a master chef serving an exquisite piece of omakase sushi, with subtle hints of Michelin star prestige."
+summary: 도쿄 긴자의 골목 깊숙이 자리한 스키야바시 지로는 세계적인 명성을 자랑하는 미슐랭 3스타 스시 레스토랑입니다. 스시 장인의 혼이 담긴
+  에도마에 오마카세 스시를 통해 미식의 경지를 경험하고 싶다면, 이곳은 당신의 버킷리스트 최상단에 올라야 할 곳입니다.
+thumbnail: /static/images/sukiyabashi_jiro.jpg
+title: '도쿄 긴자 스키야바시 지로: 미슐랭 3스타 에도마에 오마카세 스시의 정점'
 ---
 
 ## Introduction
@@ -92,16 +98,19 @@ image_prompt: "45-degree shot of Sukiyabashi Jiro's minimalist sushi counter, mo
 
 *   **주소**: 현재 스키야바시 지로는 본점(긴자점)과 아들 오노 타카시가 운영하는 롯폰기점이 있습니다. 이 가이드는 '스키야바시 지로 본점'을 기준으로 합니다.
     *   일본 도쿄도 주오구 긴자 4-2-15 츠카모토 빌딩 지하 1층 (東京都中央区銀座4-2-15 塚本ビルB1F)
+
 *   **교통**: 도쿄 메트로 긴자역(銀座駅) C6 출구에서 도보 약 1분 거리에 위치해 있습니다. 긴자역은 마루노우치선, 히비야선, 긴자선이 교차하는 주요 역이므로 접근성이 매우 좋습니다. C6 출구로 나와 바로 좌회전하면 건물 입구가 보입니다. 간판이 작고 눈에 잘 띄지 않을 수 있으니 지도를 잘 확인하며 찾아가세요.
 
 ### 영업시간 및 휴무일
 
 *   **영업시간**: 보통 런치와 디너로 나뉘어 운영되지만, 예약 시스템에 따라 유동적입니다. 일반적으로 런치 세션은 11:30~13:30, 디너 세션은 17:30~20:30 정도입니다. 다만, 식사 시간은 30분~40분 내외로 매우 짧게 진행됩니다.
+
 *   **휴무일**: 토요일 저녁, 일요일, 공휴일, 그리고 여름(8월 중순), 연말연시(12월 말~1월 초)에는 정기 휴무입니다. 정확한 휴무일은 예약 시점에 확인하는 것이 가장 좋습니다.
 
 ### 예약 방법 및 비용
 
 *   **예약의 어려움**: 스키야바시 지로는 세계에서 가장 예약하기 어려운 레스토랑 중 하나로 손꼽힙니다. 전화 예약은 거의 불가능하며, 현재는 '고급 호텔 컨시어지'를 통해서만 예약이 가능하다고 알려져 있습니다. 도쿄의 5성급 호텔(예: 만다린 오리엔탈 도쿄, 포시즌스 호텔 도쿄, 콘래드 도쿄, 그랜드 하얏트 도쿄 등)에 투숙하며, 최소 1~2개월 전부터 컨시어지 팀에 문의하여 예약을 시도해야 합니다. 호텔 컨시어지 측에서도 예약 확정을 장담하기는 어렵습니다.
+
 *   **비용**: 가격은 시기에 따라 변동될 수 있으나, 일반적으로 1인당 50,000엔(세금 및 서비스 요금 별도) 이상으로 매우 고가입니다. 주류나 추가 메뉴 주문 시 비용은 더욱 증가할 수 있습니다. 지불은 현금 또는 신용카드로 가능합니다.
 
 ### 방문자를 위한 필수 팁

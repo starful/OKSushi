@@ -1,15 +1,24 @@
 ---
+address: Minato, Tokyo
+agoda: ''
+categories:
+- Omakase
+date: '2026-04-19'
+image_prompt: 45-degree shot of a master sushi chef meticulously preparing a piece
+  of Edomae nigiri at Itamae Sushi Edo, with bright natural lighting illuminating
+  the pristine wooden counter and artfully arranged premium ingredients. The atmosphere
+  is sophisticated yet welcoming, with a hint of other satisfied tourists in the background
+  enjoying the authentic Japanese dining experience.
 lang: en
-title: "Savor Authentic Edomae Sushi: Itamae Sushi Edo, Minato, Tokyo's Premium Culinary Gem"
 lat: 35.6675
 lng: 139.7345
-categories: ["Edomae", "Omakase"]
-thumbnail: "/static/images/itamae_sushi_edo.jpg"
-address: "Minato, Tokyo"
-date: "2026-04-19"
-agoda: ""
-summary: "Discover Itamae Sushi Edo in Minato, Tokyo, a premier destination for authentic Edomae sushi. Experience a world-class culinary journey where traditional techniques meet exquisite, seasonal ingredients, all within a welcoming atmosphere perfect for discerning travelers."
-image_prompt: "45-degree shot of a master sushi chef meticulously preparing a piece of Edomae nigiri at Itamae Sushi Edo, with bright natural lighting illuminating the pristine wooden counter and artfully arranged premium ingredients. The atmosphere is sophisticated yet welcoming, with a hint of other satisfied tourists in the background enjoying the authentic Japanese dining experience."
+summary: Discover Itamae Sushi Edo in Minato, Tokyo, a premier destination for authentic
+  Edomae sushi. Experience a world-class culinary journey where traditional techniques
+  meet exquisite, seasonal ingredients, all within a welcoming atmosphere perfect
+  for discerning travelers.
+thumbnail: /static/images/itamae_sushi_edo.jpg
+title: 'Savor Authentic Edomae Sushi: Itamae Sushi Edo, Minato, Tokyo''s Premium Culinary
+  Gem'
 ---
 
 ## Introduction
@@ -59,36 +68,51 @@ To ensure your visit to Itamae Sushi Edo is as seamless and enjoyable as possibl
 
 **Location and Access:**
 Itamae Sushi Edo is strategically located in Minato, one of Tokyo's most accessible and vibrant districts. While an exact street address should always be confirmed closer to your travel date or upon booking, its Minato location typically places it within easy reach of major public transportation hubs.
+
 *   **Nearest Train Stations:** Depending on the precise address within Minato, likely accessible stations include those on the Tokyo Metro (e.g., Ginza Line, Chiyoda Line, Hibiya Line, Namboku Line) or JR lines (e.g., Yamanote Line). Common stations in Minato include Roppongi, Azabu-Juban, Akasaka, Shinbashi, Hamamatsucho, or Shinjuku. We recommend using a navigation app like Google Maps with the restaurant's specific address for the most accurate and up-to-date directions.
+
 *   **Walking:** From most major Minato stations, Itamae Sushi Edo is often within a pleasant 5-15 minute walk, allowing you to soak in the neighborhood's atmosphere.
 
 **Opening Hours:**
 Premium sushi restaurants in Tokyo often have specific lunch and dinner service hours.
+
 *   **Lunch:** Typically from 11:30 AM or 12:00 PM to 2:00 PM or 2:30 PM. Lunch menus might be slightly different or offer specific sets at a potentially more accessible price point.
+
 *   **Dinner:** Usually from 5:00 PM or 6:00 PM to 10:00 PM or 10:30 PM. Dinner service is generally when the full *omakase* experience shines most brightly.
+
 *   **Closing Days:** Many high-end sushi establishments close on Sundays or Mondays, and sometimes for irregular holidays. Always check their official website or call ahead to confirm their operating schedule, especially if planning your visit around a public holiday in Japan.
 
 **Reservations: Essential for a Seamless Experience:**
 Given its premium reputation and potentially limited seating (especially at the sushi counter), making a reservation is not merely recommended but often **absolutely essential**.
+
 *   **When to Book:** For popular times, especially weekends or evenings, booking several weeks or even months in advance is advisable.
+
 *   **How to Book:**
     *   **Directly:** Check their official website for an online reservation system or a contact number.
     *   **Concierge Service:** If you are staying at a premium hotel, your concierge can often assist with reservations, which can be invaluable for non-Japanese speakers.
     *   **Third-Party Booking Platforms:** Some restaurants partner with platforms that offer international bookings.
+
 *   **Cancellation Policy:** Be aware of their cancellation policy, as many high-end restaurants in Japan have strict rules and may charge a fee for late cancellations or no-shows.
 
 **Dining Etiquette and Tips for Tourists:**
+
 *   **Dress Code:** While not always strictly enforced as black-tie, smart casual to semi-formal attire is generally appropriate and respectful for a premium dining experience. Avoid overly casual wear like shorts, t-shirts, or flip-flops.
+
 *   **Punctuality:** Arrive on time for your reservation. Japanese dining culture values punctuality highly.
+
 *   **Silence is Golden:** The sushi counter is a place of quiet appreciation for the chef's artistry. Keep conversations low-key, avoiding loud talking or disruptive behavior.
+
 *   **Eating Sushi:**
     *   **Hands or Chopsticks:** Both are acceptable for nigiri. Use chopsticks for sashimi.
     *   **One Bite:** Aim to eat nigiri in a single bite.
     *   **Soy Sauce (if applicable):** If the chef advises dipping in soy sauce, dip only the *neta* (fish) side, not the *shari* (rice), to prevent the rice from absorbing too much and falling apart. Many Edomae pieces are already seasoned and require no additional soy.
     *   **Gari (Pickled Ginger):** Eat gari between different types of sushi to cleanse your palate.
     *   **Wasabi:** The chef will have already applied the appropriate amount of fresh wasabi. Do not add more unless specifically offered or requested.
+
 *   **Photography:** Politely ask for permission before taking photos, especially if it involves the *itamae* or other diners. Be discreet and avoid flash photography.
+
 *   **Gratuities:** Tipping is not customary in Japan and can sometimes be considered impolite. The service charge is typically included in the price.
+
 *   **Dietary Restrictions:** If you have severe allergies or dietary restrictions, communicate them clearly when making your reservation. While many premium sushi restaurants prioritize the natural flavors of fish, they can sometimes accommodate serious requests.
 
 By being mindful of these practicalities and embracing the local customs, your visit to Itamae Sushi Edo will undoubtedly be a highlight of your Tokyo adventure, offering not just a meal, but a profound cultural immersion into the world of authentic Edomae sushi.

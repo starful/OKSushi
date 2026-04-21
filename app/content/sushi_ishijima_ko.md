@@ -1,15 +1,20 @@
 ---
+address: Ginza, Tokyo
+agoda: ''
+categories:
+- 오마카세
+date: '2026-04-21'
+image_prompt: 45-degree shot of the sushi counter at Sushi Ishijima, Ginza, Tokyo,
+  with a master sushi chef meticulously preparing a piece of Edomae sushi for an 'Affordable
+  Lunch' omakase, bright natural lighting highlighting the fresh ingredients and the
+  serene traditional Japanese interior.
 lang: ko
-title: "긴자 스시 이시지마: 전통 에도마에 초밥의 정수와 합리적인 런치 오마카세"
 lat: 35.6745
 lng: 139.7725
-categories: ["에도마에", "오마카세"]
-thumbnail: "/static/images/sushi_ishijima.jpg"
-address: "Ginza, Tokyo"
-date: "2026-04-21"
-agoda: ""
-summary: "긴자 중심에 자리한 스시 이시지마는 전통 에도마에 초밥의 진수를 선보이는 곳입니다. 장인의 손길로 빚어낸 최고의 맛과, 긴자에서 찾아보기 힘든 합리적인 가격의 런치 오마카세로 잊지 못할 미식 경험을 선사합니다."
-image_prompt: "45-degree shot of the sushi counter at Sushi Ishijima, Ginza, Tokyo, with a master sushi chef meticulously preparing a piece of Edomae sushi for an 'Affordable Lunch' omakase, bright natural lighting highlighting the fresh ingredients and the serene traditional Japanese interior."
+summary: 긴자 중심에 자리한 스시 이시지마는 전통 에도마에 초밥의 진수를 선보이는 곳입니다. 장인의 손길로 빚어낸 최고의 맛과, 긴자에서 찾아보기
+  힘든 합리적인 가격의 런치 오마카세로 잊지 못할 미식 경험을 선사합니다.
+thumbnail: /static/images/sushi_ishijima.jpg
+title: '긴자 스시 이시지마: 전통 에도마에 초밥의 정수와 합리적인 런치 오마카세'
 ---
 
 ## Introduction
@@ -72,6 +77,7 @@ image_prompt: "45-degree shot of the sushi counter at Sushi Ishijima, Ginza, Tok
 
 **1. 찾아가는 길 (Access):**
 스시 이시지마는 도쿄 긴자 지역의 중심부에 위치하고 있어 대중교통으로 매우 편리하게 접근할 수 있습니다.
+
 *   **지하철 이용:**
     *   **도쿄 메트로 긴자선, 마루노우치선, 히비야선 긴자역(銀座駅):** A2 또는 B9 출구에서 도보 약 5-7분. 메인 긴자 거리에서 살짝 골목 안쪽에 위치해 있으므로 구글맵 등 지도 앱을 활용하는 것이 좋습니다.
     *   **도쿄 메트로 히비야선, 아사쿠사선 / JR 긴자선 히가시긴자역(東銀座駅):** 3번 또는 5번 출구에서 도보 약 3-5분. 스시 이시지마와 가장 가까운 역 중 하나입니다.
@@ -80,22 +86,30 @@ image_prompt: "45-degree shot of the sushi counter at Sushi Ishijima, Ginza, Tok
 
 **2. 영업시간 (Business Hours):**
 스시 이시지마는 일반적으로 점심과 저녁 시간대에 운영됩니다. (정확한 영업시간은 변동될 수 있으므로, 방문 전 공식 웹사이트 또는 예약 플랫폼에서 확인하시기 바랍니다.)
+
 *   **점심 (Lunch):** 11:30 - 14:00 (라스트 오더 13:30)
+
 *   **저녁 (Dinner):** 17:30 - 22:00 (라스트 오더 21:00)
+
 *   **휴무일:** 주로 일요일과 공휴일, 또는 부정기적인 휴무가 있을 수 있습니다.
 
 **3. 예약 (Reservations):**
 스시 이시지마는 긴자에서도 손꼽히는 인기 스시 레스토랑이며, 특히 합리적인 가격의 런치 오마카세는 예약이 매우 치열합니다. 원활한 식사를 위해서는 **사전 예약이 필수**입니다.
+
 *   **예약 방법:**
     *   **온라인 예약 플랫폼:** Tablog, Tabelog (일본어), Hot Pepper Gourmet 등 일본의 주요 음식점 예약 사이트를 통해 예약할 수 있습니다. 영어 예약 지원이 되는 플랫폼을 이용하는 것이 편리합니다.
     *   **호텔 컨시어지 서비스:** 일본어를 사용하기 어렵거나 예약에 어려움이 있다면, 숙박하는 호텔의 컨시어지 서비스에 도움을 요청하는 것이 가장 확실한 방법입니다.
     *   **예약 시점:** 적어도 2주에서 한 달 전에는 예약하는 것이 좋습니다. 특히 주말이나 일본 연휴 기간에는 더욱 일찍 예약해야 합니다.
+
 *   **노쇼(No-show) 주의:** 일본의 고급 레스토랑은 노쇼에 매우 민감합니다. 예약 변경이나 취소는 반드시 미리 연락해야 하며, 정해진 시간보다 늦을 경우 예약이 취소되거나 다음 손님에게 순서가 넘어갈 수 있습니다.
 
 **4. 예상 비용 (Price Range):**
 스시 이시지마의 가장 큰 매력 중 하나는 긴자에서 경험하기 힘든 합리적인 가격입니다.
+
 *   **런치 오마카세:** 5,000엔 ~ 10,000엔 (구성 및 재료에 따라 상이)
+
 *   **디너 오마카세:** 15,000엔 ~ 25,000엔 (점심보다 더욱 풍성한 구성과 고급 재료 사용)
+
 *   음료(사케, 맥주 등)는 별도이며, 여기에 소비세(10%)가 추가됩니다.
 긴자 지역의 다른 하이엔드 스시집과 비교했을 때 매우 합리적인 가격으로 최고급 에도마에 스시를 경험할 수 있습니다.
 
@@ -106,8 +120,11 @@ image_prompt: "45-degree shot of the sushi counter at Sushi Ishijima, Ginza, Tok
 주로 일본어를 사용하지만, 기본적인 영어 메뉴판이나 장인의 간략한 영어 설명은 가능할 수 있습니다. 정중한 태도와 함께 번역 앱 등을 활용하면 큰 어려움 없이 소통할 수 있습니다.
 
 **7. 기타 팁:**
+
 *   **향수/담배 자제:** 스시의 섬세한 향미를 방해할 수 있으므로 강한 향수나 담배 냄새는 자제하는 것이 미식 예절입니다.
+
 *   **사진 촬영:** 스시가 나올 때 사진을 찍는 것은 허용되지만, 플래시는 사용하지 않고, 다른 손님에게 방해가 되지 않도록 조용하고 빠르게 촬영하는 것이 좋습니다. 장인의 사진을 찍을 때는 사전에 양해를 구하는 것이 예의입니다.
+
 *   **현금/카드:** 주요 신용카드를 대부분 사용할 수 있지만, 혹시 모를 상황에 대비해 약간의 현금을 준비하는 것도 좋습니다.
 
 이 정보를 바탕으로 스시 이시지마에서의 완벽한 미식 경험을 계획하시길 바랍니다.

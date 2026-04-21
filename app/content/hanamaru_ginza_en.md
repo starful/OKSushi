@@ -1,15 +1,24 @@
 ---
+address: Tokyu Plaza Ginza 10F, 5-2-1 Ginza, Chuo-ku, Tokyo
+agoda: ''
+categories:
+- Local Gem
+- Kaiten
+date: '2026-04-19'
+image_prompt: 45-degree shot of the lively counter at Hanamaru Ginza, bright natural
+  light illuminating a conveyor belt laden with colorful, premium Hokkaido-style sushi
+  plates, chefs expertly preparing fresh fish in the background, showcasing a blend
+  of traditional craftsmanship and modern efficiency.
 lang: en
-title: "Experience Hokkaido's Finest: Hanamaru Ginza, Tokyo's Premium Kaiten Sushi Destination"
 lat: 35.6721
 lng: 139.7635
-categories: ["Kaiten", "Local Gem"]
-thumbnail: "/static/images/hanamaru_ginza.jpg"
-address: "Tokyu Plaza Ginza 10F, 5-2-1 Ginza, Chuo-ku, Tokyo"
-date: "2026-04-19"
-agoda: ""
-summary: "Dive into the vibrant world of Hanamaru Ginza, where premium Hokkaido-style kaiten sushi redefines conveyor belt dining in Tokyo's most elegant district. Savor incredibly fresh seafood delivered with efficiency and flair, making it a must-visit for sushi aficionados."
-image_prompt: "45-degree shot of the lively counter at Hanamaru Ginza, bright natural light illuminating a conveyor belt laden with colorful, premium Hokkaido-style sushi plates, chefs expertly preparing fresh fish in the background, showcasing a blend of traditional craftsmanship and modern efficiency."
+summary: Dive into the vibrant world of Hanamaru Ginza, where premium Hokkaido-style
+  kaiten sushi redefines conveyor belt dining in Tokyo's most elegant district. Savor
+  incredibly fresh seafood delivered with efficiency and flair, making it a must-visit
+  for sushi aficionados.
+thumbnail: /static/images/hanamaru_ginza.jpg
+title: 'Experience Hokkaido''s Finest: Hanamaru Ginza, Tokyo''s Premium Kaiten Sushi
+  Destination'
 ---
 
 ## Introduction
@@ -48,7 +57,9 @@ Hanamaru Ginza is a culinary highlight that demands a spot on any Tokyo itinerar
 
 **Location & Access:**
 Hanamaru Ginza is conveniently located in the heart of Ginza.
+
 *   **Address:** Tokyu Plaza Ginza 10F, 5-2-1 Ginza, Chuo-ku, Tokyo 104-0061, Japan.
+
 *   **Nearest Stations:**
     *   **Ginza Station (銀座駅):** Directly connected to the Tokyo Metro Ginza, Marunouchi, and Hibiya lines. Tokyu Plaza Ginza is accessible via an underground passage from Exit C2/C3.
     *   **Higashi-Ginza Station (東銀座駅):** Tokyo Metro Hibiya Line and Toei Asakusa Line. Approximately a 5-minute walk.
@@ -56,11 +67,13 @@ Hanamaru Ginza is conveniently located in the heart of Ginza.
     The restaurant is situated on the 10th floor, offering some pleasant views of the city. Look for the distinctive "Tokyu Plaza Ginza" building, a modern architectural marvel.
 
 **Operating Hours:**
+
 *   **Daily:** 11:00 AM - 11:00 PM (Last Order: 10:00 PM for food, 10:30 PM for drinks).
 It's always a good idea to check their official website or a reliable local listing for any seasonal changes or public holiday hours before your visit.
 
 **Pricing:**
 Hanamaru Ginza offers premium quality, but as a kaiten sushi restaurant, it remains more accessible than traditional high-end sushi counters in Ginza. Plates are color-coded, corresponding to different price points, typically ranging from around ¥140 to ¥700+ per plate.
+
 *   **Average Cost Per Person:** Expect to spend approximately ¥2,500 - ¥5,000 per person for a satisfying meal, depending on your appetite and choice of premium items like uni or o-toro. This offers excellent value for the quality of seafood in Ginza.
 
 **Reservations:**

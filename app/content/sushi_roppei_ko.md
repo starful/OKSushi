@@ -1,15 +1,22 @@
 ---
+address: Roppongi, Tokyo
+agoda: ''
+categories:
+- 오마카세
+- 미슐랭
+date: '2026-04-21'
+image_prompt: Close-up, slightly elevated shot of a meticulously crafted piece of
+  nigiri sushi at Sushi Roppei, placed on a minimalist, dark ceramic plate. The fish
+  (e.g., glistening otoro or a bright red akami) is perfectly sliced, showcasing its
+  premium quality, with a subtle modern garnish. The background is softly blurred,
+  hinting at a sleek, sophisticated omakase counter under warm, focused lighting.
 lang: ko
-title: "도쿄 롯폰기 스시 록페이: 현대적 미학이 깃든 오마카세의 정점"
 lat: 35.6625
 lng: 139.7231
-categories: ["오마카세", "미슐랭"]
-thumbnail: "/static/images/sushi_roppei.jpg"
-address: "Roppongi, Tokyo"
-date: "2026-04-21"
-agoda: ""
-summary: "도쿄 롯폰기 한복판에 자리한 스시 록페이는 단순한 미식 경험을 넘어, 현대적인 감각과 최상급 재료가 어우러진 오마카세의 진수를 선사합니다. 정교한 기술과 창의적인 터치가 돋보이는 이곳에서, 당신의 미각은 잊을 수 없는 감동으로 채워지며, 스시의 새로운 지평을 경험하게 될 것입니다."
-image_prompt: "Close-up, slightly elevated shot of a meticulously crafted piece of nigiri sushi at Sushi Roppei, placed on a minimalist, dark ceramic plate. The fish (e.g., glistening otoro or a bright red akami) is perfectly sliced, showcasing its premium quality, with a subtle modern garnish. The background is softly blurred, hinting at a sleek, sophisticated omakase counter under warm, focused lighting."
+summary: 도쿄 롯폰기 한복판에 자리한 스시 록페이는 단순한 미식 경험을 넘어, 현대적인 감각과 최상급 재료가 어우러진 오마카세의 진수를 선사합니다.
+  정교한 기술과 창의적인 터치가 돋보이는 이곳에서, 당신의 미각은 잊을 수 없는 감동으로 채워지며, 스시의 새로운 지평을 경험하게 될 것입니다.
+thumbnail: /static/images/sushi_roppei.jpg
+title: '도쿄 롯폰기 스시 록페이: 현대적 미학이 깃든 오마카세의 정점'
 ---
 
 ## Introduction
@@ -65,6 +72,7 @@ image_prompt: "Close-up, slightly elevated shot of a meticulously crafted piece 
 ### 찾아가는 길 (Access)
 
 스시 록페이는 도쿄의 중심부이자 번화가인 롯폰기에 위치하고 있어 접근성이 매우 좋습니다.
+
 *   **지하철 이용:** 가장 편리한 방법은 지하철을 이용하는 것입니다.
     *   **도쿄 메트로 히비야선 (Tokyo Metro Hibiya Line) 롯폰기역 (Roppongi Station):** 출구에서 도보로 약 5-7분 소요됩니다. 롯폰기 힐즈 방면 출구보다는 번화가 안쪽으로 들어오는 출구를 이용하는 것이 좋습니다.
     *   **도에이 오에도선 (Toei Oedo Line) 롯폰기역 (Roppongi Station):** 역시 출구에서 도보로 약 5-7분 거리입니다.
@@ -73,24 +81,31 @@ image_prompt: "Close-up, slightly elevated shot of a meticulously crafted piece 
 ### 영업시간 (Business Hours)
 
 대부분의 고급 스시 레스토랑과 마찬가지로 스시 록페이도 점심과 저녁 시간으로 나뉘어 운영될 가능성이 높습니다.
+
 *   **점심 (Lunch):** 12:00 PM ~ 2:00 PM (L.O. 1:00 PM)
+
 *   **저녁 (Dinner):** 6:00 PM ~ 10:00 PM (L.O. 8:00 PM)
 **주의:** 위 시간은 일반적인 고급 스시 레스토랑의 예시이며, 스시 록페이의 실제 영업시간은 변경될 수 있으므로, 반드시 방문 전 공식 웹사이트나 예약 플랫폼을 통해 최신 정보를 확인해야 합니다. 휴무일도 미리 확인하는 것이 좋습니다.
 
 ### 예약 (Reservation)
 
 스시 록페이와 같은 프리미엄 오마카세 스시 레스토랑은 예약이 필수입니다. 특히 좌석 수가 제한적인 카운터 스시 전문점의 특성상, 예약 없이는 식사가 불가능하다고 보아야 합니다.
+
 *   **필수:** 최소 1개월 전, 성수기나 주말 방문을 계획한다면 2~3개월 전에는 예약하는 것이 안전합니다.
+
 *   **예약 방법:**
     *   **공식 웹사이트:** 가장 확실하고 직접적인 방법입니다.
     *   **온라인 예약 플랫폼:** 오프닝테이블(OpenTable), 타베로그(Tabelog), 구르나비(Gurunavi) 등 일본 현지 예약 플랫폼이나 해외 예약 서비스를 통해 예약할 수 있습니다.
     *   **호텔 컨시어지 서비스:** 일본어를 잘 모르거나 예약이 어렵다면, 묵고 있는 호텔의 컨시어지 서비스를 통해 예약을 요청할 수도 있습니다. 고급 호텔의 경우 이러한 서비스를 잘 제공해 줍니다.
+
 *   **예약금/취소 정책:** 일부 레스토랑은 예약금을 요구하거나, 당일 취소 시 위약금을 부과할 수 있으니 예약 시 약관을 꼼꼼히 확인해야 합니다.
 
 ### 가격대 (Price Range)
 
 스시 록페이는 '프리미엄' 오마카세 스시 레스토랑이므로 가격대가 높은 편입니다.
+
 *   **점심 오마카세:** 15,000엔 ~ 25,000엔 (음료 별도)
+
 *   **저녁 오마카세:** 30,000엔 ~ 50,000엔 이상 (음료 별도)
 여기에 사케나 와인 등 주류를 곁들이면 총 지출은 더욱 늘어날 수 있습니다. 미식 경험에 대한 투자를 아끼지 않는 분들에게는 충분히 그 가치를 할 것입니다.
 
@@ -101,8 +116,11 @@ image_prompt: "Close-up, slightly elevated shot of a meticulously crafted piece 
 ### 기타 팁 (Other Tips)
 
 *   **향수 자제:** 스시의 섬세한 향을 방해할 수 있으므로, 강한 향수는 자제하는 것이 좋습니다.
+
 *   **사진 촬영:** 스시를 촬영하는 것은 일반적으로 허용되지만, 플래시 사용이나 다른 손님에게 방해가 될 만한 촬영은 피해야 합니다. 셰프에게 미리 양해를 구하는 것도 좋은 방법입니다.
+
 *   **식사 속도:** 셰프는 각 손님의 식사 속도에 맞춰 스시를 내어주므로, 서두르거나 너무 느리게 먹지 않는 것이 좋습니다.
+
 *   **일본 문화 존중:** 젓가락 사용 예절 등 기본적인 일본 식사 문화를 존중하는 태도를 보이는 것이 중요합니다.
 
 스시 록페이 방문을 통해 롯폰기에서의 특별하고 잊을 수 없는 미식 추억을 만들어보시길 바랍니다.

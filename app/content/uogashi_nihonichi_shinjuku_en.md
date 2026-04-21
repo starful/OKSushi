@@ -1,15 +1,25 @@
 ---
+address: Shinjuku, Tokyo
+agoda: ''
+categories:
+- Local Gem
+- Omakase
+date: '2026-04-19'
+image_prompt: close-up shot of a chef preparing fresh sushi at Uogashi Nihon-ichi
+  Shinjuku, with a line of customers standing at a wooden counter, bright natural
+  lighting, showcasing the bustling and affordable atmosphere of a standing sushi
+  restaurant.
 lang: en
-title: "Uogashi Nihon-ichi Shinjuku: Your Essential Guide to Tokyo's Best Standing Sushi Experience in Shinjuku"
 lat: 35.6896
 lng: 139.6967
-categories: ["Local Gem", "Edomae"]
-thumbnail: "/static/images/uogashi_nihonichi_shinjuku.jpg"
-address: "Shinjuku, Tokyo"
-date: "2026-04-19"
-agoda: ""
-summary: "Discover Uogashi Nihon-ichi Shinjuku, a bustling 'standing sushi' institution offering lightning-fast service, incredible affordability, and undeniably fresh Edo-style sushi right in the heart of Tokyo's vibrant Shinjuku district. This guide unlocks the secrets to an authentic and exhilarating Japanese dining adventure perfect for both sushi aficionados and budget-conscious travelers."
-image_prompt: "close-up shot of a chef preparing fresh sushi at Uogashi Nihon-ichi Shinjuku, with a line of customers standing at a wooden counter, bright natural lighting, showcasing the bustling and affordable atmosphere of a standing sushi restaurant."
+summary: Discover Uogashi Nihon-ichi Shinjuku, a bustling 'standing sushi' institution
+  offering lightning-fast service, incredible affordability, and undeniably fresh
+  Edo-style sushi right in the heart of Tokyo's vibrant Shinjuku district. This guide
+  unlocks the secrets to an authentic and exhilarating Japanese dining adventure perfect
+  for both sushi aficionados and budget-conscious travelers.
+thumbnail: /static/images/uogashi_nihonichi_shinjuku.jpg
+title: 'Uogashi Nihon-ichi Shinjuku: Your Essential Guide to Tokyo''s Best Standing
+  Sushi Experience in Shinjuku'
 ---
 
 ## Introduction
@@ -56,21 +66,30 @@ Visiting Uogashi Nihon-ichi Shinjuku is a straightforward and rewarding experien
 
 **Location and Access:**
 Uogashi Nihon-ichi has several branches across Tokyo, but the Shinjuku location is particularly convenient for tourists due to its central position in one of the city's major transport and entertainment hubs.
+
 *   **Exact Address:** While specific street numbers can vary slightly between its Shinjuku branches (some are in Shinjuku-sanchome, others closer to the station), they are generally within a 5-10 minute walk from **Shinjuku Station (新宿駅)**. Shinjuku Station is an enormous transport hub served by numerous JR lines (Yamanote, Chuo, Saikyo, Shonan-Shinjuku), Keio Line, Odakyu Line, Tokyo Metro Marunouchi Line, Toei Shinjuku Line, and Toei Oedo Line.
+
 *   **Finding it:** Look for the distinctive blue or red *noren* (traditional Japanese entrance curtain) and the Japanese characters "魚がし日本一" (Uogashi Nihon-ichi). Google Maps will be your best friend for pinpointing the exact branch you wish to visit within the Shinjuku area. Often, you'll find a branch near major department stores or bustling shopping streets, making it an easy stop during your exploration.
 
 **Operating Hours:**
 Hours can vary slightly by branch, but generally, Uogashi Nihon-ichi locations operate seven days a week, catering to both lunch and dinner crowds.
+
 *   **Lunch:** Typically from 11:00 AM to 2:00 PM or 3:00 PM.
+
 *   **Dinner:** Generally from 5:00 PM to 10:00 PM or 11:00 PM.
+
 *   **Mid-afternoon:** Some branches may close briefly between lunch and dinner, while others operate continuously. It's always a good idea to check specific branch hours online before heading out, especially if planning an off-peak visit.
 
 **Best Time to Visit:**
+
 *   **To avoid queues:** Arrive slightly before opening for lunch (e.g., 10:45 AM) or dinner (e.g., 4:45 PM), or during the mid-afternoon if the branch operates continuously. Weekday lunch rush (12:00 PM - 1:00 PM) and Friday/Saturday evenings tend to be the busiest.
+
 *   **For a lively atmosphere:** Visiting during peak hours offers the most authentic, bustling standing sushi experience, though you might need to wait a bit.
 
 **Pricing and Payment:**
+
 *   **Affordability:** This is one of its biggest draws. Individual pieces typically range from ¥100 to ¥500, with an average meal (10-12 pieces) costing around ¥1,500 - ¥3,000, depending on your choices.
+
 *   **Payment:** Most branches accept cash (yen is always safe) and increasingly credit cards (Visa, Mastercard). Some may also accept IC cards like Suica or Pasmo. It's wise to have some cash on hand just in case, especially for smaller, more traditional establishments.
 
 **Tips for a Smooth Experience:**

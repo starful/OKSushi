@@ -1,15 +1,20 @@
 ---
+address: Ginza, Tokyo
+agoda: ''
+categories:
+- 오마카세
+date: '2026-04-21'
+image_prompt: 45-degree shot, moody natural lighting, a stylish modern sushi bar with
+  a minimalist aesthetic in Ginza, featuring a skilled Japanese sushi chef meticulously
+  preparing delicate omakase nigiri for discerning diners, showcasing premium seafood
+  and elegant presentation.
 lang: ko
-title: "도쿄 긴자 스시 텐 긴자: 현대적 감각으로 피어난 오마카세 스시의 정수"
 lat: 35.6685
 lng: 139.7625
-categories: ["오마카세", "에도마에"]
-thumbnail: "/static/images/sushi_ten_ginza.jpg"
-address: "Ginza, Tokyo"
-date: "2026-04-21"
-agoda: ""
-summary: "도쿄 긴자의 중심, 스시 텐 긴자는 현대적인 감각과 장인 정신이 깃든 오마카세 스시의 정수를 선보입니다. 세련된 공간에서 최고급 제철 식재료와 섬세한 기술이 어우러져 오감을 만족시키는 특별한 미식 경험을 선사합니다."
-image_prompt: "45-degree shot, moody natural lighting, a stylish modern sushi bar with a minimalist aesthetic in Ginza, featuring a skilled Japanese sushi chef meticulously preparing delicate omakase nigiri for discerning diners, showcasing premium seafood and elegant presentation."
+summary: 도쿄 긴자의 중심, 스시 텐 긴자는 현대적인 감각과 장인 정신이 깃든 오마카세 스시의 정수를 선보입니다. 세련된 공간에서 최고급 제철
+  식재료와 섬세한 기술이 어우러져 오감을 만족시키는 특별한 미식 경험을 선사합니다.
+thumbnail: /static/images/sushi_ten_ginza.jpg
+title: '도쿄 긴자 스시 텐 긴자: 현대적 감각으로 피어난 오마카세 스시의 정수'
 ---
 
 ## Introduction
@@ -50,19 +55,26 @@ image_prompt: "45-degree shot, moody natural lighting, a stylish modern sushi ba
 
 **접근성 (Access):**
 스시 텐 긴자는 도쿄의 주요 교통 요지인 긴자에 위치하여 접근성이 매우 뛰어납니다.
+
 *   **지하철 긴자역(Ginza Station):** 도쿄 메트로 긴자선(Ginza Line), 마루노우치선(Marunouchi Line), 히비야선(Hibiya Line)이 교차하는 긴자역에서 도보로 약 5-10분 거리에 있습니다. 긴자역 A2, A3 출구 등을 이용하면 더욱 편리하게 찾아갈 수 있습니다.
+
 *   **JR 유라쿠초역(Yurakucho Station):** JR 야마노테선(Yamanote Line)을 이용하는 경우 유라쿠초역 긴자 출구에서 도보로 약 7-12분 소요됩니다.
 정확한 주소는 예약 시 또는 방문 전 확인하는 것이 좋으며, 구글 맵 등의 지도 앱을 활용하면 쉽게 찾아갈 수 있습니다.
 
 **영업시간 (Hours):**
 일반적인 영업시간은 다음과 같지만, 변동될 수 있으므로 방문 전 반드시 공식 웹사이트나 전화로 확인하시기 바랍니다.
+
 *   **점심 (Lunch):** 11:30 - 14:00 (마지막 주문 13:00)
+
 *   **저녁 (Dinner):** 17:30 - 22:00 (마지막 주문 20:30)
+
 *   **정기 휴일:** 주로 일요일 또는 월요일이 휴무일로 지정되는 경우가 많습니다.
 
 **예약 (Reservation):**
 스시 텐 긴자는 매우 인기가 많고 좌석 수가 한정되어 있기 때문에 **사전 예약은 필수**입니다. 특히 주말 저녁이나 성수기에는 몇 주 또는 몇 달 전에 예약이 마감될 수 있습니다.
+
 *   **예약 방법:** 공식 웹사이트를 통한 온라인 예약, 전화 예약, 또는 호텔 컨시어지를 통한 예약 대행 서비스를 이용할 수 있습니다.
+
 *   **주의사항:** 예약 시간 엄수, 예약 변경 및 취소 정책 확인 (노쇼 방지를 위한 위약금이 있을 수 있습니다). 대부분의 고급 스시 레스토랑이 그렇듯, 예약 시간 10-15분 전 도착을 권장합니다.
 
 **드레스 코드 (Dress Code):**
@@ -70,15 +82,23 @@ image_prompt: "45-degree shot, moody natural lighting, a stylish modern sushi ba
 
 **가격대 (Price Range):**
 스시 텐 긴자는 최고급 식재료와 셰프의 예술적인 기술이 결합된 하이엔드 오마카세 스시 레스토랑입니다.
+
 *   **점심 오마카세:** 약 10,000엔 – 20,000엔
+
 *   **저녁 오마카세:** 약 20,000엔 – 35,000엔 이상
+
 *   여기에 주류 및 추가 메뉴, 서비스 요금 등이 포함될 수 있습니다. 가격은 시장 상황 및 계절에 따라 변동될 수 있으니 참고용으로만 활용하시고, 정확한 가격은 예약 시 또는 방문 전 문의하시는 것이 가장 좋습니다.
 
 **기타 팁 (Other Tips):**
+
 *   **사진 촬영:** 스시와 매장 내부 촬영은 가능하지만, 다른 손님에게 방해가 되지 않도록 주의하고, 플래시 사용은 자제하는 것이 좋습니다. 셰프에게 직접 촬영 여부를 문의하는 것이 가장 예의 있는 행동입니다.
+
 *   **음식 알레르기/선호도:** 예약 시 미리 알려주면 셰프가 코스 구성에 참고할 수 있습니다.
+
 *   **대화:** 셰프와의 가벼운 대화는 식사 경험을 더욱 풍부하게 만들 수 있습니다. 스시와 식재료에 대한 질문은 셰프의 열정을 더 이끌어낼 수 있습니다.
+
 *   **언어:** 기본적인 일본어와 더불어, 일부 직원은 영어 소통이 가능할 수 있습니다.
+
 *   **향수/담배:** 스시의 섬세한 향을 방해할 수 있으므로 강한 향수 사용은 자제하고, 레스토랑 내부 및 근처에서의 흡연은 삼가는 것이 좋습니다.
 
 스시 텐 긴자에서의 식사는 단순한 한 끼를 넘어, 일본의 장인 정신과 미식 문화를 깊이 이해할 수 있는 특별한 시간이 될 것입니다. 위 정보를 참고하여 즐겁고 기억에 남는 경험을 만드시길 바랍니다.

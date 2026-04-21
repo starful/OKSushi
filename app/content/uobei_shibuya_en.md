@@ -1,15 +1,23 @@
 ---
+address: Shibuya, Tokyo
+agoda: ''
+categories:
+- Local Gem
+- Kaiten
+date: '2026-04-21'
+image_prompt: Close-up shot of sushi plates traveling on high-tech conveyor belts
+  at Uobei Shibuya, with bright, lively lighting, showing a diverse range of affordable
+  sushi dishes being delivered to customers in a bustling, modern restaurant environment.
 lang: en
-title: "Uobei Shibuya: Tokyo's High-Tech, Affordable Kaiten Sushi Experience in the Heart of Shibuya"
 lat: 35.6601
 lng: 139.6985
-categories: ["Kaiten", "Local Gem"]
-thumbnail: "/static/images/uobei_shibuya.jpg"
-address: "Shibuya, Tokyo"
-date: "2026-04-21"
-agoda: ""
-summary: "Dive into the future of dining at Uobei Shibuya, where high-tech efficiency meets delicious, affordable kaiten sushi. Experience a vibrant, fast-paced culinary journey perfect for families, solo adventurers, and budget-conscious foodies seeking a unique Tokyo eating adventure."
-image_prompt: "Close-up shot of sushi plates traveling on high-tech conveyor belts at Uobei Shibuya, with bright, lively lighting, showing a diverse range of affordable sushi dishes being delivered to customers in a bustling, modern restaurant environment."
+summary: Dive into the future of dining at Uobei Shibuya, where high-tech efficiency
+  meets delicious, affordable kaiten sushi. Experience a vibrant, fast-paced culinary
+  journey perfect for families, solo adventurers, and budget-conscious foodies seeking
+  a unique Tokyo eating adventure.
+thumbnail: /static/images/uobei_shibuya.jpg
+title: 'Uobei Shibuya: Tokyo''s High-Tech, Affordable Kaiten Sushi Experience in the
+  Heart of Shibuya'
 ---
 
 ## Introduction
@@ -45,10 +53,15 @@ Stepping into Uobei Shibuya is like entering a culinary theme park, where effici
 **The Thrill of Delivery:** Once your order is placed, the magic unfolds. Within a minute or two, you'll hear a cheerful chime, signaling that your freshly prepared sushi is on its way. Watch as your individual express delivery tray, often styled like a miniature bullet train or racing car, speeds directly to your station. Carefully take your plates off the tray – don't worry, the trays usually have a sensor that detects when the plates have been removed. Once clear, the empty tray automatically whirs back to the kitchen, ready for its next mission. This automated delivery is undeniably exciting, especially for first-timers and children, adding a playful element to every bite.
 
 **Dining Etiquette (Simplified):** While Japan has intricate dining customs, Uobei's casual, fast-paced environment simplifies things.
+
 *   **Green Tea:** Hot water dispensers are at every seat. Use the provided cups and packets of powdered green tea to make your own. It's a delightful palate cleanser.
+
 *   **Soy Sauce & Gari:** Small packets of soy sauce and small dishes are usually available at your station. Pickled ginger (gari) is also freely available – grab a small pile with the provided chopsticks.
+
 *   **Chopsticks:** Disposable chopsticks are standard.
+
 *   **Eating Sushi:** Feel free to use your hands or chopsticks. Dip the fish side (not the rice side) of the sushi into soy sauce sparingly.
+
 *   **Empty Plates:** Place your empty plates into the designated slot at your station. The system automatically counts them for your bill.
 
 **Payment:** When you've had your fill of delicious sushi and exciting deliveries, simply press the "Bill" button on your tablet. A staff member will then come to your station to provide you with a final bill. Payment can usually be made at your table or at a central register near the exit. Uobei typically accepts both cash and major credit cards, though it's always wise to have some cash on hand, just in case. The entire process, from ordering to payment, is designed for maximum efficiency, allowing you to get back to exploring Shibuya in no time. The average meal here is surprisingly quick, often lasting only 30-45 minutes for a satisfying feast.
@@ -59,15 +72,20 @@ To ensure your visit to Uobei Shibuya is as smooth and enjoyable as possible, he
 
 **Access and Location:**
 Uobei Shibuya boasts a fantastic, easy-to-reach location, making it a convenient stop during your Shibuya explorations.
+
 *   **Address:** While the exact street address might require a bit of searching on Google Maps, Uobei Shibuya is famously situated very close to the iconic **Shibuya Crossing**. It's typically found on the "Dogenzaka-dori" side of Shibuya station, slightly uphill from the main scramble.
+
 *   **From Shibuya Station:** Uobei is just a 3-5 minute walk from Shibuya Station, a major transportation hub in Tokyo.
     *   **Hachiko Exit:** If you exit Shibuya Station via the Hachiko Exit (the most famous exit next to the Hachiko statue), you'll cross the Shibuya Scramble Crossing. From there, head uphill slightly on the street to your left (Dogenzaka-dori). Uobei will be on one of the side streets or a prominent corner, easily identifiable by its vibrant signage and often a queue outside.
     *   **Other Exits:** Regardless of your exit, aim for the Shibuya Scramble Crossing as a landmark, then navigate towards Dogenzaka. Using Google Maps on your smartphone is highly recommended for precise directions, as Shibuya's many exits and underground passages can be confusing.
 
 **Operating Hours:**
 Restaurant hours in Shibuya can sometimes vary, but Uobei generally follows a standard pattern.
+
 *   **Weekdays:** Typically open from **11:00 AM to 11:00 PM (last order around 10:30 PM)**.
+
 *   **Weekends & Holidays:** Often similar hours, though sometimes with slightly earlier opening or closing, or continuous operation without a midday break.
+
 *   **Recommendation:** Always check their official website or a reliable local listing (like Google Maps) for the most current opening hours before your visit, especially around public holidays.
 
 **Tips for First-Timers:**
@@ -82,6 +100,7 @@ Restaurant hours in Shibuya can sometimes vary, but Uobei generally follows a st
 
 **Accessibility:**
 Uobei Shibuya, like many establishments in busy urban areas, can have varying levels of accessibility.
+
 *   **Stroller/Wheelchair Access:** The restaurant typically features counter-style seating, which might be tight for large strollers or wheelchairs. While the ground floor access is usually flat, navigating through a crowded waiting area can be challenging. It's best to call ahead or ask a staff member upon arrival for assistance if you have specific accessibility needs.
 
 **Best Time to Visit:**

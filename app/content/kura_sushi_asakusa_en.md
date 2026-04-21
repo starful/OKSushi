@@ -1,15 +1,24 @@
 ---
+address: Asakusa, Tokyo
+agoda: ''
+categories:
+- Local Gem
+- Kaiten
+date: '2026-04-18'
+image_prompt: Overhead shot of Kura Sushi Asakusa's conveyor belt, brightly lit, showing
+  various colorful sushi plates passing by, with families happily reaching for dishes
+  and children engaged with tablet ordering, reflecting a bustling and family-friendly
+  atmosphere.
 lang: en
-title: "Kura Sushi Asakusa: Your Ultimate Guide to Family-Friendly Kaiten Sushi in Tokyo's Historic Heart"
 lat: 35.7121
 lng: 139.7915
-categories: ["Kaiten", "Local Gem"]
-thumbnail: "/static/images/kura_sushi_asakusa.jpg"
-address: "Asakusa, Tokyo"
-date: "2026-04-18"
-agoda: ""
-summary: "Dive into a vibrant culinary adventure at Kura Sushi Asakusa, where traditional Japanese flavors meet modern kaiten convenience. Perfect for families and sushi lovers, this Asakusa spot offers an unforgettable, interactive dining experience in the heart of Tokyo."
-image_prompt: "Overhead shot of Kura Sushi Asakusa's conveyor belt, brightly lit, showing various colorful sushi plates passing by, with families happily reaching for dishes and children engaged with tablet ordering, reflecting a bustling and family-friendly atmosphere."
+summary: Dive into a vibrant culinary adventure at Kura Sushi Asakusa, where traditional
+  Japanese flavors meet modern kaiten convenience. Perfect for families and sushi
+  lovers, this Asakusa spot offers an unforgettable, interactive dining experience
+  in the heart of Tokyo.
+thumbnail: /static/images/kura_sushi_asakusa.jpg
+title: 'Kura Sushi Asakusa: Your Ultimate Guide to Family-Friendly Kaiten Sushi in
+  Tokyo''s Historic Heart'
 ---
 
 ## Introduction
@@ -56,12 +65,16 @@ Kura Sushi Asakusa is conveniently located within the vibrant Asakusa district, 
     *   **Toei Asakusa Line:** Take Exit A4 or A5.
     *   **Tobu Skytree Line:** Use the Central Exit.
     From any of these exits, the restaurant is typically a pleasant 5-10 minute walk. Follow signs towards the Asakusa ROX building if that is its specific location, or use a map application for precise navigation.
+
 *   **Proximity to Landmarks:** Kura Sushi Asakusa is usually within walking distance of iconic sights like Senso-ji Temple, Nakamise-dori Market, and the Tokyo Skytree (though the Skytree is a slightly longer walk or a short train ride away). It serves as an excellent lunch or dinner option before or after exploring these historical and modern attractions.
 
 **Operating Hours:**
 Kura Sushi Asakusa typically operates seven days a week, with general hours being:
+
 *   **Lunch:** 11:00 AM - 3:00 PM (or until 5:00 PM on weekends)
+
 *   **Dinner:** 5:00 PM - 11:00 PM (Last order usually 30-60 minutes before closing)
+
 *   **Important Note:** It's always advisable to check the specific, up-to-date operating hours on Kura Sushi's official website or a reliable local listing prior to your visit, as hours can vary on national holidays or due to unforeseen circumstances.
 
 **Pricing:**
@@ -69,8 +82,11 @@ One of Kura Sushi's biggest appeals is its incredible affordability. Most standa
 
 **Payment Methods:**
 Kura Sushi branches are well-equipped to handle various payment methods for international travellers:
+
 *   **Cash:** Japanese Yen is always accepted.
+
 *   **Credit Cards:** Major credit cards (Visa, MasterCard, American Express, JCB, Diners Club) are typically accepted.
+
 *   **IC Cards:** Transportation IC cards like Suica, Pasmo, Icoca, etc., are also often accepted for convenient tap-and-pay transactions.
 
 **Language Support:**

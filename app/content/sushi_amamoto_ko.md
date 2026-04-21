@@ -1,15 +1,22 @@
 ---
+address: Minato, Tokyo
+agoda: ''
+categories:
+- 오마카세
+- 미슐랭
+date: '2026-04-19'
+image_prompt: A close-up shot of a meticulously prepared Omakase sushi piece, perhaps
+  a glistening fatty tuna (otoro) or sea urchin (uni), presented on a minimalist wooden
+  counter with the chef's hands subtly blurred in the background, illuminated by natural,
+  soft light, conveying an exclusive and premium dining experience that feels hard
+  to book.
 lang: ko
-title: "미나토 도쿄의 정점: 스시 아마모토에서 오마카세 미식의 극치를 경험하다"
 lat: 35.6621
 lng: 139.7289
-categories: ["오마카세", "미슐랭"]
-thumbnail: "/static/images/sushi_amamoto.jpg"
-address: "Minato, Tokyo"
-date: "2026-04-19"
-agoda: ""
-summary: "미나토 도쿄에 위치한 스시 아마모토는 예약조차 어려운 프리미엄 오마카세 스시 경험을 선사합니다. 장인의 손길로 빚어낸 한 점 한 점에 도쿄 최고의 미식 철학이 담겨 있으며, 단순한 식사를 넘어선 예술적 경지를 선사합니다."
-image_prompt: "A close-up shot of a meticulously prepared Omakase sushi piece, perhaps a glistening fatty tuna (otoro) or sea urchin (uni), presented on a minimalist wooden counter with the chef's hands subtly blurred in the background, illuminated by natural, soft light, conveying an exclusive and premium dining experience that feels hard to book."
+summary: 미나토 도쿄에 위치한 스시 아마모토는 예약조차 어려운 프리미엄 오마카세 스시 경험을 선사합니다. 장인의 손길로 빚어낸 한 점 한 점에
+  도쿄 최고의 미식 철학이 담겨 있으며, 단순한 식사를 넘어선 예술적 경지를 선사합니다.
+thumbnail: /static/images/sushi_amamoto.jpg
+title: '미나토 도쿄의 정점: 스시 아마모토에서 오마카세 미식의 극치를 경험하다'
 ---
 
 ## Introduction
@@ -53,23 +60,34 @@ image_prompt: "A close-up shot of a meticulously prepared Omakase sushi piece, p
 스시 아마모토는 점심과 저녁 두 번의 세션으로 운영되는 경우가 많습니다. 일반적으로 점심은 12:00 경, 저녁은 18:00 또는 19:00 경에 시작되며, 각 세션은 약 2시간 가량 진행됩니다. 일요일이나 공휴일은 휴무인 경우가 많으니, 예약 시 정확한 영업일을 반드시 확인해야 합니다. 예약된 시간에 맞춰 정확히 도착하는 것이 중요합니다.
 
 **예약 팁:**
+
 *   **사전 계획 필수:** 최소 3개월에서 6개월 전부터 예약을 시도해야 합니다. 일본의 최고급 스시 레스토랑은 특히 예약 경쟁이 치열합니다.
+
 *   **전화 예약:** 대부분의 최고급 스시집이 그렇듯, 스시 아마모토 역시 전화 예약이 주를 이룹니다. 일본어 소통이 원활하지 않다면 호텔 컨시어지 서비스나 현지 지인의 도움을 받는 것이 가장 확실한 방법입니다.
+
 *   **온라인 예약 플랫폼:** 간혹 일부 프리미엄 레스토랑은 오마카세 전문 온라인 예약 플랫폼을 활용하기도 합니다. 관련 정보를 주기적으로 확인하는 것이 좋습니다.
+
 *   **취소 규정:** 노쇼(No-show) 방지를 위해 예약 시 보증금을 요구하거나, 취소 시 패널티가 부과될 수 있습니다. 예약 규정을 반드시 확인하고 준수해야 합니다.
 
 **복장 규정:**
 스시 아마모토는 프리미엄 다이닝 공간이므로, 너무 캐주얼한 복장(반바지, 슬리퍼 등)은 피하는 것이 좋습니다. 스마트 캐주얼 또는 비즈니스 캐주얼 정도의 단정하고 깔끔한 복장이 적절합니다.
 
 **식사 에티켓:**
+
 *   **셰프와의 교감:** 셰프와의 대화를 통해 스시에 대한 흥미로운 이야기를 들을 수 있으며, 이는 식사의 즐거움을 더합니다.
+
 *   **빠른 시식:** 셰프가 쥐어준 초밥은 온도가 가장 이상적인 상태이므로, 되도록 빨리 맛보는 것이 좋습니다.
+
 *   **간장 사용:** 셰프가 이미 최적의 간을 맞춰 제공하므로, 따로 간장을 추가하지 않는 것이 원칙입니다. 필요한 경우 셰프에게 요청하세요.
+
 *   **사진 촬영:** 음식 사진 촬영은 가능하지만, 플래시 사용이나 셰프를 방해하는 행위는 삼가야 합니다. 다른 손님에게 피해를 주지 않도록 주의해야 합니다.
+
 *   **향수 자제:** 강한 향수는 섬세한 스시의 향을 방해할 수 있으므로 자제하는 것이 좋습니다.
 
 **기타 정보:**
+
 *   **결제:** 대부분 신용카드 결제가 가능하지만, 혹시 모를 상황에 대비하여 현금을 소량 준비하는 것이 좋습니다.
+
 *   **식단 제한:** 알레르기가 있거나 먹지 못하는 재료가 있다면 예약 시 미리 알려주어야 합니다. 셰프가 최대한 고려하여 코스를 준비해 줄 것입니다.
 
 스시 아마모토는 단순한 외식을 넘어선 문화적 경험입니다. 철저한 준비와 예의를 갖춘 방문은 미나토에서의 잊을 수 없는 미식 여정을 선사할 것입니다.

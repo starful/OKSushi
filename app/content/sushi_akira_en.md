@@ -1,15 +1,22 @@
 ---
+address: Minato, Tokyo
+agoda: ''
+categories:
+- Omakase
+date: '2026-04-21'
+image_prompt: Close-up shot of a master sushi chef meticulously preparing delicate
+  nigiri at a small, elegant wooden counter. The lighting is moody and warm, highlighting
+  the vibrant colors of premium, glistening fish and the intricate details of the
+  chef's hands, with artistic omakase dishes arranged in front of discerning patrons.
 lang: en
-title: "Sushi Akira: An Unforgettable Premium Omakase Experience in Minato, Tokyo"
 lat: 35.6595
 lng: 139.7215
-categories: ["Omakase", "Edomae"]
-thumbnail: "/static/images/sushi_akira.jpg"
-address: "Minato, Tokyo"
-date: "2026-04-21"
-agoda: ""
-summary: "Embark on an exquisite culinary journey at Sushi Akira, a highly sought-after omakase destination nestled in Tokyo's prestigious Minato district. Here, master chefs craft a personalized, premium Edomae sushi experience at an intimate counter, promising an unparalleled taste of Japan's finest seafood and artisanal skill."
-image_prompt: "Close-up shot of a master sushi chef meticulously preparing delicate nigiri at a small, elegant wooden counter. The lighting is moody and warm, highlighting the vibrant colors of premium, glistening fish and the intricate details of the chef's hands, with artistic omakase dishes arranged in front of discerning patrons."
+summary: Embark on an exquisite culinary journey at Sushi Akira, a highly sought-after
+  omakase destination nestled in Tokyo's prestigious Minato district. Here, master
+  chefs craft a personalized, premium Edomae sushi experience at an intimate counter,
+  promising an unparalleled taste of Japan's finest seafood and artisanal skill.
+thumbnail: /static/images/sushi_akira.jpg
+title: 'Sushi Akira: An Unforgettable Premium Omakase Experience in Minato, Tokyo'
 ---
 
 ## Introduction
@@ -59,11 +66,17 @@ To fully appreciate the unparalleled experience offered by Sushi Akira, a little
 **Dress Code:** The ambiance at Sushi Akira is one of refined elegance. A **smart casual** to **business casual** dress code is generally appropriate. This means eschewing overly casual attire like shorts, t-shirts, or sportswear. Think neat trousers or skirts, collared shirts for men, and tasteful dresses or blouses for women. While a suit is not necessary, dressing respectfully enhances the dining experience for yourself and fellow patrons.
 
 **Dining Etiquette:** Adhering to traditional Japanese dining etiquette shows respect for the chef and the establishment.
+
 *   **Arrival:** Aim to arrive punctually for your reservation.
+
 *   **A quiet demeanor:** Sushi counters are typically places of quiet appreciation. Keep conversations low to avoid disturbing others.
+
 *   **Respect the Chef:** The chef is your host and guide. Avoid strong perfumes, which can interfere with the delicate aromas of the sushi.
+
 *   **Eating Sushi:** Nigiri is traditionally eaten by hand, though chopsticks are also acceptable. It's best to eat each piece promptly after it's served to enjoy it at its optimal temperature. If the chef has seasoned the sushi, additional soy sauce or wasabi is generally unnecessary.
+
 *   **Photography:** Always ask permission before taking photos, especially of the chef or other diners. Some establishments have strict no-photo policies.
+
 *   **Enjoy the Moment:** Put away your phone and immerse yourself in the culinary artistry unfolding before you.
 
 **Language:** While the guide is in English, it's always advisable to be prepared for varying levels of English proficiency among staff. Given its reputation and international clientele, it's likely that at least some staff members or the chef will have a working knowledge of English to guide you through the omakase course. However, a polite "Arigato gozaimasu" (thank you) will always be appreciated.

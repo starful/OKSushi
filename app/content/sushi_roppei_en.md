@@ -1,15 +1,22 @@
 ---
+address: Roppongi, Tokyo
+agoda: ''
+categories:
+- Omakase
+date: '2026-04-21'
+image_prompt: Close-up, 45-degree shot of a meticulously presented omakase sushi piece
+  at Sushi Roppei, showcasing glistening neta on perfectly formed shari, with a sophisticated,
+  dimly lit modern minimalist counter and a blurred chef's hands in the background,
+  moody natural light.
 lang: en
-title: "Experience Culinary Brilliance: Sushi Roppei, Roppongi Tokyo's Premier Omakase Destination"
 lat: 35.6625
 lng: 139.7231
-categories: ["Omakase", "Edomae"]
-thumbnail: "/static/images/sushi_roppei.jpg"
-address: "Roppongi, Tokyo"
-date: "2026-04-21"
-agoda: ""
-summary: "Embark on an extraordinary gastronomic journey at Sushi Roppei, Roppongi Tokyo's modern temple to premium omakase sushi, where culinary artistry meets refined elegance for an unforgettable dining experience."
-image_prompt: "Close-up, 45-degree shot of a meticulously presented omakase sushi piece at Sushi Roppei, showcasing glistening neta on perfectly formed shari, with a sophisticated, dimly lit modern minimalist counter and a blurred chef's hands in the background, moody natural light."
+summary: Embark on an extraordinary gastronomic journey at Sushi Roppei, Roppongi
+  Tokyo's modern temple to premium omakase sushi, where culinary artistry meets refined
+  elegance for an unforgettable dining experience.
+thumbnail: /static/images/sushi_roppei.jpg
+title: 'Experience Culinary Brilliance: Sushi Roppei, Roppongi Tokyo''s Premier Omakase
+  Destination'
 ---
 
 ## Introduction
@@ -50,39 +57,58 @@ To ensure your visit to Sushi Roppei is as seamless and enjoyable as the omakase
 
 **Location and Access:**
 Sushi Roppei is nestled in the sophisticated Roppongi district of Tokyo. While the exact address should be confirmed upon reservation, its central location makes it highly accessible.
+
 *   **Nearest Stations:** Roppongi Station (Tokyo Metro Hibiya Line, Toei Oedo Line) is the most convenient, typically just a few minutes' walk away. Azabu-juban Station (Tokyo Metro Namboku Line, Toei Oedo Line) is also within walking distance.
+
 *   **Directions:** Once you arrive at Roppongi Station, use a map application or ask your hotel concierge for precise walking directions. Roppongi can be bustling, but Sushi Roppei generally maintains a discreet storefront.
 
 **Reservations: Absolutely Essential:**
 Given its intimate counter seating and high demand as a premium dining destination, securing a reservation is paramount.
+
 *   **Booking Window:** It is highly recommended to book several weeks, if not months, in advance, especially for weekend evenings.
+
 *   **How to Book:** Many high-end Tokyo sushi restaurants require booking through a hotel concierge. If you are staying at a reputable hotel, they can often make the reservation on your behalf. Alternatively, some restaurants partner with online reservation platforms that cater to international visitors, or allow direct booking via phone or their official website (check for English language support). Be prepared to provide your name, contact information, and any dietary restrictions.
+
 *   **Cancellation Policy:** Be aware of the restaurant's cancellation policy. High-demand establishments often have strict policies, sometimes charging a significant fee for no-shows or late cancellations.
 
 **Operating Hours:**
 Sushi Roppei typically operates for dinner service. Some establishments might offer a limited lunch service, but dinner is generally the focus for premium omakase experiences.
+
 *   **Dinner:** Generally from 6:00 PM or 6:30 PM, with possible second seating later in the evening.
+
 *   **Days Closed:** Restaurants often have specific closing days, frequently Sundays or Mondays. Always confirm the current operating hours and closing days when making your reservation.
 
 **Price Point:**
 Sushi Roppei falls into the ultra-premium dining category.
+
 *   **Omakase Course:** Expect prices to range from approximately ¥20,000 to ¥40,000 JPY or more per person for the omakase course alone, not including beverages.
+
 *   **Beverages:** Sake, wine, and other drinks will add to the final bill. A full dining experience with drinks can easily exceed ¥30,000-¥50,000+ per person.
+
 *   **Payment:** Major credit cards are widely accepted (Visa, MasterCard, Amex, JCB), but it's always wise to carry some cash for smaller incidentals.
 
 **Dress Code:**
 While not overly formal, a smart casual or business casual dress code is appropriate and respectful of the restaurant's elegant ambiance.
+
 *   **Recommended:** Collared shirts, trousers or smart skirts/dresses, closed-toe shoes.
+
 *   **Avoid:** Shorts, t-shirts, flip-flops, or overly casual attire.
 
 **Dining Etiquette Tips:**
 Embracing basic sushi etiquette enhances your experience and shows respect for the chef.
+
 *   **Eating Nigiri:** It’s perfectly acceptable, and often preferred, to eat nigiri with your hands. Use chopsticks for sashimi and other dishes.
+
 *   **Soy Sauce:** Use sparingly. If the chef has already brushed nikiri (soy sauce) on the sushi, do not add more. If dipping, dip the fish side (neta) into the soy sauce, not the rice.
+
 *   **Wasabi:** The chef will typically add the appropriate amount of wasabi. Avoid adding extra unless offered.
+
 *   **Ginger (Gari):** Eat gari between different pieces of sushi to cleanse your palate, not with the sushi.
+
 *   **Pace:** Try to eat each piece as soon as it’s served, as it’s at its optimal temperature and flavor.
+
 *   **Photography:** Ask for permission before taking photos, especially if using a flash. Be discreet and respectful of other diners.
+
 *   **Fragrances:** Avoid strong perfumes or colognes, as they can interfere with the subtle aromas of the sushi.
 
 **Language:**

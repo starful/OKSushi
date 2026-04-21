@@ -1,15 +1,21 @@
 ---
+address: Kawaguchi, Saitama
+agoda: ''
+categories:
+- 현지인맛집
+- 오마카세
+date: '2026-04-19'
+image_prompt: Close-up shot of a meticulously prepared nigiri sushi piece at Sushi
+  Inomata, showcasing the delicate balance of perfectly seasoned rice and glistening
+  fresh seafood, presented on a minimalist wooden counter with soft, natural lighting,
+  emphasizing the Edomae style and the intimate Omakase experience of a local gem.
 lang: ko
-title: "사이타마 가와구치의 숨겨진 보석, 스시 이노마타: 정통 에도마에 오마카세의 진수"
 lat: 35.8012
 lng: 139.7214
-categories: ["오마카세", "에도마에", "현지인맛집"]
-thumbnail: "/static/images/sushi_inomata.jpg"
-address: "Kawaguchi, Saitama"
-date: "2026-04-19"
-agoda: ""
-summary: "사이타마 가와구치에 위치한 스시 이노마타는 정통 에도마에 오마카세를 선보이며 현지 미식가들의 찬사를 받는 숨겨진 명소입니다. 숙련된 셰프의 장인정신과 최상급 제철 재료가 어우러진 이곳에서 잊을 수 없는 미식 경험을 만끽해보세요."
-image_prompt: "Close-up shot of a meticulously prepared nigiri sushi piece at Sushi Inomata, showcasing the delicate balance of perfectly seasoned rice and glistening fresh seafood, presented on a minimalist wooden counter with soft, natural lighting, emphasizing the Edomae style and the intimate Omakase experience of a local gem."
+summary: 사이타마 가와구치에 위치한 스시 이노마타는 정통 에도마에 오마카세를 선보이며 현지 미식가들의 찬사를 받는 숨겨진 명소입니다. 숙련된
+  셰프의 장인정신과 최상급 제철 재료가 어우러진 이곳에서 잊을 수 없는 미식 경험을 만끽해보세요.
+thumbnail: /static/images/sushi_inomata.jpg
+title: '사이타마 가와구치의 숨겨진 보석, 스시 이노마타: 정통 에도마에 오마카세의 진수'
 ---
 
 ## Introduction
@@ -60,32 +66,46 @@ image_prompt: "Close-up shot of a meticulously prepared nigiri sushi piece at Su
 
 **접근성 (Access):**
 스시 이노마타는 사이타마현 가와구치시에 위치하고 있어, 도쿄 중심부에서는 약간 거리가 있습니다. 하지만 접근성이 나쁘지는 않습니다.
+
 *   **기차 이용:** 도쿄에서 가와구치역(Kawaguchi Station, 川口駅)까지 JR 게이힌토호쿠선(JR Keihin-Tohoku Line)을 이용하여 약 20~30분 소요됩니다 (우에노역, 도쿄역 등에서 직통). 가와구치역 동쪽 출구에서 도보로 약 10~15분 거리에 위치해 있습니다. 역에서 내려 구글 지도를 활용하면 쉽게 찾을 수 있습니다. 조용한 주택가 혹은 상업 지구에 숨어있는 경우가 많으므로 지도를 미리 확인하는 것이 좋습니다.
 
 **영업시간 및 휴무일:**
 스시 이노마타의 정확한 영업시간은 변동될 수 있으므로, 방문 전 반드시 공식 웹사이트 또는 예약 플랫폼을 통해 확인하는 것이 필수적입니다.
+
 *   **점심:** 일반적으로 12:00 ~ 14:00 (일부 요일만 운영할 수 있습니다.)
+
 *   **저녁:** 일반적으로 18:00 ~ 22:00 (마지막 주문 시간은 다를 수 있습니다.)
+
 *   **휴무일:** 주로 일요일이나 월요일에 휴무하는 경우가 많습니다. 일본 공휴일에도 휴무할 수 있으므로, 예약 시 반드시 확인해야 합니다.
 
 **예약 방법 및 팁:**
 스시 이노마타는 오마카세 전문점으로, 좌석 수가 한정되어 있어 '예약 필수'입니다. 특히 저녁 시간대에는 미리 예약하지 않으면 자리를 잡기 어렵습니다.
+
 *   **온라인 예약:** 일본의 주요 예약 플랫폼(예: Tabelog, OMAKASE) 또는 레스토랑 공식 웹사이트를 통해 예약할 수 있습니다. 대부분 일본어 기반이므로, 일본어에 능숙하지 않다면 호텔 컨시어지 서비스나 현지 지인의 도움을 받는 것이 가장 확실합니다.
+
 *   **전화 예약:** 일본어로 직접 전화하여 예약하는 방법도 있습니다. (가능 언어 확인 필수)
+
 *   **예약 시 유의사항:**
     *   **취소 정책:** 일본의 고급 스시 레스토랑은 엄격한 취소 정책을 가지고 있습니다. 노쇼(No-show)나 당일 취소 시 100% 요금이 부과될 수 있으니 신중하게 예약하고, 부득이한 경우 최대한 빨리 연락해야 합니다.
     *   **알레르기/선호:** 예약 시 반드시 알레르기가 있는 식재료나 특별히 먹지 못하는 음식이 있다면 미리 알려주세요. 셰프가 코스를 조절하는 데 도움이 됩니다.
 
 **가격대:**
 스시 이노마타는 최상급 재료와 셰프의 장인정신이 담긴 오마카세를 제공하므로, 가격대는 고급 스시 레스토랑 수준입니다.
+
 *   **점심 오마카세:** 10,000엔 ~ 20,000엔 내외 (세금 및 서비스 요금 별도)
+
 *   **저녁 오마카세:** 20,000엔 ~ 35,000엔 이상 (세금 및 서비스 요금 별도)
+
 *   음료(사케, 맥주 등)는 별도이며, 코스 가격에 추가됩니다.
 
 **기타 팁:**
+
 *   **드레스 코드:** 캐주얼한 복장보다는 단정하고 깔끔한 차림이 좋습니다. 정장까지는 아니더라도, 최소한 스마트 캐주얼을 추천합니다.
+
 *   **사진 촬영:** 셰프의 허락을 받고 스시 사진을 찍는 것은 가능하지만, 다른 손님에게 방해가 되지 않도록 주의해야 합니다. 플래시는 사용하지 않는 것이 매너입니다.
+
 *   **향수/담배:** 강한 향수나 담배 냄새는 스시의 섬세한 향을 해칠 수 있으므로 자제하는 것이 좋습니다.
+
 *   **현금/카드:** 대부분의 고급 레스토랑은 신용카드 결제가 가능하지만, 혹시 모를 상황을 대비해 소량의 현금을 준비하는 것도 좋습니다.
 
 스시 이노마타에서의 식사는 단순한 외식이 아닌, 진정한 미식 경험이 될 것입니다. 위의 정보를 참고하여 완벽한 방문을 계획하시길 바랍니다.
