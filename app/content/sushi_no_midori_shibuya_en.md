@@ -2,23 +2,15 @@
 address: Shibuya, Tokyo
 agoda: ''
 categories:
-- Local Gem
-- Omakase
+- 가성비
 date: '2026-04-18'
 image_prompt: 45-degree shot of a beautifully arranged sushi platter at Sushi No Midori
-  Shibuya, showcasing glistening cuts of fresh fish on perfectly formed rice, with
-  natural, bright lighting highlighting the premium quality and vibrant colors, capturing
-  the essence of an affordable, local culinary gem.
 lang: en
-lat: 35.6585
-lng: 139.7013
+lat: '35.6585'
+lng: '139.7013'
 summary: Dive into the vibrant culinary scene of Shibuya, Tokyo, and discover Sushi
-  No Midori, a revered local gem where premium Edomae sushi meets an astonishingly
-  affordable price point, offering exquisite fresh seafood and masterful craftsmanship
-  without breaking the bank, making it a must-visit.
 thumbnail: /static/images/sushi_no_midori_shibuya.jpg
-title: 'Sushi No Midori Shibuya: Discover Tokyo''s Premium Yet Affordable Edomae Sushi
-  Gem in Shibuya'
+title: 'Sushi No Midori Shibuya: Discover Tokyo''''''''s Premium Yet Affordable Edomae'
 ---
 
 ## Introduction

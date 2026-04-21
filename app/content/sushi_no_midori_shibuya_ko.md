@@ -2,19 +2,13 @@
 address: Shibuya, Tokyo
 agoda: ''
 categories:
-- 현지인맛집
-- 오마카세
+- 가성비
 date: '2026-04-18'
 image_prompt: Overhead shot of a vibrant sushi platter at Sushi No Midori Shibuya,
-  showcasing an array of fresh, meticulously prepared sushi pieces with glistening
-  fish and perfectly shaped rice. The scene is brightly lit, emphasizing the premium
-  quality and freshness of the ingredients, presented on a simple yet elegant wooden
-  tray, reflecting the 'affordable local gem' aesthetic.
 lang: ko
-lat: 35.6585
-lng: 139.7013
+lat: '35.6585'
+lng: '139.7013'
 summary: 도쿄 시부야에서 진정한 미식 경험을 찾으신다면 스시노미도리 시부야는 놓칠 수 없는 곳입니다. 신선한 프리미엄 초밥을 합리적인 가격에
-  맛볼 수 있어 현지인과 여행객 모두에게 사랑받는 이 곳에서 최고의 가성비 초밥을 경험해보세요.
 thumbnail: /static/images/sushi_no_midori_shibuya.jpg
 title: '도쿄 시부야 필수 코스: 현지인이 사랑하는 스시노미도리 시부야, 가성비 끝판왕 초밥 가이드'
 ---

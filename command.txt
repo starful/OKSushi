@@ -1,7 +1,7 @@
 gcloud builds submit
 
 
-zip -r okramen_backup.zip . \
+zip -r oksui_backup.zip . \
   -x "*.git*" \
   -x "*.gitignore" \
   -x "*.gcloudignore" \
@@ -23,5 +23,5 @@ git commit -m "update contents"
 git push origin main
 
 git add .
-git commit -m "Integrate premium Zen theme with full multi-language and SEO optimizations"
+git commit -m "Fix missing category data in build script to ensure accurate filter counts"
 git push origin main

@@ -3,17 +3,12 @@ address: Chuo, Tokyo
 agoda: ''
 categories:
 - 오마카세
-- 미슐랭
 date: '2026-04-19'
 image_prompt: Close-up shot of a pristine Edomae sushi piece, perhaps a shimmering
-  piece of otoro, being presented by a master chef's hands in a dimly lit, traditional
-  Japanese sushi counter setting. Focus on the delicate artistry and fresh ingredients,
-  capturing the essence of a legendary omakase experience, natural lighting.
 lang: ko
-lat: 35.6828
-lng: 139.7845
+lat: '35.6828'
+lng: '139.7845'
 summary: 도쿄 추오에 위치한 스시 스기타는 전설적인 에도마에 스시의 정수를 맛볼 수 있는 곳입니다. 섬세한 장인 정신과 최상의 재료가 어우러진
-  오마카세 경험은 미식가들에게 잊을 수 없는 감동을 선사합니다. 예약이 어렵지만, 그 이상의 가치를 지닌 미식의 성지로 손꼽힙니다.
 thumbnail: /static/images/sushi_sugita.jpg
 title: '도쿄 추오 스시 스기타: 전설적인 에도마에 오마카세의 정수를 경험하다'
 ---

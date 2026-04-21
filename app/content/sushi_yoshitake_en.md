@@ -2,21 +2,14 @@
 address: Chuo, Tokyo
 agoda: ''
 categories:
-- Michelin Star
-- Omakase
+- 미슐랭
+- 오마카세
 date: '2026-04-19'
 image_prompt: 45-degree shot of Chef Masahiro Yoshitake presenting a meticulously
-  crafted nigiri piece (perhaps a perfectly marbled otoro) at his pristine wooden
-  sushi counter, bright natural light illuminating the delicate ingredients and the
-  chef's focused expression. The atmosphere is serene and minimalist, hinting at a
-  premium, Michelin-starred Omakase experience.
 lang: en
-lat: 35.6698
-lng: 139.7621
+lat: '35.6698'
+lng: '139.7621'
 summary: Embark on an unparalleled culinary journey at Sushi Yoshitake in Chuo, Tokyo,
-  a hallowed institution where Edomae tradition meets Michelin-starred artistry. Experience
-  the pinnacle of omakase, orchestrated by a master chef dedicated to elevating every
-  exquisite bite into an unforgettable sensory revelation.
 thumbnail: /static/images/sushi_yoshitake.jpg
 title: 'Sushi Yoshitake: A Michelin-Starred Edomae Omakase Masterpiece in Chuo, Tokyo'
 ---

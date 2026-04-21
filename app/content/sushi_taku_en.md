@@ -2,23 +2,17 @@
 address: Nishiazabu, Tokyo
 agoda: ''
 categories:
-- Michelin Star
-- Omakase
+- 미슐랭
+- 오마카세
 date: '2026-04-21'
 image_prompt: 45-degree shot of a beautifully presented creative omakase sushi platter
-  at Sushi Taku, with a focus on vibrant, artfully arranged pieces. The setting is
-  intimate and upscale, with soft, moody lighting highlighting the delicate textures
-  and rich colors of the fresh ingredients against a dark, elegant sushi counter.
 lang: en
-lat: 35.6598
-lng: 139.7245
+lat: '35.6598'
+lng: '139.7245'
 summary: Embark on an extraordinary culinary adventure at Sushi Taku in Nishiazabu,
-  Tokyo, where innovative artistry meets the revered tradition of sushi. This Michelin-starred
-  establishment redefines omakase with creative flair, offering a bespoke dining experience
-  that tantalizes the senses and elevates the humble nigiri to a true masterpiece.
 thumbnail: /static/images/sushi_taku.jpg
-title: 'Experience Culinary Artistry: Sushi Taku''s Michelin-Starred Omakase in Nishiazabu,
-  Tokyo'
+title: 'Experience Culinary Artistry: Sushi Taku''''''''s Michelin-Starred Omakase
+  in'
 ---
 
 ## Introduction

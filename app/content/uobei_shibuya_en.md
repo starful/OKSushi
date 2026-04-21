@@ -2,22 +2,17 @@
 address: Shibuya, Tokyo
 agoda: ''
 categories:
-- Local Gem
-- Kaiten
+- 가성비
+- 회전초밥
 date: '2026-04-21'
 image_prompt: Close-up shot of sushi plates traveling on high-tech conveyor belts
-  at Uobei Shibuya, with bright, lively lighting, showing a diverse range of affordable
-  sushi dishes being delivered to customers in a bustling, modern restaurant environment.
 lang: en
-lat: 35.6601
-lng: 139.6985
+lat: '35.6601'
+lng: '139.6985'
 summary: Dive into the future of dining at Uobei Shibuya, where high-tech efficiency
-  meets delicious, affordable kaiten sushi. Experience a vibrant, fast-paced culinary
-  journey perfect for families, solo adventurers, and budget-conscious foodies seeking
-  a unique Tokyo eating adventure.
 thumbnail: /static/images/uobei_shibuya.jpg
-title: 'Uobei Shibuya: Tokyo''s High-Tech, Affordable Kaiten Sushi Experience in the
-  Heart of Shibuya'
+title: 'Uobei Shibuya: Tokyo''''''''s High-Tech, Affordable Kaiten Sushi Experience
+  in'
 ---
 
 ## Introduction

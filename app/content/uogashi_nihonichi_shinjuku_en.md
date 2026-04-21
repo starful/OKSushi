@@ -2,24 +2,16 @@
 address: Shinjuku, Tokyo
 agoda: ''
 categories:
-- Local Gem
-- Omakase
+- 혼밥
+- 가성비
 date: '2026-04-19'
 image_prompt: close-up shot of a chef preparing fresh sushi at Uogashi Nihon-ichi
-  Shinjuku, with a line of customers standing at a wooden counter, bright natural
-  lighting, showcasing the bustling and affordable atmosphere of a standing sushi
-  restaurant.
 lang: en
-lat: 35.6896
-lng: 139.6967
+lat: '35.6896'
+lng: '139.6967'
 summary: Discover Uogashi Nihon-ichi Shinjuku, a bustling 'standing sushi' institution
-  offering lightning-fast service, incredible affordability, and undeniably fresh
-  Edo-style sushi right in the heart of Tokyo's vibrant Shinjuku district. This guide
-  unlocks the secrets to an authentic and exhilarating Japanese dining adventure perfect
-  for both sushi aficionados and budget-conscious travelers.
 thumbnail: /static/images/uogashi_nihonichi_shinjuku.jpg
-title: 'Uogashi Nihon-ichi Shinjuku: Your Essential Guide to Tokyo''s Best Standing
-  Sushi Experience in Shinjuku'
+title: 'Uogashi Nihon-ichi Shinjuku: Your Essential Guide to Tokyo''''''''s Best Standing'
 ---
 
 ## Introduction

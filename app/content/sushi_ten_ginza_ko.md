@@ -5,14 +5,10 @@ categories:
 - 오마카세
 date: '2026-04-21'
 image_prompt: 45-degree shot, moody natural lighting, a stylish modern sushi bar with
-  a minimalist aesthetic in Ginza, featuring a skilled Japanese sushi chef meticulously
-  preparing delicate omakase nigiri for discerning diners, showcasing premium seafood
-  and elegant presentation.
 lang: ko
-lat: 35.6685
-lng: 139.7625
+lat: '35.6685'
+lng: '139.7625'
 summary: 도쿄 긴자의 중심, 스시 텐 긴자는 현대적인 감각과 장인 정신이 깃든 오마카세 스시의 정수를 선보입니다. 세련된 공간에서 최고급 제철
-  식재료와 섬세한 기술이 어우러져 오감을 만족시키는 특별한 미식 경험을 선사합니다.
 thumbnail: /static/images/sushi_ten_ginza.jpg
 title: '도쿄 긴자 스시 텐 긴자: 현대적 감각으로 피어난 오마카세 스시의 정수'
 ---

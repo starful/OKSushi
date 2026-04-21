@@ -3,17 +3,12 @@ address: Minato, Tokyo
 agoda: ''
 categories:
 - 오마카세
-- 미슐랭
 date: '2026-04-19'
 image_prompt: Close-up shot of a beautifully presented omakase sushi platter at Sushi
-  Shin, featuring a variety of creative and premium nigiri pieces with natural, bright
-  lighting highlighting the vibrant colors and intricate details of fresh seafood
-  and delicate garnishes on a dark, elegant counter.
 lang: ko
-lat: 35.6591
-lng: 139.7252
+lat: '35.6591'
+lng: '139.7252'
 summary: 도쿄 미나토에 자리한 스시 신은 단순한 식사를 넘어 예술적인 미식 경험을 선사합니다. 최상급 재료와 셰프의 창의적인 터치가 어우러진
-  오마카세로, 전통과 혁신이 조화로운 프리미엄 스시의 진수를 맛볼 수 있습니다. 잊을 수 없는 미식 여정을 스시 신에서 시작해보세요.
 thumbnail: /static/images/sushi_shin.jpg
 title: '도쿄 미나토의 미식 보석: 스시 신(Sushi Shin) – 창의적인 오마카세의 정수'
 ---

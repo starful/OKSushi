@@ -3,8 +3,6 @@ categories: []
 date: '2026-04-19'
 lang: en
 summary: Unlock the secrets to ordering sushi like a local in Japan. This guide provides
-  essential Japanese phrases, etiquette tips, and vocabulary to enhance your sushi
-  dining experience.
 title: 'Sushi Savvy: Essential Japanese Phrases for Ordering Like a Pro'
 ---
 

@@ -3,18 +3,12 @@ address: Roppongi, Tokyo
 agoda: ''
 categories:
 - 오마카세
-- 미슐랭
 date: '2026-04-21'
 image_prompt: Close-up, slightly elevated shot of a meticulously crafted piece of
-  nigiri sushi at Sushi Roppei, placed on a minimalist, dark ceramic plate. The fish
-  (e.g., glistening otoro or a bright red akami) is perfectly sliced, showcasing its
-  premium quality, with a subtle modern garnish. The background is softly blurred,
-  hinting at a sleek, sophisticated omakase counter under warm, focused lighting.
 lang: ko
-lat: 35.6625
-lng: 139.7231
+lat: '35.6625'
+lng: '139.7231'
 summary: 도쿄 롯폰기 한복판에 자리한 스시 록페이는 단순한 미식 경험을 넘어, 현대적인 감각과 최상급 재료가 어우러진 오마카세의 진수를 선사합니다.
-  정교한 기술과 창의적인 터치가 돋보이는 이곳에서, 당신의 미각은 잊을 수 없는 감동으로 채워지며, 스시의 새로운 지평을 경험하게 될 것입니다.
 thumbnail: /static/images/sushi_roppei.jpg
 title: '도쿄 롯폰기 스시 록페이: 현대적 미학이 깃든 오마카세의 정점'
 ---

@@ -2,19 +2,13 @@
 address: Ginza, Tokyo
 agoda: ''
 categories:
-- 현지인맛집
 - 오마카세
 date: '2026-04-19'
 image_prompt: 45-degree shot of a master sushi chef's hands delicately placing a piece
-  of nigiri on a sleek wooden counter, illuminated by soft, moody natural light filtering
-  through a subtle shoji screen. The setting evokes a sense of premium exclusivity
-  and a hidden gem atmosphere, with minimalist decor and fresh, vibrant omakase sushi
-  displayed on a pristine plate.
 lang: ko
-lat: 35.6701
-lng: 139.7642
+lat: '35.6701'
+lng: '139.7642'
 summary: 도쿄 미식의 중심 긴자에서 진정한 오마카세 스시 경험을 선사하는 '스시도코로 사토'는 숨겨진 보석 같은 존재입니다. 최고급 제철 재료와
-  장인의 손길로 빚어낸 프리미엄 에도마에 스시의 정수를 맛보고 싶다면, 이곳이 바로 당신이 찾던 특별한 미식의 성지입니다.
 thumbnail: /static/images/sushidokoro_sato.jpg
 title: '도쿄 긴자 미식의 정점: 스시도코로 사토, 숨겨진 오마카세 보석을 찾아서'
 ---

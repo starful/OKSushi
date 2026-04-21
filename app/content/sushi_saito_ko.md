@@ -2,18 +2,14 @@
 address: Minato, Tokyo
 agoda: ''
 categories:
-- 오마카세
 - 미슐랭
+- 오마카세
 date: '2026-04-19'
 image_prompt: Close-up shot of a perfect plate of Omakase sushi at Sushi Saito, featuring
-  a variety of premium, glistening fish on perfectly formed rice, illuminated by bright,
-  natural light from a window, emphasizing the delicate textures and Michelin Star
-  quality.
 lang: ko
-lat: 35.6661
-lng: 139.7397
+lat: '35.6661'
+lng: '139.7397'
 summary: 도쿄 미나토에 위치한 스시 사이토는 미식가들의 꿈이자 미슐랭 3스타에 빛나는 전설적인 스시 오마카세 레스토랑입니다. 최고급 재료와
-  장인 정신이 깃든 에도마에 스시를 통해 잊을 수 없는 미식 경험을 선사합니다.
 thumbnail: /static/images/sushi_saito.jpg
 title: '도쿄 미나토 스시 사이토: 미슐랭 3스타 오마카세의 정수를 경험하다'
 ---

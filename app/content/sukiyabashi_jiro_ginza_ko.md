@@ -2,19 +2,14 @@
 address: Ginza, Tokyo
 agoda: ''
 categories:
-- 오마카세
 - 미슐랭
+- 오마카세
 date: '2026-04-19'
 image_prompt: Close-up, moody shot of a master sushi chef's hands meticulously forming
-  an Edomae nigiri on a polished wooden counter. The scene highlights the delicate
-  presentation of an omakase dish, with soft, focused lighting emphasizing the exquisite
-  textures and Michelin 3-star quality ingredients, hinting at a minimalist, traditional
-  Japanese aesthetic.
 lang: ko
-lat: 35.6723
-lng: 139.7645
+lat: '35.6723'
+lng: '139.7645'
 summary: 도쿄 긴자의 심장부에 자리한 스키야바시 지로 긴자는 미슐랭 3스타의 영예를 빛내는 에도마에 스시의 정수로, 전 세계 미식가들의 버킷리스트
-  1순위로 꼽히는 전설적인 오마카세 스시 레스토랑입니다. 장인의 손끝에서 탄생하는 완벽한 한 점 스시를 경험하며 평생 잊지 못할 미식의 감동을 느껴보세요.
 thumbnail: /static/images/sukiyabashi_jiro_ginza.jpg
 title: '도쿄 긴자 스시의 전설: 스키야바시 지로 긴자, 미슐랭 3스타 오마카세 에도마에 스시 완벽 가이드'
 ---

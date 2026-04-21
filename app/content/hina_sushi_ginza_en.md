@@ -2,24 +2,15 @@
 address: Ginza, Tokyo
 agoda: ''
 categories:
-- Local Gem
-- Omakase
+- 오마카세
 date: '2026-04-21'
 image_prompt: A 45-degree shot of a lavish spread at Hina Sushi Ginza, featuring an
-  array of freshly prepared premium nigiri sushi with glistening raw seafood toppings
-  (tuna, salmon, uni, scallops) on a traditional wooden sushi board, with elegant,
-  bright natural lighting highlighting the vibrant colors and the concept of an all-you-can-eat
-  selection.
 lang: en
-lat: 35.6731
-lng: 139.7645
+lat: '35.6731'
+lng: '139.7645'
 summary: Discover Hina Sushi Ginza, an unparalleled dining destination in Tokyo's
-  upscale Ginza district, offering a premium all-you-can-eat sushi experience where
-  exquisite seafood meets limitless indulgence in a sophisticated setting. Prepare
-  for an unforgettable culinary journey that redefines traditional sushi feasts.
 thumbnail: /static/images/hina_sushi_ginza.jpg
-title: 'Hina Sushi Ginza: Indulge in Premium All-You-Can-Eat Sushi in the Heart of
-  Ginza, Tokyo'
+title: 'Hina Sushi Ginza: Indulge in Premium All-You-Can-Eat Sushi in the Heart of'
 ---
 
 ## Introduction

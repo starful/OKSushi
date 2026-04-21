@@ -1,19 +1,13 @@
 ---
 address: Ginza, Tokyo
 agoda: ''
-categories:
-- 오마카세
-- 미슐랭
+categories: []
 date: '2026-04-18'
 image_prompt: 45-degree shot of Sukiyabashi Jiro's minimalist sushi counter, moody
-  natural lighting highlighting the pristine Edomae sushi preparations, focused on
-  a master chef serving an exquisite piece of omakase sushi, with subtle hints of
-  Michelin star prestige.
 lang: ko
-lat: 35.6723
-lng: 139.7645
+lat: '35.6723'
+lng: '139.7645'
 summary: 도쿄 긴자의 골목 깊숙이 자리한 스키야바시 지로는 세계적인 명성을 자랑하는 미슐랭 3스타 스시 레스토랑입니다. 스시 장인의 혼이 담긴
-  에도마에 오마카세 스시를 통해 미식의 경지를 경험하고 싶다면, 이곳은 당신의 버킷리스트 최상단에 올라야 할 곳입니다.
 thumbnail: /static/images/sukiyabashi_jiro.jpg
 title: '도쿄 긴자 스키야바시 지로: 미슐랭 3스타 에도마에 오마카세 스시의 정점'
 ---

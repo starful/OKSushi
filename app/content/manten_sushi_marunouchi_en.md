@@ -2,21 +2,17 @@
 address: Chiyoda, Tokyo
 agoda: ''
 categories:
-- Local Gem
-- Omakase
+- 오마카세
+- 가성비
 date: '2026-04-19'
 image_prompt: Close-up shot, bright natural lighting, a skilled sushi chef presenting
-  a freshly prepared piece of glistening tuna nigiri, with a blurred background showing
-  the popular, bustling yet intimate interior of Manten Sushi Marunouchi.
 lang: en
-lat: 35.6785
-lng: 139.7621
+lat: '35.6785'
+lng: '139.7621'
 summary: Experience the legendary Manten Sushi Marunouchi, a beloved culinary hotspot
-  in Chiyoda, Tokyo, renowned for its fresh, high-quality ingredients and exceptional
-  omakase experience that redefines affordability in the heart of Japan's capital.
 thumbnail: /static/images/manten_sushi_marunouchi.jpg
-title: 'Manten Sushi Marunouchi: Discover Tokyo''s Premier Affordable Omakase Gem
-  in Chiyoda'
+title: 'Manten Sushi Marunouchi: Discover Tokyo''''''''s Premier Affordable Omakase
+  Gem'
 ---
 
 ## Introduction

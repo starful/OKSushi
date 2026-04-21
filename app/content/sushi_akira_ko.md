@@ -5,14 +5,10 @@ categories:
 - 오마카세
 date: '2026-04-21'
 image_prompt: A close-up 45-degree shot of a master sushi chef's hands meticulously
-  placing a piece of nigiri sushi on a small wooden counter, with the chef's focused
-  expression in the background. Moody, warm lighting, showcasing the premium ingredients
-  and the intimate omakase setting.
 lang: ko
-lat: 35.6595
-lng: 139.7215
+lat: '35.6595'
+lng: '139.7215'
 summary: 도쿄 미나토에 자리한 스시 아키라는 작지만 강렬한 인상을 남기는 프리미엄 오마카세 스시 레스토랑입니다. 장인의 손길로 빚어낸 한 점
-  한 점의 스시에서 제철 해산물의 깊은 맛과 완벽한 조화를 경험하며 잊지 못할 미식의 여정을 떠나보세요.
 thumbnail: /static/images/sushi_akira.jpg
 title: '미나토 도쿄 스시 아키라: 오마카세의 정수를 맛볼 수 있는 프리미엄 스시 경험'
 ---

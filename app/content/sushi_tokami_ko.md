@@ -2,18 +2,14 @@
 address: Ginza, Tokyo
 agoda: ''
 categories:
-- 오마카세
 - 미슐랭
+- 오마카세
 date: '2026-04-19'
 image_prompt: Close-up 45-degree shot, moody natural lighting, of a meticulously crafted
-  piece of otoro sushi with a glistening slice of ruby-red tuna, held by a chef's
-  hand, against a blurred background of a dimly lit, elegant sushi counter, emphasizing
-  the Michelin Star quality and omakase experience.
 lang: ko
-lat: 35.6691
-lng: 139.7615
+lat: '35.6691'
+lng: '139.7615'
 summary: 도쿄 긴자의 심장부에 위치한 스시 토카미는 미슐랭 스타에 빛나는 참치 오마카세 전문점입니다. 최상급 참치와 에도마에 스시 장인의 섬세한
-  손길이 어우러져, 잊을 수 없는 미식 경험을 선사합니다.
 thumbnail: /static/images/sushi_tokami.jpg
 title: '긴자 스시 토카미: 미슐랭 스타 참치 오마카세의 정수, 도쿄 미식 여행의 하이라이트'
 ---

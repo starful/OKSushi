@@ -1,25 +1,16 @@
 ---
 address: Ginza, Tokyo
 agoda: ''
-categories:
-- Michelin Star
-- Omakase
+categories: []
 date: '2026-04-18'
 image_prompt: Close-up shot of Sukiyabashi Jiro's sushi counter, showcasing Chef Jiro
-  Ono meticulously placing a piece of glistening Edomae nigiri on a minimalist plate,
-  with moody natural lighting highlighting the texture of the fish and the focused
-  intensity of the Michelin Star chef, conveying the reverence of an Omakase experience.
 lang: en
-lat: 35.6723
-lng: 139.7645
+lat: '35.6723'
+lng: '139.7645'
 summary: Embark on an unparalleled culinary pilgrimage to Sukiyabashi Jiro, the legendary
-  sushi haven nestled in Tokyo's upscale Ginza district, where Chef Jiro Ono transforms
-  pristine ingredients into an exquisite Edomae Omakase masterpiece. This intimate,
-  Michelin-starred counter offers not just a meal, but a profound, almost spiritual
-  encounter with the art of sushi, meticulously perfected over decades.
 thumbnail: /static/images/sukiyabashi_jiro.jpg
-title: 'The Ultimate Guide to Sukiyabashi Jiro Ginza: Tokyo''s Iconic Edomae Omakase
-  Masterpiece'
+title: 'The Ultimate Guide to Sukiyabashi Jiro Ginza: Tokyo''''''''s Iconic Edomae
+  Omakase'
 ---
 
 ## Introduction

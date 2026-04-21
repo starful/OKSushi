@@ -16,24 +16,24 @@ SITE_CONFIG = {
     "bg_dot_color":  "#eaddca",       # 히노키(편백나무) 도마의 연한 베이지 색상
 
     "filter_buttons": [
-        {"label": "All",           "theme": "all",        "count_id": "count-all"},
-        {"label": "🍱 Omakase",    "theme": "omakase",    "count_id": "count-omakase"},
-        {"label": "🔄 Kaiten",     "theme": "kaiten",     "count_id": "count-kaiten"},
-        {"label": "🌟 Michelin",   "theme": "michelin",   "count_id": "count-michelin"},
-        {"label": "💰 Budget",     "theme": "budget",     "count_id": "count-budget"},
-        {"label": "🐟 Fish Market","theme": "market",     "count_id": "count-market"},
-        {"label": "🙋 Solo Friendly","theme": "solo",      "count_id": "count-solo"},
+        {"label_en": "All",        "label_ko": "전체",    "theme": "all",       "count_id": "count-all"},
+        {"label_en": "🍱 Omakase",  "label_ko": "오마카세", "theme": "omakase",   "count_id": "count-omakase"},
+        {"label_en": "🌟 Michelin", "label_ko": "미슐랭",   "theme": "michelin",  "count_id": "count-michelin"},
+        {"label_en": "🔄 Kaiten",   "label_ko": "회전초밥", "theme": "kaiten",    "count_id": "count-kaiten"},
+        {"label_en": "🐟 Market",   "label_ko": "시장스시", "theme": "market",    "count_id": "count-market"},
+        {"label_en": "💰 Value",    "label_ko": "가성비",   "theme": "budget",    "count_id": "count-budget"},
+        {"label_en": "🙋 Solo",     "label_ko": "혼밥",     "theme": "solo",      "count_id": "count-solo"},
+        {"label_en": "🍶 Sake",     "label_ko": "사케/술",  "theme": "pairing",   "count_id": "count-pairing"},
     ],
 
     "category_mapping": {
         "오마카세": "Omakase",
+        "미슐랭": "Michelin",
         "회전초밥": "Kaiten",
-        "미슐랭":   "Michelin",
-        "가성비":   "Budget",
-        "수산시장": "Market",
-        "혼밥가능": "Solo",
-        "프리미엄": "Premium",
-        "현지인맛집": "Local Gem"
+        "시장스시": "Market",
+        "가성비": "Budget",
+        "혼밥": "Solo",
+        "사케/술": "Pairing"
     },
 
     "js_category_map": {

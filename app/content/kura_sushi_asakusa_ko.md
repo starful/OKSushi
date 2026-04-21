@@ -2,18 +2,13 @@
 address: Asakusa, Tokyo
 agoda: ''
 categories:
-- 현지인맛집
 - 회전초밥
 date: '2026-04-18'
 image_prompt: 45-degree shot, bright natural lighting, showing the bustling interior
-  of Kura Sushi Asakusa with kaiten conveyor belt full of colorful sushi plates, smiling
-  families enjoying their meal, and a playful, clean atmosphere.
 lang: ko
-lat: 35.7121
-lng: 139.7915
+lat: '35.7121'
+lng: '139.7915'
 summary: 도쿄 아사쿠사의 활기 넘치는 분위기 속에서 가족 모두가 즐길 수 있는 특별한 미식 경험을 찾고 계신가요? 쿠라스시 아사쿠사는 신선하고
-  맛있는 초밥을 합리적인 가격에 회전 레일 위에서 만날 수 있는 최적의 장소입니다. 전통과 현대가 공존하는 아사쿠사에서 온 가족이 함께 미식의 즐거움을
-  만끽해 보세요.
 thumbnail: /static/images/kura_sushi_asakusa.jpg
 title: '도쿄 아사쿠사 쿠라스시: 온 가족이 즐기는 신선하고 유쾌한 회전초밥 미식 여행'
 ---

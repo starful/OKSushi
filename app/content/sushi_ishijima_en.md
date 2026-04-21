@@ -2,23 +2,15 @@
 address: Ginza, Tokyo
 agoda: ''
 categories:
-- Local Gem
-- Omakase
+- 가성비
 date: '2026-04-21'
 image_prompt: 45-degree shot of a traditional Japanese sushi counter at Sushi Ishijima,
-  with a master sushi chef meticulously preparing a pristine piece of nigiri for an
-  affordable lunch set, natural light highlighting the fresh seafood and the chef's
-  skilled hands, showcasing the authentic Edomae style.
 lang: en
-lat: 35.6745
-lng: 139.7725
+lat: '35.6745'
+lng: '139.7725'
 summary: Step into Sushi Ishijima, Ginza's cherished culinary secret, where master
-  chefs craft traditional Edomae sushi with precision and passion. Discover an authentic
-  Tokyo experience celebrated for its exceptional quality and surprisingly affordable
-  lunch offerings, making exquisite sushi accessible to all.
 thumbnail: /static/images/sushi_ishijima.jpg
-title: 'Sushi Ishijima Ginza: A Local Gem for Authentic Edomae Sushi & Affordable
-  Luxury in Tokyo'
+title: 'Sushi Ishijima Ginza: A Local Gem for Authentic Edomae Sushi & Affordable'
 ---
 
 ## Introduction

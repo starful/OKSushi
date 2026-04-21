@@ -3,18 +3,12 @@ address: Chuo, Tokyo
 agoda: ''
 categories:
 - 오마카세
-- 미슐랭
 date: '2026-04-19'
 image_prompt: Close-up shot of a pristine omakase sushi platter at Sushi Hashimoto,
-  showcasing a variety of glistening, premium nigiri pieces arranged artfully on a
-  dark stone plate. Bright, natural lighting highlights the fresh textures and vibrant
-  colors of the seafood and perfectly formed rice. The atmosphere suggests a rising
-  star, premium dining experience.
 lang: ko
-lat: 35.6741
-lng: 139.7752
+lat: '35.6741'
+lng: '139.7752'
 summary: 도쿄 주오에 위치한 '스시 하시모토'는 미식가들 사이에서 빠르게 떠오르는 프리미엄 오마카세 스시 레스토랑입니다. 최고급 재료와 장인의
-  섬세한 손길이 빚어내는 환상적인 스시 경험을 선사하며, 에도마에 스시의 정수를 현대적인 감각으로 재해석합니다.
 thumbnail: /static/images/sushi_hashimoto.jpg
 title: '도쿄 주오의 떠오르는 스시 명소: 스시 하시모토 | 프리미엄 오마카세의 정수'
 ---

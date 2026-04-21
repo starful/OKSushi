@@ -2,22 +2,16 @@
 address: Ginza, Tokyo
 agoda: ''
 categories:
-- Omakase
+- 오마카세
 date: '2026-04-19'
 image_prompt: 45-degree close-up shot of Chef Arai meticulously preparing a piece
-  of chutoro sushi, his hands focused, with expertly sliced glistening red tuna and
-  perfectly formed rice visible on the pristine hinoki counter, illuminated by soft,
-  natural lighting, conveying an atmosphere of premium omakase and tuna mastery.
 lang: en
-lat: 35.6687
-lng: 139.7612
+lat: '35.6687'
+lng: '139.7612'
 summary: Immerse yourself in the unparalleled world of Sushi Arai, a legendary Ginza
-  establishment where Chef Arai's omakase redefines premium Edomae sushi, distinguished
-  by his masterful expertise in tuna, offering an unforgettable culinary journey for
-  discerning palates.
 thumbnail: /static/images/sushi_arai.jpg
-title: 'Sushi Arai Ginza: A Journey into Tokyo''s Pinnacle of Premium Omakase and
-  Tuna Mastery'
+title: 'Sushi Arai Ginza: A Journey into Tokyo''''''''s Pinnacle of Premium Omakase
+  and'
 ---
 
 ## Introduction

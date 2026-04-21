@@ -2,22 +2,15 @@
 address: Ginza, Tokyo
 agoda: ''
 categories:
-- Omakase
+- 오마카세
 date: '2026-04-21'
 image_prompt: 45-degree shot of a chef presenting a perfectly crafted piece of nigiri
-  sushi on a minimalist dish, set on a dark, polished wooden counter at Sushi Ten
-  Ginza, illuminated by soft, moody lighting, showcasing the modern, stylish omakase
-  atmosphere.
 lang: en
-lat: 35.6685
-lng: 139.7625
+lat: '35.6685'
+lng: '139.7625'
 summary: Step into Sushi Ten Ginza for an unparalleled omakase experience in Tokyo's
-  chic Ginza, where every meticulously crafted piece of sushi is a testament to the
-  chef's artistry in a stylish, contemporary setting. This culinary sanctuary offers
-  a modern interpretation of Edomae traditions, promising an unforgettable journey
-  for discerning palates.
 thumbnail: /static/images/sushi_ten_ginza.jpg
-title: 'Sushi Ten Ginza: Tokyo''s Epitome of Modern Omakase and Stylish Dining'
+title: 'Sushi Ten Ginza: Tokyo''''''''s Epitome of Modern Omakase and Stylish Dining'
 ---
 
 ## Introduction

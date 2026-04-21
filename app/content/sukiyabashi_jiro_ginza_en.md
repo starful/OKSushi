@@ -2,22 +2,16 @@
 address: Ginza, Tokyo
 agoda: ''
 categories:
-- Michelin Star
-- Omakase
+- 미슐랭
+- 오마카세
 date: '2026-04-19'
 image_prompt: Close-up, moody lighting, a chef's hands expertly placing a perfectly
-  formed nigiri sushi, featuring glistening red tuna and a delicate dab of wasabi,
-  on a minimalist wooden counter at Sukiyabashi Jiro Ginza, emphasizing the Edomae
-  Omakase tradition and the gravitas of a Michelin 3-Star establishment.
 lang: en
-lat: 35.6723
-lng: 139.7645
+lat: '35.6723'
+lng: '139.7645'
 summary: Journey to Sukiyabashi Jiro Ginza, an iconic Michelin 3-star sushi sanctuary
-  in Tokyo's upscale Ginza district, offering an unparalleled Edomae Omakase experience
-  of precision, purity, and profound culinary artistry.
 thumbnail: /static/images/sukiyabashi_jiro_ginza.jpg
-title: 'Sukiyabashi Jiro Ginza: A Michelin 3-Star Edomae Omakase Pilgrimage in Tokyo''s
-  Ginza District'
+title: 'Sukiyabashi Jiro Ginza: A Michelin 3-Star Edomae Omakase Pilgrimage in Tokyo''''''''s'
 ---
 
 ## Introduction

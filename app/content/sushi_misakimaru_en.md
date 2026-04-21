@@ -2,24 +2,17 @@
 address: Ueno, Tokyo
 agoda: ''
 categories:
-- Local Gem
-- Kaiten
+- 혼밥
+- 가성비
 date: '2026-04-21'
 image_prompt: Close-up, 45-degree shot of a colorful array of freshly prepared sushi
-  pieces on a sleek conveyor belt, illuminated by bright, natural light, showcasing
-  the glistening fish and perfectly formed rice in a bustling, modern yet welcoming
-  sushi restaurant setting, emphasizing affordability and speed.
 lang: en
-lat: 35.7012
-lng: 139.7715
+lat: '35.7012'
+lng: '139.7715'
 summary: Dive into the vibrant world of Sushi Misaki-maru, Ueno's celebrated sushi
-  spot where culinary excellence meets everyday affordability. Experience the thrill
-  of fresh, high-quality sushi delivered swiftly to your table, making it an unmissable
-  stop for both locals and Tokyo explorers seeking an authentic and efficient Japanese
-  dining adventure.
 thumbnail: /static/images/sushi_misakimaru.jpg
-title: 'Sushi Misaki-maru: Ueno, Tokyo''s Premier Spot for Affordable, Fresh & Fast
-  Sushi'
+title: 'Sushi Misaki-maru: Ueno, Tokyo''''''''s Premier Spot for Affordable, Fresh
+  & Fast'
 ---
 
 ## Introduction

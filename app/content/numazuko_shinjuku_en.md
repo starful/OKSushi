@@ -2,23 +2,15 @@
 address: Shinjuku, Tokyo
 agoda: ''
 categories:
-- Local Gem
-- Kaiten
+- 회전초밥
 date: '2026-04-21'
 image_prompt: 45-degree shot of Numazuko Shinjuku during a busy lunch service, bright
-  natural lighting, showcasing a bustling kaiten belt laden with beautifully presented
-  sushi featuring visibly large toppings, with happy customers reaching for plates,
-  and a chef expertly slicing fish in the background.
 lang: en
-lat: 35.6912
-lng: 139.7025
+lat: '35.6912'
+lng: '139.7025'
 summary: Craving an unforgettable sushi experience in the heart of Tokyo? Numazuko
-  Shinjuku offers a vibrant kaiten sushi adventure, celebrated for its incredibly
-  fresh seafood, generous toppings, and lively atmosphere, making it a must-visit
-  culinary destination in Shinjuku.
 thumbnail: /static/images/numazuko_shinjuku.jpg
-title: 'Numazuko Shinjuku: Your Essential Guide to Tokyo''s Most Exciting Kaiten Sushi
-  in Shinjuku'
+title: 'Numazuko Shinjuku: Your Essential Guide to Tokyo''''''''s Most Exciting Kaiten'
 ---
 
 ## Introduction

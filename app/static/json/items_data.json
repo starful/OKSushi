@@ -3,232 +3,20 @@
   "total_count": 68,
   "sushis": [
     {
-      "id": "sushiro_shinjuku_en",
-      "lang": "en",
-      "title": "Sushiro Shinjuku: Your Essential Guide to Affordable Kaiten Sushi in Tokyo's Bustling Heart",
-      "lat": 35.6908,
-      "lng": 139.7042,
-      "categories": [
-        "Kaiten",
-        "Local Gem"
-      ],
-      "thumbnail": "/static/images/sushiro_shinjuku.jpg",
-      "address": "Shinjuku, Tokyo",
-      "published": "2026-04-18",
-      "summary": "Discover Sushiro Shinjuku, the ultimate destination for delicious, wallet-friendly kaiten sushi right in the vibrant heart of Tokyo. Perfect for solo diners and groups alike, it offers a dynamic culin",
-      "link": "/item/sushiro_shinjuku_en"
-    },
-    {
-      "id": "uogashi_nihonichi_shinjuku_en",
-      "lang": "en",
-      "title": "Uogashi Nihon-ichi Shinjuku: Your Essential Guide to Tokyo's Best Standing Sushi Experience in Shinjuku",
-      "lat": 35.6896,
-      "lng": 139.6967,
-      "categories": [
-        "Local Gem",
-        "Edomae"
-      ],
-      "thumbnail": "/static/images/uogashi_nihonichi_shinjuku.jpg",
-      "address": "Shinjuku, Tokyo",
-      "published": "2026-04-19",
-      "summary": "Discover Uogashi Nihon-ichi Shinjuku, a bustling 'standing sushi' institution offering lightning-fast service, incredible affordability, and undeniably fresh Edo-style sushi right in the heart of Toky",
-      "link": "/item/uogashi_nihonichi_shinjuku_en"
-    },
-    {
-      "id": "sushi_tokami_ko",
-      "lang": "ko",
-      "title": "긴자 스시 토카미: 미슐랭 스타 참치 오마카세의 정수, 도쿄 미식 여행의 하이라이트",
-      "lat": 35.6691,
-      "lng": 139.7615,
-      "categories": [
-        "오마카세",
-        "미슐랭",
-        "에도마에"
-      ],
-      "thumbnail": "/static/images/sushi_tokami.jpg",
-      "address": "Ginza, Tokyo",
-      "published": "2026-04-19",
-      "summary": "도쿄 긴자의 심장부에 위치한 스시 토카미는 미슐랭 스타에 빛나는 참치 오마카세 전문점입니다. 최상급 참치와 에도마에 스시 장인의 섬세한 손길이 어우러져, 잊을 수 없는 미식 경험을 선사합니다.",
-      "link": "/item/sushi_tokami_ko"
-    },
-    {
-      "id": "kura_sushi_asakusa_ko",
-      "lang": "ko",
-      "title": "도쿄 아사쿠사 쿠라스시: 온 가족이 즐기는 신선하고 유쾌한 회전초밥 미식 여행",
-      "lat": 35.7121,
-      "lng": 139.7915,
-      "categories": [
-        "회전초밥",
-        "현지인맛집"
-      ],
-      "thumbnail": "/static/images/kura_sushi_asakusa.jpg",
-      "address": "Asakusa, Tokyo",
-      "published": "2026-04-18",
-      "summary": "도쿄 아사쿠사의 활기 넘치는 분위기 속에서 가족 모두가 즐길 수 있는 특별한 미식 경험을 찾고 계신가요? 쿠라스시 아사쿠사는 신선하고 맛있는 초밥을 합리적인 가격에 회전 레일 위에서 만날 수 있는 최적의 장소입니다. 전통과 현대가 공존하는 아사쿠사에서 온 가족이 함께 미식의 즐거움을 만끽해 보세요.",
-      "link": "/item/kura_sushi_asakusa_ko"
-    },
-    {
-      "id": "sushidokoro_sato_en",
-      "lang": "en",
-      "title": "Sushidokoro Sato: Unveiling Ginza's Premium Omakase Hidden Gem in Tokyo",
-      "lat": 35.6701,
-      "lng": 139.7642,
-      "categories": [
-        "Omakase",
-        "Edomae",
-        "Local Gem"
-      ],
-      "thumbnail": "/static/images/sushidokoro_sato.jpg",
-      "address": "Ginza, Tokyo",
-      "published": "2026-04-19",
-      "summary": "Discover Sushidokoro Sato, Ginza's elusive premium Omakase haven, where master chefs craft an unforgettable culinary journey, making it a true hidden gem for discerning sushi aficionados in Tokyo.",
-      "link": "/item/sushidokoro_sato_en"
-    },
-    {
-      "id": "hanamaru_ginza_ko",
-      "lang": "ko",
-      "title": "도쿄 긴자 맛집: 하나마루 긴자, 프리미엄 홋카이도 회전초밥의 모든 것",
-      "lat": 35.6721,
-      "lng": 139.7635,
-      "categories": [
-        "회전초밥",
-        "현지인맛집"
-      ],
-      "thumbnail": "/static/images/hanamaru_ginza.jpg",
-      "address": "Ginza, Tokyo",
-      "published": "2026-04-19",
-      "summary": "긴자의 심장부에서 홋카이도의 신선함을 만나는 특별한 미식 경험, 하나마루 긴자는 프리미엄 재료로 빚어낸 회전초밥의 진수를 선보이며 현지인과 여행객 모두에게 사랑받는 도쿄의 숨겨진 보석입니다. 활기찬 분위기 속에서 합리적인 가격으로 최고의 스시를 즐길 수 있는 이곳에서 잊지 못할 추억을 만들어보세요.",
-      "link": "/item/hanamaru_ginza_ko"
-    },
-    {
-      "id": "sushi_amamoto_ko",
-      "lang": "ko",
-      "title": "미나토 도쿄의 정점: 스시 아마모토에서 오마카세 미식의 극치를 경험하다",
-      "lat": 35.6621,
-      "lng": 139.7289,
-      "categories": [
-        "오마카세",
-        "미슐랭"
-      ],
-      "thumbnail": "/static/images/sushi_amamoto.jpg",
-      "address": "Minato, Tokyo",
-      "published": "2026-04-19",
-      "summary": "미나토 도쿄에 위치한 스시 아마모토는 예약조차 어려운 프리미엄 오마카세 스시 경험을 선사합니다. 장인의 손길로 빚어낸 한 점 한 점에 도쿄 최고의 미식 철학이 담겨 있으며, 단순한 식사를 넘어선 예술적 경지를 선사합니다.",
-      "link": "/item/sushi_amamoto_ko"
-    },
-    {
       "id": "sushi_misakimaru_ko",
       "lang": "ko",
       "title": "도쿄 우에노 스시 미사키마루: 신선하고 빠른, 가성비 끝판왕 회전초밥 맛집 가이드",
       "lat": 35.7012,
       "lng": 139.7715,
       "categories": [
-        "회전초밥",
-        "현지인맛집"
+        "혼밥",
+        "가성비"
       ],
       "thumbnail": "/static/images/sushi_misakimaru.jpg",
       "address": "Ueno, Tokyo",
       "published": "2026-04-21",
-      "summary": "도쿄 우에노의 스시 미사키마루는 신선하고 맛있는 스시를 합리적인 가격에 빠르게 즐길 수 있는 현지인 추천 맛집입니다. 북적이는 우에노의 활기 속에서 진정한 도쿄의 맛을 경험하고 싶다면, 이곳이 정답입니다.",
+      "summary": "도쿄 우에노의 스시 미사키마루는 신선하고 맛있는 스시를 합리적인 가격에 빠르게 즐길 수 있는 현지인 추천 맛집입니다. 북적이는 우에노의",
       "link": "/item/sushi_misakimaru_ko"
-    },
-    {
-      "id": "sushi_no_midori_shibuya_en",
-      "lang": "en",
-      "title": "Sushi No Midori Shibuya: Discover Tokyo's Premium Yet Affordable Edomae Sushi Gem in Shibuya",
-      "lat": 35.6585,
-      "lng": 139.7013,
-      "categories": [
-        "Edomae",
-        "Local Gem"
-      ],
-      "thumbnail": "/static/images/sushi_no_midori_shibuya.jpg",
-      "address": "Shibuya, Tokyo",
-      "published": "2026-04-18",
-      "summary": "Dive into the vibrant culinary scene of Shibuya, Tokyo, and discover Sushi No Midori, a revered local gem where premium Edomae sushi meets an astonishingly affordable price point, offering exquisite f",
-      "link": "/item/sushi_no_midori_shibuya_en"
-    },
-    {
-      "id": "sushi_saito_ko",
-      "lang": "ko",
-      "title": "도쿄 미나토 스시 사이토: 미슐랭 3스타 오마카세의 정수를 경험하다",
-      "lat": 35.6661,
-      "lng": 139.7397,
-      "categories": [
-        "오마카세",
-        "미슐랭",
-        "에도마에"
-      ],
-      "thumbnail": "/static/images/sushi_saito.jpg",
-      "address": "Minato, Tokyo",
-      "published": "2026-04-19",
-      "summary": "도쿄 미나토에 위치한 스시 사이토는 미식가들의 꿈이자 미슐랭 3스타에 빛나는 전설적인 스시 오마카세 레스토랑입니다. 최고급 재료와 장인 정신이 깃든 에도마에 스시를 통해 잊을 수 없는 미식 경험을 선사합니다.",
-      "link": "/item/sushi_saito_ko"
-    },
-    {
-      "id": "sukiyabashi_jiro_en",
-      "lang": "en",
-      "title": "The Ultimate Guide to Sukiyabashi Jiro Ginza: Tokyo's Iconic Edomae Omakase Masterpiece",
-      "lat": 35.6723,
-      "lng": 139.7645,
-      "categories": [
-        "Omakase",
-        "Edomae",
-        "Michelin Star"
-      ],
-      "thumbnail": "/static/images/sukiyabashi_jiro.jpg",
-      "address": "Ginza, Tokyo",
-      "published": "2026-04-18",
-      "summary": "Embark on an unparalleled culinary pilgrimage to Sukiyabashi Jiro, the legendary sushi haven nestled in Tokyo's upscale Ginza district, where Chef Jiro Ono transforms pristine ingredients into an exqu",
-      "link": "/item/sukiyabashi_jiro_en"
-    },
-    {
-      "id": "kyubey_shinjuku_en",
-      "lang": "en",
-      "title": "Kyubey Shinjuku: Experience Tokyo's Premier Edomae Sushi in the Heart of Shinjuku",
-      "lat": 35.6891,
-      "lng": 139.6942,
-      "categories": [
-        "Edomae",
-        "Omakase"
-      ],
-      "thumbnail": "/static/images/kyubey_shinjuku.jpg",
-      "address": "Shinjuku, Tokyo",
-      "published": "2026-04-19",
-      "summary": "Step into a realm of culinary artistry at Kyubey Shinjuku, where traditional Edomae sushi reaches new heights of luxury. This esteemed restaurant offers an unparalleled dining journey, showcasing the ",
-      "link": "/item/kyubey_shinjuku_en"
-    },
-    {
-      "id": "genki_sushi_shibuya_en",
-      "lang": "en",
-      "title": "Genki Sushi Shibuya: Your Essential Guide to Affordable, Popular Kaiten Sushi in Tokyo's Heart",
-      "lat": 35.6605,
-      "lng": 139.6998,
-      "categories": [
-        "Kaiten",
-        "Local Gem"
-      ],
-      "thumbnail": "/static/images/genki_sushi_shibuya.jpg",
-      "address": "Shibuya, Tokyo",
-      "published": "2026-04-19",
-      "summary": "Discover Genki Sushi Shibuya, a must-visit in Tokyo for an exhilarating and affordable Kaiten sushi experience where fresh, delicious plates zoom directly to your seat via a high-tech conveyor, making",
-      "link": "/item/genki_sushi_shibuya_en"
-    },
-    {
-      "id": "sushi_katsura_en",
-      "lang": "en",
-      "title": "Sushi Katsura: Tsukiji's Authentic & Affordable Edomae Gem in Tokyo",
-      "lat": 35.6631,
-      "lng": 139.7712,
-      "categories": [
-        "Local Gem",
-        "Edomae"
-      ],
-      "thumbnail": "/static/images/sushi_katsura.jpg",
-      "address": "Tsukiji, Tokyo",
-      "published": "2026-04-19",
-      "summary": "Discover Sushi Katsura, a cherished local gem nestled in Tokyo's historic Tsukiji market, offering an authentic Edomae sushi experience that's both exquisite and remarkably affordable. Famous for its ",
-      "link": "/item/sushi_katsura_en"
     },
     {
       "id": "sushidokoro_yamada_ko",
@@ -237,64 +25,13 @@
       "lat": 35.6681,
       "lng": 139.7618,
       "categories": [
-        "오마카세",
-        "에도마에",
-        "미슐랭"
+        "오마카세"
       ],
       "thumbnail": "/static/images/sushidokoro_yamada.jpg",
       "address": "Ginza, Tokyo",
       "published": "2026-04-21",
-      "summary": "도쿄 긴자의 중심에서 스시도코로 야마다는 오마카세 스시의 진수를 선보입니다. 장인의 손길로 탄생한 프리미엄 에도마에 스시를 맛보며 미식의 황홀경에 빠져보세요.",
+      "summary": "도쿄 긴자의 중심에서 스시도코로 야마다는 오마카세 스시의 진수를 선보입니다. 장인의 손길로 탄생한 프리미엄 에도마에 스시를 맛보며",
       "link": "/item/sushidokoro_yamada_ko"
-    },
-    {
-      "id": "sushi_hashimoto_en",
-      "lang": "en",
-      "title": "Sushi Hashimoto: A Rising Edomae Omakase Star in Chuo, Tokyo for Premium Dining",
-      "lat": 35.6741,
-      "lng": 139.7752,
-      "categories": [
-        "Omakase",
-        "Edomae"
-      ],
-      "thumbnail": "/static/images/sushi_hashimoto.jpg",
-      "address": "Chuo, Tokyo",
-      "published": "2026-04-19",
-      "summary": "Embark on an exquisite culinary journey at Sushi Hashimoto, a burgeoning Edomae Omakase destination in the heart of Chuo, Tokyo. Renowned for its meticulous craftsmanship and premium ingredients, this",
-      "link": "/item/sushi_hashimoto_en"
-    },
-    {
-      "id": "sushi_zanmai_tsukiji_ko",
-      "lang": "ko",
-      "title": "츠키지 시장의 살아있는 전설: 스시 잔마이 츠키지 본점, 24시간 미식의 성지 도쿄 여행 필수 코스",
-      "lat": 35.6657,
-      "lng": 139.7705,
-      "categories": [
-        "에도마에",
-        "현지인맛집"
-      ],
-      "thumbnail": "/static/images/sushi_zanmai_tsukiji.jpg",
-      "address": "Tsukiji, Tokyo",
-      "published": "2026-04-19",
-      "summary": "츠키지 시장의 상징, 스시 잔마이 츠키지 본점에서 24시간 신선한 감동을 맛보세요. 경매 직송 해산물로 만든 에도마에 스시의 정수를 경험하며, 전 세계 미식가들이 사랑하는 도쿄의 대표 명소에서 잊지 못할 추억을 만드세요.",
-      "link": "/item/sushi_zanmai_tsukiji_ko"
-    },
-    {
-      "id": "sushi_inomata_en",
-      "lang": "en",
-      "title": "Sushi Inomata: A Deep Dive into Kawaguchi, Saitama's Exquisite Edomae Omakase Gem",
-      "lat": 35.8012,
-      "lng": 139.7214,
-      "categories": [
-        "Omakase",
-        "Edomae",
-        "Local Gem"
-      ],
-      "thumbnail": "/static/images/sushi_inomata.jpg",
-      "address": "Kawaguchi, Saitama",
-      "published": "2026-04-19",
-      "summary": "Discover Sushi Inomata, an exquisite Edomae Omakase haven nestled in Kawaguchi, Saitama, offering a meticulously crafted sushi experience that transcends the ordinary. This local gem promises an intim",
-      "link": "/item/sushi_inomata_en"
     },
     {
       "id": "sushi_akira_en",
@@ -303,258 +40,120 @@
       "lat": 35.6595,
       "lng": 139.7215,
       "categories": [
-        "Omakase",
-        "Edomae"
+        "오마카세"
       ],
       "thumbnail": "/static/images/sushi_akira.jpg",
       "address": "Minato, Tokyo",
       "published": "2026-04-21",
-      "summary": "Embark on an exquisite culinary journey at Sushi Akira, a highly sought-after omakase destination nestled in Tokyo's prestigious Minato district. Here, master chefs craft a personalized, premium Edoma",
+      "summary": "Embark on an exquisite culinary journey at Sushi Akira, a highly sought-after",
       "link": "/item/sushi_akira_en"
-    },
-    {
-      "id": "sushi_sugita_en",
-      "lang": "en",
-      "title": "Sushi Sugita: Embark on a Legendary Edomae Omakase Journey in Chuo, Tokyo",
-      "lat": 35.6828,
-      "lng": 139.7845,
-      "categories": [
-        "Omakase",
-        "Edomae",
-        "Michelin Star"
-      ],
-      "thumbnail": "/static/images/sushi_sugita.jpg",
-      "address": "Chuo, Tokyo",
-      "published": "2026-04-19",
-      "summary": "Embark on an extraordinary culinary pilgrimage to Sushi Sugita in Chuo, Tokyo, where the hallowed art of Edomae Omakase transcends mere dining to become an unforgettable, legendary experience. Prepare",
-      "link": "/item/sushi_sugita_en"
     },
     {
       "id": "sushi_taku_en",
       "lang": "en",
-      "title": "Experience Culinary Artistry: Sushi Taku's Michelin-Starred Omakase in Nishiazabu, Tokyo",
+      "title": "Experience Culinary Artistry: Sushi Taku''''s Michelin-Starred Omakase in",
       "lat": 35.6598,
       "lng": 139.7245,
       "categories": [
-        "Omakase",
-        "Michelin Star"
+        "미슐랭",
+        "오마카세"
       ],
       "thumbnail": "/static/images/sushi_taku.jpg",
       "address": "Nishiazabu, Tokyo",
       "published": "2026-04-21",
-      "summary": "Embark on an extraordinary culinary adventure at Sushi Taku in Nishiazabu, Tokyo, where innovative artistry meets the revered tradition of sushi. This Michelin-starred establishment redefines omakase ",
+      "summary": "Embark on an extraordinary culinary adventure at Sushi Taku in Nishiazabu,",
       "link": "/item/sushi_taku_en"
     },
     {
       "id": "numazuko_shinjuku_en",
       "lang": "en",
-      "title": "Numazuko Shinjuku: Your Essential Guide to Tokyo's Most Exciting Kaiten Sushi in Shinjuku",
+      "title": "Numazuko Shinjuku: Your Essential Guide to Tokyo''''s Most Exciting Kaiten",
       "lat": 35.6912,
       "lng": 139.7025,
       "categories": [
-        "Kaiten",
-        "Local Gem"
+        "회전초밥"
       ],
       "thumbnail": "/static/images/numazuko_shinjuku.jpg",
       "address": "Shinjuku, Tokyo",
       "published": "2026-04-21",
-      "summary": "Craving an unforgettable sushi experience in the heart of Tokyo? Numazuko Shinjuku offers a vibrant kaiten sushi adventure, celebrated for its incredibly fresh seafood, generous toppings, and lively a",
+      "summary": "Craving an unforgettable sushi experience in the heart of Tokyo? Numazuko",
       "link": "/item/numazuko_shinjuku_en"
-    },
-    {
-      "id": "sushi_kanesaka_ko",
-      "lang": "ko",
-      "title": "도쿄 긴자의 심장, 스시 카네사카: 미슐랭 에도마에 오마카세의 정수",
-      "lat": 35.6711,
-      "lng": 139.7631,
-      "categories": [
-        "오마카세",
-        "에도마에",
-        "미슐랭"
-      ],
-      "thumbnail": "/static/images/sushi_kanesaka.jpg",
-      "address": "Ginza, Tokyo",
-      "published": "2026-04-19",
-      "summary": "도쿄 긴자의 번화가 속에 자리한 스시 카네사카는 단순한 식당을 넘어, 에도마에 스시의 정수를 경험할 수 있는 미슐랭 스타의 성지입니다. 셰프 카네사카의 장인정신이 깃든 오마카세 코스는 미식가들에게 잊을 수 없는 미식의 순간을 선사합니다.",
-      "link": "/item/sushi_kanesaka_ko"
     },
     {
       "id": "sushi_ishijima_en",
       "lang": "en",
-      "title": "Sushi Ishijima Ginza: A Local Gem for Authentic Edomae Sushi & Affordable Luxury in Tokyo",
+      "title": "Sushi Ishijima Ginza: A Local Gem for Authentic Edomae Sushi & Affordable",
       "lat": 35.6745,
       "lng": 139.7725,
       "categories": [
-        "Edomae",
-        "Local Gem"
+        "가성비"
       ],
       "thumbnail": "/static/images/sushi_ishijima.jpg",
       "address": "Ginza, Tokyo",
       "published": "2026-04-21",
-      "summary": "Step into Sushi Ishijima, Ginza's cherished culinary secret, where master chefs craft traditional Edomae sushi with precision and passion. Discover an authentic Tokyo experience celebrated for its exc",
+      "summary": "Step into Sushi Ishijima, Ginza's cherished culinary secret, where master",
       "link": "/item/sushi_ishijima_en"
     },
     {
       "id": "sushi_ten_ginza_en",
       "lang": "en",
-      "title": "Sushi Ten Ginza: Tokyo's Epitome of Modern Omakase and Stylish Dining",
+      "title": "Sushi Ten Ginza: Tokyo''''s Epitome of Modern Omakase and Stylish Dining",
       "lat": 35.6685,
       "lng": 139.7625,
       "categories": [
-        "Omakase",
-        "Edomae"
+        "오마카세"
       ],
       "thumbnail": "/static/images/sushi_ten_ginza.jpg",
       "address": "Ginza, Tokyo",
       "published": "2026-04-21",
-      "summary": "Step into Sushi Ten Ginza for an unparalleled omakase experience in Tokyo's chic Ginza, where every meticulously crafted piece of sushi is a testament to the chef's artistry in a stylish, contemporary",
+      "summary": "Step into Sushi Ten Ginza for an unparalleled omakase experience in Tokyo's",
       "link": "/item/sushi_ten_ginza_en"
     },
     {
       "id": "hina_sushi_ginza_en",
       "lang": "en",
-      "title": "Hina Sushi Ginza: Indulge in Premium All-You-Can-Eat Sushi in the Heart of Ginza, Tokyo",
+      "title": "Hina Sushi Ginza: Indulge in Premium All-You-Can-Eat Sushi in the Heart of",
       "lat": 35.6731,
       "lng": 139.7645,
       "categories": [
-        "Edomae",
-        "Local Gem"
+        "오마카세"
       ],
       "thumbnail": "/static/images/hina_sushi_ginza.jpg",
       "address": "Ginza, Tokyo",
       "published": "2026-04-21",
-      "summary": "Discover Hina Sushi Ginza, an unparalleled dining destination in Tokyo's upscale Ginza district, offering a premium all-you-can-eat sushi experience where exquisite seafood meets limitless indulgence ",
+      "summary": "Discover Hina Sushi Ginza, an unparalleled dining destination in Tokyo's",
       "link": "/item/hina_sushi_ginza_en"
-    },
-    {
-      "id": "sushi_arai_ko",
-      "lang": "ko",
-      "title": "도쿄 긴자 스시 아라이: 참치 명인이 선사하는 오마카세의 정수",
-      "lat": 35.6687,
-      "lng": 139.7612,
-      "categories": [
-        "오마카세",
-        "에도마에"
-      ],
-      "thumbnail": "/static/images/sushi_arai.jpg",
-      "address": "Ginza, Tokyo",
-      "published": "2026-04-19",
-      "summary": "도쿄 긴자의 심장부에 자리한 스시 아라이는 참치 전문가의 손길로 빚어낸 오마카세 스시의 진수를 경험할 수 있는 프리미엄 스시 레스토랑입니다. 최고급 참치와 제철 해산물이 어우러진 섬세하고 깊이 있는 맛의 향연은 미식가들에게 잊을 수 없는 감동을 선사합니다.",
-      "link": "/item/sushi_arai_ko"
-    },
-    {
-      "id": "itamae_sushi_edo_ko",
-      "lang": "ko",
-      "title": "도쿄 미나토의 정수를 맛보다: 이타마에 스시 에도 – 프리미엄 에도마에 스시 가이드",
-      "lat": 35.6675,
-      "lng": 139.7345,
-      "categories": [
-        "에도마에",
-        "오마카세"
-      ],
-      "thumbnail": "/static/images/itamae_sushi_edo.jpg",
-      "address": "Minato, Tokyo",
-      "published": "2026-04-19",
-      "summary": "도쿄 미나토에 위치한 '이타마에 스시 에도'는 전통 에도마에 스시의 정수를 현대적인 감각으로 선보이는 프리미엄 스시 레스토랑입니다. 신선한 제철 해산물과 숙련된 장인의 기술, 그리고 관광객 친화적인 분위기가 어우러져 잊을 수 없는 미식 경험을 선사합니다.",
-      "link": "/item/itamae_sushi_edo_ko"
-    },
-    {
-      "id": "sushi_yoshitake_en",
-      "lang": "en",
-      "title": "Sushi Yoshitake: A Michelin-Starred Edomae Omakase Masterpiece in Chuo, Tokyo",
-      "lat": 35.6698,
-      "lng": 139.7621,
-      "categories": [
-        "Omakase",
-        "Edomae",
-        "Michelin Star"
-      ],
-      "thumbnail": "/static/images/sushi_yoshitake.jpg",
-      "address": "Chuo, Tokyo",
-      "published": "2026-04-19",
-      "summary": "Embark on an unparalleled culinary journey at Sushi Yoshitake in Chuo, Tokyo, a hallowed institution where Edomae tradition meets Michelin-starred artistry. Experience the pinnacle of omakase, orchest",
-      "link": "/item/sushi_yoshitake_en"
     },
     {
       "id": "sushi_roppei_en",
       "lang": "en",
-      "title": "Experience Culinary Brilliance: Sushi Roppei, Roppongi Tokyo's Premier Omakase Destination",
+      "title": "Experience Culinary Brilliance: Sushi Roppei, Roppongi Tokyo''''s Premier",
       "lat": 35.6625,
       "lng": 139.7231,
       "categories": [
-        "Omakase",
-        "Edomae"
+        "오마카세"
       ],
       "thumbnail": "/static/images/sushi_roppei.jpg",
       "address": "Roppongi, Tokyo",
       "published": "2026-04-21",
-      "summary": "Embark on an extraordinary gastronomic journey at Sushi Roppei, Roppongi Tokyo's modern temple to premium omakase sushi, where culinary artistry meets refined elegance for an unforgettable dining expe",
+      "summary": "Embark on an extraordinary gastronomic journey at Sushi Roppei, Roppongi",
       "link": "/item/sushi_roppei_en"
-    },
-    {
-      "id": "sukiyabashi_jiro_ginza_ko",
-      "lang": "ko",
-      "title": "도쿄 긴자 스시의 전설: 스키야바시 지로 긴자, 미슐랭 3스타 오마카세 에도마에 스시 완벽 가이드",
-      "lat": 35.6723,
-      "lng": 139.7645,
-      "categories": [
-        "오마카세",
-        "에도마에",
-        "미슐랭"
-      ],
-      "thumbnail": "/static/images/sukiyabashi_jiro_ginza.jpg",
-      "address": "Ginza, Tokyo",
-      "published": "2026-04-19",
-      "summary": "도쿄 긴자의 심장부에 자리한 스키야바시 지로 긴자는 미슐랭 3스타의 영예를 빛내는 에도마에 스시의 정수로, 전 세계 미식가들의 버킷리스트 1순위로 꼽히는 전설적인 오마카세 스시 레스토랑입니다. 장인의 손끝에서 탄생하는 완벽한 한 점 스시를 경험하며 평생 잊지 못할 미식의 감동을 느껴보세요.",
-      "link": "/item/sukiyabashi_jiro_ginza_ko"
     },
     {
       "id": "uobei_shibuya_en",
       "lang": "en",
-      "title": "Uobei Shibuya: Tokyo's High-Tech, Affordable Kaiten Sushi Experience in the Heart of Shibuya",
+      "title": "Uobei Shibuya: Tokyo''''s High-Tech, Affordable Kaiten Sushi Experience in",
       "lat": 35.6601,
       "lng": 139.6985,
       "categories": [
-        "Kaiten",
-        "Local Gem"
+        "가성비",
+        "회전초밥"
       ],
       "thumbnail": "/static/images/uobei_shibuya.jpg",
       "address": "Shibuya, Tokyo",
       "published": "2026-04-21",
-      "summary": "Dive into the future of dining at Uobei Shibuya, where high-tech efficiency meets delicious, affordable kaiten sushi. Experience a vibrant, fast-paced culinary journey perfect for families, solo adven",
+      "summary": "Dive into the future of dining at Uobei Shibuya, where high-tech efficiency",
       "link": "/item/uobei_shibuya_en"
-    },
-    {
-      "id": "manten_sushi_marunouchi_en",
-      "lang": "en",
-      "title": "Manten Sushi Marunouchi: Discover Tokyo's Premier Affordable Omakase Gem in Chiyoda",
-      "lat": 35.6785,
-      "lng": 139.7621,
-      "categories": [
-        "Omakase",
-        "Local Gem"
-      ],
-      "thumbnail": "/static/images/manten_sushi_marunouchi.jpg",
-      "address": "Chiyoda, Tokyo",
-      "published": "2026-04-19",
-      "summary": "Experience the legendary Manten Sushi Marunouchi, a beloved culinary hotspot in Chiyoda, Tokyo, renowned for its fresh, high-quality ingredients and exceptional omakase experience that redefines affor",
-      "link": "/item/manten_sushi_marunouchi_en"
-    },
-    {
-      "id": "sushi_shin_en",
-      "lang": "en",
-      "title": "Sushi Shin: Unveiling Minato, Tokyo's Pinnacle of Creative Omakase Excellence",
-      "lat": 35.6591,
-      "lng": 139.7252,
-      "categories": [
-        "Omakase",
-        "Michelin Star"
-      ],
-      "thumbnail": "/static/images/sushi_shin.jpg",
-      "address": "Minato, Tokyo",
-      "published": "2026-04-19",
-      "summary": "Embark on an unforgettable culinary journey at Sushi Shin, Minato, Tokyo's premier destination for creative and premium omakase sushi. Here, master chefs meticulously craft an evolving tasting menu of",
-      "link": "/item/sushi_shin_en"
     },
     {
       "id": "sushi_roppei_ko",
@@ -563,63 +162,13 @@
       "lat": 35.6625,
       "lng": 139.7231,
       "categories": [
-        "오마카세",
-        "미슐랭"
+        "오마카세"
       ],
       "thumbnail": "/static/images/sushi_roppei.jpg",
       "address": "Roppongi, Tokyo",
       "published": "2026-04-21",
-      "summary": "도쿄 롯폰기 한복판에 자리한 스시 록페이는 단순한 미식 경험을 넘어, 현대적인 감각과 최상급 재료가 어우러진 오마카세의 진수를 선사합니다. 정교한 기술과 창의적인 터치가 돋보이는 이곳에서, 당신의 미각은 잊을 수 없는 감동으로 채워지며, 스시의 새로운 지평을 경험하게 될 것입니다.",
+      "summary": "도쿄 롯폰기 한복판에 자리한 스시 록페이는 단순한 미식 경험을 넘어, 현대적인 감각과 최상급 재료가 어우러진 오마카세의 진수를 선사합니다.",
       "link": "/item/sushi_roppei_ko"
-    },
-    {
-      "id": "sushi_yoshitake_ko",
-      "lang": "ko",
-      "title": "도쿄 주오의 미식 정점: 미슐랭 3스타 스시 요시타케 완전 가이드",
-      "lat": 35.6698,
-      "lng": 139.7621,
-      "categories": [
-        "오마카세",
-        "미슐랭",
-        "에도마에"
-      ],
-      "thumbnail": "/static/images/sushi_yoshitake.jpg",
-      "address": "Chuo, Tokyo",
-      "published": "2026-04-19",
-      "summary": "도쿄 주오에 위치한 스시 요시타케는 세계적인 미식가들이 꿈꾸는 미슐랭 3스타 오마카세 스시 경험을 선사합니다. 최상급 재료와 장인의 기술이 빚어내는 한 점 한 점의 스시는 단순한 식사를 넘어선 예술적인 경지이며, 잊을 수 없는 미식 여정을 약속합니다.",
-      "link": "/item/sushi_yoshitake_ko"
-    },
-    {
-      "id": "itamae_sushi_edo_en",
-      "lang": "en",
-      "title": "Savor Authentic Edomae Sushi: Itamae Sushi Edo, Minato, Tokyo's Premium Culinary Gem",
-      "lat": 35.6675,
-      "lng": 139.7345,
-      "categories": [
-        "Edomae",
-        "Omakase"
-      ],
-      "thumbnail": "/static/images/itamae_sushi_edo.jpg",
-      "address": "Minato, Tokyo",
-      "published": "2026-04-19",
-      "summary": "Discover Itamae Sushi Edo in Minato, Tokyo, a premier destination for authentic Edomae sushi. Experience a world-class culinary journey where traditional techniques meet exquisite, seasonal ingredient",
-      "link": "/item/itamae_sushi_edo_en"
-    },
-    {
-      "id": "sushi_arai_en",
-      "lang": "en",
-      "title": "Sushi Arai Ginza: A Journey into Tokyo's Pinnacle of Premium Omakase and Tuna Mastery",
-      "lat": 35.6687,
-      "lng": 139.7612,
-      "categories": [
-        "Omakase",
-        "Edomae"
-      ],
-      "thumbnail": "/static/images/sushi_arai.jpg",
-      "address": "Ginza, Tokyo",
-      "published": "2026-04-19",
-      "summary": "Immerse yourself in the unparalleled world of Sushi Arai, a legendary Ginza establishment where Chef Arai's omakase redefines premium Edomae sushi, distinguished by his masterful expertise in tuna, of",
-      "link": "/item/sushi_arai_en"
     },
     {
       "id": "hina_sushi_ginza_ko",
@@ -628,13 +177,12 @@
       "lat": 35.6731,
       "lng": 139.7645,
       "categories": [
-        "에도마에",
-        "현지인맛집"
+        "오마카세"
       ],
       "thumbnail": "/static/images/hina_sushi_ginza.jpg",
       "address": "Ginza, Tokyo",
       "published": "2026-04-21",
-      "summary": "도쿄 미식의 심장 긴자에서 '프리미엄 초밥 무제한'이라는 독보적인 컨셉으로 미식가들의 찬사를 받고 있는 히나 스시 긴자를 소개합니다. 신선한 최고급 해산물과 장인의 솜씨가 어우러진 초밥을 무제한으로 맛볼 수 있는 이곳에서 잊지 못할 미식 경험을 만끽하세요.",
+      "summary": "도쿄 미식의 심장 긴자에서 '프리미엄 초밥 무제한'이라는 독보적인 컨셉으로 미식가들의 찬사를 받고 있는 히나 스시 긴자를 소개합니다.",
       "link": "/item/hina_sushi_ginza_ko"
     },
     {
@@ -644,13 +192,12 @@
       "lat": 35.6745,
       "lng": 139.7725,
       "categories": [
-        "에도마에",
-        "오마카세"
+        "가성비"
       ],
       "thumbnail": "/static/images/sushi_ishijima.jpg",
       "address": "Ginza, Tokyo",
       "published": "2026-04-21",
-      "summary": "긴자 중심에 자리한 스시 이시지마는 전통 에도마에 초밥의 진수를 선보이는 곳입니다. 장인의 손길로 빚어낸 최고의 맛과, 긴자에서 찾아보기 힘든 합리적인 가격의 런치 오마카세로 잊지 못할 미식 경험을 선사합니다.",
+      "summary": "긴자 중심에 자리한 스시 이시지마는 전통 에도마에 초밥의 진수를 선보이는 곳입니다. 장인의 손길로 빚어낸 최고의 맛과, 긴자에서 찾아보기",
       "link": "/item/sushi_ishijima_ko"
     },
     {
@@ -660,31 +207,13 @@
       "lat": 35.6685,
       "lng": 139.7625,
       "categories": [
-        "오마카세",
-        "에도마에"
+        "오마카세"
       ],
       "thumbnail": "/static/images/sushi_ten_ginza.jpg",
       "address": "Ginza, Tokyo",
       "published": "2026-04-21",
-      "summary": "도쿄 긴자의 중심, 스시 텐 긴자는 현대적인 감각과 장인 정신이 깃든 오마카세 스시의 정수를 선보입니다. 세련된 공간에서 최고급 제철 식재료와 섬세한 기술이 어우러져 오감을 만족시키는 특별한 미식 경험을 선사합니다.",
+      "summary": "도쿄 긴자의 중심, 스시 텐 긴자는 현대적인 감각과 장인 정신이 깃든 오마카세 스시의 정수를 선보입니다. 세련된 공간에서 최고급 제철",
       "link": "/item/sushi_ten_ginza_ko"
-    },
-    {
-      "id": "sushi_kanesaka_en",
-      "lang": "en",
-      "title": "Experience Perfection: A Guide to Sushi Kanesaka, Ginza's Michelin-Starred Edomae Gem",
-      "lat": 35.6711,
-      "lng": 139.7631,
-      "categories": [
-        "Omakase",
-        "Edomae",
-        "Michelin Star"
-      ],
-      "thumbnail": "/static/images/sushi_kanesaka.jpg",
-      "address": "Ginza, Tokyo",
-      "published": "2026-04-19",
-      "summary": "Dive into the world of exquisite Edomae sushi at Sushi Kanesaka, a Michelin-starred sanctuary nestled in the heart of Tokyo's Ginza district. Prepare for an unforgettable omakase journey guided by a m",
-      "link": "/item/sushi_kanesaka_en"
     },
     {
       "id": "numazuko_shinjuku_ko",
@@ -693,14 +222,459 @@
       "lat": 35.6912,
       "lng": 139.7025,
       "categories": [
-        "회전초밥",
-        "현지인맛집"
+        "회전초밥"
       ],
       "thumbnail": "/static/images/numazuko_shinjuku.jpg",
       "address": "Shinjuku, Tokyo",
       "published": "2026-04-21",
-      "summary": "신주쿠 한복판에서 신선하고 압도적인 크기의 재료를 자랑하는 회전초밥 맛집, 누마즈코 신주쿠를 소개합니다. 현지인과 여행객 모두에게 사랑받는 이곳에서 도쿄 미식 여행의 정점을 경험해보세요.",
+      "summary": "신주쿠 한복판에서 신선하고 압도적인 크기의 재료를 자랑하는 회전초밥 맛집, 누마즈코 신주쿠를 소개합니다. 현지인과 여행객 모두에게",
       "link": "/item/numazuko_shinjuku_ko"
+    },
+    {
+      "id": "uobei_shibuya_ko",
+      "lang": "ko",
+      "title": "시부야 우오베이: 도쿄 시부야의 하이테크 회전초밥 명소, 맛과 가성비 모두 잡은 스시 가이드",
+      "lat": 35.6601,
+      "lng": 139.6985,
+      "categories": [
+        "가성비",
+        "회전초밥"
+      ],
+      "thumbnail": "/static/images/uobei_shibuya.jpg",
+      "address": "Shibuya, Tokyo",
+      "published": "2026-04-21",
+      "summary": "도쿄 시부야의 활기 넘치는 중심에 자리한 우오베이 시부야는 전통적인 회전초밥에 최첨단 기술을 접목하여 신선하고 맛있는 스시를 합리적인",
+      "link": "/item/uobei_shibuya_ko"
+    },
+    {
+      "id": "sushi_misakimaru_en",
+      "lang": "en",
+      "title": "Sushi Misaki-maru: Ueno, Tokyo''''s Premier Spot for Affordable, Fresh & Fast",
+      "lat": 35.7012,
+      "lng": 139.7715,
+      "categories": [
+        "혼밥",
+        "가성비"
+      ],
+      "thumbnail": "/static/images/sushi_misakimaru.jpg",
+      "address": "Ueno, Tokyo",
+      "published": "2026-04-21",
+      "summary": "Dive into the vibrant world of Sushi Misaki-maru, Ueno's celebrated sushi",
+      "link": "/item/sushi_misakimaru_en"
+    },
+    {
+      "id": "sushi_taku_ko",
+      "lang": "ko",
+      "title": "도쿄 니시아자부 스시 타쿠: 미슐랭 오마카세의 창의적인 향연",
+      "lat": 35.6598,
+      "lng": 139.7245,
+      "categories": [
+        "미슐랭",
+        "오마카세"
+      ],
+      "thumbnail": "/static/images/sushi_taku.jpg",
+      "address": "Nishiazabu, Tokyo",
+      "published": "2026-04-21",
+      "summary": "도쿄 니시아자부의 밤을 미식의 황홀경으로 물들이는 스시 타쿠는 미슐랭 스타가 빛나는 창의적인 오마카세 스시 레스토랑입니다. 전통을",
+      "link": "/item/sushi_taku_ko"
+    },
+    {
+      "id": "sushi_akira_ko",
+      "lang": "ko",
+      "title": "미나토 도쿄 스시 아키라: 오마카세의 정수를 맛볼 수 있는 프리미엄 스시 경험",
+      "lat": 35.6595,
+      "lng": 139.7215,
+      "categories": [
+        "오마카세"
+      ],
+      "thumbnail": "/static/images/sushi_akira.jpg",
+      "address": "Minato, Tokyo",
+      "published": "2026-04-21",
+      "summary": "도쿄 미나토에 자리한 스시 아키라는 작지만 강렬한 인상을 남기는 프리미엄 오마카세 스시 레스토랑입니다. 장인의 손길로 빚어낸 한 점",
+      "link": "/item/sushi_akira_ko"
+    },
+    {
+      "id": "sushidokoro_yamada_en",
+      "lang": "en",
+      "title": "Sushidokoro Yamada: Discover Ginza''''s Pinnacle of Premium Omakase Sushi",
+      "lat": 35.6681,
+      "lng": 139.7618,
+      "categories": [
+        "오마카세"
+      ],
+      "thumbnail": "/static/images/sushidokoro_yamada.jpg",
+      "address": "Ginza, Tokyo",
+      "published": "2026-04-21",
+      "summary": "Sushidokoro Yamada in Ginza, Tokyo, offers an unparalleled premium omakase",
+      "link": "/item/sushidokoro_yamada_en"
+    },
+    {
+      "id": "uogashi_nihonichi_shinjuku_en",
+      "lang": "en",
+      "title": "Uogashi Nihon-ichi Shinjuku: Your Essential Guide to Tokyo''''s Best Standing",
+      "lat": 35.6896,
+      "lng": 139.6967,
+      "categories": [
+        "혼밥",
+        "가성비"
+      ],
+      "thumbnail": "/static/images/uogashi_nihonichi_shinjuku.jpg",
+      "address": "Shinjuku, Tokyo",
+      "published": "2026-04-19",
+      "summary": "Discover Uogashi Nihon-ichi Shinjuku, a bustling 'standing sushi' institution",
+      "link": "/item/uogashi_nihonichi_shinjuku_en"
+    },
+    {
+      "id": "sushi_tokami_ko",
+      "lang": "ko",
+      "title": "긴자 스시 토카미: 미슐랭 스타 참치 오마카세의 정수, 도쿄 미식 여행의 하이라이트",
+      "lat": 35.6691,
+      "lng": 139.7615,
+      "categories": [
+        "미슐랭",
+        "오마카세"
+      ],
+      "thumbnail": "/static/images/sushi_tokami.jpg",
+      "address": "Ginza, Tokyo",
+      "published": "2026-04-19",
+      "summary": "도쿄 긴자의 심장부에 위치한 스시 토카미는 미슐랭 스타에 빛나는 참치 오마카세 전문점입니다. 최상급 참치와 에도마에 스시 장인의 섬세한",
+      "link": "/item/sushi_tokami_ko"
+    },
+    {
+      "id": "sushidokoro_sato_en",
+      "lang": "en",
+      "title": "Sushidokoro Sato: Unveiling Ginza''''s Premium Omakase Hidden Gem in Tokyo",
+      "lat": 35.6701,
+      "lng": 139.7642,
+      "categories": [
+        "오마카세"
+      ],
+      "thumbnail": "/static/images/sushidokoro_sato.jpg",
+      "address": "Ginza, Tokyo",
+      "published": "2026-04-19",
+      "summary": "Discover Sushidokoro Sato, Ginza's elusive premium Omakase haven, where master",
+      "link": "/item/sushidokoro_sato_en"
+    },
+    {
+      "id": "hanamaru_ginza_ko",
+      "lang": "ko",
+      "title": "도쿄 긴자 맛집: 하나마루 긴자, 프리미엄 홋카이도 회전초밥의 모든 것",
+      "lat": 35.6721,
+      "lng": 139.7635,
+      "categories": [
+        "회전초밥"
+      ],
+      "thumbnail": "/static/images/hanamaru_ginza.jpg",
+      "address": "Ginza, Tokyo",
+      "published": "2026-04-19",
+      "summary": "긴자의 심장부에서 홋카이도의 신선함을 만나는 특별한 미식 경험, 하나마루 긴자는 프리미엄 재료로 빚어낸 회전초밥의 진수를 선보이며",
+      "link": "/item/hanamaru_ginza_ko"
+    },
+    {
+      "id": "sushi_amamoto_ko",
+      "lang": "ko",
+      "title": "미나토 도쿄의 정점: 스시 아마모토에서 오마카세 미식의 극치를 경험하다",
+      "lat": 35.6621,
+      "lng": 139.7289,
+      "categories": [
+        "오마카세"
+      ],
+      "thumbnail": "/static/images/sushi_amamoto.jpg",
+      "address": "Minato, Tokyo",
+      "published": "2026-04-19",
+      "summary": "미나토 도쿄에 위치한 스시 아마모토는 예약조차 어려운 프리미엄 오마카세 스시 경험을 선사합니다. 장인의 손길로 빚어낸 한 점 한 점에",
+      "link": "/item/sushi_amamoto_ko"
+    },
+    {
+      "id": "sushi_saito_ko",
+      "lang": "ko",
+      "title": "도쿄 미나토 스시 사이토: 미슐랭 3스타 오마카세의 정수를 경험하다",
+      "lat": 35.6661,
+      "lng": 139.7397,
+      "categories": [
+        "미슐랭",
+        "오마카세"
+      ],
+      "thumbnail": "/static/images/sushi_saito.jpg",
+      "address": "Minato, Tokyo",
+      "published": "2026-04-19",
+      "summary": "도쿄 미나토에 위치한 스시 사이토는 미식가들의 꿈이자 미슐랭 3스타에 빛나는 전설적인 스시 오마카세 레스토랑입니다. 최고급 재료와",
+      "link": "/item/sushi_saito_ko"
+    },
+    {
+      "id": "kyubey_shinjuku_en",
+      "lang": "en",
+      "title": "Kyubey Shinjuku: Experience Tokyo''''s Premier Edomae Sushi in the Heart of",
+      "lat": 35.6891,
+      "lng": 139.6942,
+      "categories": [
+        "오마카세"
+      ],
+      "thumbnail": "/static/images/kyubey_shinjuku.jpg",
+      "address": "Shinjuku, Tokyo",
+      "published": "2026-04-19",
+      "summary": "Step into a realm of culinary artistry at Kyubey Shinjuku, where traditional",
+      "link": "/item/kyubey_shinjuku_en"
+    },
+    {
+      "id": "genki_sushi_shibuya_en",
+      "lang": "en",
+      "title": "Genki Sushi Shibuya: Your Essential Guide to Affordable, Popular Kaiten Sushi",
+      "lat": 35.6605,
+      "lng": 139.6998,
+      "categories": [
+        "가성비",
+        "회전초밥"
+      ],
+      "thumbnail": "/static/images/genki_sushi_shibuya.jpg",
+      "address": "Shibuya, Tokyo",
+      "published": "2026-04-19",
+      "summary": "Discover Genki Sushi Shibuya, a must-visit in Tokyo for an exhilarating and",
+      "link": "/item/genki_sushi_shibuya_en"
+    },
+    {
+      "id": "sushi_katsura_en",
+      "lang": "en",
+      "title": "Sushi Katsura: Tsukiji''''s Authentic & Affordable Edomae Gem in Tokyo",
+      "lat": 35.6631,
+      "lng": 139.7712,
+      "categories": [
+        "가성비"
+      ],
+      "thumbnail": "/static/images/sushi_katsura.jpg",
+      "address": "Tsukiji, Tokyo",
+      "published": "2026-04-19",
+      "summary": "Discover Sushi Katsura, a cherished local gem nestled in Tokyo's historic",
+      "link": "/item/sushi_katsura_en"
+    },
+    {
+      "id": "sushi_hashimoto_en",
+      "lang": "en",
+      "title": "Sushi Hashimoto: A Rising Edomae Omakase Star in Chuo, Tokyo for Premium Dining",
+      "lat": 35.6741,
+      "lng": 139.7752,
+      "categories": [
+        "오마카세"
+      ],
+      "thumbnail": "/static/images/sushi_hashimoto.jpg",
+      "address": "Chuo, Tokyo",
+      "published": "2026-04-19",
+      "summary": "Embark on an exquisite culinary journey at Sushi Hashimoto, a burgeoning",
+      "link": "/item/sushi_hashimoto_en"
+    },
+    {
+      "id": "sushi_zanmai_tsukiji_ko",
+      "lang": "ko",
+      "title": "츠키지 시장의 살아있는 전설: 스시 잔마이 츠키지 본점, 24시간 미식의 성지 도쿄 여행 필수 코스",
+      "lat": 35.6657,
+      "lng": 139.7705,
+      "categories": [
+        "오마카세"
+      ],
+      "thumbnail": "/static/images/sushi_zanmai_tsukiji.jpg",
+      "address": "Tsukiji, Tokyo",
+      "published": "2026-04-19",
+      "summary": "츠키지 시장의 상징, 스시 잔마이 츠키지 본점에서 24시간 신선한 감동을 맛보세요. 경매 직송 해산물로 만든 에도마에 스시의 정수를",
+      "link": "/item/sushi_zanmai_tsukiji_ko"
+    },
+    {
+      "id": "sushi_inomata_en",
+      "lang": "en",
+      "title": "Sushi Inomata: A Deep Dive into Kawaguchi, Saitama''''s Exquisite Edomae Omakase",
+      "lat": 35.8012,
+      "lng": 139.7214,
+      "categories": [
+        "오마카세"
+      ],
+      "thumbnail": "/static/images/sushi_inomata.jpg",
+      "address": "Kawaguchi, Saitama",
+      "published": "2026-04-19",
+      "summary": "Discover Sushi Inomata, an exquisite Edomae Omakase haven nestled in Kawaguchi,",
+      "link": "/item/sushi_inomata_en"
+    },
+    {
+      "id": "sushi_sugita_en",
+      "lang": "en",
+      "title": "Sushi Sugita: Embark on a Legendary Edomae Omakase Journey in Chuo, Tokyo",
+      "lat": 35.6828,
+      "lng": 139.7845,
+      "categories": [
+        "오마카세"
+      ],
+      "thumbnail": "/static/images/sushi_sugita.jpg",
+      "address": "Chuo, Tokyo",
+      "published": "2026-04-19",
+      "summary": "Embark on an extraordinary culinary pilgrimage to Sushi Sugita in Chuo, Tokyo,",
+      "link": "/item/sushi_sugita_en"
+    },
+    {
+      "id": "sushi_kanesaka_ko",
+      "lang": "ko",
+      "title": "도쿄 긴자의 심장, 스시 카네사카: 미슐랭 에도마에 오마카세의 정수",
+      "lat": 35.6711,
+      "lng": 139.7631,
+      "categories": [
+        "미슐랭"
+      ],
+      "thumbnail": "/static/images/sushi_kanesaka.jpg",
+      "address": "Ginza, Tokyo",
+      "published": "2026-04-19",
+      "summary": "도쿄 긴자의 번화가 속에 자리한 스시 카네사카는 단순한 식당을 넘어, 에도마에 스시의 정수를 경험할 수 있는 미슐랭 스타의 성지입니다.",
+      "link": "/item/sushi_kanesaka_ko"
+    },
+    {
+      "id": "sushi_arai_ko",
+      "lang": "ko",
+      "title": "도쿄 긴자 스시 아라이: 참치 명인이 선사하는 오마카세의 정수",
+      "lat": 35.6687,
+      "lng": 139.7612,
+      "categories": [
+        "오마카세"
+      ],
+      "thumbnail": "/static/images/sushi_arai.jpg",
+      "address": "Ginza, Tokyo",
+      "published": "2026-04-19",
+      "summary": "도쿄 긴자의 심장부에 자리한 스시 아라이는 참치 전문가의 손길로 빚어낸 오마카세 스시의 진수를 경험할 수 있는 프리미엄 스시 레스토랑입니다.",
+      "link": "/item/sushi_arai_ko"
+    },
+    {
+      "id": "itamae_sushi_edo_ko",
+      "lang": "ko",
+      "title": "도쿄 미나토의 정수를 맛보다: 이타마에 스시 에도 – 프리미엄 에도마에 스시 가이드",
+      "lat": 35.6675,
+      "lng": 139.7345,
+      "categories": [
+        "오마카세"
+      ],
+      "thumbnail": "/static/images/itamae_sushi_edo.jpg",
+      "address": "Minato, Tokyo",
+      "published": "2026-04-19",
+      "summary": "도쿄 미나토에 위치한 '이타마에 스시 에도'는 전통 에도마에 스시의 정수를 현대적인 감각으로 선보이는 프리미엄 스시 레스토랑입니다.",
+      "link": "/item/itamae_sushi_edo_ko"
+    },
+    {
+      "id": "sushi_yoshitake_en",
+      "lang": "en",
+      "title": "Sushi Yoshitake: A Michelin-Starred Edomae Omakase Masterpiece in Chuo, Tokyo",
+      "lat": 35.6698,
+      "lng": 139.7621,
+      "categories": [
+        "미슐랭",
+        "오마카세"
+      ],
+      "thumbnail": "/static/images/sushi_yoshitake.jpg",
+      "address": "Chuo, Tokyo",
+      "published": "2026-04-19",
+      "summary": "Embark on an unparalleled culinary journey at Sushi Yoshitake in Chuo, Tokyo,",
+      "link": "/item/sushi_yoshitake_en"
+    },
+    {
+      "id": "sukiyabashi_jiro_ginza_ko",
+      "lang": "ko",
+      "title": "도쿄 긴자 스시의 전설: 스키야바시 지로 긴자, 미슐랭 3스타 오마카세 에도마에 스시 완벽 가이드",
+      "lat": 35.6723,
+      "lng": 139.7645,
+      "categories": [
+        "미슐랭",
+        "오마카세"
+      ],
+      "thumbnail": "/static/images/sukiyabashi_jiro_ginza.jpg",
+      "address": "Ginza, Tokyo",
+      "published": "2026-04-19",
+      "summary": "도쿄 긴자의 심장부에 자리한 스키야바시 지로 긴자는 미슐랭 3스타의 영예를 빛내는 에도마에 스시의 정수로, 전 세계 미식가들의 버킷리스트",
+      "link": "/item/sukiyabashi_jiro_ginza_ko"
+    },
+    {
+      "id": "manten_sushi_marunouchi_en",
+      "lang": "en",
+      "title": "Manten Sushi Marunouchi: Discover Tokyo''''s Premier Affordable Omakase Gem",
+      "lat": 35.6785,
+      "lng": 139.7621,
+      "categories": [
+        "오마카세",
+        "가성비"
+      ],
+      "thumbnail": "/static/images/manten_sushi_marunouchi.jpg",
+      "address": "Chiyoda, Tokyo",
+      "published": "2026-04-19",
+      "summary": "Experience the legendary Manten Sushi Marunouchi, a beloved culinary hotspot",
+      "link": "/item/manten_sushi_marunouchi_en"
+    },
+    {
+      "id": "sushi_shin_en",
+      "lang": "en",
+      "title": "Sushi Shin: Unveiling Minato, Tokyo''''s Pinnacle of Creative Omakase Excellence",
+      "lat": 35.6591,
+      "lng": 139.7252,
+      "categories": [
+        "오마카세"
+      ],
+      "thumbnail": "/static/images/sushi_shin.jpg",
+      "address": "Minato, Tokyo",
+      "published": "2026-04-19",
+      "summary": "Embark on an unforgettable culinary journey at Sushi Shin, Minato, Tokyo's",
+      "link": "/item/sushi_shin_en"
+    },
+    {
+      "id": "sushi_yoshitake_ko",
+      "lang": "ko",
+      "title": "도쿄 주오의 미식 정점: 미슐랭 3스타 스시 요시타케 완전 가이드",
+      "lat": 35.6698,
+      "lng": 139.7621,
+      "categories": [
+        "미슐랭",
+        "오마카세"
+      ],
+      "thumbnail": "/static/images/sushi_yoshitake.jpg",
+      "address": "Chuo, Tokyo",
+      "published": "2026-04-19",
+      "summary": "도쿄 주오에 위치한 스시 요시타케는 세계적인 미식가들이 꿈꾸는 미슐랭 3스타 오마카세 스시 경험을 선사합니다. 최상급 재료와 장인의",
+      "link": "/item/sushi_yoshitake_ko"
+    },
+    {
+      "id": "itamae_sushi_edo_en",
+      "lang": "en",
+      "title": "Savor Authentic Edomae Sushi: Itamae Sushi Edo, Minato, Tokyo''''s Premium",
+      "lat": 35.6675,
+      "lng": 139.7345,
+      "categories": [
+        "오마카세"
+      ],
+      "thumbnail": "/static/images/itamae_sushi_edo.jpg",
+      "address": "Minato, Tokyo",
+      "published": "2026-04-19",
+      "summary": "Discover Itamae Sushi Edo in Minato, Tokyo, a premier destination for authentic",
+      "link": "/item/itamae_sushi_edo_en"
+    },
+    {
+      "id": "sushi_arai_en",
+      "lang": "en",
+      "title": "Sushi Arai Ginza: A Journey into Tokyo''''s Pinnacle of Premium Omakase and",
+      "lat": 35.6687,
+      "lng": 139.7612,
+      "categories": [
+        "오마카세"
+      ],
+      "thumbnail": "/static/images/sushi_arai.jpg",
+      "address": "Ginza, Tokyo",
+      "published": "2026-04-19",
+      "summary": "Immerse yourself in the unparalleled world of Sushi Arai, a legendary Ginza",
+      "link": "/item/sushi_arai_en"
+    },
+    {
+      "id": "sushi_kanesaka_en",
+      "lang": "en",
+      "title": "Experience Perfection: A Guide to Sushi Kanesaka, Ginza''''s Michelin-Starred",
+      "lat": 35.6711,
+      "lng": 139.7631,
+      "categories": [
+        "미슐랭"
+      ],
+      "thumbnail": "/static/images/sushi_kanesaka.jpg",
+      "address": "Ginza, Tokyo",
+      "published": "2026-04-19",
+      "summary": "Dive into the world of exquisite Edomae sushi at Sushi Kanesaka, a Michelin-starred",
+      "link": "/item/sushi_kanesaka_en"
     },
     {
       "id": "sushi_shin_ko",
@@ -709,13 +683,12 @@
       "lat": 35.6591,
       "lng": 139.7252,
       "categories": [
-        "오마카세",
-        "미슐랭"
+        "오마카세"
       ],
       "thumbnail": "/static/images/sushi_shin.jpg",
       "address": "Minato, Tokyo",
       "published": "2026-04-19",
-      "summary": "도쿄 미나토에 자리한 스시 신은 단순한 식사를 넘어 예술적인 미식 경험을 선사합니다. 최상급 재료와 셰프의 창의적인 터치가 어우러진 오마카세로, 전통과 혁신이 조화로운 프리미엄 스시의 진수를 맛볼 수 있습니다. 잊을 수 없는 미식 여정을 스시 신에서 시작해보세요.",
+      "summary": "도쿄 미나토에 자리한 스시 신은 단순한 식사를 넘어 예술적인 미식 경험을 선사합니다. 최상급 재료와 셰프의 창의적인 터치가 어우러진",
       "link": "/item/sushi_shin_ko"
     },
     {
@@ -726,110 +699,58 @@
       "lng": 139.7621,
       "categories": [
         "오마카세",
-        "현지인맛집"
+        "가성비"
       ],
       "thumbnail": "/static/images/manten_sushi_marunouchi.jpg",
       "address": "Chiyoda, Tokyo",
       "published": "2026-04-19",
-      "summary": "도쿄 치요다에 위치한 만텐 스시 마루노우치는 신선한 재료로 만든 수준 높은 오마카세를 합리적인 가격에 즐길 수 있는 스시 애호가들의 성지입니다. 현지인과 여행객 모두에게 사랑받는 이곳에서 진정한 스시의 맛과 특별한 경험을 만끽해보세요.",
+      "summary": "도쿄 치요다에 위치한 만텐 스시 마루노우치는 신선한 재료로 만든 수준 높은 오마카세를 합리적인 가격에 즐길 수 있는 스시 애호가들의",
       "link": "/item/manten_sushi_marunouchi_ko"
-    },
-    {
-      "id": "uobei_shibuya_ko",
-      "lang": "ko",
-      "title": "시부야 우오베이: 도쿄 시부야의 하이테크 회전초밥 명소, 맛과 가성비 모두 잡은 스시 가이드",
-      "lat": 35.6601,
-      "lng": 139.6985,
-      "categories": [
-        "회전초밥",
-        "현지인맛집"
-      ],
-      "thumbnail": "/static/images/uobei_shibuya.jpg",
-      "address": "Shibuya, Tokyo",
-      "published": "2026-04-21",
-      "summary": "도쿄 시부야의 활기 넘치는 중심에 자리한 우오베이 시부야는 전통적인 회전초밥에 최첨단 기술을 접목하여 신선하고 맛있는 스시를 합리적인 가격에 즐길 수 있는 특별한 미식 경험을 선사합니다. 빠르게 배송되는 스시 트레인과 직관적인 터치 패널 주문 시스템으로 미래지향적인 식사를 경험하며, 폭넓은 메뉴와 활기찬 분위기 속에서 잊지 못할 추억을 만들어보세요.",
-      "link": "/item/uobei_shibuya_ko"
     },
     {
       "id": "sukiyabashi_jiro_ginza_en",
       "lang": "en",
-      "title": "Sukiyabashi Jiro Ginza: A Michelin 3-Star Edomae Omakase Pilgrimage in Tokyo's Ginza District",
+      "title": "Sukiyabashi Jiro Ginza: A Michelin 3-Star Edomae Omakase Pilgrimage in Tokyo''''s",
       "lat": 35.6723,
       "lng": 139.7645,
       "categories": [
-        "Omakase",
-        "Edomae",
-        "Michelin Star"
+        "미슐랭",
+        "오마카세"
       ],
       "thumbnail": "/static/images/sukiyabashi_jiro_ginza.jpg",
       "address": "Ginza, Tokyo",
       "published": "2026-04-19",
-      "summary": "Journey to Sukiyabashi Jiro Ginza, an iconic Michelin 3-star sushi sanctuary in Tokyo's upscale Ginza district, offering an unparalleled Edomae Omakase experience of precision, purity, and profound cu",
+      "summary": "Journey to Sukiyabashi Jiro Ginza, an iconic Michelin 3-star sushi sanctuary",
       "link": "/item/sukiyabashi_jiro_ginza_en"
-    },
-    {
-      "id": "sushi_no_midori_shibuya_ko",
-      "lang": "ko",
-      "title": "도쿄 시부야 필수 코스: 현지인이 사랑하는 스시노미도리 시부야, 가성비 끝판왕 초밥 가이드",
-      "lat": 35.6585,
-      "lng": 139.7013,
-      "categories": [
-        "현지인맛집",
-        "에도마에"
-      ],
-      "thumbnail": "/static/images/sushi_no_midori_shibuya.jpg",
-      "address": "Shibuya, Tokyo",
-      "published": "2026-04-18",
-      "summary": "도쿄 시부야에서 진정한 미식 경험을 찾으신다면 스시노미도리 시부야는 놓칠 수 없는 곳입니다. 신선한 프리미엄 초밥을 합리적인 가격에 맛볼 수 있어 현지인과 여행객 모두에게 사랑받는 이 곳에서 최고의 가성비 초밥을 경험해보세요.",
-      "link": "/item/sushi_no_midori_shibuya_ko"
-    },
-    {
-      "id": "sushi_misakimaru_en",
-      "lang": "en",
-      "title": "Sushi Misaki-maru: Ueno, Tokyo's Premier Spot for Affordable, Fresh & Fast Sushi",
-      "lat": 35.7012,
-      "lng": 139.7715,
-      "categories": [
-        "Kaiten",
-        "Local Gem"
-      ],
-      "thumbnail": "/static/images/sushi_misakimaru.jpg",
-      "address": "Ueno, Tokyo",
-      "published": "2026-04-21",
-      "summary": "Dive into the vibrant world of Sushi Misaki-maru, Ueno's celebrated sushi spot where culinary excellence meets everyday affordability. Experience the thrill of fresh, high-quality sushi delivered swif",
-      "link": "/item/sushi_misakimaru_en"
     },
     {
       "id": "sushi_amamoto_en",
       "lang": "en",
-      "title": "Unlocking the Enigma: A Deep Dive into Sushi Amamoto's Omakase Excellence in Minato, Tokyo",
+      "title": "Unlocking the Enigma: A Deep Dive into Sushi Amamoto''''s Omakase Excellence",
       "lat": 35.6621,
       "lng": 139.7289,
       "categories": [
-        "Omakase",
-        "Edomae",
-        "Michelin Star"
+        "오마카세"
       ],
       "thumbnail": "/static/images/sushi_amamoto.jpg",
       "address": "Minato, Tokyo",
       "published": "2026-04-19",
-      "summary": "Sushi Amamoto in Minato, Tokyo, stands as a pinnacle of premium Edomae sushi, offering an elusive omakase experience that captivates the most discerning palates. Renowned for its unparalleled quality ",
+      "summary": "Sushi Amamoto in Minato, Tokyo, stands as a pinnacle of premium Edomae sushi,",
       "link": "/item/sushi_amamoto_en"
     },
     {
       "id": "hanamaru_ginza_en",
       "lang": "en",
-      "title": "Experience Hokkaido's Finest: Hanamaru Ginza, Tokyo's Premium Kaiten Sushi Destination",
+      "title": "Experience Hokkaido''''s Finest: Hanamaru Ginza, Tokyo''''s Premium Kaiten",
       "lat": 35.6721,
       "lng": 139.7635,
       "categories": [
-        "Kaiten",
-        "Local Gem"
+        "회전초밥"
       ],
       "thumbnail": "/static/images/hanamaru_ginza.jpg",
       "address": "Tokyu Plaza Ginza 10F, 5-2-1 Ginza, Chuo-ku, Tokyo",
       "published": "2026-04-19",
-      "summary": "Dive into the vibrant world of Hanamaru Ginza, where premium Hokkaido-style kaiten sushi redefines conveyor belt dining in Tokyo's most elegant district. Savor incredibly fresh seafood delivered with ",
+      "summary": "Dive into the vibrant world of Hanamaru Ginza, where premium Hokkaido-style",
       "link": "/item/hanamaru_ginza_en"
     },
     {
@@ -839,47 +760,28 @@
       "lat": 35.6701,
       "lng": 139.7642,
       "categories": [
-        "오마카세",
-        "현지인맛집",
-        "에도마에"
+        "오마카세"
       ],
       "thumbnail": "/static/images/sushidokoro_sato.jpg",
       "address": "Ginza, Tokyo",
       "published": "2026-04-19",
-      "summary": "도쿄 미식의 중심 긴자에서 진정한 오마카세 스시 경험을 선사하는 '스시도코로 사토'는 숨겨진 보석 같은 존재입니다. 최고급 제철 재료와 장인의 손길로 빚어낸 프리미엄 에도마에 스시의 정수를 맛보고 싶다면, 이곳이 바로 당신이 찾던 특별한 미식의 성지입니다.",
+      "summary": "도쿄 미식의 중심 긴자에서 진정한 오마카세 스시 경험을 선사하는 '스시도코로 사토'는 숨겨진 보석 같은 존재입니다. 최고급 제철 재료와",
       "link": "/item/sushidokoro_sato_ko"
-    },
-    {
-      "id": "kura_sushi_asakusa_en",
-      "lang": "en",
-      "title": "Kura Sushi Asakusa: Your Ultimate Guide to Family-Friendly Kaiten Sushi in Tokyo's Historic Heart",
-      "lat": 35.7121,
-      "lng": 139.7915,
-      "categories": [
-        "Kaiten",
-        "Local Gem"
-      ],
-      "thumbnail": "/static/images/kura_sushi_asakusa.jpg",
-      "address": "Asakusa, Tokyo",
-      "published": "2026-04-18",
-      "summary": "Dive into a vibrant culinary adventure at Kura Sushi Asakusa, where traditional Japanese flavors meet modern kaiten convenience. Perfect for families and sushi lovers, this Asakusa spot offers an unfo",
-      "link": "/item/kura_sushi_asakusa_en"
     },
     {
       "id": "sushi_tokami_en",
       "lang": "en",
-      "title": "Sushi Tokami: A Michelin-Starred Omakase Journey for Tuna Aficionados in Ginza, Tokyo",
+      "title": "Sushi Tokami: A Michelin-Starred Omakase Journey for Tuna Aficionados in Ginza,",
       "lat": 35.6691,
       "lng": 139.7615,
       "categories": [
-        "Omakase",
-        "Michelin Star",
-        "Edomae"
+        "미슐랭",
+        "오마카세"
       ],
       "thumbnail": "/static/images/sushi_tokami.jpg",
       "address": "Ginza, Tokyo",
       "published": "2026-04-19",
-      "summary": "Embark on an unparalleled culinary adventure at Sushi Tokami, Ginza's esteemed Michelin-starred destination where the art of Edomae sushi reaches new heights. Renowned as a tuna expert, this exclusive",
+      "summary": "Embark on an unparalleled culinary adventure at Sushi Tokami, Ginza's esteemed",
       "link": "/item/sushi_tokami_en"
     },
     {
@@ -889,45 +791,14 @@
       "lat": 35.6896,
       "lng": 139.6967,
       "categories": [
-        "현지인맛집"
+        "혼밥",
+        "가성비"
       ],
       "thumbnail": "/static/images/uogashi_nihonichi_shinjuku.jpg",
       "address": "Shinjuku, Tokyo",
       "published": "2026-04-19",
-      "summary": "신주쿠 우오가시 니혼이치에서 신선하고 합리적인 가격의 스시를 서서 즐기는 독특한 경험을 해보세요. 바쁜 도쿄 여행 중에도 현지인처럼 빠르고 맛있게 초밥을 맛보고 싶다면 이곳이 완벽한 선택입니다.",
+      "summary": "신주쿠 우오가시 니혼이치에서 신선하고 합리적인 가격의 스시를 서서 즐기는 독특한 경험을 해보세요. 바쁜 도쿄 여행 중에도 현지인처럼",
       "link": "/item/uogashi_nihonichi_shinjuku_ko"
-    },
-    {
-      "id": "sushiro_shinjuku_ko",
-      "lang": "ko",
-      "title": "신주쿠 스시로: 도쿄 신주쿠에서 경험하는 가성비 최고의 회전초밥 맛집 완벽 가이드",
-      "lat": 35.6908,
-      "lng": 139.7042,
-      "categories": [
-        "회전초밥",
-        "현지인맛집"
-      ],
-      "thumbnail": "/static/images/sushiro_shinjuku.jpg",
-      "address": "Shinjuku, Tokyo",
-      "published": "2026-04-18",
-      "summary": "도쿄 신주쿠의 활기찬 거리에서 합리적인 가격과 신선한 맛으로 빛나는 스시로 신주쿠는 혼밥 여행객에게도 완벽한 회전초밥의 성지입니다. 북적이는 도시 속에서 부담 없이 즐길 수 있는 최고의 초밥 경험을 선사합니다.",
-      "link": "/item/sushiro_shinjuku_ko"
-    },
-    {
-      "id": "sushi_taku_ko",
-      "lang": "ko",
-      "title": "도쿄 니시아자부 스시 타쿠: 미슐랭 오마카세의 창의적인 향연",
-      "lat": 35.6598,
-      "lng": 139.7245,
-      "categories": [
-        "오마카세",
-        "미슐랭"
-      ],
-      "thumbnail": "/static/images/sushi_taku.jpg",
-      "address": "Nishiazabu, Tokyo",
-      "published": "2026-04-21",
-      "summary": "도쿄 니시아자부의 밤을 미식의 황홀경으로 물들이는 스시 타쿠는 미슐랭 스타가 빛나는 창의적인 오마카세 스시 레스토랑입니다. 전통을 넘어선 혁신적인 맛과 예술적인 프레젠테이션으로 당신의 오감을 사로잡을 특별한 미식 경험을 약속합니다.",
-      "link": "/item/sushi_taku_ko"
     },
     {
       "id": "sushi_sugita_ko",
@@ -936,31 +807,13 @@
       "lat": 35.6828,
       "lng": 139.7845,
       "categories": [
-        "오마카세",
-        "에도마에",
-        "미슐랭"
+        "오마카세"
       ],
       "thumbnail": "/static/images/sushi_sugita.jpg",
       "address": "Chuo, Tokyo",
       "published": "2026-04-19",
-      "summary": "도쿄 추오에 위치한 스시 스기타는 전설적인 에도마에 스시의 정수를 맛볼 수 있는 곳입니다. 섬세한 장인 정신과 최상의 재료가 어우러진 오마카세 경험은 미식가들에게 잊을 수 없는 감동을 선사합니다. 예약이 어렵지만, 그 이상의 가치를 지닌 미식의 성지로 손꼽힙니다.",
+      "summary": "도쿄 추오에 위치한 스시 스기타는 전설적인 에도마에 스시의 정수를 맛볼 수 있는 곳입니다. 섬세한 장인 정신과 최상의 재료가 어우러진",
       "link": "/item/sushi_sugita_ko"
-    },
-    {
-      "id": "sushi_akira_ko",
-      "lang": "ko",
-      "title": "미나토 도쿄 스시 아키라: 오마카세의 정수를 맛볼 수 있는 프리미엄 스시 경험",
-      "lat": 35.6595,
-      "lng": 139.7215,
-      "categories": [
-        "오마카세",
-        "에도마에"
-      ],
-      "thumbnail": "/static/images/sushi_akira.jpg",
-      "address": "Minato, Tokyo",
-      "published": "2026-04-21",
-      "summary": "도쿄 미나토에 자리한 스시 아키라는 작지만 강렬한 인상을 남기는 프리미엄 오마카세 스시 레스토랑입니다. 장인의 손길로 빚어낸 한 점 한 점의 스시에서 제철 해산물의 깊은 맛과 완벽한 조화를 경험하며 잊지 못할 미식의 여정을 떠나보세요.",
-      "link": "/item/sushi_akira_ko"
     },
     {
       "id": "sushi_inomata_ko",
@@ -969,30 +822,27 @@
       "lat": 35.8012,
       "lng": 139.7214,
       "categories": [
-        "오마카세",
-        "에도마에",
-        "현지인맛집"
+        "오마카세"
       ],
       "thumbnail": "/static/images/sushi_inomata.jpg",
       "address": "Kawaguchi, Saitama",
       "published": "2026-04-19",
-      "summary": "사이타마 가와구치에 위치한 스시 이노마타는 정통 에도마에 오마카세를 선보이며 현지 미식가들의 찬사를 받는 숨겨진 명소입니다. 숙련된 셰프의 장인정신과 최상급 제철 재료가 어우러진 이곳에서 잊을 수 없는 미식 경험을 만끽해보세요.",
+      "summary": "사이타마 가와구치에 위치한 스시 이노마타는 정통 에도마에 오마카세를 선보이며 현지 미식가들의 찬사를 받는 숨겨진 명소입니다. 숙련된",
       "link": "/item/sushi_inomata_ko"
     },
     {
       "id": "sushi_zanmai_tsukiji_en",
       "lang": "en",
-      "title": "Sushi Zanmai Tsukiji: Your Ultimate Guide to 24/7 Fresh Seafood in Tokyo's Historic Tsukiji Market",
+      "title": "Sushi Zanmai Tsukiji: Your Ultimate Guide to 24/7 Fresh Seafood in Tokyo''''s",
       "lat": 35.6657,
       "lng": 139.7705,
       "categories": [
-        "Edomae",
-        "Local Gem"
+        "오마카세"
       ],
       "thumbnail": "/static/images/sushi_zanmai_tsukiji.jpg",
       "address": "Tsukiji, Tokyo",
       "published": "2026-04-19",
-      "summary": "Discover Sushi Zanmai Tsukiji, a legendary 24/7 sushi haven in Tokyo's vibrant Tsukiji area, renowned for its incredibly fresh, high-quality seafood and authentic Edomae-style sushi. Experience the bu",
+      "summary": "Discover Sushi Zanmai Tsukiji, a legendary 24/7 sushi haven in Tokyo's vibrant",
       "link": "/item/sushi_zanmai_tsukiji_en"
     },
     {
@@ -1002,31 +852,13 @@
       "lat": 35.6741,
       "lng": 139.7752,
       "categories": [
-        "오마카세",
-        "에도마에",
-        "미슐랭"
+        "오마카세"
       ],
       "thumbnail": "/static/images/sushi_hashimoto.jpg",
       "address": "Chuo, Tokyo",
       "published": "2026-04-19",
-      "summary": "도쿄 주오에 위치한 '스시 하시모토'는 미식가들 사이에서 빠르게 떠오르는 프리미엄 오마카세 스시 레스토랑입니다. 최고급 재료와 장인의 섬세한 손길이 빚어내는 환상적인 스시 경험을 선사하며, 에도마에 스시의 정수를 현대적인 감각으로 재해석합니다.",
+      "summary": "도쿄 주오에 위치한 '스시 하시모토'는 미식가들 사이에서 빠르게 떠오르는 프리미엄 오마카세 스시 레스토랑입니다. 최고급 재료와 장인의",
       "link": "/item/sushi_hashimoto_ko"
-    },
-    {
-      "id": "sushidokoro_yamada_en",
-      "lang": "en",
-      "title": "Sushidokoro Yamada: Discover Ginza's Pinnacle of Premium Omakase Sushi in Tokyo",
-      "lat": 35.6681,
-      "lng": 139.7618,
-      "categories": [
-        "Omakase",
-        "Edomae"
-      ],
-      "thumbnail": "/static/images/sushidokoro_yamada.jpg",
-      "address": "Ginza, Tokyo",
-      "published": "2026-04-21",
-      "summary": "Sushidokoro Yamada in Ginza, Tokyo, offers an unparalleled premium omakase experience, showcasing the pinnacle of expert Japanese sushi craftsmanship in an intimate setting. Prepare for a meticulously",
-      "link": "/item/sushidokoro_yamada_en"
     },
     {
       "id": "genki_sushi_shibuya_ko",
@@ -1035,13 +867,13 @@
       "lat": 35.6605,
       "lng": 139.6998,
       "categories": [
-        "회전초밥",
-        "현지인맛집"
+        "가성비",
+        "회전초밥"
       ],
       "thumbnail": "/static/images/genki_sushi_shibuya.jpg",
       "address": "Shibuya, Tokyo",
       "published": "2026-04-19",
-      "summary": "시부야 한복판에서 최고의 가성비와 신선함을 자랑하는 겐키 스시 시부야는 현지인과 관광객 모두에게 사랑받는 회전초밥의 성지입니다. 현대적인 주문 시스템과 활기찬 분위기 속에서 다채로운 초밥을 합리적인 가격으로 즐기며 잊지 못할 미식 경험을 만끽하세요.",
+      "summary": "시부야 한복판에서 최고의 가성비와 신선함을 자랑하는 겐키 스시 시부야는 현지인과 관광객 모두에게 사랑받는 회전초밥의 성지입니다. 현대적인",
       "link": "/item/genki_sushi_shibuya_ko"
     },
     {
@@ -1051,13 +883,12 @@
       "lat": 35.6631,
       "lng": 139.7712,
       "categories": [
-        "현지인맛집",
-        "에도마에"
+        "가성비"
       ],
       "thumbnail": "/static/images/sushi_katsura.jpg",
       "address": "Tsukiji, Tokyo",
       "published": "2026-04-19",
-      "summary": "도쿄 츠키지에 자리한 스시 카츠라는 현지인들이 즐겨 찾는 숨은 보석 같은 스시 레스토랑입니다. 합리적인 가격에 정통 에도마에 스시의 진수를 맛볼 수 있으며, 특히 가성비 넘치는 런치 스페셜은 미식 여행객들에게 잊지 못할 경험을 선사합니다.",
+      "summary": "도쿄 츠키지에 자리한 스시 카츠라는 현지인들이 즐겨 찾는 숨은 보석 같은 스시 레스토랑입니다. 합리적인 가격에 정통 에도마에 스시의",
       "link": "/item/sushi_katsura_ko"
     },
     {
@@ -1067,31 +898,13 @@
       "lat": 35.6891,
       "lng": 139.6942,
       "categories": [
-        "오마카세",
-        "에도마에"
+        "오마카세"
       ],
       "thumbnail": "/static/images/kyubey_shinjuku.jpg",
       "address": "Shinjuku, Tokyo",
       "published": "2026-04-19",
-      "summary": "도쿄 신주쿠 중심에서 진정한 에도마에 스시의 정수를 맛볼 수 있는 럭셔리 스시 레스토랑, 큐베이 신주쿠는 수십 년간 이어온 전통과 장인 정신으로 미식가들의 찬사를 받고 있습니다. 엄선된 제철 재료와 섬세한 기술이 어우러진 잊을 수 없는 미식 경험을 선사하는 이곳에서 스시의 깊은 맛과 향을 탐험해보세요.",
+      "summary": "도쿄 신주쿠 중심에서 진정한 에도마에 스시의 정수를 맛볼 수 있는 럭셔리 스시 레스토랑, 큐베이 신주쿠는 수십 년간 이어온 전통과",
       "link": "/item/kyubey_shinjuku_ko"
-    },
-    {
-      "id": "sukiyabashi_jiro_ko",
-      "lang": "ko",
-      "title": "도쿄 긴자 스키야바시 지로: 미슐랭 3스타 에도마에 오마카세 스시의 정점",
-      "lat": 35.6723,
-      "lng": 139.7645,
-      "categories": [
-        "오마카세",
-        "에도마에",
-        "미슐랭"
-      ],
-      "thumbnail": "/static/images/sukiyabashi_jiro.jpg",
-      "address": "Ginza, Tokyo",
-      "published": "2026-04-18",
-      "summary": "도쿄 긴자의 골목 깊숙이 자리한 스키야바시 지로는 세계적인 명성을 자랑하는 미슐랭 3스타 스시 레스토랑입니다. 스시 장인의 혼이 담긴 에도마에 오마카세 스시를 통해 미식의 경지를 경험하고 싶다면, 이곳은 당신의 버킷리스트 최상단에 올라야 할 곳입니다.",
-      "link": "/item/sukiyabashi_jiro_ko"
     },
     {
       "id": "sushi_saito_en",
@@ -1100,15 +913,134 @@
       "lat": 35.6661,
       "lng": 139.7397,
       "categories": [
-        "Omakase",
-        "Edomae",
-        "Michelin Star"
+        "미슐랭",
+        "오마카세"
       ],
       "thumbnail": "/static/images/sushi_saito.jpg",
       "address": "Minato, Tokyo",
       "published": "2026-04-19",
-      "summary": "Dive into the unparalleled world of Sushi Saito in Minato, Tokyo, where Chef Takashi Saito crafts an exquisite Michelin-starred omakase experience, redefining traditional Edomae sushi with every subli",
+      "summary": "Dive into the unparalleled world of Sushi Saito in Minato, Tokyo, where Chef",
       "link": "/item/sushi_saito_en"
+    },
+    {
+      "id": "sushiro_shinjuku_en",
+      "lang": "en",
+      "title": "Sushiro Shinjuku: Your Essential Guide to Affordable Kaiten Sushi in Tokyo''''s",
+      "lat": 35.6908,
+      "lng": 139.7042,
+      "categories": [
+        "혼밥",
+        "가성비",
+        "회전초밥"
+      ],
+      "thumbnail": "/static/images/sushiro_shinjuku.jpg",
+      "address": "Shinjuku, Tokyo",
+      "published": "2026-04-18",
+      "summary": "Discover Sushiro Shinjuku, the ultimate destination for delicious, wallet-friendly",
+      "link": "/item/sushiro_shinjuku_en"
+    },
+    {
+      "id": "kura_sushi_asakusa_ko",
+      "lang": "ko",
+      "title": "도쿄 아사쿠사 쿠라스시: 온 가족이 즐기는 신선하고 유쾌한 회전초밥 미식 여행",
+      "lat": 35.7121,
+      "lng": 139.7915,
+      "categories": [
+        "회전초밥"
+      ],
+      "thumbnail": "/static/images/kura_sushi_asakusa.jpg",
+      "address": "Asakusa, Tokyo",
+      "published": "2026-04-18",
+      "summary": "도쿄 아사쿠사의 활기 넘치는 분위기 속에서 가족 모두가 즐길 수 있는 특별한 미식 경험을 찾고 계신가요? 쿠라스시 아사쿠사는 신선하고",
+      "link": "/item/kura_sushi_asakusa_ko"
+    },
+    {
+      "id": "sushi_no_midori_shibuya_en",
+      "lang": "en",
+      "title": "Sushi No Midori Shibuya: Discover Tokyo''''s Premium Yet Affordable Edomae",
+      "lat": 35.6585,
+      "lng": 139.7013,
+      "categories": [
+        "가성비"
+      ],
+      "thumbnail": "/static/images/sushi_no_midori_shibuya.jpg",
+      "address": "Shibuya, Tokyo",
+      "published": "2026-04-18",
+      "summary": "Dive into the vibrant culinary scene of Shibuya, Tokyo, and discover Sushi",
+      "link": "/item/sushi_no_midori_shibuya_en"
+    },
+    {
+      "id": "sukiyabashi_jiro_en",
+      "lang": "en",
+      "title": "The Ultimate Guide to Sukiyabashi Jiro Ginza: Tokyo''''s Iconic Edomae Omakase",
+      "lat": 35.6723,
+      "lng": 139.7645,
+      "categories": [],
+      "thumbnail": "/static/images/sukiyabashi_jiro.jpg",
+      "address": "Ginza, Tokyo",
+      "published": "2026-04-18",
+      "summary": "Embark on an unparalleled culinary pilgrimage to Sukiyabashi Jiro, the legendary",
+      "link": "/item/sukiyabashi_jiro_en"
+    },
+    {
+      "id": "sushi_no_midori_shibuya_ko",
+      "lang": "ko",
+      "title": "도쿄 시부야 필수 코스: 현지인이 사랑하는 스시노미도리 시부야, 가성비 끝판왕 초밥 가이드",
+      "lat": 35.6585,
+      "lng": 139.7013,
+      "categories": [
+        "가성비"
+      ],
+      "thumbnail": "/static/images/sushi_no_midori_shibuya.jpg",
+      "address": "Shibuya, Tokyo",
+      "published": "2026-04-18",
+      "summary": "도쿄 시부야에서 진정한 미식 경험을 찾으신다면 스시노미도리 시부야는 놓칠 수 없는 곳입니다. 신선한 프리미엄 초밥을 합리적인 가격에",
+      "link": "/item/sushi_no_midori_shibuya_ko"
+    },
+    {
+      "id": "kura_sushi_asakusa_en",
+      "lang": "en",
+      "title": "Kura Sushi Asakusa: Your Ultimate Guide to Family-Friendly Kaiten Sushi in",
+      "lat": 35.7121,
+      "lng": 139.7915,
+      "categories": [
+        "회전초밥"
+      ],
+      "thumbnail": "/static/images/kura_sushi_asakusa.jpg",
+      "address": "Asakusa, Tokyo",
+      "published": "2026-04-18",
+      "summary": "Dive into a vibrant culinary adventure at Kura Sushi Asakusa, where traditional",
+      "link": "/item/kura_sushi_asakusa_en"
+    },
+    {
+      "id": "sushiro_shinjuku_ko",
+      "lang": "ko",
+      "title": "신주쿠 스시로: 도쿄 신주쿠에서 경험하는 가성비 최고의 회전초밥 맛집 완벽 가이드",
+      "lat": 35.6908,
+      "lng": 139.7042,
+      "categories": [
+        "혼밥",
+        "가성비",
+        "회전초밥"
+      ],
+      "thumbnail": "/static/images/sushiro_shinjuku.jpg",
+      "address": "Shinjuku, Tokyo",
+      "published": "2026-04-18",
+      "summary": "도쿄 신주쿠의 활기찬 거리에서 합리적인 가격과 신선한 맛으로 빛나는 스시로 신주쿠는 혼밥 여행객에게도 완벽한 회전초밥의 성지입니다.",
+      "link": "/item/sushiro_shinjuku_ko"
+    },
+    {
+      "id": "sukiyabashi_jiro_ko",
+      "lang": "ko",
+      "title": "도쿄 긴자 스키야바시 지로: 미슐랭 3스타 에도마에 오마카세 스시의 정점",
+      "lat": 35.6723,
+      "lng": 139.7645,
+      "categories": [],
+      "thumbnail": "/static/images/sukiyabashi_jiro.jpg",
+      "address": "Ginza, Tokyo",
+      "published": "2026-04-18",
+      "summary": "도쿄 긴자의 골목 깊숙이 자리한 스키야바시 지로는 세계적인 명성을 자랑하는 미슐랭 3스타 스시 레스토랑입니다. 스시 장인의 혼이 담긴",
+      "link": "/item/sukiyabashi_jiro_ko"
     }
   ]
 }

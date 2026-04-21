@@ -5,14 +5,10 @@ categories:
 - 오마카세
 date: '2026-04-19'
 image_prompt: Close-up shot of a beautifully arranged Edomae sushi omakase set on
-  a dark wood counter, with natural bright lighting highlighting the glossy fish and
-  expertly crafted rice, showing a premium, sophisticated yet welcoming atmosphere,
-  suitable for international tourists.
 lang: ko
-lat: 35.6675
-lng: 139.7345
+lat: '35.6675'
+lng: '139.7345'
 summary: 도쿄 미나토에 위치한 '이타마에 스시 에도'는 전통 에도마에 스시의 정수를 현대적인 감각으로 선보이는 프리미엄 스시 레스토랑입니다.
-  신선한 제철 해산물과 숙련된 장인의 기술, 그리고 관광객 친화적인 분위기가 어우러져 잊을 수 없는 미식 경험을 선사합니다.
 thumbnail: /static/images/itamae_sushi_edo.jpg
 title: '도쿄 미나토의 정수를 맛보다: 이타마에 스시 에도 – 프리미엄 에도마에 스시 가이드'
 ---

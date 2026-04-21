@@ -2,20 +2,13 @@
 address: Chuo, Tokyo
 agoda: ''
 categories:
-- Michelin Star
-- Omakase
+- 오마카세
 date: '2026-04-19'
 image_prompt: Close-up, moody lighting, showcasing a chef's hands meticulously placing
-  a precisely sliced piece of glistening nigiri onto a traditional ceramic plate,
-  with a blurred background of an intimate wooden sushi counter, emphasizing the legendary
-  Edomae Omakase experience.
 lang: en
-lat: 35.6828
-lng: 139.7845
+lat: '35.6828'
+lng: '139.7845'
 summary: Embark on an extraordinary culinary pilgrimage to Sushi Sugita in Chuo, Tokyo,
-  where the hallowed art of Edomae Omakase transcends mere dining to become an unforgettable,
-  legendary experience. Prepare to witness a master at work, crafting each exquisite
-  piece with unparalleled precision and devotion.
 thumbnail: /static/images/sushi_sugita.jpg
 title: 'Sushi Sugita: Embark on a Legendary Edomae Omakase Journey in Chuo, Tokyo'
 ---

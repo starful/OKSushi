@@ -2,23 +2,16 @@
 address: Shibuya, Tokyo
 agoda: ''
 categories:
-- Local Gem
-- Kaiten
+- 가성비
+- 회전초밥
 date: '2026-04-19'
 image_prompt: Close-up 45-degree shot, bright natural lighting, showing a variety
-  of colorful sushi plates on a futuristic conveyor belt at Genki Sushi Shibuya, with
-  happy customers in the background enjoying their affordable meals, emphasizing the
-  vibrant, popular atmosphere.
 lang: en
-lat: 35.6605
-lng: 139.6998
+lat: '35.6605'
+lng: '139.6998'
 summary: Discover Genki Sushi Shibuya, a must-visit in Tokyo for an exhilarating and
-  affordable Kaiten sushi experience where fresh, delicious plates zoom directly to
-  your seat via a high-tech conveyor, making it a vibrant culinary adventure for locals
-  and travelers alike.
 thumbnail: /static/images/genki_sushi_shibuya.jpg
-title: 'Genki Sushi Shibuya: Your Essential Guide to Affordable, Popular Kaiten Sushi
-  in Tokyo''s Heart'
+title: 'Genki Sushi Shibuya: Your Essential Guide to Affordable, Popular Kaiten Sushi'
 ---
 
 ## Introduction

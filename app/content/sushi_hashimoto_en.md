@@ -2,21 +2,13 @@
 address: Chuo, Tokyo
 agoda: ''
 categories:
-- Omakase
+- 오마카세
 date: '2026-04-19'
 image_prompt: 45-degree shot of the omakase counter at Sushi Hashimoto in Chuo, Tokyo,
-  featuring a master sushi chef meticulously preparing a premium piece of nigiri for
-  a guest, with a focus on fresh, glistening seafood and elegant ceramic dishes under
-  warm, natural lighting, highlighting the intimate and high-end dining experience
-  of a rising culinary star.
 lang: en
-lat: 35.6741
-lng: 139.7752
+lat: '35.6741'
+lng: '139.7752'
 summary: Embark on an exquisite culinary journey at Sushi Hashimoto, a burgeoning
-  Edomae Omakase destination in the heart of Chuo, Tokyo. Renowned for its meticulous
-  craftsmanship and premium ingredients, this restaurant promises an unforgettable
-  and intimate dining experience that elevates the art of sushi to new heights, making
-  it a must-visit for discerning gourmands.
 thumbnail: /static/images/sushi_hashimoto.jpg
 title: 'Sushi Hashimoto: A Rising Edomae Omakase Star in Chuo, Tokyo for Premium Dining'
 ---

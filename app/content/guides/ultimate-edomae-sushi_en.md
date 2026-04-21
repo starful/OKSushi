@@ -1,8 +1,9 @@
 ---
+categories: []
+date: '2026-04-19'
 lang: en
-title: The Ultimate Guide to Edomae Sushi: Tokyo's Culinary Treasure
-date: "2026-04-19"
-summary: Discover the history and evolution of Edomae sushi, a culinary art form born in Tokyo, and explore its unique techniques and flavors that continue to captivate food lovers worldwide. This guide will take you on a journey from the bustling streets of Edo-era Tokyo to the modern sushi counters, revealing the secrets behind this iconic dish.
+summary: Discover the history and evolution of Edomae sushi, a culinary art form born
+title: 'The Ultimate Guide to Edomae Sushi: Tokyo''''''''s Culinary Treasure'
 ---
 
 ## Unraveling the Mystery: What is Edomae Sushi?

@@ -3,18 +3,12 @@ address: Minato, Tokyo
 agoda: ''
 categories:
 - 오마카세
-- 미슐랭
 date: '2026-04-19'
 image_prompt: A close-up shot of a meticulously prepared Omakase sushi piece, perhaps
-  a glistening fatty tuna (otoro) or sea urchin (uni), presented on a minimalist wooden
-  counter with the chef's hands subtly blurred in the background, illuminated by natural,
-  soft light, conveying an exclusive and premium dining experience that feels hard
-  to book.
 lang: ko
-lat: 35.6621
-lng: 139.7289
+lat: '35.6621'
+lng: '139.7289'
 summary: 미나토 도쿄에 위치한 스시 아마모토는 예약조차 어려운 프리미엄 오마카세 스시 경험을 선사합니다. 장인의 손길로 빚어낸 한 점 한 점에
-  도쿄 최고의 미식 철학이 담겨 있으며, 단순한 식사를 넘어선 예술적 경지를 선사합니다.
 thumbnail: /static/images/sushi_amamoto.jpg
 title: '미나토 도쿄의 정점: 스시 아마모토에서 오마카세 미식의 극치를 경험하다'
 ---

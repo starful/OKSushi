@@ -2,23 +2,16 @@
 address: Ginza, Tokyo
 agoda: ''
 categories:
-- Michelin Star
-- Omakase
+- 미슐랭
+- 오마카세
 date: '2026-04-19'
 image_prompt: 45-degree shot of Sushi Tokami's intimate counter, with the sushi chef
-  expertly slicing a gleaming piece of tuna for an omakase serving, illuminated by
-  warm, moody lighting, showcasing the elegant plating and the Michelin star plaque
-  subtly in the background.
 lang: en
-lat: 35.6691
-lng: 139.7615
+lat: '35.6691'
+lng: '139.7615'
 summary: Embark on an unparalleled culinary adventure at Sushi Tokami, Ginza's esteemed
-  Michelin-starred destination where the art of Edomae sushi reaches new heights.
-  Renowned as a tuna expert, this exclusive omakase experience promises an unforgettable
-  symphony of flavors, showcasing the ocean's finest bounty in a sophisticated setting.
 thumbnail: /static/images/sushi_tokami.jpg
-title: 'Sushi Tokami: A Michelin-Starred Omakase Journey for Tuna Aficionados in Ginza,
-  Tokyo'
+title: 'Sushi Tokami: A Michelin-Starred Omakase Journey for Tuna Aficionados in Ginza,'
 ---
 
 ## Introduction

@@ -2,23 +2,15 @@
 address: Asakusa, Tokyo
 agoda: ''
 categories:
-- Local Gem
-- Kaiten
+- 회전초밥
 date: '2026-04-18'
 image_prompt: Overhead shot of Kura Sushi Asakusa's conveyor belt, brightly lit, showing
-  various colorful sushi plates passing by, with families happily reaching for dishes
-  and children engaged with tablet ordering, reflecting a bustling and family-friendly
-  atmosphere.
 lang: en
-lat: 35.7121
-lng: 139.7915
+lat: '35.7121'
+lng: '139.7915'
 summary: Dive into a vibrant culinary adventure at Kura Sushi Asakusa, where traditional
-  Japanese flavors meet modern kaiten convenience. Perfect for families and sushi
-  lovers, this Asakusa spot offers an unforgettable, interactive dining experience
-  in the heart of Tokyo.
 thumbnail: /static/images/kura_sushi_asakusa.jpg
-title: 'Kura Sushi Asakusa: Your Ultimate Guide to Family-Friendly Kaiten Sushi in
-  Tokyo''s Historic Heart'
+title: 'Kura Sushi Asakusa: Your Ultimate Guide to Family-Friendly Kaiten Sushi in'
 ---
 
 ## Introduction

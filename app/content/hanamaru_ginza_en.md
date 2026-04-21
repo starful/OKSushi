@@ -2,23 +2,16 @@
 address: Tokyu Plaza Ginza 10F, 5-2-1 Ginza, Chuo-ku, Tokyo
 agoda: ''
 categories:
-- Local Gem
-- Kaiten
+- 회전초밥
 date: '2026-04-19'
 image_prompt: 45-degree shot of the lively counter at Hanamaru Ginza, bright natural
-  light illuminating a conveyor belt laden with colorful, premium Hokkaido-style sushi
-  plates, chefs expertly preparing fresh fish in the background, showcasing a blend
-  of traditional craftsmanship and modern efficiency.
 lang: en
-lat: 35.6721
-lng: 139.7635
+lat: '35.6721'
+lng: '139.7635'
 summary: Dive into the vibrant world of Hanamaru Ginza, where premium Hokkaido-style
-  kaiten sushi redefines conveyor belt dining in Tokyo's most elegant district. Savor
-  incredibly fresh seafood delivered with efficiency and flair, making it a must-visit
-  for sushi aficionados.
 thumbnail: /static/images/hanamaru_ginza.jpg
-title: 'Experience Hokkaido''s Finest: Hanamaru Ginza, Tokyo''s Premium Kaiten Sushi
-  Destination'
+title: 'Experience Hokkaido''''''''s Finest: Hanamaru Ginza, Tokyo''''''''s Premium
+  Kaiten'
 ---
 
 ## Introduction

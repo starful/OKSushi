@@ -2,22 +2,15 @@
 address: Tsukiji, Tokyo
 agoda: ''
 categories:
-- Local Gem
-- Omakase
+- 가성비
 date: '2026-04-19'
 image_prompt: 45-degree shot of a neatly arranged authentic Edomae sushi lunch set
-  at Sushi Katsura, with vibrant, fresh fish on glistening rice, small side dishes,
-  and a humble, bright natural light ambiance reflecting its affordable and local
-  charm.
 lang: en
-lat: 35.6631
-lng: 139.7712
+lat: '35.6631'
+lng: '139.7712'
 summary: Discover Sushi Katsura, a cherished local gem nestled in Tokyo's historic
-  Tsukiji market, offering an authentic Edomae sushi experience that's both exquisite
-  and remarkably affordable. Famous for its generous lunch special, it's a must-visit
-  for genuine Japanese culinary delight.
 thumbnail: /static/images/sushi_katsura.jpg
-title: 'Sushi Katsura: Tsukiji''s Authentic & Affordable Edomae Gem in Tokyo'
+title: 'Sushi Katsura: Tsukiji''''''''s Authentic & Affordable Edomae Gem in Tokyo'
 ---
 
 ## Introduction

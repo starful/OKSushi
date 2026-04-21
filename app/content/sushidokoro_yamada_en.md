@@ -2,23 +2,15 @@
 address: Ginza, Tokyo
 agoda: ''
 categories:
-- Omakase
+- 오마카세
 date: '2026-04-21'
 image_prompt: 45-degree shot of the sushi counter at Sushidokoro Yamada, featuring
-  a master sushi chef meticulously preparing a piece of glistening otoro nigiri for
-  a guest, with a spotlight on the delicate details of the fish and rice, moody natural
-  light enhancing the intimate and premium atmosphere, subtle traditional Japanese
-  decor in the background.
 lang: en
-lat: 35.6681
-lng: 139.7618
+lat: '35.6681'
+lng: '139.7618'
 summary: Sushidokoro Yamada in Ginza, Tokyo, offers an unparalleled premium omakase
-  experience, showcasing the pinnacle of expert Japanese sushi craftsmanship in an
-  intimate setting. Prepare for a meticulously curated culinary journey that elevates
-  sushi to an art form, making it a must-visit for discerning gourmands.
 thumbnail: /static/images/sushidokoro_yamada.jpg
-title: 'Sushidokoro Yamada: Discover Ginza''s Pinnacle of Premium Omakase Sushi in
-  Tokyo'
+title: 'Sushidokoro Yamada: Discover Ginza''''''''s Pinnacle of Premium Omakase Sushi'
 ---
 
 ## Introduction

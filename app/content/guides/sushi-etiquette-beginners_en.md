@@ -3,8 +3,6 @@ categories: []
 date: '2026-04-19'
 lang: en
 summary: Conquering sushi etiquette can seem daunting, but it's simpler than you think.
-  This guide provides ten essential rules to confidently enjoy sushi like a local
-  on your Japan adventure.
 title: 'Sushi Etiquette: 10 Essential Rules for Beginners in Japan'
 ---
 

@@ -2,24 +2,16 @@
 address: Kawaguchi, Saitama
 agoda: ''
 categories:
-- Local Gem
-- Omakase
+- 오마카세
 date: '2026-04-19'
 image_prompt: Close-up shot of a master sushi chef's hands meticulously placing a
-  piece of nigiri on a beautiful ceramic plate, with a dimly lit, intimate traditional
-  Japanese sushi counter in the background. Natural, warm lighting highlights the
-  intricate details of the Edomae sushi and the serene atmosphere of a local hidden
-  gem Omakase restaurant.
 lang: en
-lat: 35.8012
-lng: 139.7214
+lat: '35.8012'
+lng: '139.7214'
 summary: Discover Sushi Inomata, an exquisite Edomae Omakase haven nestled in Kawaguchi,
-  Saitama, offering a meticulously crafted sushi experience that transcends the ordinary.
-  This local gem promises an intimate culinary journey, showcasing the freshest seasonal
-  ingredients and the masterful artistry of traditional Japanese sushi.
 thumbnail: /static/images/sushi_inomata.jpg
-title: 'Sushi Inomata: A Deep Dive into Kawaguchi, Saitama''s Exquisite Edomae Omakase
-  Gem'
+title: 'Sushi Inomata: A Deep Dive into Kawaguchi, Saitama''''''''s Exquisite Edomae
+  Omakase'
 ---
 
 ## Introduction

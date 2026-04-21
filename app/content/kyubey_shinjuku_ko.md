@@ -5,15 +5,10 @@ categories:
 - 오마카세
 date: '2026-04-19'
 image_prompt: Close-up shot of an elegant Edomae sushi platter at Kyubey Shinjuku,
-  featuring perfectly formed nigiri with glistening fresh fish, set on a traditional
-  lacquered tray with a soft, natural overhead light highlighting the delicate textures
-  and luxurious presentation in a refined Japanese interior.
 lang: ko
-lat: 35.6891
-lng: 139.6942
+lat: '35.6891'
+lng: '139.6942'
 summary: 도쿄 신주쿠 중심에서 진정한 에도마에 스시의 정수를 맛볼 수 있는 럭셔리 스시 레스토랑, 큐베이 신주쿠는 수십 년간 이어온 전통과
-  장인 정신으로 미식가들의 찬사를 받고 있습니다. 엄선된 제철 재료와 섬세한 기술이 어우러진 잊을 수 없는 미식 경험을 선사하는 이곳에서 스시의
-  깊은 맛과 향을 탐험해보세요.
 thumbnail: /static/images/kyubey_shinjuku.jpg
 title: '신주쿠 큐베이: 도쿄 신주쿠에서 경험하는 에도마에 스시의 정수와 미학 (Kyubey Shinjuku)'
 ---

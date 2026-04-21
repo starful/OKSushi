@@ -2,18 +2,13 @@
 address: Ginza, Tokyo
 agoda: ''
 categories:
-- 현지인맛집
 - 오마카세
 date: '2026-04-21'
 image_prompt: 45-degree shot of a vibrant sushi counter at Hina Sushi Ginza, showcasing
-  an abundant array of meticulously prepared premium seafood sushi on traditional
-  wooden platters, with chefs actively crafting new pieces in bright, natural light,
-  emphasizing the 'All You Can Eat' variety and 'Premium' quality.
 lang: ko
-lat: 35.6731
-lng: 139.7645
+lat: '35.6731'
+lng: '139.7645'
 summary: 도쿄 미식의 심장 긴자에서 '프리미엄 초밥 무제한'이라는 독보적인 컨셉으로 미식가들의 찬사를 받고 있는 히나 스시 긴자를 소개합니다.
-  신선한 최고급 해산물과 장인의 솜씨가 어우러진 초밥을 무제한으로 맛볼 수 있는 이곳에서 잊지 못할 미식 경험을 만끽하세요.
 thumbnail: /static/images/hina_sushi_ginza.jpg
 title: '긴자 히나 스시: 도쿄 긴자에서 만나는 프리미엄 초밥 무제한의 정점 | 완벽 가이드'
 ---

@@ -2,21 +2,15 @@
 address: Ginza, Tokyo
 agoda: ''
 categories:
-- Michelin Star
-- Omakase
+- 미슐랭
 date: '2026-04-19'
 image_prompt: 45-degree shot of the sushi counter at Sushi Kanesaka, bright natural
-  light, showcasing a master chef meticulously crafting Edomae sushi with traditional
-  tools, elegant minimalist decor reflecting a Michelin-starred establishment.
 lang: en
-lat: 35.6711
-lng: 139.7631
+lat: '35.6711'
+lng: '139.7631'
 summary: Dive into the world of exquisite Edomae sushi at Sushi Kanesaka, a Michelin-starred
-  sanctuary nestled in the heart of Tokyo's Ginza district. Prepare for an unforgettable
-  omakase journey guided by a master's precision and a profound respect for tradition.
 thumbnail: /static/images/sushi_kanesaka.jpg
-title: 'Experience Perfection: A Guide to Sushi Kanesaka, Ginza''s Michelin-Starred
-  Edomae Gem'
+title: 'Experience Perfection: A Guide to Sushi Kanesaka, Ginza''''''''s Michelin-Starred'
 ---
 
 ## Introduction

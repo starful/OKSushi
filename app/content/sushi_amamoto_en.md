@@ -2,24 +2,15 @@
 address: Minato, Tokyo
 agoda: ''
 categories:
-- Michelin Star
-- Omakase
+- 오마카세
 date: '2026-04-19'
 image_prompt: Close-up, moody natural light shot of a chef's hands delicately placing
-  a glistening piece of chutoro nigiri onto the counter, with a blur of a minimalist
-  wooden sushi counter and sake bottles in the background, embodying a premium, hard-to-book
-  omakase sushi experience in a sophisticated Tokyo setting.
 lang: en
-lat: 35.6621
-lng: 139.7289
+lat: '35.6621'
+lng: '139.7289'
 summary: Sushi Amamoto in Minato, Tokyo, stands as a pinnacle of premium Edomae sushi,
-  offering an elusive omakase experience that captivates the most discerning palates.
-  Renowned for its unparalleled quality and challenging reservations, this intimate
-  establishment promises an unforgettable culinary journey for those fortunate enough
-  to secure a seat.
 thumbnail: /static/images/sushi_amamoto.jpg
-title: 'Unlocking the Enigma: A Deep Dive into Sushi Amamoto''s Omakase Excellence
-  in Minato, Tokyo'
+title: 'Unlocking the Enigma: A Deep Dive into Sushi Amamoto''''''''s Omakase Excellence'
 ---
 
 ## Introduction

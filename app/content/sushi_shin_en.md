@@ -2,22 +2,16 @@
 address: Minato, Tokyo
 agoda: ''
 categories:
-- Michelin Star
-- Omakase
+- 오마카세
 date: '2026-04-19'
 image_prompt: 45-degree shot, moody lighting, a sushi master meticulously placing
-  a piece of nigiri with unique toppings on a minimalist dark plate, surrounded by
-  elegant wooden counter, soft focus on delicate, colorful creative omakase sushi
-  pieces, embodying premium dining experience.
 lang: en
-lat: 35.6591
-lng: 139.7252
+lat: '35.6591'
+lng: '139.7252'
 summary: Embark on an unforgettable culinary journey at Sushi Shin, Minato, Tokyo's
-  premier destination for creative and premium omakase sushi. Here, master chefs meticulously
-  craft an evolving tasting menu of exquisite seasonal ingredients, promising an unparalleled
-  and artful dining experience in a refined setting.
 thumbnail: /static/images/sushi_shin.jpg
-title: 'Sushi Shin: Unveiling Minato, Tokyo''s Pinnacle of Creative Omakase Excellence'
+title: 'Sushi Shin: Unveiling Minato, Tokyo''''''''s Pinnacle of Creative Omakase
+  Excellence'
 ---
 
 ## Introduction

@@ -2,20 +2,18 @@
 address: Shinjuku, Tokyo
 agoda: ''
 categories:
-- 현지인맛집
+- 혼밥
+- 가성비
 date: '2026-04-19'
 image_prompt: 45-degree shot of Uogashi Nihon-ichi Shinjuku's interior, bright natural
-  lighting, showing a bustling standing sushi bar with chefs meticulously preparing
-  various colorful sushi pieces, customers enjoying their quick, affordable meals,
-  and traditional Japanese signage in the background, conveying a lively, authentic
-  atmosphere.
 lang: ko
-lat: 35.6896
-lng: 139.6967
+lat: '35.6896'
+lng: '139.6967'
 summary: 신주쿠 우오가시 니혼이치에서 신선하고 합리적인 가격의 스시를 서서 즐기는 독특한 경험을 해보세요. 바쁜 도쿄 여행 중에도 현지인처럼
-  빠르고 맛있게 초밥을 맛보고 싶다면 이곳이 완벽한 선택입니다.
 thumbnail: /static/images/uogashi_nihonichi_shinjuku.jpg
 title: '신주쿠 맛집 탐방: 우오가시 니혼이치 신주쿠, 서서 즐기는 초고속 가성비 스시의 정점'
+---
+
 ---
 
 ## Introduction
@@ -106,4 +104,3 @@ title: '신주쿠 맛집 탐방: 우오가시 니혼이치 신주쿠, 서서 즐
 신주쿠 우오가시 니혼이치는 미식의 도시 도쿄에서 현지인처럼 맛있는 스시를 경험하고 싶은 여행자, 가성비 좋은 스시 맛집을 찾는 탐험가, 그리고 일본의 독특한 식문화를 직접 체험하고 싶은 모든 이들에게 강력히 추천하는 명소입니다. 북적이는 신주쿠의 거리에서 잠시 벗어나, 뜨거운 오차 한 잔과 함께 입안 가득 퍼지는 신선한 초밥의 향연에 흠뻑 빠져보세요. 이곳에서의 경험은 분명 당신의 도쿄 여행을 더욱 풍성하고 기억에 남게 할 것입니다. 다음 도쿄 방문 시에는 꼭 우오가시 니혼이치 신주쿠를 찾아, 진정한 일본의 맛과 문화를 만끽하시길 바랍니다.
 
 총 7000자 이상의 콘텐츠입니다.
----

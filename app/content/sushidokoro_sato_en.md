@@ -2,21 +2,15 @@
 address: Ginza, Tokyo
 agoda: ''
 categories:
-- Local Gem
-- Omakase
+- 오마카세
 date: '2026-04-19'
 image_prompt: 45-degree shot, moody lighting, a minimalist sushi counter at Sushidokoro
-  Sato in Ginza, Tokyo, with a master sushi chef meticulously placing a piece of glistening
-  Edomae Omakase nigiri on a sleek black plate, highlighting the premium ingredients
-  and intimate, hidden gem atmosphere, soft focus on the chef's hands.
 lang: en
-lat: 35.6701
-lng: 139.7642
+lat: '35.6701'
+lng: '139.7642'
 summary: Discover Sushidokoro Sato, Ginza's elusive premium Omakase haven, where master
-  chefs craft an unforgettable culinary journey, making it a true hidden gem for discerning
-  sushi aficionados in Tokyo.
 thumbnail: /static/images/sushidokoro_sato.jpg
-title: 'Sushidokoro Sato: Unveiling Ginza''s Premium Omakase Hidden Gem in Tokyo'
+title: 'Sushidokoro Sato: Unveiling Ginza''''''''s Premium Omakase Hidden Gem in Tokyo'
 ---
 
 ## Introduction

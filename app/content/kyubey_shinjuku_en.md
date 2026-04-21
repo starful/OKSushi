@@ -2,22 +2,16 @@
 address: Shinjuku, Tokyo
 agoda: ''
 categories:
-- Omakase
+- 오마카세
 date: '2026-04-19'
 image_prompt: Side view shot of a master sushi chef meticulously preparing Edomae
-  sushi at a traditional wooden counter in Kyubey Shinjuku, with elegant, moody lighting
-  highlighting the glistening fresh fish and the chef's focused expression, while
-  a few luxury sake bottles are subtly visible in the background.
 lang: en
-lat: 35.6891
-lng: 139.6942
+lat: '35.6891'
+lng: '139.6942'
 summary: Step into a realm of culinary artistry at Kyubey Shinjuku, where traditional
-  Edomae sushi reaches new heights of luxury. This esteemed restaurant offers an unparalleled
-  dining journey, showcasing the freshest seasonal ingredients transformed into exquisite
-  bites by master chefs in Tokyo's vibrant Shinjuku district.
 thumbnail: /static/images/kyubey_shinjuku.jpg
-title: 'Kyubey Shinjuku: Experience Tokyo''s Premier Edomae Sushi in the Heart of
-  Shinjuku'
+title: 'Kyubey Shinjuku: Experience Tokyo''''''''s Premier Edomae Sushi in the Heart
+  of'
 ---
 
 ## Introduction

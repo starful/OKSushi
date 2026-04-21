@@ -2,23 +2,15 @@
 address: Minato, Tokyo
 agoda: ''
 categories:
-- Omakase
+- 오마카세
 date: '2026-04-19'
 image_prompt: 45-degree shot of a master sushi chef meticulously preparing a piece
-  of Edomae nigiri at Itamae Sushi Edo, with bright natural lighting illuminating
-  the pristine wooden counter and artfully arranged premium ingredients. The atmosphere
-  is sophisticated yet welcoming, with a hint of other satisfied tourists in the background
-  enjoying the authentic Japanese dining experience.
 lang: en
-lat: 35.6675
-lng: 139.7345
+lat: '35.6675'
+lng: '139.7345'
 summary: Discover Itamae Sushi Edo in Minato, Tokyo, a premier destination for authentic
-  Edomae sushi. Experience a world-class culinary journey where traditional techniques
-  meet exquisite, seasonal ingredients, all within a welcoming atmosphere perfect
-  for discerning travelers.
 thumbnail: /static/images/itamae_sushi_edo.jpg
-title: 'Savor Authentic Edomae Sushi: Itamae Sushi Edo, Minato, Tokyo''s Premium Culinary
-  Gem'
+title: 'Savor Authentic Edomae Sushi: Itamae Sushi Edo, Minato, Tokyo''''''''s Premium'
 ---
 
 ## Introduction

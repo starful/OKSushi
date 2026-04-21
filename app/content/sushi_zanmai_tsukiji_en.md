@@ -2,23 +2,15 @@
 address: Tsukiji, Tokyo
 agoda: ''
 categories:
-- Local Gem
-- Omakase
+- 오마카세
 date: '2026-04-19'
 image_prompt: 45-degree shot of the interior of Sushi Zanmai Tsukiji, brightly lit
-  with natural light from large windows, showing the long wooden sushi counter bustling
-  with chefs expertly preparing famous, fresh seafood nigiri, with several happy customers
-  enjoying their meals at various times of day, emphasizing its 24h accessibility.
 lang: en
-lat: 35.6657
-lng: 139.7705
+lat: '35.6657'
+lng: '139.7705'
 summary: Discover Sushi Zanmai Tsukiji, a legendary 24/7 sushi haven in Tokyo's vibrant
-  Tsukiji area, renowned for its incredibly fresh, high-quality seafood and authentic
-  Edomae-style sushi. Experience the bustling energy and culinary excellence that
-  makes this iconic restaurant a must-visit for any sushi enthusiast exploring Japan.
 thumbnail: /static/images/sushi_zanmai_tsukiji.jpg
-title: 'Sushi Zanmai Tsukiji: Your Ultimate Guide to 24/7 Fresh Seafood in Tokyo''s
-  Historic Tsukiji Market'
+title: 'Sushi Zanmai Tsukiji: Your Ultimate Guide to 24/7 Fresh Seafood in Tokyo''''''''s'
 ---
 
 ## Introduction

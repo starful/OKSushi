@@ -2,18 +2,14 @@
 address: Chiyoda, Tokyo
 agoda: ''
 categories:
-- 현지인맛집
 - 오마카세
+- 가성비
 date: '2026-04-19'
 image_prompt: 45-degree shot of a vibrant sushi counter at Manten Sushi Marunouchi,
-  showcasing a chef meticulously preparing fresh, glistening omakase sushi pieces
-  for eager customers, bathed in bright, inviting natural light, emphasizing the popular
-  and affordable dining atmosphere.
 lang: ko
-lat: 35.6785
-lng: 139.7621
+lat: '35.6785'
+lng: '139.7621'
 summary: 도쿄 치요다에 위치한 만텐 스시 마루노우치는 신선한 재료로 만든 수준 높은 오마카세를 합리적인 가격에 즐길 수 있는 스시 애호가들의
-  성지입니다. 현지인과 여행객 모두에게 사랑받는 이곳에서 진정한 스시의 맛과 특별한 경험을 만끽해보세요.
 thumbnail: /static/images/manten_sushi_marunouchi.jpg
 title: '도쿄 치요다의 미식 보석: 만텐 스시 마루노우치, 가성비 오마카세의 성지'
 ---

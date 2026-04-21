@@ -2,19 +2,13 @@
 address: Ginza, Tokyo
 agoda: ''
 categories:
-- 현지인맛집
 - 회전초밥
 date: '2026-04-19'
 image_prompt: 45-degree shot of Hanamaru Ginza's lively kaiten sushi counter, bright
-  natural lighting highlighting a continuous belt of beautifully arranged premium
-  Hokkaido-style sushi, fresh vibrant seafood on rice, elegant wooden interior with
-  a busy but refined atmosphere, focus on exquisite detail of ingredients.
 lang: ko
-lat: 35.6721
-lng: 139.7635
+lat: '35.6721'
+lng: '139.7635'
 summary: 긴자의 심장부에서 홋카이도의 신선함을 만나는 특별한 미식 경험, 하나마루 긴자는 프리미엄 재료로 빚어낸 회전초밥의 진수를 선보이며
-  현지인과 여행객 모두에게 사랑받는 도쿄의 숨겨진 보석입니다. 활기찬 분위기 속에서 합리적인 가격으로 최고의 스시를 즐길 수 있는 이곳에서 잊지
-  못할 추억을 만들어보세요.
 thumbnail: /static/images/hanamaru_ginza.jpg
 title: '도쿄 긴자 맛집: 하나마루 긴자, 프리미엄 홋카이도 회전초밥의 모든 것'
 ---

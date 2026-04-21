@@ -2,21 +2,15 @@
 address: Roppongi, Tokyo
 agoda: ''
 categories:
-- Omakase
+- 오마카세
 date: '2026-04-21'
 image_prompt: Close-up, 45-degree shot of a meticulously presented omakase sushi piece
-  at Sushi Roppei, showcasing glistening neta on perfectly formed shari, with a sophisticated,
-  dimly lit modern minimalist counter and a blurred chef's hands in the background,
-  moody natural light.
 lang: en
-lat: 35.6625
-lng: 139.7231
+lat: '35.6625'
+lng: '139.7231'
 summary: Embark on an extraordinary gastronomic journey at Sushi Roppei, Roppongi
-  Tokyo's modern temple to premium omakase sushi, where culinary artistry meets refined
-  elegance for an unforgettable dining experience.
 thumbnail: /static/images/sushi_roppei.jpg
-title: 'Experience Culinary Brilliance: Sushi Roppei, Roppongi Tokyo''s Premier Omakase
-  Destination'
+title: 'Experience Culinary Brilliance: Sushi Roppei, Roppongi Tokyo''''''''s Premier'
 ---
 
 ## Introduction

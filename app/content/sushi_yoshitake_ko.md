@@ -2,18 +2,14 @@
 address: Chuo, Tokyo
 agoda: ''
 categories:
-- 오마카세
 - 미슐랭
+- 오마카세
 date: '2026-04-19'
 image_prompt: Close-up, moody natural lighting shot of an exquisite Omakase sushi
-  counter at Sushi Yoshitake, showcasing a Michelin Star chef meticulously preparing
-  premium Edomae nigiri with glistening fresh fish and perfectly seasoned rice, with
-  an elegant, minimalist backdrop.
 lang: ko
-lat: 35.6698
-lng: 139.7621
+lat: '35.6698'
+lng: '139.7621'
 summary: 도쿄 주오에 위치한 스시 요시타케는 세계적인 미식가들이 꿈꾸는 미슐랭 3스타 오마카세 스시 경험을 선사합니다. 최상급 재료와 장인의
-  기술이 빚어내는 한 점 한 점의 스시는 단순한 식사를 넘어선 예술적인 경지이며, 잊을 수 없는 미식 여정을 약속합니다.
 thumbnail: /static/images/sushi_yoshitake.jpg
 title: '도쿄 주오의 미식 정점: 미슐랭 3스타 스시 요시타케 완전 가이드'
 ---

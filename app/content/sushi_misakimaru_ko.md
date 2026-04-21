@@ -2,20 +2,18 @@
 address: Ueno, Tokyo
 agoda: ''
 categories:
-- 현지인맛집
-- 회전초밥
+- 혼밥
+- 가성비
 date: '2026-04-21'
 image_prompt: 45-degree shot of the conveyor belt at Sushi Misaki-maru, with plates
-  of various fresh sushi moving past, bright natural lighting, showing a vibrant,
-  bustling yet efficient atmosphere, highlighting affordable price tags on plates
-  and speed of service.
 lang: ko
-lat: 35.7012
-lng: 139.7715
+lat: '35.7012'
+lng: '139.7715'
 summary: 도쿄 우에노의 스시 미사키마루는 신선하고 맛있는 스시를 합리적인 가격에 빠르게 즐길 수 있는 현지인 추천 맛집입니다. 북적이는 우에노의
-  활기 속에서 진정한 도쿄의 맛을 경험하고 싶다면, 이곳이 정답입니다.
 thumbnail: /static/images/sushi_misakimaru.jpg
 title: '도쿄 우에노 스시 미사키마루: 신선하고 빠른, 가성비 끝판왕 회전초밥 맛집 가이드'
+---
+
 ---
 
 ## Introduction
@@ -103,5 +101,3 @@ title: '도쿄 우에노 스시 미사키마루: 신선하고 빠른, 가성비 
 눈앞을 흐르는 다채로운 스시의 향연, 장인의 손끝에서 갓 만들어진 신선한 한 점이 선사하는 황홀경, 그리고 활기 넘치는 현지 분위기 속에서 오롯이 맛에만 집중할 수 있는 자유로움까지. 스시 미사키마루는 당신의 도쿄 미식 리스트에 반드시 포함되어야 할 이름입니다. 우에노 공원의 고즈넉함과 아메요코 시장의 북적임을 만끽한 후, 지친 몸과 마음을 달래줄 최고의 선택이 될 것입니다.
 
 다음 도쿄 여행에서는 망설이지 말고 스시 미사키마루로 향하세요. 합리적인 가격으로 누릴 수 있는 최상의 스시 경험, 그리고 잊지 못할 추억이 여러분을 기다리고 있을 것입니다. 스시 미사키마루에서 당신의 도쿄 미식 여정에 잊을 수 없는 한 페이지를 장식해 보세요.
-
----

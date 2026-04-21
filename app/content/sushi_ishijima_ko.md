@@ -2,17 +2,13 @@
 address: Ginza, Tokyo
 agoda: ''
 categories:
-- 오마카세
+- 가성비
 date: '2026-04-21'
 image_prompt: 45-degree shot of the sushi counter at Sushi Ishijima, Ginza, Tokyo,
-  with a master sushi chef meticulously preparing a piece of Edomae sushi for an 'Affordable
-  Lunch' omakase, bright natural lighting highlighting the fresh ingredients and the
-  serene traditional Japanese interior.
 lang: ko
-lat: 35.6745
-lng: 139.7725
+lat: '35.6745'
+lng: '139.7725'
 summary: 긴자 중심에 자리한 스시 이시지마는 전통 에도마에 초밥의 진수를 선보이는 곳입니다. 장인의 손길로 빚어낸 최고의 맛과, 긴자에서 찾아보기
-  힘든 합리적인 가격의 런치 오마카세로 잊지 못할 미식 경험을 선사합니다.
 thumbnail: /static/images/sushi_ishijima.jpg
 title: '긴자 스시 이시지마: 전통 에도마에 초밥의 정수와 합리적인 런치 오마카세'
 ---

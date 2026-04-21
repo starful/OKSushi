@@ -2,17 +2,14 @@
 address: Nishiazabu, Tokyo
 agoda: ''
 categories:
-- 오마카세
 - 미슐랭
+- 오마카세
 date: '2026-04-21'
 image_prompt: Close-up shot of a meticulously crafted, artistic sushi piece with edible
-  flowers and gold flakes on a minimalist ceramic plate, natural bright lighting,
-  showcasing the creative omakase experience of a Michelin-starred restaurant.
 lang: ko
-lat: 35.6598
-lng: 139.7245
+lat: '35.6598'
+lng: '139.7245'
 summary: 도쿄 니시아자부의 밤을 미식의 황홀경으로 물들이는 스시 타쿠는 미슐랭 스타가 빛나는 창의적인 오마카세 스시 레스토랑입니다. 전통을
-  넘어선 혁신적인 맛과 예술적인 프레젠테이션으로 당신의 오감을 사로잡을 특별한 미식 경험을 약속합니다.
 thumbnail: /static/images/sushi_taku.jpg
 title: '도쿄 니시아자부 스시 타쿠: 미슐랭 오마카세의 창의적인 향연'
 ---

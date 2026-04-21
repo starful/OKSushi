@@ -2,18 +2,13 @@
 address: Ginza, Tokyo
 agoda: ''
 categories:
-- 오마카세
 - 미슐랭
 date: '2026-04-19'
 image_prompt: 45-degree close-up shot of a meticulously prepared piece of nigiri sushi
-  on a polished wooden counter, with a blurred background showing the hands of a traditional
-  Japanese sushi chef, under bright natural lighting, emphasizing the Edomae technique
-  and Michelin Star quality.
 lang: ko
-lat: 35.6711
-lng: 139.7631
+lat: '35.6711'
+lng: '139.7631'
 summary: 도쿄 긴자의 번화가 속에 자리한 스시 카네사카는 단순한 식당을 넘어, 에도마에 스시의 정수를 경험할 수 있는 미슐랭 스타의 성지입니다.
-  셰프 카네사카의 장인정신이 깃든 오마카세 코스는 미식가들에게 잊을 수 없는 미식의 순간을 선사합니다.
 thumbnail: /static/images/sushi_kanesaka.jpg
 title: '도쿄 긴자의 심장, 스시 카네사카: 미슐랭 에도마에 오마카세의 정수'
 ---

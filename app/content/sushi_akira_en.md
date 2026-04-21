@@ -2,19 +2,13 @@
 address: Minato, Tokyo
 agoda: ''
 categories:
-- Omakase
+- 오마카세
 date: '2026-04-21'
 image_prompt: Close-up shot of a master sushi chef meticulously preparing delicate
-  nigiri at a small, elegant wooden counter. The lighting is moody and warm, highlighting
-  the vibrant colors of premium, glistening fish and the intricate details of the
-  chef's hands, with artistic omakase dishes arranged in front of discerning patrons.
 lang: en
-lat: 35.6595
-lng: 139.7215
+lat: '35.6595'
+lng: '139.7215'
 summary: Embark on an exquisite culinary journey at Sushi Akira, a highly sought-after
-  omakase destination nestled in Tokyo's prestigious Minato district. Here, master
-  chefs craft a personalized, premium Edomae sushi experience at an intimate counter,
-  promising an unparalleled taste of Japan's finest seafood and artisanal skill.
 thumbnail: /static/images/sushi_akira.jpg
 title: 'Sushi Akira: An Unforgettable Premium Omakase Experience in Minato, Tokyo'
 ---

@@ -5,13 +5,10 @@ categories:
 - 오마카세
 date: '2026-04-19'
 image_prompt: Close-up shot of a sushi chef's hands expertly placing a slice of premium
-  maguro on rice, with moody lighting illuminating the polished wooden counter and
-  a beautifully arranged omakase platter in the background.
 lang: ko
-lat: 35.6687
-lng: 139.7612
+lat: '35.6687'
+lng: '139.7612'
 summary: 도쿄 긴자의 심장부에 자리한 스시 아라이는 참치 전문가의 손길로 빚어낸 오마카세 스시의 진수를 경험할 수 있는 프리미엄 스시 레스토랑입니다.
-  최고급 참치와 제철 해산물이 어우러진 섬세하고 깊이 있는 맛의 향연은 미식가들에게 잊을 수 없는 감동을 선사합니다.
 thumbnail: /static/images/sushi_arai.jpg
 title: '도쿄 긴자 스시 아라이: 참치 명인이 선사하는 오마카세의 정수'
 ---
