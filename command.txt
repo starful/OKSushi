@@ -23,5 +23,5 @@ git commit -m "update contents"
 git push origin main
 
 git add .
-git commit -m "Update guide_images with new premium sushi assets"
+git commit -m "Integrate premium Zen theme with full multi-language and SEO optimizations"
 git push origin main

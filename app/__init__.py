@@ -2,6 +2,7 @@ from flask import Flask, jsonify, render_template, abort, send_from_directory, r
 from flask_compress import Compress
 import json, os, frontmatter, markdown, re, glob, hashlib, copy
 from datetime import datetime
+from flask import Response, make_response
 
 # [설정 로드]
 try:
@@ -213,8 +214,58 @@ def serve_images(filename):
 @app.route('/robots.txt')
 def robots_txt(): return send_from_directory(STATIC_DIR, 'robots.txt')
 
+# ==========================================
+# 5. 정적 자원 & SEO (동적 사이트맵 포함)
+# ==========================================
+
 @app.route('/sitemap.xml')
-def sitemap_xml(): return send_from_directory(STATIC_DIR, 'sitemap.xml')
+def sitemap_xml():
+    """
+    아이템 및 가이드 데이터를 기반으로 XML 사이트맵을 동적으로 생성합니다.
+    """
+    site_url = SITE_CONFIG['site_url']
+    pages = []
+    today = datetime.now().strftime('%Y-%m-%d')
+
+    # 1. 고정 페이지 (메인, 가이드 목록) - 한/영 버전
+    for lang in ['en', 'ko']:
+        suffix = f"?lang={lang}" if lang == 'ko' else ""
+        pages.append({'loc': f"{site_url}/{suffix}", 'lastmod': today, 'priority': '1.0'})
+        pages.append({'loc': f"{site_url}/guide{suffix}", 'lastmod': today, 'priority': '0.8'})
+
+    # 2. 아이템 상세 페이지 (JSON 데이터 기반)
+    items = CACHED_DATA.get(SITE_CONFIG['data_key'], [])
+    for item in items:
+        # item['id']는 이미 'sukiyabashi_jiro_en' 형태임
+        pages.append({
+            'loc': f"{site_url}/item/{item['id']}",
+            'lastmod': item.get('published', today),
+            'priority': '0.6'
+        })
+
+    # 3. 가이드 상세 페이지 (캐시된 가이드 기반)
+    for lang in ['en', 'ko']:
+        for guide in CACHED_GUIDES.get(lang, []):
+            pages.append({
+                'loc': f"{site_url}/guide/{guide['id']}",
+                'lastmod': guide.get('published', today),
+                'priority': '0.7'
+            })
+
+    # XML 생성
+    sitemap_xml = '<?xml version="1.0" encoding="UTF-8"?>\n'
+    sitemap_xml += '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
+    
+    for page in pages:
+        sitemap_xml += '  <url>\n'
+        sitemap_xml += f'    <loc>{page["loc"]}</loc>\n'
+        sitemap_xml += f'    <lastmod>{page["lastmod"]}</lastmod>\n'
+        sitemap_xml += f'    <priority>{page["priority"]}</priority>\n'
+        sitemap_xml += '  </url>\n'
+    
+    sitemap_xml += '</urlset>'
+
+    return Response(sitemap_xml, mimetype='application/xml')
 
 if __name__ == '__main__':
     port = int(os.environ.get('PORT', 8080))
