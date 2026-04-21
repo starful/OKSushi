@@ -1,69 +1,86 @@
 /**
- * OKSushi Main JavaScript
- * - 언어 파라미터 감지 및 데이터 로드
- * - 지도 마커 및 리스트 렌더링
- * - 카테고리 필터링 및 숫자 배지 업데이트
+ * 🍣 OKSushi Main JavaScript
+ * - 다국어 대응 카테고리 매핑 로직 포함
+ * - 지도 마커 및 리스트 연동
  */
 
 import { initGoogleMap, renderMarkers, filterItems } from './map-core.js';
 
-// 전역 상태 관리
+// 전역 상태
 let allItems = [];
 let currentLang = 'en';
-const DATA_KEY = 'sushis'; // config.py의 data_key와 반드시 일치해야 함
+const DATA_KEY = 'sushis'; // config.py의 data_key와 일치
 
 /**
- * 앱 시작점
+ * 💡 한국어 카테고리명을 영어 ID(theme)로 매핑합니다.
+ * items.csv나 마크다운에 적힌 카테고리명과 HTML 버튼의 data-theme 값을 연결합니다.
+ */
+const CATEGORY_MAPPING = {
+    // 한국어 -> 영어 ID
+    "오마카세": "omakase",
+    "에도마에": "edomae",
+    "회전초밥": "kaiten",
+    "해산물덮밥": "seafood",
+    "현지인맛집": "localgem",
+    "미슐랭": "michelin",
+    "가성비": "affordable",
+    "프리미엄": "premium",
+    // 영어 명칭 -> 영어 ID (공백 및 특수문자 대응)
+    "Seafood Don": "seafood",
+    "Local Gem": "localgem",
+    "Michelin Star": "michelin"
+};
+
+/**
+ * 앱 초기화
  */
 async function init() {
-    console.log("🚀 OKSushi initializing...");
+    console.log("🚀 OKSushi App Starting...");
 
-    // 1. URL에서 언어 감지 (?lang=ko 또는 ?lang=en)
+    // 1. URL 파라미터에서 언어 추출
     const urlParams = new URLSearchParams(window.location.search);
     currentLang = urlParams.get('lang') || 'en';
 
-    // 2. 해당 언어의 데이터 API 호출
+    // 2. 데이터 가져오기
     await fetchItems();
 
-    // 3. 구글 맵 초기화 (map-core.js 호출)
+    // 3. 구글 맵 초기화
     const map = await initGoogleMap();
     
-    // 4. 초기 렌더링 (마커, 리스트, 필터 숫자)
+    // 4. 초기 화면 렌더링
     renderMarkers(map, allItems);
     updateListView(allItems);
-    updateFilterCounts(allItems);
+    updateFilterCounts(allItems); // 상단 숫자 업데이트
 
     // 5. 필터 버튼 이벤트 바인딩
     setupFilters(map);
 }
 
 /**
- * API로부터 스시 데이터를 가져옵니다.
+ * API로부터 현재 언어에 맞는 데이터를 로드합니다.
  */
 async function fetchItems() {
     try {
-        // 서버의 /api/items?lang=ko 경로로 요청
         const response = await fetch(`/api/items?lang=${currentLang}`);
         const data = await response.json();
         
-        // sushis 키에 담긴 데이터를 전역 변수에 저장
         allItems = data[DATA_KEY] || [];
         
-        // 하단 상태바(Footer) 업데이트
-        const totalBadge = document.getElementById('total-items');
-        if (totalBadge) totalBadge.textContent = allItems.length;
+        // 푸터 통계 업데이트
+        const totalItemsEl = document.getElementById('total-items');
+        if (totalItemsEl) totalItemsEl.textContent = allItems.length;
 
-        const dateBadge = document.getElementById('last-updated-date');
-        if (dateBadge && data.last_updated) {
-            dateBadge.textContent = data.last_updated;
+        const updatedDateEl = document.getElementById('last-updated-date');
+        if (updatedDateEl && data.last_updated) {
+            updatedDateEl.textContent = data.last_updated;
         }
     } catch (error) {
-        console.error("❌ Failed to fetch items:", error);
+        console.error("❌ Data load error:", error);
     }
 }
 
 /**
- * 상단 카테고리 버튼 옆의 숫자 배지를 업데이트합니다.
+ * 💡 필터 버튼 옆의 숫자(Badge)를 업데이트하는 핵심 로직
  */
 function updateFilterCounts(items) {
     // 1. 모든 배지를 0으로 초기화
@@ -71,16 +88,18 @@ function updateFilterCounts(items) {
     countBadges.forEach(badge => { badge.textContent = '0'; });
 
     // 2. 'All' 버튼 숫자 설정
-    const allCount = document.getElementById('count-all');
-    if (allCount) allCount.textContent = items.length;
+    const allCountBadge = document.getElementById('count-all');
+    if (allCountBadge) allCountBadge.textContent = items.length;
 
-    // 3. 각 아이템의 카테고리를 순회하며 숫자 합산
+    // 3. 아이템별 카테고리 카운트 계산
     items.forEach(item => {
         if (item.categories && Array.isArray(item.categories)) {
             item.categories.forEach(cat => {
-                // 공백 제거 및 소문자화하여 ID 매칭 (예: 'Omakase' -> 'count-omakase')
-                const safeCatId = `count-${cat.toLowerCase().replace(/\s/g, '')}`;
-                const badge = document.getElementById(safeCatId);
+                // 매핑 테이블에서 영어 키를 찾거나, 없으면 소문자화/공백제거 수행
+                const themeKey = CATEGORY_MAPPING[cat] || cat.toLowerCase().replace(/\s/g, '');
+                
+                // 해당 themeKey를 ID로 가진 배지 찾기 (예: count-omakase)
+                const badge = document.getElementById(`count-${themeKey}`);
                 if (badge) {
                     const currentVal = parseInt(badge.textContent) || 0;
                     badge.textContent = currentVal + 1;
@@ -91,47 +110,49 @@ function updateFilterCounts(items) {
 }
 
 /**
- * 필터 버튼 클릭 시 동작을 설정합니다.
+ * 카테고리 필터 버튼 설정
  */
 function setupFilters(map) {
     const filterBtns = document.querySelectorAll('.theme-button');
     
     filterBtns.forEach(btn => {
         btn.addEventListener('click', () => {
-            // 버튼 활성화 상태 변경
+            // UI 상태 변경
             filterBtns.forEach(b => b.classList.remove('active'));
             btn.classList.add('active');
 
-            // 필터링 실행 (map-core.js의 filterItems 호출)
             const theme = btn.getAttribute('data-theme');
-            const filtered = filterItems(allItems, theme);
+            
+            // map-core.js의 필터 함수 호출
+            // (내부적으로 CATEGORY_MAPPING과 유사한 비교 로직이 있어야 함)
+            const filtered = filterItems(allItems, theme, CATEGORY_MAPPING);
 
-            // 지도 마커 및 하단 리스트 갱신
+            // 지도 및 리스트 갱신
             renderMarkers(map, filtered);
             updateListView(filtered);
             
-            // 리스트 영역으로 부드럽게 스크롤 (모바일 배려)
+            // 모바일 사용자를 위해 리스트 영역으로 스크롤 (선택 사항)
             if (window.innerWidth < 768 && theme !== 'all') {
-                document.getElementById('list-section').scrollIntoView({ behavior: 'smooth' });
+                const listSection = document.getElementById('list-section');
+                if (listSection) listSection.scrollIntoView({ behavior: 'smooth' });
             }
         });
     });
 }
 
 /**
- * 하단 리스트 영역의 HTML을 생성하여 렌더링합니다.
+ * 하단 맛집 리스트 뷰 생성
  */
 function updateListView(items) {
     const listContainer = document.getElementById('item-list');
     if (!listContainer) return;
 
     if (items.length === 0) {
-        const noResultMsg = currentLang === 'ko' ? '검색 결과가 없습니다.' : 'No results found.';
-        listContainer.innerHTML = `<div style="grid-column: 1/-1; text-align: center; padding: 80px 0; color: #999;">${noResultMsg}</div>`;
+        const msg = currentLang === 'ko' ? '해당 카테고리의 맛집이 없습니다.' : 'No spots found in this category.';
+        listContainer.innerHTML = `<div style="grid-column: 1/-1; text-align: center; padding: 100px 0; color: #aaa;">${msg}</div>`;
         return;
     }
 
-    // 카드 리스트 생성
     listContainer.innerHTML = items.map(item => `
         <a href="${item.link}?lang=${currentLang}" class="onsen-card">
             <img src="${item.thumbnail}" alt="${item.title}" class="card-thumb" loading="lazy">
@@ -146,5 +167,5 @@ function updateListView(items) {
     `).join('');
 }
 
-// DOM 로드 완료 시 실행
+// DOM 준비 완료 시 실행
 document.addEventListener('DOMContentLoaded', init);

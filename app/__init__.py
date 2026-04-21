@@ -146,10 +146,20 @@ def index():
 @app.route('/api/items')
 def api_items():
     lang = request.args.get('lang', 'en')
-    items = CACHED_DATA.get(SITE_CONFIG['data_key'], [])
-    filtered = [i for i in items if i.get('lang') == lang]
-    if not filtered: filtered = [i for i in items if i.get('lang') == 'en']
-    return jsonify({SITE_CONFIG['data_key']: filtered, "last_updated": CACHED_DATA.get('last_updated')})
+    all_items = CACHED_DATA.get(SITE_CONFIG['data_key'], [])
+    filtered = [i for i in all_items if i.get('lang') == lang]
+    
+    if not filtered:
+        filtered = [i for i in all_items if i.get('lang') == 'en']
+
+    # 💡 [추가] 한국어 데이터인 경우, JS 필터가 인식할 수 있게 영어 카테고리명을 주입하거나 매핑 유지
+    # (이미 main.js에서 CATEGORY_MAP을 추가했으므로 이 단계는 필수는 아니지만, 
+    # 데이터 자체가 정확해야 필터 버튼 클릭 시 리스트가 잘 바뀝니다.)
+
+    return jsonify({
+        SITE_CONFIG['data_key']: filtered, 
+        "last_updated": CACHED_DATA.get('last_updated')
+    })
 
 @app.route('/guide')
 def guide_list():
