@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="{{ lang }}">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ page_title }} - {{ site.site_name }}</title>
+    <meta name="description" content="Server-rendered sushi index pages by category for better discoverability.">
+    <meta name="robots" content="index,follow,max-image-preview:large">
+    <link rel="canonical" href="{{ site.site_url }}/explore{% if category_slug != 'all' %}/{{ category_slug }}{% endif %}{% if lang == 'ko' %}?lang=ko{% endif %}">
+    <link rel="stylesheet" href="/static/css/style.css">
+</head>
+<body>
+    {% include 'header.html' %}
+
+    <main class="content-wrapper" style="margin-top: 30px;">
+        <section class="seo-index-section">
+            <h1 class="list-title" style="margin-top: 0;">
+                🔎 {% if lang == 'ko' %}카테고리 색인{% else %}Category Index{% endif %}: {{ category_label }}
+            </h1>
+            <div class="theme-filter-buttons" style="padding-top: 0;">
+                <a class="theme-button {% if category_slug == 'all' %}active{% endif %}" href="/explore?lang={{ lang }}">All</a>
+                {% for slug, label in categories.items() %}
+                <a class="theme-button {% if category_slug == slug %}active{% endif %}" href="/explore/{{ slug }}?lang={{ lang }}">{{ label }}</a>
+                {% endfor %}
+            </div>
+        </section>
+
+        <section>
+            <div class="onsen-grid">
+                {% for item in items %}
+                <a href="{{ item.link }}?lang={{ lang }}" class="onsen-card">
+                    <img src="{{ item.thumbnail }}" alt="{{ item.title }}" class="card-thumb" loading="lazy">
+                    <div class="card-content">
+                        <h3 class="card-title">{{ item.title }}</h3>
+                        <p class="card-summary">{{ item.summary }}</p>
+                    </div>
+                </a>
+                {% else %}
+                <p style="grid-column: 1/-1; text-align: center; color: #999; padding: 40px 0;">No indexed items.</p>
+                {% endfor %}
+            </div>
+        </section>
+    </main>
+
+    {% include 'footer.html' %}
+</body>
+</html>

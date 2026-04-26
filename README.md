@@ -76,8 +76,8 @@ SITE_CONFIG = {
     "site_url":      "https://oksomething.net",
     "tagline":       "Discover the Best Something in Japan",
     "data_key":      "items",          # JSON 최상위 키
-    "ga_id":         "G-XXXXXXXXXX",
-    "maps_api_key":  "YOUR_KEY",
+    "ga_id":         os.getenv("GA_ID", "G-XXXXXXXXXX"),
+    "maps_api_key":  os.getenv("MAPS_API_KEY", ""),
     "maps_id":       "YOUR_MAP_ID",
     "emoji":         "⛩️",
     "accent_color":  "#2980b9",        # 사이트 대표 색상
@@ -131,6 +131,47 @@ chmod +x deploy.sh
 
 ---
 
+## ☁️ Cloud Build에서 Maps API Key 주입
+
+- 지도 렌더링용 키는 `cloudbuild.yaml`에서 **`MAPS_API_KEY` Secret**으로 Cloud Run에 주입합니다.
+- `GOOGLE_PLACES_API_KEY`와 용도가 다르므로 동일 변수로 사용하지 않습니다.
+- Cloud Build에서 사용하는 Secret 이름은 `MAPS_API_KEY`입니다.
+
+예시(최초 1회):
+
+```bash
+gcloud secrets create MAPS_API_KEY --replication-policy="automatic"
+echo -n "YOUR_MAPS_API_KEY" | gcloud secrets versions add MAPS_API_KEY --data-file=-
+gcloud projects add-iam-policy-binding starful-258005 \
+  --member="serviceAccount:starful-258005@cloudbuild.gserviceaccount.com" \
+  --role="roles/secretmanager.secretAccessor"
+```
+
+---
+
+## 📱 반응형/가이드 레이아웃 기본 정책
+
+- `OKSushi Guides`는 기본적으로:
+  - 데스크탑: 3열
+  - 태블릿: 2열
+  - 모바일: 1열
+- 모바일 화면에서 헤더/지도/카드/상세 페이지 레이아웃이 자동으로 축소/재배치됩니다.
+- 관련 스타일은 `app/static/css/style.css`의 `.guide-grid` 및 media query에서 조정합니다.
+
+---
+
+## 🔎 SEO/색인 정책
+
+- 메인/가이드/상세 템플릿에 `robots`/`canonical` 메타를 설정합니다.
+- `/sitemap.xml`은 다음을 포함하도록 동적 생성됩니다.
+  - 고정 페이지(메인, 가이드, 소개, 개인정보) en/ko
+  - 아이템 상세 페이지
+  - 가이드 상세 페이지
+  - 다국어 `hreflang` alternate 링크
+- 메인 페이지에는 서버 렌더 내부 링크(`Quick Index Links`)를 제공해 크롤러 색인성을 보강합니다.
+
+---
+
 ## 🎨 테마 변경 (CSS)
 
 `app/static/css/style.css`의 CSS 변수만 변경:
@@ -166,4 +207,6 @@ chmod +x deploy.sh
 ```
 GEMINI_API_KEY=실제_API_키
 GOOGLE_PLACES_API_KEY=실제_API_키
+MAPS_API_KEY=실제_지도_API_키
+GA_ID=G-XXXXXXXXXX
 ```

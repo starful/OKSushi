@@ -1,7 +1,39 @@
 {
-  "last_updated": "2026.04.21",
-  "total_count": 68,
+  "last_updated": "2026.04.26",
+  "total_count": 70,
   "sushis": [
+    {
+      "id": "sushi_dai_toyosu_en",
+      "lang": "en",
+      "title": "Sushi Dai Toyosu: Early-Morning Omakase by the Market",
+      "lat": 35.6452,
+      "lng": 139.7843,
+      "categories": [
+        "오마카세",
+        "시장스시"
+      ],
+      "thumbnail": "/static/images/default.jpg",
+      "address": "Toyosu, Tokyo",
+      "published": "2026-04-26",
+      "summary": "A legendary Toyosu market sushi counter known for fresh seasonal fish and a memorable morning omakase experience.",
+      "link": "/item/sushi_dai_toyosu_en"
+    },
+    {
+      "id": "sushi_dai_toyosu_ko",
+      "lang": "ko",
+      "title": "도요스 시장의 아침 명소, 스시다이 (Sushi Dai Toyosu)",
+      "lat": 35.6452,
+      "lng": 139.7843,
+      "categories": [
+        "오마카세",
+        "시장스시"
+      ],
+      "thumbnail": "/static/images/default.jpg",
+      "address": "Toyosu, Tokyo",
+      "published": "2026-04-26",
+      "summary": "도요스 시장 인근에서 신선한 제철 생선과 정교한 오마카세를 경험할 수 있는 대표 스시 카운터.",
+      "link": "/item/sushi_dai_toyosu_ko"
+    },
     {
       "id": "sushi_misakimaru_ko",
       "lang": "ko",

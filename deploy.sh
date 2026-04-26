@@ -84,14 +84,12 @@ else
     echo -e "${RED}⚠️ Git 저장소가 설정되지 않았습니다.${NC}"
 fi
 
-# 7. Google Cloud Build & Run Deploy
-echo -e "🏗️  [7단계] Google Cloud Build 시작..."
-gcloud builds submit --tag gcr.io/${PROJECT_ID}/${SERVICE_NAME} .
-gcloud run deploy ${SERVICE_NAME} \
-  --image gcr.io/${PROJECT_ID}/${SERVICE_NAME} \
-  --platform managed \
-  --region ${REGION} \
-  --allow-unauthenticated
+# 7. Google Cloud Build 기반 배포 (cloudbuild.yaml 사용)
+echo -e "🏗️  [7단계] Google Cloud Build 시작 (cloudbuild.yaml 기반)..."
+gcloud builds submit \
+  --config cloudbuild.yaml \
+  --project ${PROJECT_ID} \
+  .
 
 echo -e "${BLUE}=======================================================${NC}"
 echo -e "${GREEN}🎉 모든 배포 공정이 성공적으로 종료되었습니다!${NC}"

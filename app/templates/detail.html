@@ -18,6 +18,7 @@
     <!-- SEO -->
     <title>{{ post.title }} - {{ site.site_name }}</title>
     <meta name="description" content="{{ post.summary }}">
+    <meta name="robots" content="index,follow,max-image-preview:large">
     <link rel="canonical" href="{{ site.site_url }}/item/{{ post.id }}" />
 
     <!-- Open Graph -->
@@ -41,6 +42,15 @@
         .detail-content p { margin-bottom: 20px; }
         .back-btn-container { text-align: center; margin-top: 60px; }
         .back-btn { display: inline-block; padding: 14px 40px; background: var(--primary-color); color: #fff !important; border-radius: 50px; font-weight: 800; }
+        @media (max-width: 768px) {
+            .detail-container { margin: 18px auto; padding: 20px 14px; border-radius: 16px; }
+            .detail-title { font-size: 1.55rem; line-height: 1.35; }
+            .detail-meta { font-size: 0.85rem; }
+            .detail-img { border-radius: 12px; margin-bottom: 24px; }
+            .detail-content { font-size: 1rem; line-height: 1.8; }
+            .detail-content h2 { font-size: 1.25rem; margin-top: 30px; }
+            .back-btn { padding: 12px 24px; }
+        }
     </style>
 </head>
 <body>

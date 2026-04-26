@@ -15,6 +15,9 @@
     </script>
 
     <title>{{ title }} - {{ site.site_name }} Guide</title>
+    <meta name="description" content="{{ post.summary if post.summary else title }}">
+    <meta name="robots" content="index,follow,max-image-preview:large">
+    <link rel="canonical" href="{{ site.site_url }}/guide/{{ post.id }}">
     
     <!-- ✅ CSS 연결 확인 -->
     <link rel="stylesheet" href="/static/css/style.css">
@@ -36,6 +39,17 @@
         .cta-box { text-align: center; margin-top: 60px; padding: 40px; background: var(--bg-color); border-radius: 25px; }
         .cta-box h3 { font-size: 1.5rem; margin-bottom: 20px; }
         .back-btn { display: inline-block; padding: 15px 45px; background: var(--accent-color); color: #fff !important; border-radius: 50px; font-weight: 800; }
+        @media (max-width: 768px) {
+            .guide-detail-container { margin: 18px auto; padding: 0 12px 40px; }
+            .guide-card-full { border-radius: 16px; }
+            .guide-header-img { height: 230px; }
+            .guide-body { padding: 22px 16px; }
+            .guide-title { font-size: 1.6rem; margin-bottom: 12px; }
+            .guide-date { margin-bottom: 20px; }
+            .guide-content { font-size: 1rem; line-height: 1.8; }
+            .guide-content h2 { font-size: 1.35rem; margin-top: 30px; }
+            .cta-box { margin-top: 34px; padding: 24px 14px; border-radius: 16px; }
+        }
     </style>
 </head>
 <body>

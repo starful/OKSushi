@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="{{ lang }}">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site Index - {{ site.site_name }}</title>
+    <meta name="description" content="HTML sitemap and crawlable links for all major OKSushi pages.">
+    <meta name="robots" content="index,follow,max-image-preview:large">
+    <link rel="canonical" href="{{ site.site_url }}/site-index{% if lang == 'ko' %}?lang=ko{% endif %}">
+    <link rel="stylesheet" href="/static/css/style.css">
+</head>
+<body>
+    {% include 'header.html' %}
+
+    <main class="content-wrapper" style="margin-top: 30px;">
+        <section class="seo-index-section">
+            <h1 class="list-title" style="margin-top: 0;">🗂️ {% if lang == 'ko' %}전체 사이트 색인{% else %}Full Site Index{% endif %}</h1>
+            <ul class="seo-index-list">
+                <li><a href="/?lang={{ lang }}">Home</a></li>
+                <li><a href="/guide?lang={{ lang }}">Guides</a></li>
+                <li><a href="/explore?lang={{ lang }}">Explore</a></li>
+                <li><a href="/about.html?lang={{ lang }}">About</a></li>
+                <li><a href="/privacy.html?lang={{ lang }}">Privacy</a></li>
+            </ul>
+        </section>
+
+        <section class="seo-index-section">
+            <h2 class="seo-index-title">{% if lang == 'ko' %}카테고리 페이지{% else %}Category Pages{% endif %}</h2>
+            <ul class="seo-index-list">
+                {% for slug, label in categories.items() %}
+                <li><a href="/explore/{{ slug }}?lang={{ lang }}">{{ label }}</a></li>
+                {% endfor %}
+            </ul>
+        </section>
+
+        <section class="seo-index-section">
+            <h2 class="seo-index-title">{% if lang == 'ko' %}가이드 상세{% else %}Guide Detail Pages{% endif %}</h2>
+            <ul class="seo-index-list">
+                {% for guide in guides %}
+                <li><a href="/guide/{{ guide.id }}?lang={{ lang }}">{{ guide.title }}</a></li>
+                {% endfor %}
+            </ul>
+        </section>
+
+        <section class="seo-index-section">
+            <h2 class="seo-index-title">{% if lang == 'ko' %}맛집 상세{% else %}Spot Detail Pages{% endif %}</h2>
+            <ul class="seo-index-list">
+                {% for item in items %}
+                <li><a href="{{ item.link }}?lang={{ lang }}">{{ item.title }}</a></li>
+                {% endfor %}
+            </ul>
+        </section>
+    </main>
+
+    {% include 'footer.html' %}
+</body>
+</html>

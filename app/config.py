@@ -1,3 +1,5 @@
+import os
+
 # app/config.py
 
 SITE_CONFIG = {
@@ -7,8 +9,8 @@ SITE_CONFIG = {
     "tagline":       "Discover the Finest Sushi in Japan",
     "data_key":      "sushis",
 
-    "ga_id":         "G-43EXEQCKYT",  # 새 GA4 ID
-    "maps_api_key":  "AIzaSyD8wYazKeD2fX4ZJhSHbzuCw9AE7cBjS7I",
+    "ga_id":         os.getenv("GA_ID", "G-43EXEQCKYT"),
+    "maps_api_key":  os.getenv("MAPS_API_KEY", ""),
     "maps_id":       "2938bb3f7f034d786b85aac4",
 
     "emoji":         "🍣",

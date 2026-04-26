@@ -212,6 +212,11 @@ header {
     gap: 35px;
 }
 
+/* Keep OKSushi Guides as 3 cards per row on desktop */
+.guide-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
 .onsen-card {
     background: var(--card-bg); 
     border-radius: 25px; 
@@ -233,6 +238,37 @@ header {
 .card-title { font-size: 1.35rem; font-weight: 800; margin: 0 0 12px; color: #222; line-height: 1.4; }
 .card-summary { font-size: 0.98rem; color: var(--text-gray); line-height: 1.7; flex: 1; margin-bottom: 20px; }
 .card-meta { font-size: 0.85rem; color: #bbb; display: flex; align-items: center; gap: 8px; font-weight: 700; }
+
+/* Crawl-friendly link index for SEO discoverability */
+.seo-index-section {
+    margin-top: 60px;
+    background: #fff;
+    border: 1px solid var(--border-light);
+    border-radius: 20px;
+    padding: 24px;
+}
+.seo-index-title {
+    margin: 0 0 14px;
+    font-size: 1.15rem;
+    font-weight: 800;
+    color: #333;
+}
+.seo-index-list {
+    margin: 0;
+    padding-left: 20px;
+    columns: 3;
+    column-gap: 26px;
+}
+.seo-index-list li {
+    margin-bottom: 8px;
+    break-inside: avoid;
+}
+.seo-index-list a {
+    color: #444;
+}
+.seo-index-list a:hover {
+    color: var(--accent-color);
+}
 
 /* 7. Detail Page & Markdown Content (가독성 핵심) */
 .detail-container {
@@ -296,11 +332,70 @@ footer { padding: 90px 0; background: #fff; border-top: 1px solid #eee; text-ali
 }
 
 @media (max-width: 768px) {
-    .header-top { height: 75px; }
-    .logo-img { height: 85px; }
+    .header-top {
+        height: auto;
+        min-height: 96px;
+        padding: 8px 0 10px;
+    }
+    .header-left {
+        position: static;
+        margin-right: 8px;
+    }
+    .header-left a {
+        font-size: 0.85rem;
+        gap: 4px;
+    }
+    .lang-selector {
+        position: static;
+        gap: 6px;
+    }
+    .lang-btn {
+        padding: 6px 12px;
+        font-size: 0.78rem;
+    }
+    .logo-img {
+        height: 74px;
+        margin-top: 0;
+    }
+    .content-wrapper {
+        margin-top: -35px;
+        padding: 0 14px 80px;
+    }
+    .map-section {
+        height: 48vh;
+        min-height: 320px;
+    }
+    .intro-box {
+        padding: 24px 18px;
+        margin-bottom: 30px;
+    }
+    .list-title {
+        font-size: 1.5rem;
+        margin: 36px 0 24px;
+    }
     .detail-container { padding: 30px 20px; border-radius: 0; margin: 0; }
     .guide-highlight-section { padding: 40px 20px; border-radius: 20px; }
     .guide-section-title { font-size: 1.7rem; }
-    .onsen-grid { grid-template-columns: 1fr; }
+    .onsen-grid { grid-template-columns: 1fr; gap: 22px; }
+    .guide-grid { grid-template-columns: 1fr; }
+    .card-thumb { height: 210px; }
     .theme-button { padding: 10px 20px; font-size: 0.85rem; }
+    .seo-index-section {
+        margin-top: 36px;
+        border-radius: 14px;
+        padding: 16px;
+    }
+    .seo-index-title {
+        font-size: 1rem;
+    }
+    .seo-index-list {
+        columns: 1;
+        padding-left: 18px;
+    }
+}
+
+@media (max-width: 1024px) and (min-width: 769px) {
+    .guide-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
 }

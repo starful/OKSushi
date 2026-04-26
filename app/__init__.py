@@ -72,6 +72,23 @@ def get_footer_stats(lang):
         'lang': lang
     }
 
+def _slugify_category(value):
+    if not value:
+        return ""
+    return re.sub(r'[^a-z0-9]+', '-', str(value).strip().lower()).strip('-')
+
+def _collect_categories(items):
+    category_map = {}
+    for item in items:
+        for raw in item.get('categories', []):
+            label = str(raw).strip()
+            if not label:
+                continue
+            slug = _slugify_category(label)
+            if slug and slug not in category_map:
+                category_map[slug] = label
+    return category_map
+
 # ==========================================
 # 3. 데이터 로드 로직
 # ==========================================
@@ -141,7 +158,17 @@ def index():
     lang = request.args.get('lang', 'en')
     stats = get_footer_stats(lang)
     top_guides = CACHED_GUIDES.get(lang, [])[:3]
-    return render_template('index.html', top_guides=top_guides, guides=CACHED_GUIDES, **stats)
+    all_items = CACHED_DATA.get(SITE_CONFIG['data_key'], [])
+    latest_items = [i for i in all_items if i.get('lang') == lang][:24]
+    if not latest_items:
+        latest_items = [i for i in all_items if i.get('lang') == 'en'][:24]
+    return render_template(
+        'index.html',
+        top_guides=top_guides,
+        guides=CACHED_GUIDES,
+        latest_items=latest_items,
+        **stats
+    )
 
 @app.route('/api/items')
 def api_items():
@@ -165,6 +192,70 @@ def api_items():
 def guide_list():
     lang = request.args.get('lang', 'en')
     return render_template('guide_list.html', guides=CACHED_GUIDES, **get_footer_stats(lang))
+
+@app.route('/explore')
+def explore_all():
+    lang = request.args.get('lang', 'en')
+    all_items = CACHED_DATA.get(SITE_CONFIG['data_key'], [])
+    items = [i for i in all_items if i.get('lang') == lang]
+    if not items:
+        items = [i for i in all_items if i.get('lang') == 'en']
+    category_map = _collect_categories(items)
+    return render_template(
+        'explore.html',
+        items=items[:120],
+        page_title='Explore All Sushi Spots',
+        category_slug='all',
+        category_label='All',
+        categories=category_map,
+        **get_footer_stats(lang)
+    )
+
+@app.route('/explore/<category_slug>')
+def explore_by_category(category_slug):
+    lang = request.args.get('lang', 'en')
+    all_items = CACHED_DATA.get(SITE_CONFIG['data_key'], [])
+    items = [i for i in all_items if i.get('lang') == lang]
+    if not items:
+        items = [i for i in all_items if i.get('lang') == 'en']
+    category_map = _collect_categories(items)
+    if category_slug != 'all' and category_slug not in category_map:
+        return redirect(url_for('explore_all', lang=lang))
+    if category_slug == 'all':
+        filtered = items
+        category_label = 'All'
+    else:
+        filtered = [
+            item for item in items
+            if any(_slugify_category(cat) == category_slug for cat in item.get('categories', []))
+        ]
+        category_label = category_map.get(category_slug, category_slug)
+    return render_template(
+        'explore.html',
+        items=filtered[:120],
+        page_title=f"Explore: {category_label}",
+        category_slug=category_slug,
+        category_label=category_label,
+        categories=category_map,
+        **get_footer_stats(lang)
+    )
+
+@app.route('/site-index')
+def site_index():
+    lang = request.args.get('lang', 'en')
+    all_items = CACHED_DATA.get(SITE_CONFIG['data_key'], [])
+    items = [i for i in all_items if i.get('lang') == lang]
+    if not items:
+        items = [i for i in all_items if i.get('lang') == 'en']
+    guides = CACHED_GUIDES.get(lang, [])
+    categories = _collect_categories(items)
+    return render_template(
+        'site_index.html',
+        items=items[:200],
+        guides=guides[:100],
+        categories=categories,
+        **get_footer_stats(lang)
+    )
 
 @app.route('/guide/<guide_id>')
 def guide_detail(guide_id):
@@ -235,42 +326,72 @@ def sitemap_xml():
     """
     site_url = SITE_CONFIG['site_url']
     pages = []
+    seen = set()
     today = datetime.now().strftime('%Y-%m-%d')
 
-    # 1. 고정 페이지 (메인, 가이드 목록) - 한/영 버전
-    for lang in ['en', 'ko']:
-        suffix = f"?lang={lang}" if lang == 'ko' else ""
-        pages.append({'loc': f"{site_url}/{suffix}", 'lastmod': today, 'priority': '1.0'})
-        pages.append({'loc': f"{site_url}/guide{suffix}", 'lastmod': today, 'priority': '0.8'})
+    def add_page(loc, lastmod, priority, alternates=None):
+        if loc in seen:
+            return
+        seen.add(loc)
+        pages.append({
+            'loc': loc,
+            'lastmod': lastmod,
+            'priority': priority,
+            'alternates': alternates or []
+        })
+
+    # 1. 고정 페이지 (메인, 가이드 목록, 소개, 개인정보) - 한/영 버전
+    static_routes = ['', '/guide', '/about.html', '/privacy.html', '/explore', '/site-index']
+    for route in static_routes:
+        en_loc = f"{site_url}{route}"
+        ko_loc = f"{site_url}{route}?lang=ko"
+        alternates = [('en', en_loc), ('ko', ko_loc)]
+        add_page(en_loc, today, '1.0' if route == '' else '0.8', alternates)
+        add_page(ko_loc, today, '1.0' if route == '' else '0.8', alternates)
 
     # 2. 아이템 상세 페이지 (JSON 데이터 기반)
     items = CACHED_DATA.get(SITE_CONFIG['data_key'], [])
+    # 2-1. 카테고리 색인 페이지
+    for lang in ['en', 'ko']:
+        lang_items = [i for i in items if i.get('lang') == lang]
+        if not lang_items:
+            continue
+        for category_slug in _collect_categories(lang_items).keys():
+            add_page(
+                f"{site_url}/explore/{category_slug}?lang={lang}",
+                today,
+                '0.7'
+            )
+
+    # 2-2. 아이템 상세 페이지
     for item in items:
-        # item['id']는 이미 'sukiyabashi_jiro_en' 형태임
-        pages.append({
-            'loc': f"{site_url}/item/{item['id']}",
-            'lastmod': item.get('published', today),
-            'priority': '0.6'
-        })
+        add_page(
+            f"{site_url}/item/{item['id']}",
+            item.get('published', today),
+            '0.6'
+        )
 
     # 3. 가이드 상세 페이지 (캐시된 가이드 기반)
     for lang in ['en', 'ko']:
         for guide in CACHED_GUIDES.get(lang, []):
-            pages.append({
-                'loc': f"{site_url}/guide/{guide['id']}",
-                'lastmod': guide.get('published', today),
-                'priority': '0.7'
-            })
+            add_page(
+                f"{site_url}/guide/{guide['id']}",
+                guide.get('published', today),
+                '0.7'
+            )
 
     # XML 생성
     sitemap_xml = '<?xml version="1.0" encoding="UTF-8"?>\n'
-    sitemap_xml += '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
+    sitemap_xml += '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" '
+    sitemap_xml += 'xmlns:xhtml="http://www.w3.org/1999/xhtml">\n'
     
     for page in pages:
         sitemap_xml += '  <url>\n'
         sitemap_xml += f'    <loc>{page["loc"]}</loc>\n'
         sitemap_xml += f'    <lastmod>{page["lastmod"]}</lastmod>\n'
         sitemap_xml += f'    <priority>{page["priority"]}</priority>\n'
+        for hreflang, alt_loc in page.get('alternates', []):
+            sitemap_xml += f'    <xhtml:link rel="alternate" hreflang="{hreflang}" href="{alt_loc}" />\n'
         sitemap_xml += '  </url>\n'
     
     sitemap_xml += '</urlset>'

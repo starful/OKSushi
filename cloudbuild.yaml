@@ -36,6 +36,8 @@ steps:
       - '--platform=managed'
       - '--port=8080'
       - '--memory=1Gi'
+      - '--remove-env-vars=MAPS_API_KEY'
+      - '--set-secrets=MAPS_API_KEY=MAPS_API_KEY:latest'
       - '--allow-unauthenticated'
     waitFor: ['docker-push']
 

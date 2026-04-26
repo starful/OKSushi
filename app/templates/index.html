@@ -2,7 +2,7 @@
 <html lang="{{ lang }}">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!-- 1. 파비콘 및 루트 아이콘 설정 -->
     <link rel="icon" type="image/x-icon" href="/favicon.ico">
@@ -14,6 +14,7 @@
     <!-- 2. 다국어 SEO 설정 -->
     <title>{{ site.site_name }} - {% if lang == 'ko' %}일본 최고의 스시 가이드{% else %}{{ site.tagline }}{% endif %}</title>
     <meta name="description" content="{% if lang == 'ko' %}전문가가 엄선한 일본 전역의 스시 맛집 지도 가이드입니다.{% else %}{{ site.tagline }}{% endif %}">
+    <meta name="robots" content="index,follow,max-image-preview:large">
     <link rel="canonical" href="{{ site.site_url }}{% if lang == 'ko' %}?lang=ko{% endif %}" />
     
     <link rel="alternate" hreflang="ko" href="{{ site.site_url }}?lang=ko" />
@@ -65,7 +66,7 @@
                     📖 {% if lang == 'ko' %}스시 여행 가이드{% else %}{{ site.site_name }} Guides{% endif %}
                 </h2>
                 
-                <div class="onsen-grid" id="guide-list">
+                <div class="onsen-grid guide-grid" id="guide-list">
                     {# 서버에서 넘겨받은 현재 언어의 top_guides를 출력합니다 #}
                     {% for guide in top_guides %}
                     <a href="/guide/{{ guide.id }}?lang={{ lang }}" class="onsen-card">
@@ -104,6 +105,17 @@
                         🍣 Loading sushi spots...
                     </div>
                 </div>
+            </section>
+
+            <section class="seo-index-section" aria-label="Sushi spot index">
+                <h2 class="seo-index-title">
+                    {% if lang == 'ko' %}빠른 색인 링크{% else %}Quick Index Links{% endif %}
+                </h2>
+                <ul class="seo-index-list">
+                    {% for item in latest_items %}
+                    <li><a href="{{ item.link }}?lang={{ lang }}">{{ item.title }}</a></li>
+                    {% endfor %}
+                </ul>
             </section>
         </div>
     </main>
